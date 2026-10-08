@@ -26,6 +26,20 @@ th { background: #f9fafb; position: sticky; top: 0; }
 .solid-line { display: inline-block; width: 30px; border-top: 3px solid #2563eb; vertical-align: middle; }
 .dashed-line { display: inline-block; width: 30px; border-top: 3px dashed #f59e0b; vertical-align: middle; }
 .detail { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 6px; padding: 8px; font-size: 12px; margin-top: 8px; }
+.detail.error { color: #991b1b; background: #fef2f2; border-color: #fecaca; }
+.canonical-section { border: 1px solid #e5e7eb; border-radius: 6px; padding: 10px; margin: 10px 0; }
+.canonical-section > h3 { margin: 0 0 8px; color: #111827; font-size: 14px; text-transform: none; }
+.canonical-record { border-top: 1px solid #e5e7eb; padding: 8px 0; }
+.canonical-record:first-of-type { border-top: 0; }
+.canonical-record h4, .canonical-role h4 { font-size: 13px; margin: 4px 0 6px; }
+.canonical-role { border-left: 2px solid #d1d5db; margin: 8px 0 4px 8px; padding: 2px 0 2px 10px; }
+.canonical-responsibilities { margin-top: 6px; }
+.canonical-list { margin: 4px 0; padding-left: 20px; }
+.canonical-list li { margin: 3px 0; }
+.canonical-fields { margin: 4px 0; }
+.canonical-fields > div { display: grid; grid-template-columns: minmax(120px, 190px) 1fr; gap: 8px; padding: 3px 0; }
+.canonical-fields dt { color: #4b5563; font-weight: 600; }
+.canonical-fields dd { margin: 0; overflow-wrap: anywhere; }
 pre.raw { white-space: pre-wrap; font-size: 11px; background: #f9fafb; padding: 8px; border-radius: 6px; max-height: 300px; overflow: auto; }
 .graph-wrap { height: 520px; border: 1px solid #e5e7eb; border-radius: 8px; }
 .hint { font-size: 11px; color: #6b7280; }
