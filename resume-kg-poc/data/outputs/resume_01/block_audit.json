@@ -1,0 +1,632 @@
+{
+  "format": "resume-block-audit/v1",
+  "source_format": "resume_text",
+  "summary": {
+    "source_line_count": 20,
+    "assigned_source_line_count": 20,
+    "unassigned_source_line_indices": [],
+    "section_count": 7,
+    "block_count": 8,
+    "sentence_count": 15,
+    "entity_count": 47,
+    "relationship_count": 55,
+    "complete": true
+  },
+  "coverage": {
+    "sentence_count": 15,
+    "assigned_sentence_count": 15,
+    "source_line_count": 14,
+    "assigned_source_line_count": 14,
+    "complete": true,
+    "entity_count": 47,
+    "assigned_entity_count": 47,
+    "relationship_count": 55,
+    "assigned_relationship_count": 55,
+    "unassigned_sentence_indices": [],
+    "unassigned_source_line_indices": []
+  },
+  "sections": [
+    {
+      "id": "s0:Header",
+      "name": "Header",
+      "heading_lines": [],
+      "source_line_indices": [
+        0,
+        1
+      ],
+      "block_ids": [
+        "b0"
+      ],
+      "blocks": [
+        {
+          "id": "b0",
+          "entry_type": "personal_information_entry",
+          "source_line_indices": [
+            0,
+            1
+          ],
+          "source_lines": [
+            "Aarav Sharma",
+            "Backend Developer | aarav.sharma@example.com | +91-98765-43210"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Aarav Sharma",
+            "Backend Developer | aarav.sharma@example.com",
+            "| +91-98765-43210"
+          ],
+          "entity_ids": [
+            "e29",
+            "e32"
+          ],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s1:Summary",
+      "name": "Summary",
+      "heading_lines": [
+        "Summary"
+      ],
+      "source_line_indices": [
+        2,
+        3
+      ],
+      "block_ids": [
+        "b1"
+      ],
+      "blocks": [
+        {
+          "id": "b1",
+          "entry_type": "summary_context",
+          "source_line_indices": [
+            3
+          ],
+          "source_lines": [
+            "Backend Developer with 3 years of experience building scalable APIs and microservices."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Backend Developer with 3 years of experience building scalable APIs and microservices."
+          ],
+          "entity_ids": [
+            "e30",
+            "e41"
+          ],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s2:Experience",
+      "name": "Experience",
+      "heading_lines": [
+        "Experience"
+      ],
+      "source_line_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "block_ids": [
+        "b2"
+      ],
+      "blocks": [
+        {
+          "id": "b2",
+          "entry_type": "experience_entry",
+          "source_line_indices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "source_lines": [
+            "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+            "Developed REST APIs using Python and Django and deployed them on AWS.",
+            "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+            "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+            "Integrated Redis for caching and Kafka for event-driven messaging."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+            "Developed REST APIs using Python and Django and deployed them on AWS.",
+            "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+            "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+            "Integrated Redis for caching and Kafka for event-driven messaging."
+          ],
+          "entity_ids": [
+            "e1",
+            "e4",
+            "e6",
+            "e9",
+            "e11",
+            "e13",
+            "e14",
+            "e18",
+            "e22",
+            "e25",
+            "e31",
+            "e33",
+            "e40",
+            "e42",
+            "e44"
+          ],
+          "relationship_ids": [
+            "r0",
+            "r1",
+            "r2",
+            "r3",
+            "r4",
+            "r5",
+            "r6",
+            "r7",
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15",
+            "r41",
+            "r42",
+            "r43",
+            "r44",
+            "r45",
+            "r46",
+            "r47",
+            "r48",
+            "r49",
+            "r50",
+            "r51",
+            "r52",
+            "r53"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3:Projects",
+      "name": "Projects",
+      "heading_lines": [
+        "Projects"
+      ],
+      "source_line_indices": [
+        10,
+        11,
+        12
+      ],
+      "block_ids": [
+        "b3",
+        "b4"
+      ],
+      "blocks": [
+        {
+          "id": "b3",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            11
+          ],
+          "source_lines": [
+            "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+          ],
+          "entity_ids": [
+            "e7",
+            "e15",
+            "e21",
+            "e23",
+            "e36"
+          ],
+          "relationship_ids": [
+            "r16",
+            "r17",
+            "r18",
+            "r19"
+          ]
+        },
+        {
+          "id": "b4",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            12
+          ],
+          "source_lines": [
+            "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+          ],
+          "entity_ids": [
+            "e16",
+            "e28",
+            "e34",
+            "e37"
+          ],
+          "relationship_ids": [
+            "r20",
+            "r21",
+            "r22",
+            "r23"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4:Education",
+      "name": "Education",
+      "heading_lines": [
+        "Education"
+      ],
+      "source_line_indices": [
+        13,
+        14
+      ],
+      "block_ids": [
+        "b5"
+      ],
+      "blocks": [
+        {
+          "id": "b5",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            14
+          ],
+          "source_lines": [
+            "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
+          ],
+          "entity_ids": [
+            "e20",
+            "e46"
+          ],
+          "relationship_ids": [
+            "r24",
+            "r54"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5:Certifications",
+      "name": "Certifications",
+      "heading_lines": [
+        "Certifications"
+      ],
+      "source_line_indices": [
+        15,
+        16
+      ],
+      "block_ids": [
+        "b6"
+      ],
+      "blocks": [
+        {
+          "id": "b6",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            16
+          ],
+          "source_lines": [
+            "AWS Certified Solutions Architect."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "AWS Certified Solutions Architect."
+          ],
+          "entity_ids": [
+            "e0",
+            "e2"
+          ],
+          "relationship_ids": [
+            "r25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6:Skills",
+      "name": "Skills",
+      "heading_lines": [
+        "Skills"
+      ],
+      "source_line_indices": [
+        17,
+        18,
+        19
+      ],
+      "block_ids": [
+        "b7"
+      ],
+      "blocks": [
+        {
+          "id": "b7",
+          "entry_type": "skill_list_entry",
+          "source_line_indices": [
+            18,
+            19
+          ],
+          "source_lines": [
+            "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+            "CI/CD, Kafka, Git, Agile."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+            "CI/CD, Kafka, Git, Agile."
+          ],
+          "entity_ids": [
+            "e3",
+            "e5",
+            "e8",
+            "e10",
+            "e12",
+            "e17",
+            "e19",
+            "e24",
+            "e26",
+            "e27",
+            "e35",
+            "e38",
+            "e39",
+            "e43",
+            "e45"
+          ],
+          "relationship_ids": [
+            "r26",
+            "r27",
+            "r28",
+            "r29",
+            "r30",
+            "r31",
+            "r32",
+            "r33",
+            "r34",
+            "r35",
+            "r36",
+            "r37",
+            "r38",
+            "r39",
+            "r40"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_line_assignments": [
+    {
+      "line_index": 0,
+      "text": "Aarav Sharma",
+      "section_id": "s0:Header",
+      "section": "Header",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b0",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 1,
+      "text": "Backend Developer | aarav.sharma@example.com | +91-98765-43210",
+      "section_id": "s0:Header",
+      "section": "Header",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b0",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 2,
+      "text": "Summary",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": true,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 3,
+      "text": "Backend Developer with 3 years of experience building scalable APIs and microservices.",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 4,
+      "text": "Experience",
+      "section_id": "s2:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": true,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 5,
+      "text": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+      "section_id": "s2:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b2",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 6,
+      "text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+      "section_id": "s2:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b2",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 7,
+      "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+      "section_id": "s2:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b2",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 8,
+      "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+      "section_id": "s2:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b2",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 9,
+      "text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+      "section_id": "s2:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b2",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 10,
+      "text": "Projects",
+      "section_id": "s3:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": true,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 11,
+      "text": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+      "section_id": "s3:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b3",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 12,
+      "text": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+      "section_id": "s3:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b4",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 13,
+      "text": "Education",
+      "section_id": "s4:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": true,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 14,
+      "text": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
+      "section_id": "s4:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b5",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 15,
+      "text": "Certifications",
+      "section_id": "s5:Certifications",
+      "section": "Certifications",
+      "source_path": null,
+      "is_section_heading": true,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 16,
+      "text": "AWS Certified Solutions Architect.",
+      "section_id": "s5:Certifications",
+      "section": "Certifications",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b6",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 17,
+      "text": "Skills",
+      "section_id": "s6:Skills",
+      "section": "Skills",
+      "source_path": null,
+      "is_section_heading": true,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 18,
+      "text": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+      "section_id": "s6:Skills",
+      "section": "Skills",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b7",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 19,
+      "text": "CI/CD, Kafka, Git, Agile.",
+      "section_id": "s6:Skills",
+      "section": "Skills",
+      "source_path": null,
+      "is_section_heading": false,
+      "block_id": "b7",
+      "assignment": "context_block",
+      "assigned": true
+    }
+  ]
+}

@@ -1,0 +1,7128 @@
+{
+  "method": "layered source contexts: section instance > structural entry block > sentence/source line > entity occurrence; physical lines, explicit list continuations, experience entries, education details, and summary context; no embedding/keyword merging",
+  "thresholds": {
+    "semantic_merge_threshold": null
+  },
+  "layers": [
+    "section",
+    "context_block",
+    "sentence",
+    "entity",
+    "verified_relationship"
+  ],
+  "sections": [
+    {
+      "id": "s1:Personal Information",
+      "name": "Personal Information",
+      "block_ids": [
+        "b0"
+      ],
+      "sentence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "entity_ids": [
+        "e25",
+        "e42"
+      ],
+      "relationship_ids": []
+    },
+    {
+      "id": "s2:Skills",
+      "name": "Skills",
+      "block_ids": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8"
+      ],
+      "sentence_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "entity_ids": [
+        "e67",
+        "e68"
+      ],
+      "relationship_ids": [
+        "r0",
+        "r1"
+      ]
+    },
+    {
+      "id": "s3:Certifications",
+      "name": "Certifications",
+      "block_ids": [
+        "b9",
+        "b10",
+        "b11",
+        "b12"
+      ],
+      "sentence_indices": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "entity_ids": [
+        "e66",
+        "e69",
+        "e74",
+        "e79"
+      ],
+      "relationship_ids": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "s4:Summary",
+      "name": "Summary",
+      "block_ids": [
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ],
+      "sentence_indices": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "entity_ids": [
+        "e11",
+        "e13",
+        "e26",
+        "e27",
+        "e33",
+        "e40",
+        "e70"
+      ],
+      "relationship_ids": []
+    },
+    {
+      "id": "s5:Core Banking And Domain Expertise",
+      "name": "Core Banking And Domain Expertise",
+      "block_ids": [
+        "b17",
+        "b18",
+        "b19",
+        "b20",
+        "b21",
+        "b22",
+        "b23",
+        "b24",
+        "b25",
+        "b26",
+        "b27",
+        "b28",
+        "b29",
+        "b30",
+        "b31",
+        "b32",
+        "b33",
+        "b34",
+        "b35",
+        "b36"
+      ],
+      "sentence_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "entity_ids": [
+        "e12",
+        "e14",
+        "e28",
+        "e29",
+        "e30",
+        "e34",
+        "e49"
+      ],
+      "relationship_ids": []
+    },
+    {
+      "id": "s6:Business Analysis And Product Management",
+      "name": "Business Analysis And Product Management",
+      "block_ids": [
+        "b37",
+        "b38",
+        "b39",
+        "b40",
+        "b41",
+        "b42",
+        "b43",
+        "b44",
+        "b45",
+        "b46",
+        "b47",
+        "b48",
+        "b49",
+        "b50",
+        "b51",
+        "b52",
+        "b53",
+        "b54",
+        "b55",
+        "b56"
+      ],
+      "sentence_indices": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "entity_ids": [
+        "e1",
+        "e19",
+        "e31",
+        "e35",
+        "e44",
+        "e50",
+        "e56",
+        "e71",
+        "e80",
+        "e86",
+        "e92"
+      ],
+      "relationship_ids": [
+        "r4"
+      ]
+    },
+    {
+      "id": "s7:Experience",
+      "name": "Experience",
+      "block_ids": [
+        "b57",
+        "b58",
+        "b59",
+        "b60",
+        "b61"
+      ],
+      "sentence_indices": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "entity_ids": [
+        "e3",
+        "e4",
+        "e5",
+        "e6",
+        "e7",
+        "e8",
+        "e9",
+        "e15",
+        "e16",
+        "e20",
+        "e21",
+        "e22",
+        "e23",
+        "e24",
+        "e32",
+        "e36",
+        "e37",
+        "e38",
+        "e39",
+        "e45",
+        "e46",
+        "e47",
+        "e51",
+        "e53",
+        "e55",
+        "e57",
+        "e58",
+        "e59",
+        "e60",
+        "e61",
+        "e63",
+        "e64",
+        "e65",
+        "e72",
+        "e75",
+        "e77",
+        "e78",
+        "e81",
+        "e83",
+        "e87",
+        "e90",
+        "e93",
+        "e95"
+      ],
+      "relationship_ids": [
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16"
+      ]
+    },
+    {
+      "id": "s8:Tools and Technology",
+      "name": "Tools and Technology",
+      "block_ids": [
+        "b62",
+        "b63"
+      ],
+      "sentence_indices": [
+        130,
+        131,
+        132
+      ],
+      "entity_ids": [
+        "e0",
+        "e2",
+        "e17",
+        "e41",
+        "e43",
+        "e48",
+        "e52",
+        "e54",
+        "e62",
+        "e73",
+        "e76",
+        "e82",
+        "e84",
+        "e85",
+        "e88",
+        "e89",
+        "e91",
+        "e94"
+      ],
+      "relationship_ids": []
+    },
+    {
+      "id": "s9:Education",
+      "name": "Education",
+      "block_ids": [
+        "b64",
+        "b65",
+        "b66"
+      ],
+      "sentence_indices": [
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "entity_ids": [
+        "e10",
+        "e18",
+        "e96",
+        "e97",
+        "e98",
+        "e99",
+        "e100",
+        "e101"
+      ],
+      "relationship_ids": [
+        "r17",
+        "r18",
+        "r19"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b0",
+      "section_id": "s1:Personal Information",
+      "section": "Personal Information",
+      "entry_type": "personal_information_entry",
+      "sentence_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_line_indices": [
+        1,
+        2,
+        3
+      ],
+      "source_lines": [
+        "Name: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant | Location: Pune | Phone: 9993340671 | Email: madhuaashish@gmail.com",
+        "Place: Pune",
+        "Name At End: AASHISH GOLHANI"
+      ],
+      "source_paths": [
+        "$.personal_information",
+        "$.place",
+        "$.name_at_end"
+      ],
+      "sentences": [
+        "Name: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/",
+        "Payments Expert | Lead BA/Product/Functional Consultant | Location:",
+        "Pune | Phone: 9993340671 | Email: madhuaashish@gmail.com",
+        "Place: Pune",
+        "Name At End: AASHISH GOLHANI"
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "sentences from the same physical source line; consecutive plain lines in the same summary/contact section",
+      "entities": [
+        "AASHISH GOLHANI",
+        "Banking"
+      ],
+      "entity_ids": [
+        "e25",
+        "e42"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b1",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        5
+      ],
+      "source_line_indices": [
+        5
+      ],
+      "source_lines": [
+        "\u2022 Agile & Waterfall methodologies and frameworks"
+      ],
+      "source_paths": [
+        "$.skills[0]"
+      ],
+      "sentences": [
+        "Agile & Waterfall methodologies and frameworks"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Agile"
+      ],
+      "entity_ids": [
+        "e67"
+      ],
+      "relationship_ids": [
+        "r0"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b2",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        6
+      ],
+      "source_line_indices": [
+        6
+      ],
+      "source_lines": [
+        "\u2022 Project management techniques"
+      ],
+      "source_paths": [
+        "$.skills[1]"
+      ],
+      "sentences": [
+        "Project management techniques"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b3",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        7
+      ],
+      "source_line_indices": [
+        7
+      ],
+      "source_lines": [
+        "\u2022 Communication and collaboration skills"
+      ],
+      "source_paths": [
+        "$.skills[2]"
+      ],
+      "sentences": [
+        "Communication and collaboration skills"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b4",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        8
+      ],
+      "source_line_indices": [
+        8
+      ],
+      "source_lines": [
+        "\u2022 Leadership and team management skills (Team Size-15+)"
+      ],
+      "source_paths": [
+        "$.skills[3]"
+      ],
+      "sentences": [
+        "Leadership and team management skills (Team Size-15+)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b5",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        9
+      ],
+      "source_line_indices": [
+        9
+      ],
+      "source_lines": [
+        "\u2022 Change management and organizational development skills"
+      ],
+      "source_paths": [
+        "$.skills[4]"
+      ],
+      "sentences": [
+        "Change management and organizational development skills"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b6",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        10
+      ],
+      "source_line_indices": [
+        10
+      ],
+      "source_lines": [
+        "\u2022 Agile metrics and performance measurement"
+      ],
+      "source_paths": [
+        "$.skills[5]"
+      ],
+      "sentences": [
+        "Agile metrics and performance measurement"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Agile"
+      ],
+      "entity_ids": [
+        "e68"
+      ],
+      "relationship_ids": [
+        "r1"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b7",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        11
+      ],
+      "source_line_indices": [
+        11
+      ],
+      "source_lines": [
+        "\u2022 Technical knowledge in software development and IT operations"
+      ],
+      "source_paths": [
+        "$.skills[6]"
+      ],
+      "sentences": [
+        "Technical knowledge in software development and IT operations"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b8",
+      "section_id": "s2:Skills",
+      "section": "Skills",
+      "entry_type": "skill_list_entry",
+      "sentence_indices": [
+        12
+      ],
+      "source_line_indices": [
+        12
+      ],
+      "source_lines": [
+        "\u2022 Process improvement and continuous delivery skills"
+      ],
+      "source_paths": [
+        "$.skills[7]"
+      ],
+      "sentences": [
+        "Process improvement and continuous delivery skills"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b9",
+      "section_id": "s3:Certifications",
+      "section": "Certifications",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        13
+      ],
+      "source_line_indices": [
+        14
+      ],
+      "source_lines": [
+        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+      ],
+      "source_paths": [
+        "$.certifications.business_analysis_and_agile"
+      ],
+      "sentences": [
+        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Agile",
+        "Scrum"
+      ],
+      "entity_ids": [
+        "e69",
+        "e79"
+      ],
+      "relationship_ids": [
+        "r2",
+        "r3"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b10",
+      "section_id": "s3:Certifications",
+      "section": "Certifications",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        14
+      ],
+      "source_line_indices": [
+        15
+      ],
+      "source_lines": [
+        "Program And Project Management: PMO Certification; MS Project; Program Management Essentials"
+      ],
+      "source_paths": [
+        "$.certifications.program_and_project_management"
+      ],
+      "sentences": [
+        "Program And Project Management: PMO Certification; MS Project; Program Management Essentials"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b11",
+      "section_id": "s3:Certifications",
+      "section": "Certifications",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        15
+      ],
+      "source_line_indices": [
+        16
+      ],
+      "source_lines": [
+        "Technology And Transformation: DevOps Foundation; Cloud Architecture; Cybersecurity Analyst; Digital Transformation"
+      ],
+      "source_paths": [
+        "$.certifications.technology_and_transformation"
+      ],
+      "sentences": [
+        "Technology And Transformation: DevOps Foundation; Cloud Architecture; Cybersecurity Analyst; Digital Transformation"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b12",
+      "section_id": "s3:Certifications",
+      "section": "Certifications",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        16
+      ],
+      "source_line_indices": [
+        17
+      ],
+      "source_lines": [
+        "Ai And Emerging Technologies: IBM Artificial Intelligence Fundamentals; GenAI for Executives & Business Leaders"
+      ],
+      "source_paths": [
+        "$.certifications.ai_and_emerging_technologies"
+      ],
+      "sentences": [
+        "Ai And Emerging Technologies: IBM Artificial Intelligence Fundamentals; GenAI for Executives & Business Leaders"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "AI",
+        "Artificial Intelligence"
+      ],
+      "entity_ids": [
+        "e66",
+        "e74"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b13",
+      "section_id": "s4:Summary",
+      "section": "Summary",
+      "entry_type": "summary_context",
+      "sentence_indices": [
+        17
+      ],
+      "source_line_indices": [
+        19
+      ],
+      "source_lines": [
+        "\u2022 Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+      ],
+      "source_paths": [
+        "$.profile_snapshot[0]"
+      ],
+      "sentences": [
+        "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Banking",
+        "Loan Management Systems",
+        "Loan Origination Systems"
+      ],
+      "entity_ids": [
+        "e11",
+        "e13",
+        "e26"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b14",
+      "section_id": "s4:Summary",
+      "section": "Summary",
+      "entry_type": "summary_context",
+      "sentence_indices": [
+        18
+      ],
+      "source_line_indices": [
+        20
+      ],
+      "source_lines": [
+        "\u2022 Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
+      ],
+      "source_paths": [
+        "$.profile_snapshot[1]"
+      ],
+      "sentences": [
+        "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Agile",
+        "banking"
+      ],
+      "entity_ids": [
+        "e40",
+        "e70"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b15",
+      "section_id": "s4:Summary",
+      "section": "Summary",
+      "entry_type": "summary_context",
+      "sentence_indices": [
+        19
+      ],
+      "source_line_indices": [
+        21
+      ],
+      "source_lines": [
+        "\u2022 Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
+      ],
+      "source_paths": [
+        "$.profile_snapshot[2]"
+      ],
+      "sentences": [
+        "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Banking",
+        "Retail"
+      ],
+      "entity_ids": [
+        "e27",
+        "e33"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b16",
+      "section_id": "s4:Summary",
+      "section": "Summary",
+      "entry_type": "summary_context",
+      "sentence_indices": [
+        20
+      ],
+      "source_line_indices": [
+        22
+      ],
+      "source_lines": [
+        "\u2022 Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals."
+      ],
+      "source_paths": [
+        "$.profile_snapshot[3]"
+      ],
+      "sentences": [
+        "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals."
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b17",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        21
+      ],
+      "source_line_indices": [
+        24
+      ],
+      "source_lines": [
+        "\u2022 Retail Lending & Digital Loans"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[0]"
+      ],
+      "sentences": [
+        "Retail Lending & Digital Loans"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Retail"
+      ],
+      "entity_ids": [
+        "e34"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b18",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        22
+      ],
+      "source_line_indices": [
+        25
+      ],
+      "source_lines": [
+        "\u2022 KYC / AML / CDD/ EDD"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[1]"
+      ],
+      "sentences": [
+        "KYC / AML / CDD/ EDD"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b19",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        23
+      ],
+      "source_line_indices": [
+        26
+      ],
+      "source_lines": [
+        "\u2022 Banking Fraud and Risks"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[2]"
+      ],
+      "sentences": [
+        "Banking Fraud and Risks"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Banking"
+      ],
+      "entity_ids": [
+        "e28"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b20",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        24
+      ],
+      "source_line_indices": [
+        27
+      ],
+      "source_lines": [
+        "\u2022 Transaction Banking"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[3]"
+      ],
+      "sentences": [
+        "Transaction Banking"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Banking"
+      ],
+      "entity_ids": [
+        "e29"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b21",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        25
+      ],
+      "source_line_indices": [
+        28
+      ],
+      "source_lines": [
+        "\u2022 Loan Origination Systems (LOS)"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[4]"
+      ],
+      "sentences": [
+        "Loan Origination Systems (LOS)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Loan Origination Systems"
+      ],
+      "entity_ids": [
+        "e14"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b22",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        26
+      ],
+      "source_line_indices": [
+        29
+      ],
+      "source_lines": [
+        "\u2022 Loan Management Systems (LMS)"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[5]"
+      ],
+      "sentences": [
+        "Loan Management Systems (LMS)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Loan Management Systems"
+      ],
+      "entity_ids": [
+        "e12"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b23",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        27
+      ],
+      "source_line_indices": [
+        30
+      ],
+      "source_lines": [
+        "\u2022 Corporate & Wholesale Lending"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[6]"
+      ],
+      "sentences": [
+        "Corporate & Wholesale Lending"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b24",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        28
+      ],
+      "source_line_indices": [
+        31
+      ],
+      "source_lines": [
+        "\u2022 Mortgage Processing & Underwriting"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[7]"
+      ],
+      "sentences": [
+        "Mortgage Processing & Underwriting"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b25",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        29
+      ],
+      "source_line_indices": [
+        32
+      ],
+      "source_lines": [
+        "\u2022 Customer Onboarding & Regulatory Compliance"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[8]"
+      ],
+      "sentences": [
+        "Customer Onboarding & Regulatory Compliance"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b26",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        30
+      ],
+      "source_line_indices": [
+        33
+      ],
+      "source_lines": [
+        "\u2022 Trade Finance & Treasury Products"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[9]"
+      ],
+      "sentences": [
+        "Trade Finance & Treasury Products"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b27",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        31
+      ],
+      "source_line_indices": [
+        34
+      ],
+      "source_lines": [
+        "\u2022 Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[10]"
+      ],
+      "sentences": [
+        "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "SWIFT"
+      ],
+      "entity_ids": [
+        "e49"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b28",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        32
+      ],
+      "source_line_indices": [
+        35
+      ],
+      "source_lines": [
+        "\u2022 Letter of Credit (LC)"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[11]"
+      ],
+      "sentences": [
+        "Letter of Credit (LC)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b29",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        33
+      ],
+      "source_line_indices": [
+        36
+      ],
+      "source_lines": [
+        "\u2022 Bank Guarantee (BG)"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[12]"
+      ],
+      "sentences": [
+        "Bank Guarantee (BG)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b30",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        34
+      ],
+      "source_line_indices": [
+        37
+      ],
+      "source_lines": [
+        "\u2022 Cash Credit (CC)"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[13]"
+      ],
+      "sentences": [
+        "Cash Credit (CC)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b31",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        35
+      ],
+      "source_line_indices": [
+        38
+      ],
+      "source_lines": [
+        "\u2022 Overdraft (OD)"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[14]"
+      ],
+      "sentences": [
+        "Overdraft (OD)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b32",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        36
+      ],
+      "source_line_indices": [
+        39
+      ],
+      "source_lines": [
+        "\u2022 Working Capital Finance"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[15]"
+      ],
+      "sentences": [
+        "Working Capital Finance"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b33",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        37
+      ],
+      "source_line_indices": [
+        40
+      ],
+      "source_lines": [
+        "\u2022 Supply Chain Finance"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[16]"
+      ],
+      "sentences": [
+        "Supply Chain Finance"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b34",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        38
+      ],
+      "source_line_indices": [
+        41
+      ],
+      "source_lines": [
+        "\u2022 Syndicated Loans"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[17]"
+      ],
+      "sentences": [
+        "Syndicated Loans"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b35",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        39
+      ],
+      "source_line_indices": [
+        42
+      ],
+      "source_lines": [
+        "\u2022 Treasury & Transaction Banking"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[18]"
+      ],
+      "sentences": [
+        "Treasury & Transaction Banking"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Banking"
+      ],
+      "entity_ids": [
+        "e30"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b36",
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "section": "Core Banking And Domain Expertise",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        40
+      ],
+      "source_line_indices": [
+        43
+      ],
+      "source_lines": [
+        "\u2022 Insurance"
+      ],
+      "source_paths": [
+        "$.core_banking_and_domain_expertise[19]"
+      ],
+      "sentences": [
+        "Insurance"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b37",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        41
+      ],
+      "source_line_indices": [
+        45
+      ],
+      "source_lines": [
+        "\u2022 Requirement Gathering & Elicitation"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[0]"
+      ],
+      "sentences": [
+        "Requirement Gathering & Elicitation"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b38",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        42
+      ],
+      "source_line_indices": [
+        46
+      ],
+      "source_lines": [
+        "\u2022 Business Analysis & Functional Consulting"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[1]"
+      ],
+      "sentences": [
+        "Business Analysis & Functional Consulting"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b39",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        43
+      ],
+      "source_line_indices": [
+        47
+      ],
+      "source_lines": [
+        "\u2022 BRD, FRD, SRS & Functional Specifications"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[2]"
+      ],
+      "sentences": [
+        "BRD, FRD, SRS & Functional Specifications"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b40",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        44
+      ],
+      "source_line_indices": [
+        48
+      ],
+      "source_lines": [
+        "\u2022 User Stories, Epics & Acceptance Criteria"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[3]"
+      ],
+      "sentences": [
+        "User Stories, Epics & Acceptance Criteria"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b41",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        45
+      ],
+      "source_line_indices": [
+        49
+      ],
+      "source_lines": [
+        "\u2022 Product Backlog Management & Prioritization"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[4]"
+      ],
+      "sentences": [
+        "Product Backlog Management & Prioritization"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b42",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        46
+      ],
+      "source_line_indices": [
+        50
+      ],
+      "source_lines": [
+        "\u2022 Agile Scrum & SAFe Delivery"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[5]"
+      ],
+      "sentences": [
+        "Agile Scrum & SAFe Delivery"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Agile",
+        "Scrum"
+      ],
+      "entity_ids": [
+        "e71",
+        "e80"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b43",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        47
+      ],
+      "source_line_indices": [
+        51
+      ],
+      "source_lines": [
+        "\u2022 Stakeholder & Vendor Management"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[6]"
+      ],
+      "sentences": [
+        "Stakeholder & Vendor Management"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b44",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        48
+      ],
+      "source_line_indices": [
+        52
+      ],
+      "source_lines": [
+        "\u2022 Gap Analysis & Impact Analysis"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[7]"
+      ],
+      "sentences": [
+        "Gap Analysis & Impact Analysis"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b45",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        49
+      ],
+      "source_line_indices": [
+        53
+      ],
+      "source_lines": [
+        "\u2022 As-Is / To-Be Process Mapping"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[8]"
+      ],
+      "sentences": [
+        "As-Is / To-Be Process Mapping"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Be Process Mapping"
+      ],
+      "entity_ids": [
+        "e19"
+      ],
+      "relationship_ids": [
+        "r4"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b46",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        50
+      ],
+      "source_line_indices": [
+        54
+      ],
+      "source_lines": [
+        "\u2022 Business Process Re-engineering (BPR)"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[9]"
+      ],
+      "sentences": [
+        "Business Process Re-engineering (BPR)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b47",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        51
+      ],
+      "source_line_indices": [
+        55
+      ],
+      "source_lines": [
+        "\u2022 API & System Integration Analysis"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[10]"
+      ],
+      "sentences": [
+        "API & System Integration Analysis"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b48",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        52
+      ],
+      "source_line_indices": [
+        56
+      ],
+      "source_lines": [
+        "\u2022 Data Mapping, Data Migration & SQL Analysis"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[11]"
+      ],
+      "sentences": [
+        "Data Mapping, Data Migration & SQL Analysis"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "SQL"
+      ],
+      "entity_ids": [
+        "e44"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b49",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        53
+      ],
+      "source_line_indices": [
+        57
+      ],
+      "source_lines": [
+        "\u2022 UAT, SIT, Defect Triage & Release Readiness"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[12]"
+      ],
+      "sentences": [
+        "UAT, SIT, Defect Triage & Release Readiness"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b50",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        54
+      ],
+      "source_line_indices": [
+        58
+      ],
+      "source_lines": [
+        "\u2022 Core Banking, Retail Banking & Corporate Banking"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[13]"
+      ],
+      "sentences": [
+        "Core Banking, Retail Banking & Corporate Banking"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Banking",
+        "Retail"
+      ],
+      "entity_ids": [
+        "e31",
+        "e35"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b51",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        55
+      ],
+      "source_line_indices": [
+        59
+      ],
+      "source_lines": [
+        "\u2022 Payments (NEFT, RTGS, IMPS, UPI, SWIFT, ISO 20022)"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[14]"
+      ],
+      "sentences": [
+        "Payments (NEFT, RTGS, IMPS, UPI, SWIFT, ISO 20022)"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "ISO 20022",
+        "SWIFT"
+      ],
+      "entity_ids": [
+        "e50",
+        "e56"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b52",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        56
+      ],
+      "source_line_indices": [
+        60
+      ],
+      "source_lines": [
+        "\u2022 Corporate Lending, Mortgage & Loan Origination"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[15]"
+      ],
+      "sentences": [
+        "Corporate Lending, Mortgage & Loan Origination"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b53",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        57
+      ],
+      "source_line_indices": [
+        61
+      ],
+      "source_lines": [
+        "\u2022 Risk Management, IFRS 9 & Basel III"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[16]"
+      ],
+      "sentences": [
+        "Risk Management, IFRS 9 & Basel III"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b54",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        58
+      ],
+      "source_line_indices": [
+        62
+      ],
+      "source_lines": [
+        "\u2022 KYC, AML & Regulatory Compliance"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[17]"
+      ],
+      "sentences": [
+        "KYC, AML & Regulatory Compliance"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b55",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        59
+      ],
+      "source_line_indices": [
+        63
+      ],
+      "source_lines": [
+        "\u2022 JIRA, Confluence, Visio, Power BI & Azure DevOps"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[18]"
+      ],
+      "sentences": [
+        "JIRA, Confluence, Visio, Power BI & Azure DevOps"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Azure",
+        "JIRA",
+        "Power BI"
+      ],
+      "entity_ids": [
+        "e1",
+        "e86",
+        "e92"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b56",
+      "section_id": "s6:Business Analysis And Product Management",
+      "section": "Business Analysis And Product Management",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        60
+      ],
+      "source_line_indices": [
+        64
+      ],
+      "source_lines": [
+        "\u2022 Leadership, Mentoring & Cross-functional Collaboration"
+      ],
+      "source_paths": [
+        "$.business_analysis_and_product_management[19]"
+      ],
+      "sentences": [
+        "Leadership, Mentoring & Cross-functional Collaboration"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [],
+      "entity_ids": [],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b57",
+      "section_id": "s7:Experience",
+      "section": "Experience",
+      "entry_type": "experience_entry",
+      "sentence_indices": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "source_line_indices": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "source_lines": [
+        "Banking Domain Consultant at Persistent Systems Ltd. (Dec 2023- June 2026)",
+        "\u2022 Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+        "\u2022 Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+        "\u2022 Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+        "\u2022 Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+        "\u2022 Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+        "\u2022 Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+        "\u2022 Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+        "\u2022 Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+        "\u2022 Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+        "\u2022 Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+        "\u2022 Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+        "\u2022 Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+        "\u2022 Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+        "\u2022 Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+      ],
+      "source_paths": [
+        "$.work_history[0]",
+        "$.work_history[0].role_and_responsibilities[0]",
+        "$.work_history[0].role_and_responsibilities[1]",
+        "$.work_history[0].role_and_responsibilities[2]",
+        "$.work_history[0].role_and_responsibilities[3]",
+        "$.work_history[0].role_and_responsibilities[4]",
+        "$.work_history[0].role_and_responsibilities[5]",
+        "$.work_history[0].role_and_responsibilities[6]",
+        "$.work_history[0].role_and_responsibilities[7]",
+        "$.work_history[0].role_and_responsibilities[8]",
+        "$.work_history[0].role_and_responsibilities[9]",
+        "$.work_history[0].role_and_responsibilities[10]",
+        "$.work_history[0].role_and_responsibilities[11]",
+        "$.work_history[0].role_and_responsibilities[12]",
+        "$.work_history[0].role_and_responsibilities[13]"
+      ],
+      "sentences": [
+        "Banking Domain Consultant at Persistent Systems Ltd. (Dec 2023- June 2026)",
+        "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+        "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+        "Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+        "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+        "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+        "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+        "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+        "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+        "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+        "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+        "Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+        "Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+        "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "responsibility line under the same experience role entry",
+      "entities": [
+        "Banking",
+        "Be models, operational procedures, and regulatory requirements",
+        "ISO 20022",
+        "ISO 8583",
+        "Persistent Systems Ltd",
+        "Persistent Systems Ltd.",
+        "Retail",
+        "SQL",
+        "SWIFT"
+      ],
+      "entity_ids": [
+        "e15",
+        "e16",
+        "e20",
+        "e22",
+        "e36",
+        "e45",
+        "e51",
+        "e57",
+        "e59"
+      ],
+      "relationship_ids": [
+        "r5"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b58",
+      "section_id": "s7:Experience",
+      "section": "Experience",
+      "entry_type": "experience_entry",
+      "sentence_indices": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_line_indices": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "source_lines": [
+        "Lead Business Analyst/ Product Owner at Bandhan Bank Ltd. (Jan 2019 \u2013 Dec 2023)",
+        "\u2022 Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+        "\u2022 Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+        "\u2022 Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+        "\u2022 Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+        "\u2022 Managed Agile delivery using Scrum and Kanban methodologies.",
+        "\u2022 Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+        "\u2022 Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+        "\u2022 Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+        "\u2022 Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+        "\u2022 Collaborated with QA teams for UAT planning, production validation, and release management.",
+        "\u2022 Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+        "\u2022 Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+        "\u2022 Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+      ],
+      "source_paths": [
+        "$.work_history[1]",
+        "$.work_history[1].role_and_responsibilities[0]",
+        "$.work_history[1].role_and_responsibilities[1]",
+        "$.work_history[1].role_and_responsibilities[2]",
+        "$.work_history[1].role_and_responsibilities[3]",
+        "$.work_history[1].role_and_responsibilities[4]",
+        "$.work_history[1].role_and_responsibilities[5]",
+        "$.work_history[1].role_and_responsibilities[6]",
+        "$.work_history[1].role_and_responsibilities[7]",
+        "$.work_history[1].role_and_responsibilities[8]",
+        "$.work_history[1].role_and_responsibilities[9]",
+        "$.work_history[1].role_and_responsibilities[10]",
+        "$.work_history[1].role_and_responsibilities[11]",
+        "$.work_history[1].role_and_responsibilities[12]"
+      ],
+      "sentences": [
+        "Lead Business Analyst/ Product Owner at Bandhan Bank Ltd. (Jan 2019 \u2013 Dec 2023)",
+        "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+        "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+        "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+        "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+        "Managed Agile delivery using Scrum and Kanban methodologies.",
+        "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+        "Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+        "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+        "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+        "Collaborated with QA teams for UAT planning, production validation, and release management.",
+        "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+        "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "responsibility line under the same experience role entry",
+      "entities": [
+        "Agile",
+        "Bandhan Bank Ltd",
+        "Bandhan Bank Ltd.",
+        "Banking",
+        "ISO 20022",
+        "ISO 8583",
+        "Microservices",
+        "Power BI",
+        "Retail",
+        "SQL",
+        "Scrum",
+        "Tableau"
+      ],
+      "entity_ids": [
+        "e6",
+        "e7",
+        "e24",
+        "e37",
+        "e46",
+        "e58",
+        "e60",
+        "e63",
+        "e72",
+        "e77",
+        "e81",
+        "e93",
+        "e95"
+      ],
+      "relationship_ids": [
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b59",
+      "section_id": "s7:Experience",
+      "section": "Experience",
+      "entry_type": "experience_entry",
+      "sentence_indices": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "source_line_indices": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "source_lines": [
+        "Senior Business Analyst at Axis Bank Ltd. (Oct 2017 \u2013 Dec 2018)",
+        "\u2022 Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+        "\u2022 Managed end-to-end Business Analysis activities across multiple Agile projects.",
+        "\u2022 Defined project scope, business objectives, solution approach, and implementation roadmap.",
+        "\u2022 Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+        "\u2022 Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+        "\u2022 Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+        "\u2022 Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+        "\u2022 Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+        "\u2022 Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+        "\u2022 Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+        "\u2022 Directed UAT planning, defect triage, production validation, and Hypercare support.",
+        "\u2022 Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+        "\u2022 Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+        "\u2022 Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+        "\u2022 Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations."
+      ],
+      "source_paths": [
+        "$.work_history[2]",
+        "$.work_history[2].role_and_responsibilities[0]",
+        "$.work_history[2].role_and_responsibilities[1]",
+        "$.work_history[2].role_and_responsibilities[2]",
+        "$.work_history[2].role_and_responsibilities[3]",
+        "$.work_history[2].role_and_responsibilities[4]",
+        "$.work_history[2].role_and_responsibilities[5]",
+        "$.work_history[2].role_and_responsibilities[6]",
+        "$.work_history[2].role_and_responsibilities[7]",
+        "$.work_history[2].role_and_responsibilities[8]",
+        "$.work_history[2].role_and_responsibilities[9]",
+        "$.work_history[2].role_and_responsibilities[10]",
+        "$.work_history[2].role_and_responsibilities[11]",
+        "$.work_history[2].role_and_responsibilities[12]",
+        "$.work_history[2].role_and_responsibilities[13]",
+        "$.work_history[2].role_and_responsibilities[14]"
+      ],
+      "sentences": [
+        "Senior Business Analyst at Axis Bank Ltd. (Oct 2017 \u2013 Dec 2018)",
+        "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+        "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+        "Defined project scope, business objectives, solution approach, and implementation roadmap.",
+        "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+        "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+        "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+        "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+        "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+        "Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+        "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+        "Directed UAT planning, defect triage, production validation, and Hypercare support.",
+        "Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+        "Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+        "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+        "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations."
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "responsibility line under the same experience role entry",
+      "entities": [
+        "Agile",
+        "Analysts and conducted peer reviews of",
+        "Axis Bank Ltd",
+        "Axis Bank Ltd.",
+        "Banking",
+        "Defined",
+        "Retail"
+      ],
+      "entity_ids": [
+        "e4",
+        "e5",
+        "e32",
+        "e38",
+        "e53",
+        "e55",
+        "e64"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b60",
+      "section_id": "s7:Experience",
+      "section": "Experience",
+      "entry_type": "experience_entry",
+      "sentence_indices": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "source_line_indices": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "source_lines": [
+        "Business Analyst at HDFC Bank Ltd. (Sep 2012 \u2013 Oct 2017)",
+        "\u2022 Gathered and analyzed business requirements for banking products and process improvements.",
+        "\u2022 Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+        "\u2022 Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+        "\u2022 Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+        "\u2022 Supported Agile and Waterfall delivery models for banking transformation projects.",
+        "\u2022 Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+        "\u2022 Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+        "\u2022 Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+        "\u2022 Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+        "\u2022 Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+        "\u2022 Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+        "\u2022 Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+        "\u2022 Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+        "\u2022 Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+        "\u2022 Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+        "\u2022 Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+        "\u2022 Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+        "\u2022 Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+        "\u2022 Supported production deployment, Hypercare activities, incident management, and release management."
+      ],
+      "source_paths": [
+        "$.work_history[3]",
+        "$.work_history[3].role_and_responsibilities[0]",
+        "$.work_history[3].role_and_responsibilities[1]",
+        "$.work_history[3].role_and_responsibilities[2]",
+        "$.work_history[3].role_and_responsibilities[3]",
+        "$.work_history[3].role_and_responsibilities[4]",
+        "$.work_history[3].role_and_responsibilities[5]",
+        "$.work_history[3].role_and_responsibilities[6]",
+        "$.work_history[3].role_and_responsibilities[7]",
+        "$.work_history[3].role_and_responsibilities[8]",
+        "$.work_history[3].role_and_responsibilities[9]",
+        "$.work_history[3].role_and_responsibilities[10]",
+        "$.work_history[3].role_and_responsibilities[11]",
+        "$.work_history[3].role_and_responsibilities[12]",
+        "$.work_history[3].role_and_responsibilities[13]",
+        "$.work_history[3].role_and_responsibilities[14]",
+        "$.work_history[3].role_and_responsibilities[15]",
+        "$.work_history[3].role_and_responsibilities[16]",
+        "$.work_history[3].role_and_responsibilities[17]",
+        "$.work_history[3].role_and_responsibilities[18]"
+      ],
+      "sentences": [
+        "Business Analyst at HDFC Bank Ltd. (Sep 2012 \u2013 Oct 2017)",
+        "Gathered and analyzed business requirements for banking products and process improvements.",
+        "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+        "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+        "Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+        "Supported Agile and Waterfall delivery models for banking transformation projects.",
+        "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+        "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+        "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+        "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+        "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+        "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+        "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+        "Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+        "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+        "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+        "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+        "Supported production deployment, Hypercare activities, incident management, and release management."
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "responsibility line under the same experience role entry",
+      "entities": [
+        "Agile",
+        "Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence di",
+        "ETL",
+        "HDFC Bank Ltd",
+        "HDFC Bank Ltd.",
+        "JIRA",
+        "JIRA and maintained",
+        "Postman",
+        "REST APIs",
+        "Retail",
+        "SQL",
+        "banking",
+        "data analysis"
+      ],
+      "entity_ids": [
+        "e8",
+        "e9",
+        "e21",
+        "e23",
+        "e39",
+        "e47",
+        "e61",
+        "e65",
+        "e75",
+        "e78",
+        "e83",
+        "e87",
+        "e90"
+      ],
+      "relationship_ids": [
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16"
+      ],
+      "related_block_ids": []
+    },
+    {
+      "id": "b61",
+      "section_id": "s7:Experience",
+      "section": "Experience",
+      "entry_type": "experience_entry",
+      "sentence_indices": [
+        126,
+        127,
+        128,
+        129
+      ],
+      "source_line_indices": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "source_lines": [
+        "Underwriter at American Home Mortgage Services/Homeward (Aug 2006 \u2013 Aug 2012)",
+        "\u2022 Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+        "\u2022 Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+        "\u2022 Ensured mortgage compliance and underwriting quality standards."
+      ],
+      "source_paths": [
+        "$.work_history[4]",
+        "$.work_history[4].role_and_responsibilities[0]",
+        "$.work_history[4].role_and_responsibilities[1]",
+        "$.work_history[4].role_and_responsibilities[2]"
+      ],
+      "sentences": [
+        "Underwriter at American Home Mortgage Services/Homeward (Aug 2006 \u2013 Aug 2012)",
+        "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+        "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+        "Ensured mortgage compliance and underwriting quality standards."
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "responsibility line under the same experience role entry",
+      "entities": [
+        "American Home Mortgage Services"
+      ],
+      "entity_ids": [
+        "e3"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b62",
+      "section_id": "s8:Tools and Technology",
+      "section": "Tools and Technology",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        130
+      ],
+      "source_line_indices": [
+        136
+      ],
+      "source_lines": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "source_paths": [
+        "$.tools_and_technology.professional"
+      ],
+      "sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "AS400",
+        "Agile",
+        "Angular",
+        "C#",
+        "JIRA",
+        "Postman",
+        "PowerPoint",
+        "Scrum"
+      ],
+      "entity_ids": [
+        "e41",
+        "e43",
+        "e52",
+        "e62",
+        "e73",
+        "e82",
+        "e88",
+        "e91"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b63",
+      "section_id": "s8:Tools and Technology",
+      "section": "Tools and Technology",
+      "entry_type": "source_line_context",
+      "sentence_indices": [
+        131,
+        132
+      ],
+      "source_line_indices": [
+        137
+      ],
+      "source_lines": [
+        "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data; Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "source_paths": [
+        "$.tools_and_technology.beginner"
+      ],
+      "sentences": [
+        "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data;",
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "sentences from the same physical source line",
+      "entities": [
+        "AWS",
+        "Airflow",
+        "Apache Airflow",
+        "ETL",
+        "Hadoop",
+        "Kafka",
+        "Kubernetes",
+        "SQL",
+        "SQL Server",
+        "Spark"
+      ],
+      "entity_ids": [
+        "e0",
+        "e2",
+        "e17",
+        "e48",
+        "e54",
+        "e76",
+        "e84",
+        "e85",
+        "e89",
+        "e94"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b64",
+      "section_id": "s9:Education",
+      "section": "Education",
+      "entry_type": "education_entry",
+      "sentence_indices": [
+        133,
+        134
+      ],
+      "source_line_indices": [
+        139
+      ],
+      "source_lines": [
+        "\u2022 Year: 2008 | Qualification: PG Certificate in Data Management & Clinical Research | Location: Pune | University: Pune University"
+      ],
+      "source_paths": [
+        "$.education[0]"
+      ],
+      "sentences": [
+        "Year: 2008 | Qualification: PG Certificate in Data Management & Clinical Research | Location:",
+        "Pune | University: Pune University"
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "sentences from the same physical source line",
+      "entities": [
+        "Pune University",
+        "University"
+      ],
+      "entity_ids": [
+        "e97",
+        "e99"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b65",
+      "section_id": "s9:Education",
+      "section": "Education",
+      "entry_type": "education_entry",
+      "sentence_indices": [
+        135
+      ],
+      "source_line_indices": [
+        140
+      ],
+      "source_lines": [
+        "\u2022 Year: 2004 | Qualification: Diploma in Information Technology from ACTS, Pune | University: Pune University"
+      ],
+      "source_paths": [
+        "$.education[1]"
+      ],
+      "sentences": [
+        "Year: 2004 | Qualification: Diploma in Information Technology from ACTS, Pune | University: Pune University"
+      ],
+      "assignment_method": "source_line",
+      "assignment_reason": "Retained as a complete source-line context; no cross-line merge was justified.",
+      "entities": [
+        "Information Technology",
+        "Pune University",
+        "University"
+      ],
+      "entity_ids": [
+        "e10",
+        "e98",
+        "e100"
+      ],
+      "relationship_ids": [],
+      "related_block_ids": []
+    },
+    {
+      "id": "b66",
+      "section_id": "s9:Education",
+      "section": "Education",
+      "entry_type": "education_entry",
+      "sentence_indices": [
+        136,
+        137
+      ],
+      "source_line_indices": [
+        141
+      ],
+      "source_lines": [
+        "\u2022 Year: 2003 | Qualification: Bachelor of Pharmacy | University: Amravati University"
+      ],
+      "source_paths": [
+        "$.education[2]"
+      ],
+      "sentences": [
+        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
+        "Amravati University"
+      ],
+      "assignment_method": "structural",
+      "assignment_reason": "sentences from the same physical source line",
+      "entities": [
+        "Amravati University",
+        "Bachelor of Pharmacy | University:",
+        "University"
+      ],
+      "entity_ids": [
+        "e18",
+        "e96",
+        "e101"
+      ],
+      "relationship_ids": [
+        "r17",
+        "r18",
+        "r19"
+      ],
+      "related_block_ids": []
+    }
+  ],
+  "block_count": 67,
+  "sentence_blocks": [
+    "b0",
+    "b0",
+    "b0",
+    "b0",
+    "b0",
+    "b1",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6",
+    "b7",
+    "b8",
+    "b9",
+    "b10",
+    "b11",
+    "b12",
+    "b13",
+    "b14",
+    "b15",
+    "b16",
+    "b17",
+    "b18",
+    "b19",
+    "b20",
+    "b21",
+    "b22",
+    "b23",
+    "b24",
+    "b25",
+    "b26",
+    "b27",
+    "b28",
+    "b29",
+    "b30",
+    "b31",
+    "b32",
+    "b33",
+    "b34",
+    "b35",
+    "b36",
+    "b37",
+    "b38",
+    "b39",
+    "b40",
+    "b41",
+    "b42",
+    "b43",
+    "b44",
+    "b45",
+    "b46",
+    "b47",
+    "b48",
+    "b49",
+    "b50",
+    "b51",
+    "b52",
+    "b53",
+    "b54",
+    "b55",
+    "b56",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b57",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b58",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b59",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b60",
+    "b61",
+    "b61",
+    "b61",
+    "b61",
+    "b62",
+    "b63",
+    "b63",
+    "b64",
+    "b64",
+    "b65",
+    "b66",
+    "b66"
+  ],
+  "sentence_layers": [
+    {
+      "sentence_index": 0,
+      "line_index": 1,
+      "section_id": "s1:Personal Information",
+      "block_id": "b0"
+    },
+    {
+      "sentence_index": 1,
+      "line_index": 1,
+      "section_id": "s1:Personal Information",
+      "block_id": "b0"
+    },
+    {
+      "sentence_index": 2,
+      "line_index": 1,
+      "section_id": "s1:Personal Information",
+      "block_id": "b0"
+    },
+    {
+      "sentence_index": 3,
+      "line_index": 2,
+      "section_id": "s1:Personal Information",
+      "block_id": "b0"
+    },
+    {
+      "sentence_index": 4,
+      "line_index": 3,
+      "section_id": "s1:Personal Information",
+      "block_id": "b0"
+    },
+    {
+      "sentence_index": 5,
+      "line_index": 5,
+      "section_id": "s2:Skills",
+      "block_id": "b1",
+      "relationship_ids": [
+        "r0"
+      ]
+    },
+    {
+      "sentence_index": 6,
+      "line_index": 6,
+      "section_id": "s2:Skills",
+      "block_id": "b2"
+    },
+    {
+      "sentence_index": 7,
+      "line_index": 7,
+      "section_id": "s2:Skills",
+      "block_id": "b3"
+    },
+    {
+      "sentence_index": 8,
+      "line_index": 8,
+      "section_id": "s2:Skills",
+      "block_id": "b4"
+    },
+    {
+      "sentence_index": 9,
+      "line_index": 9,
+      "section_id": "s2:Skills",
+      "block_id": "b5"
+    },
+    {
+      "sentence_index": 10,
+      "line_index": 10,
+      "section_id": "s2:Skills",
+      "block_id": "b6",
+      "relationship_ids": [
+        "r1"
+      ]
+    },
+    {
+      "sentence_index": 11,
+      "line_index": 11,
+      "section_id": "s2:Skills",
+      "block_id": "b7"
+    },
+    {
+      "sentence_index": 12,
+      "line_index": 12,
+      "section_id": "s2:Skills",
+      "block_id": "b8"
+    },
+    {
+      "sentence_index": 13,
+      "line_index": 14,
+      "section_id": "s3:Certifications",
+      "block_id": "b9",
+      "relationship_ids": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "sentence_index": 14,
+      "line_index": 15,
+      "section_id": "s3:Certifications",
+      "block_id": "b10"
+    },
+    {
+      "sentence_index": 15,
+      "line_index": 16,
+      "section_id": "s3:Certifications",
+      "block_id": "b11"
+    },
+    {
+      "sentence_index": 16,
+      "line_index": 17,
+      "section_id": "s3:Certifications",
+      "block_id": "b12"
+    },
+    {
+      "sentence_index": 17,
+      "line_index": 19,
+      "section_id": "s4:Summary",
+      "block_id": "b13"
+    },
+    {
+      "sentence_index": 18,
+      "line_index": 20,
+      "section_id": "s4:Summary",
+      "block_id": "b14"
+    },
+    {
+      "sentence_index": 19,
+      "line_index": 21,
+      "section_id": "s4:Summary",
+      "block_id": "b15"
+    },
+    {
+      "sentence_index": 20,
+      "line_index": 22,
+      "section_id": "s4:Summary",
+      "block_id": "b16"
+    },
+    {
+      "sentence_index": 21,
+      "line_index": 24,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b17"
+    },
+    {
+      "sentence_index": 22,
+      "line_index": 25,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b18"
+    },
+    {
+      "sentence_index": 23,
+      "line_index": 26,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b19"
+    },
+    {
+      "sentence_index": 24,
+      "line_index": 27,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b20"
+    },
+    {
+      "sentence_index": 25,
+      "line_index": 28,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b21"
+    },
+    {
+      "sentence_index": 26,
+      "line_index": 29,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b22"
+    },
+    {
+      "sentence_index": 27,
+      "line_index": 30,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b23"
+    },
+    {
+      "sentence_index": 28,
+      "line_index": 31,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b24"
+    },
+    {
+      "sentence_index": 29,
+      "line_index": 32,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b25"
+    },
+    {
+      "sentence_index": 30,
+      "line_index": 33,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b26"
+    },
+    {
+      "sentence_index": 31,
+      "line_index": 34,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b27"
+    },
+    {
+      "sentence_index": 32,
+      "line_index": 35,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b28"
+    },
+    {
+      "sentence_index": 33,
+      "line_index": 36,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b29"
+    },
+    {
+      "sentence_index": 34,
+      "line_index": 37,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b30"
+    },
+    {
+      "sentence_index": 35,
+      "line_index": 38,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b31"
+    },
+    {
+      "sentence_index": 36,
+      "line_index": 39,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b32"
+    },
+    {
+      "sentence_index": 37,
+      "line_index": 40,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b33"
+    },
+    {
+      "sentence_index": 38,
+      "line_index": 41,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b34"
+    },
+    {
+      "sentence_index": 39,
+      "line_index": 42,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b35"
+    },
+    {
+      "sentence_index": 40,
+      "line_index": 43,
+      "section_id": "s5:Core Banking And Domain Expertise",
+      "block_id": "b36"
+    },
+    {
+      "sentence_index": 41,
+      "line_index": 45,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b37"
+    },
+    {
+      "sentence_index": 42,
+      "line_index": 46,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b38"
+    },
+    {
+      "sentence_index": 43,
+      "line_index": 47,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b39"
+    },
+    {
+      "sentence_index": 44,
+      "line_index": 48,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b40"
+    },
+    {
+      "sentence_index": 45,
+      "line_index": 49,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b41"
+    },
+    {
+      "sentence_index": 46,
+      "line_index": 50,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b42"
+    },
+    {
+      "sentence_index": 47,
+      "line_index": 51,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b43"
+    },
+    {
+      "sentence_index": 48,
+      "line_index": 52,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b44"
+    },
+    {
+      "sentence_index": 49,
+      "line_index": 53,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b45",
+      "relationship_ids": [
+        "r4"
+      ]
+    },
+    {
+      "sentence_index": 50,
+      "line_index": 54,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b46"
+    },
+    {
+      "sentence_index": 51,
+      "line_index": 55,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b47"
+    },
+    {
+      "sentence_index": 52,
+      "line_index": 56,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b48"
+    },
+    {
+      "sentence_index": 53,
+      "line_index": 57,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b49"
+    },
+    {
+      "sentence_index": 54,
+      "line_index": 58,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b50"
+    },
+    {
+      "sentence_index": 55,
+      "line_index": 59,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b51"
+    },
+    {
+      "sentence_index": 56,
+      "line_index": 60,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b52"
+    },
+    {
+      "sentence_index": 57,
+      "line_index": 61,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b53"
+    },
+    {
+      "sentence_index": 58,
+      "line_index": 62,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b54"
+    },
+    {
+      "sentence_index": 59,
+      "line_index": 63,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b55"
+    },
+    {
+      "sentence_index": 60,
+      "line_index": 64,
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b56"
+    },
+    {
+      "sentence_index": 61,
+      "line_index": 66,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 62,
+      "line_index": 67,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 63,
+      "line_index": 68,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 64,
+      "line_index": 69,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 65,
+      "line_index": 70,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 66,
+      "line_index": 71,
+      "section_id": "s7:Experience",
+      "block_id": "b57",
+      "relationship_ids": [
+        "r5"
+      ]
+    },
+    {
+      "sentence_index": 67,
+      "line_index": 72,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 68,
+      "line_index": 73,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 69,
+      "line_index": 74,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 70,
+      "line_index": 75,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 71,
+      "line_index": 76,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 72,
+      "line_index": 77,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 73,
+      "line_index": 78,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 74,
+      "line_index": 79,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 75,
+      "line_index": 80,
+      "section_id": "s7:Experience",
+      "block_id": "b57"
+    },
+    {
+      "sentence_index": 76,
+      "line_index": 81,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 77,
+      "line_index": 82,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 78,
+      "line_index": 83,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 79,
+      "line_index": 84,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 80,
+      "line_index": 85,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 81,
+      "line_index": 86,
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "relationship_ids": [
+        "r6",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "sentence_index": 82,
+      "line_index": 87,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 83,
+      "line_index": 88,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 84,
+      "line_index": 89,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 85,
+      "line_index": 90,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 86,
+      "line_index": 91,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 87,
+      "line_index": 92,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 88,
+      "line_index": 93,
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "relationship_ids": [
+        "r9",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "sentence_index": 89,
+      "line_index": 94,
+      "section_id": "s7:Experience",
+      "block_id": "b58"
+    },
+    {
+      "sentence_index": 90,
+      "line_index": 95,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 91,
+      "line_index": 96,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 92,
+      "line_index": 97,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 93,
+      "line_index": 98,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 94,
+      "line_index": 99,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 95,
+      "line_index": 100,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 96,
+      "line_index": 101,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 97,
+      "line_index": 102,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 98,
+      "line_index": 103,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 99,
+      "line_index": 104,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 100,
+      "line_index": 105,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 101,
+      "line_index": 106,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 102,
+      "line_index": 107,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 103,
+      "line_index": 108,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 104,
+      "line_index": 109,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 105,
+      "line_index": 110,
+      "section_id": "s7:Experience",
+      "block_id": "b59"
+    },
+    {
+      "sentence_index": 106,
+      "line_index": 111,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 107,
+      "line_index": 112,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 108,
+      "line_index": 113,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 109,
+      "line_index": 114,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 110,
+      "line_index": 115,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 111,
+      "line_index": 116,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 112,
+      "line_index": 117,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 113,
+      "line_index": 118,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 114,
+      "line_index": 119,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 115,
+      "line_index": 120,
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "relationship_ids": [
+        "r12"
+      ]
+    },
+    {
+      "sentence_index": 116,
+      "line_index": 121,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 117,
+      "line_index": 122,
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "relationship_ids": [
+        "r13",
+        "r14"
+      ]
+    },
+    {
+      "sentence_index": 118,
+      "line_index": 123,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 119,
+      "line_index": 124,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 120,
+      "line_index": 125,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 121,
+      "line_index": 126,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 122,
+      "line_index": 127,
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "relationship_ids": [
+        "r15",
+        "r16"
+      ]
+    },
+    {
+      "sentence_index": 123,
+      "line_index": 128,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 124,
+      "line_index": 129,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 125,
+      "line_index": 130,
+      "section_id": "s7:Experience",
+      "block_id": "b60"
+    },
+    {
+      "sentence_index": 126,
+      "line_index": 131,
+      "section_id": "s7:Experience",
+      "block_id": "b61"
+    },
+    {
+      "sentence_index": 127,
+      "line_index": 132,
+      "section_id": "s7:Experience",
+      "block_id": "b61"
+    },
+    {
+      "sentence_index": 128,
+      "line_index": 133,
+      "section_id": "s7:Experience",
+      "block_id": "b61"
+    },
+    {
+      "sentence_index": 129,
+      "line_index": 134,
+      "section_id": "s7:Experience",
+      "block_id": "b61"
+    },
+    {
+      "sentence_index": 130,
+      "line_index": 136,
+      "section_id": "s8:Tools and Technology",
+      "block_id": "b62"
+    },
+    {
+      "sentence_index": 131,
+      "line_index": 137,
+      "section_id": "s8:Tools and Technology",
+      "block_id": "b63"
+    },
+    {
+      "sentence_index": 132,
+      "line_index": 137,
+      "section_id": "s8:Tools and Technology",
+      "block_id": "b63"
+    },
+    {
+      "sentence_index": 133,
+      "line_index": 139,
+      "section_id": "s9:Education",
+      "block_id": "b64"
+    },
+    {
+      "sentence_index": 134,
+      "line_index": 139,
+      "section_id": "s9:Education",
+      "block_id": "b64"
+    },
+    {
+      "sentence_index": 135,
+      "line_index": 140,
+      "section_id": "s9:Education",
+      "block_id": "b65"
+    },
+    {
+      "sentence_index": 136,
+      "line_index": 141,
+      "section_id": "s9:Education",
+      "block_id": "b66",
+      "relationship_ids": [
+        "r17",
+        "r18",
+        "r19"
+      ]
+    },
+    {
+      "sentence_index": 137,
+      "line_index": 141,
+      "section_id": "s9:Education",
+      "block_id": "b66",
+      "relationship_ids": [
+        "r18",
+        "r19"
+      ]
+    }
+  ],
+  "line_blocks": {
+    "1": "b0",
+    "2": "b0",
+    "3": "b0",
+    "5": "b1",
+    "6": "b2",
+    "7": "b3",
+    "8": "b4",
+    "9": "b5",
+    "10": "b6",
+    "11": "b7",
+    "12": "b8",
+    "14": "b9",
+    "15": "b10",
+    "16": "b11",
+    "17": "b12",
+    "19": "b13",
+    "20": "b14",
+    "21": "b15",
+    "22": "b16",
+    "24": "b17",
+    "25": "b18",
+    "26": "b19",
+    "27": "b20",
+    "28": "b21",
+    "29": "b22",
+    "30": "b23",
+    "31": "b24",
+    "32": "b25",
+    "33": "b26",
+    "34": "b27",
+    "35": "b28",
+    "36": "b29",
+    "37": "b30",
+    "38": "b31",
+    "39": "b32",
+    "40": "b33",
+    "41": "b34",
+    "42": "b35",
+    "43": "b36",
+    "45": "b37",
+    "46": "b38",
+    "47": "b39",
+    "48": "b40",
+    "49": "b41",
+    "50": "b42",
+    "51": "b43",
+    "52": "b44",
+    "53": "b45",
+    "54": "b46",
+    "55": "b47",
+    "56": "b48",
+    "57": "b49",
+    "58": "b50",
+    "59": "b51",
+    "60": "b52",
+    "61": "b53",
+    "62": "b54",
+    "63": "b55",
+    "64": "b56",
+    "66": "b57",
+    "67": "b57",
+    "68": "b57",
+    "69": "b57",
+    "70": "b57",
+    "71": "b57",
+    "72": "b57",
+    "73": "b57",
+    "74": "b57",
+    "75": "b57",
+    "76": "b57",
+    "77": "b57",
+    "78": "b57",
+    "79": "b57",
+    "80": "b57",
+    "81": "b58",
+    "82": "b58",
+    "83": "b58",
+    "84": "b58",
+    "85": "b58",
+    "86": "b58",
+    "87": "b58",
+    "88": "b58",
+    "89": "b58",
+    "90": "b58",
+    "91": "b58",
+    "92": "b58",
+    "93": "b58",
+    "94": "b58",
+    "95": "b59",
+    "96": "b59",
+    "97": "b59",
+    "98": "b59",
+    "99": "b59",
+    "100": "b59",
+    "101": "b59",
+    "102": "b59",
+    "103": "b59",
+    "104": "b59",
+    "105": "b59",
+    "106": "b59",
+    "107": "b59",
+    "108": "b59",
+    "109": "b59",
+    "110": "b59",
+    "111": "b60",
+    "112": "b60",
+    "113": "b60",
+    "114": "b60",
+    "115": "b60",
+    "116": "b60",
+    "117": "b60",
+    "118": "b60",
+    "119": "b60",
+    "120": "b60",
+    "121": "b60",
+    "122": "b60",
+    "123": "b60",
+    "124": "b60",
+    "125": "b60",
+    "126": "b60",
+    "127": "b60",
+    "128": "b60",
+    "129": "b60",
+    "130": "b60",
+    "131": "b61",
+    "132": "b61",
+    "133": "b61",
+    "134": "b61",
+    "136": "b62",
+    "137": "b63",
+    "139": "b64",
+    "140": "b65",
+    "141": "b66"
+  },
+  "coverage": {
+    "sentence_count": 138,
+    "assigned_sentence_count": 138,
+    "source_line_count": 133,
+    "assigned_source_line_count": 133,
+    "complete": true,
+    "entity_count": 102,
+    "assigned_entity_count": 102,
+    "relationship_count": 20,
+    "assigned_relationship_count": 20,
+    "unassigned_sentence_indices": [],
+    "unassigned_source_line_indices": []
+  },
+  "merge_decisions": [
+    {
+      "line_pair": [
+        1,
+        1
+      ],
+      "sentence_pair": [
+        0,
+        2
+      ],
+      "merged": true,
+      "reason": "sentences from the same physical source line"
+    },
+    {
+      "line_pair": [
+        137,
+        137
+      ],
+      "sentence_pair": [
+        131,
+        132
+      ],
+      "merged": true,
+      "reason": "sentences from the same physical source line"
+    },
+    {
+      "line_pair": [
+        139,
+        139
+      ],
+      "sentence_pair": [
+        133,
+        134
+      ],
+      "merged": true,
+      "reason": "sentences from the same physical source line"
+    },
+    {
+      "line_pair": [
+        141,
+        141
+      ],
+      "sentence_pair": [
+        136,
+        137
+      ],
+      "merged": true,
+      "reason": "sentences from the same physical source line"
+    },
+    {
+      "line_pair": [
+        1,
+        2
+      ],
+      "sentence_pair": [
+        0,
+        3
+      ],
+      "merged": true,
+      "reason": "consecutive plain lines in the same summary/contact section"
+    },
+    {
+      "line_pair": [
+        2,
+        3
+      ],
+      "sentence_pair": [
+        3,
+        4
+      ],
+      "merged": true,
+      "reason": "consecutive plain lines in the same summary/contact section"
+    },
+    {
+      "line_pair": [
+        66,
+        67
+      ],
+      "sentence_pair": [
+        61,
+        62
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        68
+      ],
+      "sentence_pair": [
+        61,
+        63
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        69
+      ],
+      "sentence_pair": [
+        61,
+        64
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        70
+      ],
+      "sentence_pair": [
+        61,
+        65
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        71
+      ],
+      "sentence_pair": [
+        61,
+        66
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        72
+      ],
+      "sentence_pair": [
+        61,
+        67
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        73
+      ],
+      "sentence_pair": [
+        61,
+        68
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        74
+      ],
+      "sentence_pair": [
+        61,
+        69
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        75
+      ],
+      "sentence_pair": [
+        61,
+        70
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        76
+      ],
+      "sentence_pair": [
+        61,
+        71
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        77
+      ],
+      "sentence_pair": [
+        61,
+        72
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        78
+      ],
+      "sentence_pair": [
+        61,
+        73
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        79
+      ],
+      "sentence_pair": [
+        61,
+        74
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        66,
+        80
+      ],
+      "sentence_pair": [
+        61,
+        75
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        82
+      ],
+      "sentence_pair": [
+        76,
+        77
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        83
+      ],
+      "sentence_pair": [
+        76,
+        78
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        84
+      ],
+      "sentence_pair": [
+        76,
+        79
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        85
+      ],
+      "sentence_pair": [
+        76,
+        80
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        86
+      ],
+      "sentence_pair": [
+        76,
+        81
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        87
+      ],
+      "sentence_pair": [
+        76,
+        82
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        88
+      ],
+      "sentence_pair": [
+        76,
+        83
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        89
+      ],
+      "sentence_pair": [
+        76,
+        84
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        90
+      ],
+      "sentence_pair": [
+        76,
+        85
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        91
+      ],
+      "sentence_pair": [
+        76,
+        86
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        92
+      ],
+      "sentence_pair": [
+        76,
+        87
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        93
+      ],
+      "sentence_pair": [
+        76,
+        88
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        81,
+        94
+      ],
+      "sentence_pair": [
+        76,
+        89
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        96
+      ],
+      "sentence_pair": [
+        90,
+        91
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        97
+      ],
+      "sentence_pair": [
+        90,
+        92
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        98
+      ],
+      "sentence_pair": [
+        90,
+        93
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        99
+      ],
+      "sentence_pair": [
+        90,
+        94
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        100
+      ],
+      "sentence_pair": [
+        90,
+        95
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        101
+      ],
+      "sentence_pair": [
+        90,
+        96
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        102
+      ],
+      "sentence_pair": [
+        90,
+        97
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        103
+      ],
+      "sentence_pair": [
+        90,
+        98
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        104
+      ],
+      "sentence_pair": [
+        90,
+        99
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        105
+      ],
+      "sentence_pair": [
+        90,
+        100
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        106
+      ],
+      "sentence_pair": [
+        90,
+        101
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        107
+      ],
+      "sentence_pair": [
+        90,
+        102
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        108
+      ],
+      "sentence_pair": [
+        90,
+        103
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        109
+      ],
+      "sentence_pair": [
+        90,
+        104
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        95,
+        110
+      ],
+      "sentence_pair": [
+        90,
+        105
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        112
+      ],
+      "sentence_pair": [
+        106,
+        107
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        113
+      ],
+      "sentence_pair": [
+        106,
+        108
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        114
+      ],
+      "sentence_pair": [
+        106,
+        109
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        115
+      ],
+      "sentence_pair": [
+        106,
+        110
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        116
+      ],
+      "sentence_pair": [
+        106,
+        111
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        117
+      ],
+      "sentence_pair": [
+        106,
+        112
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        118
+      ],
+      "sentence_pair": [
+        106,
+        113
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        119
+      ],
+      "sentence_pair": [
+        106,
+        114
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        120
+      ],
+      "sentence_pair": [
+        106,
+        115
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        121
+      ],
+      "sentence_pair": [
+        106,
+        116
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        122
+      ],
+      "sentence_pair": [
+        106,
+        117
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        123
+      ],
+      "sentence_pair": [
+        106,
+        118
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        124
+      ],
+      "sentence_pair": [
+        106,
+        119
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        125
+      ],
+      "sentence_pair": [
+        106,
+        120
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        126
+      ],
+      "sentence_pair": [
+        106,
+        121
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        127
+      ],
+      "sentence_pair": [
+        106,
+        122
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        128
+      ],
+      "sentence_pair": [
+        106,
+        123
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        129
+      ],
+      "sentence_pair": [
+        106,
+        124
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        111,
+        130
+      ],
+      "sentence_pair": [
+        106,
+        125
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        131,
+        132
+      ],
+      "sentence_pair": [
+        126,
+        127
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        131,
+        133
+      ],
+      "sentence_pair": [
+        126,
+        128
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        131,
+        134
+      ],
+      "sentence_pair": [
+        126,
+        129
+      ],
+      "merged": true,
+      "reason": "responsibility line under the same experience role entry"
+    },
+    {
+      "line_pair": [
+        3,
+        5
+      ],
+      "sentence_pair": [
+        4,
+        5
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        5,
+        6
+      ],
+      "sentence_pair": [
+        5,
+        6
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        6,
+        7
+      ],
+      "sentence_pair": [
+        6,
+        7
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        7,
+        8
+      ],
+      "sentence_pair": [
+        7,
+        8
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        8,
+        9
+      ],
+      "sentence_pair": [
+        8,
+        9
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        9,
+        10
+      ],
+      "sentence_pair": [
+        9,
+        10
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        10,
+        11
+      ],
+      "sentence_pair": [
+        10,
+        11
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        11,
+        12
+      ],
+      "sentence_pair": [
+        11,
+        12
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        12,
+        14
+      ],
+      "sentence_pair": [
+        12,
+        13
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        14,
+        15
+      ],
+      "sentence_pair": [
+        13,
+        14
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        15,
+        16
+      ],
+      "sentence_pair": [
+        14,
+        15
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        16,
+        17
+      ],
+      "sentence_pair": [
+        15,
+        16
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        17,
+        19
+      ],
+      "sentence_pair": [
+        16,
+        17
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        19,
+        20
+      ],
+      "sentence_pair": [
+        17,
+        18
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        20,
+        21
+      ],
+      "sentence_pair": [
+        18,
+        19
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        21,
+        22
+      ],
+      "sentence_pair": [
+        19,
+        20
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        22,
+        24
+      ],
+      "sentence_pair": [
+        20,
+        21
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        24,
+        25
+      ],
+      "sentence_pair": [
+        21,
+        22
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        25,
+        26
+      ],
+      "sentence_pair": [
+        22,
+        23
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        26,
+        27
+      ],
+      "sentence_pair": [
+        23,
+        24
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        27,
+        28
+      ],
+      "sentence_pair": [
+        24,
+        25
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        28,
+        29
+      ],
+      "sentence_pair": [
+        25,
+        26
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        29,
+        30
+      ],
+      "sentence_pair": [
+        26,
+        27
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        30,
+        31
+      ],
+      "sentence_pair": [
+        27,
+        28
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        31,
+        32
+      ],
+      "sentence_pair": [
+        28,
+        29
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        32,
+        33
+      ],
+      "sentence_pair": [
+        29,
+        30
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        33,
+        34
+      ],
+      "sentence_pair": [
+        30,
+        31
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        34,
+        35
+      ],
+      "sentence_pair": [
+        31,
+        32
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        35,
+        36
+      ],
+      "sentence_pair": [
+        32,
+        33
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        36,
+        37
+      ],
+      "sentence_pair": [
+        33,
+        34
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        37,
+        38
+      ],
+      "sentence_pair": [
+        34,
+        35
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        38,
+        39
+      ],
+      "sentence_pair": [
+        35,
+        36
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        39,
+        40
+      ],
+      "sentence_pair": [
+        36,
+        37
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        40,
+        41
+      ],
+      "sentence_pair": [
+        37,
+        38
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        41,
+        42
+      ],
+      "sentence_pair": [
+        38,
+        39
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        42,
+        43
+      ],
+      "sentence_pair": [
+        39,
+        40
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        43,
+        45
+      ],
+      "sentence_pair": [
+        40,
+        41
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        45,
+        46
+      ],
+      "sentence_pair": [
+        41,
+        42
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        46,
+        47
+      ],
+      "sentence_pair": [
+        42,
+        43
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        47,
+        48
+      ],
+      "sentence_pair": [
+        43,
+        44
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        48,
+        49
+      ],
+      "sentence_pair": [
+        44,
+        45
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        49,
+        50
+      ],
+      "sentence_pair": [
+        45,
+        46
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        50,
+        51
+      ],
+      "sentence_pair": [
+        46,
+        47
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        51,
+        52
+      ],
+      "sentence_pair": [
+        47,
+        48
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        52,
+        53
+      ],
+      "sentence_pair": [
+        48,
+        49
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        53,
+        54
+      ],
+      "sentence_pair": [
+        49,
+        50
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        54,
+        55
+      ],
+      "sentence_pair": [
+        50,
+        51
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        55,
+        56
+      ],
+      "sentence_pair": [
+        51,
+        52
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        56,
+        57
+      ],
+      "sentence_pair": [
+        52,
+        53
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        57,
+        58
+      ],
+      "sentence_pair": [
+        53,
+        54
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        58,
+        59
+      ],
+      "sentence_pair": [
+        54,
+        55
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        59,
+        60
+      ],
+      "sentence_pair": [
+        55,
+        56
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        60,
+        61
+      ],
+      "sentence_pair": [
+        56,
+        57
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        61,
+        62
+      ],
+      "sentence_pair": [
+        57,
+        58
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        62,
+        63
+      ],
+      "sentence_pair": [
+        58,
+        59
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        63,
+        64
+      ],
+      "sentence_pair": [
+        59,
+        60
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        64,
+        66
+      ],
+      "sentence_pair": [
+        60,
+        61
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        80,
+        81
+      ],
+      "sentence_pair": [
+        75,
+        76
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        94,
+        95
+      ],
+      "sentence_pair": [
+        89,
+        90
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        110,
+        111
+      ],
+      "sentence_pair": [
+        105,
+        106
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        130,
+        131
+      ],
+      "sentence_pair": [
+        125,
+        126
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        134,
+        136
+      ],
+      "sentence_pair": [
+        129,
+        130
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        136,
+        137
+      ],
+      "sentence_pair": [
+        130,
+        131
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        137,
+        139
+      ],
+      "sentence_pair": [
+        131,
+        133
+      ],
+      "merged": false,
+      "reason": "different resume sections"
+    },
+    {
+      "line_pair": [
+        139,
+        140
+      ],
+      "sentence_pair": [
+        133,
+        135
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    },
+    {
+      "line_pair": [
+        140,
+        141
+      ],
+      "sentence_pair": [
+        135,
+        136
+      ],
+      "merged": false,
+      "reason": "separate source lines without a list or structural entry link"
+    }
+  ],
+  "entity_layers": [
+    {
+      "entity_id": "e0",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        131
+      ]
+    },
+    {
+      "entity_id": "e1",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b55"
+      ],
+      "source_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "entity_id": "e2",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        132
+      ]
+    },
+    {
+      "entity_id": "e3",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b61"
+      ],
+      "source_sentence_indices": [
+        126
+      ]
+    },
+    {
+      "entity_id": "e4",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        90
+      ]
+    },
+    {
+      "entity_id": "e5",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        90
+      ]
+    },
+    {
+      "entity_id": "e6",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        76
+      ]
+    },
+    {
+      "entity_id": "e7",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        76
+      ]
+    },
+    {
+      "entity_id": "e8",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        106
+      ]
+    },
+    {
+      "entity_id": "e9",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        106
+      ]
+    },
+    {
+      "entity_id": "e10",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b65"
+      ],
+      "source_sentence_indices": [
+        135
+      ]
+    },
+    {
+      "entity_id": "e11",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b13"
+      ],
+      "source_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "entity_id": "e12",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b22"
+      ],
+      "source_sentence_indices": [
+        26
+      ]
+    },
+    {
+      "entity_id": "e13",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b13"
+      ],
+      "source_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "entity_id": "e14",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b21"
+      ],
+      "source_sentence_indices": [
+        25
+      ]
+    },
+    {
+      "entity_id": "e15",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        61
+      ]
+    },
+    {
+      "entity_id": "e16",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        61
+      ]
+    },
+    {
+      "entity_id": "e17",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        131
+      ]
+    },
+    {
+      "entity_id": "e18",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b66"
+      ],
+      "source_sentence_indices": [
+        136
+      ]
+    },
+    {
+      "entity_id": "e19",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b45"
+      ],
+      "source_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "entity_id": "e20",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        66
+      ]
+    },
+    {
+      "entity_id": "e21",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        115
+      ]
+    },
+    {
+      "entity_id": "e22",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        61,
+        62,
+        63,
+        75
+      ]
+    },
+    {
+      "entity_id": "e23",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        107,
+        108,
+        111,
+        124
+      ]
+    },
+    {
+      "entity_id": "e24",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        77,
+        89
+      ]
+    },
+    {
+      "entity_id": "e25",
+      "section_ids": [
+        "s1:Personal Information"
+      ],
+      "block_ids": [
+        "b0"
+      ],
+      "source_sentence_indices": [
+        0
+      ]
+    },
+    {
+      "entity_id": "e26",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b13"
+      ],
+      "source_sentence_indices": [
+        17
+      ]
+    },
+    {
+      "entity_id": "e27",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b15"
+      ],
+      "source_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "entity_id": "e28",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b19"
+      ],
+      "source_sentence_indices": [
+        23
+      ]
+    },
+    {
+      "entity_id": "e29",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b20"
+      ],
+      "source_sentence_indices": [
+        24
+      ]
+    },
+    {
+      "entity_id": "e30",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b35"
+      ],
+      "source_sentence_indices": [
+        39
+      ]
+    },
+    {
+      "entity_id": "e31",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b50"
+      ],
+      "source_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "entity_id": "e32",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        97
+      ]
+    },
+    {
+      "entity_id": "e33",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b15"
+      ],
+      "source_sentence_indices": [
+        19
+      ]
+    },
+    {
+      "entity_id": "e34",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b17"
+      ],
+      "source_sentence_indices": [
+        21
+      ]
+    },
+    {
+      "entity_id": "e35",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b50"
+      ],
+      "source_sentence_indices": [
+        54
+      ]
+    },
+    {
+      "entity_id": "e36",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        62
+      ]
+    },
+    {
+      "entity_id": "e37",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        89
+      ]
+    },
+    {
+      "entity_id": "e38",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        97
+      ]
+    },
+    {
+      "entity_id": "e39",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        124
+      ]
+    },
+    {
+      "entity_id": "e40",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b14"
+      ],
+      "source_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "entity_id": "e41",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e42",
+      "section_ids": [
+        "s1:Personal Information"
+      ],
+      "block_ids": [
+        "b0"
+      ],
+      "source_sentence_indices": [
+        0
+      ]
+    },
+    {
+      "entity_id": "e43",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e44",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b48"
+      ],
+      "source_sentence_indices": [
+        52
+      ]
+    },
+    {
+      "entity_id": "e45",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        73
+      ]
+    },
+    {
+      "entity_id": "e46",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        88
+      ]
+    },
+    {
+      "entity_id": "e47",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        120
+      ]
+    },
+    {
+      "entity_id": "e48",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        131
+      ]
+    },
+    {
+      "entity_id": "e49",
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ],
+      "block_ids": [
+        "b27"
+      ],
+      "source_sentence_indices": [
+        31
+      ]
+    },
+    {
+      "entity_id": "e50",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b51"
+      ],
+      "source_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "entity_id": "e51",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        69
+      ]
+    },
+    {
+      "entity_id": "e52",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e53",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        103
+      ]
+    },
+    {
+      "entity_id": "e54",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        132
+      ]
+    },
+    {
+      "entity_id": "e55",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        93
+      ]
+    },
+    {
+      "entity_id": "e56",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b51"
+      ],
+      "source_sentence_indices": [
+        55
+      ]
+    },
+    {
+      "entity_id": "e57",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        69
+      ]
+    },
+    {
+      "entity_id": "e58",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        85
+      ]
+    },
+    {
+      "entity_id": "e59",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b57"
+      ],
+      "source_sentence_indices": [
+        69
+      ]
+    },
+    {
+      "entity_id": "e60",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        85
+      ]
+    },
+    {
+      "entity_id": "e61",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        117
+      ]
+    },
+    {
+      "entity_id": "e62",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e63",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "entity_id": "e64",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b59"
+      ],
+      "source_sentence_indices": [
+        92,
+        98
+      ]
+    },
+    {
+      "entity_id": "e65",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        111,
+        118
+      ]
+    },
+    {
+      "entity_id": "e66",
+      "section_ids": [
+        "s3:Certifications"
+      ],
+      "block_ids": [
+        "b12"
+      ],
+      "source_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "entity_id": "e67",
+      "section_ids": [
+        "s2:Skills"
+      ],
+      "block_ids": [
+        "b1"
+      ],
+      "source_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "entity_id": "e68",
+      "section_ids": [
+        "s2:Skills"
+      ],
+      "block_ids": [
+        "b6"
+      ],
+      "source_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "entity_id": "e69",
+      "section_ids": [
+        "s3:Certifications"
+      ],
+      "block_ids": [
+        "b9"
+      ],
+      "source_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "entity_id": "e70",
+      "section_ids": [
+        "s4:Summary"
+      ],
+      "block_ids": [
+        "b14"
+      ],
+      "source_sentence_indices": [
+        18
+      ]
+    },
+    {
+      "entity_id": "e71",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b42"
+      ],
+      "source_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "entity_id": "e72",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "entity_id": "e73",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e74",
+      "section_ids": [
+        "s3:Certifications"
+      ],
+      "block_ids": [
+        "b12"
+      ],
+      "source_sentence_indices": [
+        16
+      ]
+    },
+    {
+      "entity_id": "e75",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        121
+      ]
+    },
+    {
+      "entity_id": "e76",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        131
+      ]
+    },
+    {
+      "entity_id": "e77",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        84
+      ]
+    },
+    {
+      "entity_id": "e78",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        122
+      ]
+    },
+    {
+      "entity_id": "e79",
+      "section_ids": [
+        "s3:Certifications"
+      ],
+      "block_ids": [
+        "b9"
+      ],
+      "source_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "entity_id": "e80",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b42"
+      ],
+      "source_sentence_indices": [
+        46
+      ]
+    },
+    {
+      "entity_id": "e81",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "entity_id": "e82",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e83",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        120
+      ]
+    },
+    {
+      "entity_id": "e84",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        132
+      ]
+    },
+    {
+      "entity_id": "e85",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        132
+      ]
+    },
+    {
+      "entity_id": "e86",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b55"
+      ],
+      "source_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "entity_id": "e87",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        117
+      ]
+    },
+    {
+      "entity_id": "e88",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e89",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        132
+      ]
+    },
+    {
+      "entity_id": "e90",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b60"
+      ],
+      "source_sentence_indices": [
+        122
+      ]
+    },
+    {
+      "entity_id": "e91",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b62"
+      ],
+      "source_sentence_indices": [
+        130
+      ]
+    },
+    {
+      "entity_id": "e92",
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ],
+      "block_ids": [
+        "b55"
+      ],
+      "source_sentence_indices": [
+        59
+      ]
+    },
+    {
+      "entity_id": "e93",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        88
+      ]
+    },
+    {
+      "entity_id": "e94",
+      "section_ids": [
+        "s8:Tools and Technology"
+      ],
+      "block_ids": [
+        "b63"
+      ],
+      "source_sentence_indices": [
+        132
+      ]
+    },
+    {
+      "entity_id": "e95",
+      "section_ids": [
+        "s7:Experience"
+      ],
+      "block_ids": [
+        "b58"
+      ],
+      "source_sentence_indices": [
+        88
+      ]
+    },
+    {
+      "entity_id": "e96",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b66"
+      ],
+      "source_sentence_indices": [
+        137
+      ]
+    },
+    {
+      "entity_id": "e97",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b64"
+      ],
+      "source_sentence_indices": [
+        134
+      ]
+    },
+    {
+      "entity_id": "e98",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b65"
+      ],
+      "source_sentence_indices": [
+        135
+      ]
+    },
+    {
+      "entity_id": "e99",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b64"
+      ],
+      "source_sentence_indices": [
+        134
+      ]
+    },
+    {
+      "entity_id": "e100",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b65"
+      ],
+      "source_sentence_indices": [
+        135
+      ]
+    },
+    {
+      "entity_id": "e101",
+      "section_ids": [
+        "s9:Education"
+      ],
+      "block_ids": [
+        "b66"
+      ],
+      "source_sentence_indices": [
+        136
+      ]
+    }
+  ],
+  "relationship_layers": [
+    {
+      "relationship_id": "r0",
+      "source_entity_id": "e42",
+      "target_entity_id": "e67",
+      "section_id": "s2:Skills",
+      "block_id": "b1",
+      "evidence_sentence_indices": [
+        5
+      ]
+    },
+    {
+      "relationship_id": "r1",
+      "source_entity_id": "e42",
+      "target_entity_id": "e68",
+      "section_id": "s2:Skills",
+      "block_id": "b6",
+      "evidence_sentence_indices": [
+        10
+      ]
+    },
+    {
+      "relationship_id": "r2",
+      "source_entity_id": "e42",
+      "target_entity_id": "e69",
+      "section_id": "s3:Certifications",
+      "block_id": "b9",
+      "evidence_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "relationship_id": "r3",
+      "source_entity_id": "e42",
+      "target_entity_id": "e79",
+      "section_id": "s3:Certifications",
+      "block_id": "b9",
+      "evidence_sentence_indices": [
+        13
+      ]
+    },
+    {
+      "relationship_id": "r4",
+      "source_entity_id": "e42",
+      "target_entity_id": "e19",
+      "section_id": "s6:Business Analysis And Product Management",
+      "block_id": "b45",
+      "evidence_sentence_indices": [
+        49
+      ]
+    },
+    {
+      "relationship_id": "r5",
+      "source_entity_id": "e42",
+      "target_entity_id": "e20",
+      "section_id": "s7:Experience",
+      "block_id": "b57",
+      "evidence_sentence_indices": [
+        66
+      ]
+    },
+    {
+      "relationship_id": "r6",
+      "source_entity_id": "e63",
+      "target_entity_id": "e72",
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "evidence_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "relationship_id": "r7",
+      "source_entity_id": "e63",
+      "target_entity_id": "e81",
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "evidence_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "relationship_id": "r8",
+      "source_entity_id": "e42",
+      "target_entity_id": "e63",
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "evidence_sentence_indices": [
+        81
+      ]
+    },
+    {
+      "relationship_id": "r9",
+      "source_entity_id": "e42",
+      "target_entity_id": "e46",
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "evidence_sentence_indices": [
+        88
+      ]
+    },
+    {
+      "relationship_id": "r10",
+      "source_entity_id": "e42",
+      "target_entity_id": "e93",
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "evidence_sentence_indices": [
+        88
+      ]
+    },
+    {
+      "relationship_id": "r11",
+      "source_entity_id": "e42",
+      "target_entity_id": "e95",
+      "section_id": "s7:Experience",
+      "block_id": "b58",
+      "evidence_sentence_indices": [
+        88
+      ]
+    },
+    {
+      "relationship_id": "r12",
+      "source_entity_id": "e42",
+      "target_entity_id": "e21",
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "evidence_sentence_indices": [
+        115
+      ]
+    },
+    {
+      "relationship_id": "r13",
+      "source_entity_id": "e61",
+      "target_entity_id": "e87",
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "evidence_sentence_indices": [
+        117
+      ]
+    },
+    {
+      "relationship_id": "r14",
+      "source_entity_id": "e42",
+      "target_entity_id": "e61",
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "evidence_sentence_indices": [
+        117
+      ]
+    },
+    {
+      "relationship_id": "r15",
+      "source_entity_id": "e42",
+      "target_entity_id": "e78",
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "evidence_sentence_indices": [
+        122
+      ]
+    },
+    {
+      "relationship_id": "r16",
+      "source_entity_id": "e42",
+      "target_entity_id": "e90",
+      "section_id": "s7:Experience",
+      "block_id": "b60",
+      "evidence_sentence_indices": [
+        122
+      ]
+    },
+    {
+      "relationship_id": "r17",
+      "source_entity_id": "e42",
+      "target_entity_id": "e18",
+      "section_id": "s9:Education",
+      "block_id": "b66",
+      "evidence_sentence_indices": [
+        136
+      ]
+    },
+    {
+      "relationship_id": "r18",
+      "source_entity_id": "e18",
+      "target_entity_id": "e96",
+      "section_id": "s9:Education",
+      "block_id": "b66",
+      "evidence_sentence_indices": [
+        136,
+        137
+      ]
+    },
+    {
+      "relationship_id": "r19",
+      "source_entity_id": "e18",
+      "target_entity_id": "e101",
+      "section_id": "s9:Education",
+      "block_id": "b66",
+      "evidence_sentence_indices": [
+        136,
+        137
+      ]
+    }
+  ]
+}

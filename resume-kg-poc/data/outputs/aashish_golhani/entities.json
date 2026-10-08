@@ -1,0 +1,2421 @@
+{
+  "count": 102,
+  "entities": [
+    {
+      "text": "AWS",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data;"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        131
+      ],
+      "id": "e0",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Azure",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "JIRA, Confluence, Visio, Power BI & Azure DevOps"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b55"
+      ],
+      "sentence_indices": [
+        59
+      ],
+      "id": "e1",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Kubernetes",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        132
+      ],
+      "id": "e2",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "American Home Mortgage Services",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Underwriter at American Home Mortgage Services/Homeward (Aug 2006 \u2013 Aug 2012)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b61"
+      ],
+      "sentence_indices": [
+        126
+      ],
+      "id": "e3",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Axis Bank Ltd",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Senior Business Analyst at Axis Bank Ltd. (Oct 2017 \u2013 Dec 2018)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        90
+      ],
+      "id": "e4",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Axis Bank Ltd.",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Senior Business Analyst at Axis Bank Ltd. (Oct 2017 \u2013 Dec 2018)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        90
+      ],
+      "id": "e5",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Bandhan Bank Ltd",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Lead Business Analyst/ Product Owner at Bandhan Bank Ltd. (Jan 2019 \u2013 Dec 2023)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        76
+      ],
+      "id": "e6",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Bandhan Bank Ltd.",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Lead Business Analyst/ Product Owner at Bandhan Bank Ltd. (Jan 2019 \u2013 Dec 2023)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        76
+      ],
+      "id": "e7",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "HDFC Bank Ltd",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Business Analyst at HDFC Bank Ltd. (Sep 2012 \u2013 Oct 2017)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        106
+      ],
+      "id": "e8",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "HDFC Bank Ltd.",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Business Analyst at HDFC Bank Ltd. (Sep 2012 \u2013 Oct 2017)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        106
+      ],
+      "id": "e9",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Information Technology",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Year: 2004 | Qualification: Diploma in Information Technology from ACTS, Pune | University: Pune University"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b65"
+      ],
+      "sentence_indices": [
+        135
+      ],
+      "id": "e10",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "Loan Management Systems",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b13"
+      ],
+      "sentence_indices": [
+        17
+      ],
+      "id": "e11",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Loan Management Systems",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Loan Management Systems (LMS)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b22"
+      ],
+      "sentence_indices": [
+        26
+      ],
+      "id": "e12",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "Loan Origination Systems",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b13"
+      ],
+      "sentence_indices": [
+        17
+      ],
+      "id": "e13",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Loan Origination Systems",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Loan Origination Systems (LOS)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b21"
+      ],
+      "sentence_indices": [
+        25
+      ],
+      "id": "e14",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "Persistent Systems Ltd",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Banking Domain Consultant at Persistent Systems Ltd. (Dec 2023- June 2026)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        61
+      ],
+      "id": "e15",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Persistent Systems Ltd.",
+      "type": "COMPANY",
+      "confidence": 0.85,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Banking Domain Consultant at Persistent Systems Ltd. (Dec 2023- June 2026)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        61
+      ],
+      "id": "e16",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "SQL Server",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data;"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        131
+      ],
+      "id": "e17",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Bachelor of Pharmacy | University:",
+      "type": "DEGREE",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b66"
+      ],
+      "sentence_indices": [
+        136
+      ],
+      "id": "e18",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "Be Process Mapping",
+      "type": "DEGREE",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "As-Is / To-Be Process Mapping"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b45"
+      ],
+      "sentence_indices": [
+        49
+      ],
+      "id": "e19",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Be models, operational procedures, and regulatory requirements",
+      "type": "DEGREE",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        66
+      ],
+      "id": "e20",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence di",
+      "type": "DEGREE",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        115
+      ],
+      "id": "e21",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Banking Domain Consultant at Persistent Systems Ltd. (Dec 2023- June 2026)",
+        "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+        "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+        "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+      ],
+      "frequency": 4,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        61,
+        62,
+        63,
+        75
+      ],
+      "id": "e22",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Gathered and analyzed business requirements for banking products and process improvements.",
+        "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+        "Supported Agile and Waterfall delivery models for banking transformation projects.",
+        "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives."
+      ],
+      "frequency": 4,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        107,
+        108,
+        111,
+        124
+      ],
+      "id": "e23",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+        "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+      ],
+      "frequency": 2,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        77,
+        89
+      ],
+      "id": "e24",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Name: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b0"
+      ],
+      "sentence_indices": [
+        0
+      ],
+      "id": "e25",
+      "sections": [
+        "Personal Information"
+      ],
+      "section_ids": [
+        "s1:Personal Information"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b13"
+      ],
+      "sentence_indices": [
+        17
+      ],
+      "id": "e26",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b15"
+      ],
+      "sentence_indices": [
+        19
+      ],
+      "id": "e27",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Banking Fraud and Risks"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b19"
+      ],
+      "sentence_indices": [
+        23
+      ],
+      "id": "e28",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Transaction Banking"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b20"
+      ],
+      "sentence_indices": [
+        24
+      ],
+      "id": "e29",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Treasury & Transaction Banking"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b35"
+      ],
+      "sentence_indices": [
+        39
+      ],
+      "id": "e30",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Core Banking, Retail Banking & Corporate Banking"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b50"
+      ],
+      "sentence_indices": [
+        54
+      ],
+      "id": "e31",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        97
+      ],
+      "id": "e32",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b15"
+      ],
+      "sentence_indices": [
+        19
+      ],
+      "id": "e33",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Retail Lending & Digital Loans"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b17"
+      ],
+      "sentence_indices": [
+        21
+      ],
+      "id": "e34",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Core Banking, Retail Banking & Corporate Banking"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b50"
+      ],
+      "sentence_indices": [
+        54
+      ],
+      "id": "e35",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        62
+      ],
+      "id": "e36",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        89
+      ],
+      "id": "e37",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        97
+      ],
+      "id": "e38",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Retail",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        124
+      ],
+      "id": "e39",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "banking",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b14"
+      ],
+      "sentence_indices": [
+        18
+      ],
+      "id": "e40",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Angular",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e41",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "AASHISH GOLHANI",
+      "type": "PERSON",
+      "confidence": 0.95,
+      "method": "spaCy NER / resume subject",
+      "source_sentences": [
+        "Name: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b0"
+      ],
+      "sentence_indices": [
+        0
+      ],
+      "id": "e42",
+      "sections": [
+        "Personal Information"
+      ],
+      "section_ids": [
+        "s1:Personal Information"
+      ]
+    },
+    {
+      "text": "C#",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e43",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Data Mapping, Data Migration & SQL Analysis"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b48"
+      ],
+      "sentence_indices": [
+        52
+      ],
+      "id": "e44",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Reviewed SQL data validation reports, reconciliation reports, and production metrics."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        73
+      ],
+      "id": "e45",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        88
+      ],
+      "id": "e46",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Executed SQL queries for data validation, data analysis, reconciliation, and production support."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        120
+      ],
+      "id": "e47",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data;"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        131
+      ],
+      "id": "e48",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "SWIFT",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b27"
+      ],
+      "sentence_indices": [
+        31
+      ],
+      "id": "e49",
+      "sections": [
+        "Core Banking And Domain Expertise"
+      ],
+      "section_ids": [
+        "s5:Core Banking And Domain Expertise"
+      ]
+    },
+    {
+      "text": "SWIFT",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Payments (NEFT, RTGS, IMPS, UPI, SWIFT, ISO 20022)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b51"
+      ],
+      "sentence_indices": [
+        55
+      ],
+      "id": "e50",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "SWIFT",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        69
+      ],
+      "id": "e51",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "AS400",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e52",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Analysts and conducted peer reviews of",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "Mentored junior Business Analysts and conducted peer reviews of project documentation."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        103
+      ],
+      "id": "e53",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Apache Airflow",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        132
+      ],
+      "id": "e54",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Defined",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "Defined project scope, business objectives, solution approach, and implementation roadmap."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        93
+      ],
+      "id": "e55",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "ISO 20022",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Payments (NEFT, RTGS, IMPS, UPI, SWIFT, ISO 20022)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b51"
+      ],
+      "sentence_indices": [
+        55
+      ],
+      "id": "e56",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "ISO 20022",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        69
+      ],
+      "id": "e57",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "ISO 20022",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        85
+      ],
+      "id": "e58",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "ISO 8583",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b57"
+      ],
+      "sentence_indices": [
+        69
+      ],
+      "id": "e59",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "ISO 8583",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        85
+      ],
+      "id": "e60",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "JIRA and maintained",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        117
+      ],
+      "id": "e61",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "PowerPoint",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e62",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Scrum",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        81
+      ],
+      "id": "e63",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+        "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management."
+      ],
+      "frequency": 2,
+      "block_ids": [
+        "b59"
+      ],
+      "sentence_indices": [
+        92,
+        98
+      ],
+      "id": "e64",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Supported Agile and Waterfall delivery models for banking transformation projects.",
+        "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives."
+      ],
+      "frequency": 2,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        111,
+        118
+      ],
+      "id": "e65",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "AI",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Ai And Emerging Technologies: IBM Artificial Intelligence Fundamentals; GenAI for Executives & Business Leaders"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b12"
+      ],
+      "sentence_indices": [
+        16
+      ],
+      "id": "e66",
+      "sections": [
+        "Certifications"
+      ],
+      "section_ids": [
+        "s3:Certifications"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Agile & Waterfall methodologies and frameworks"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b1"
+      ],
+      "sentence_indices": [
+        5
+      ],
+      "id": "e67",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s2:Skills"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Agile metrics and performance measurement"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b6"
+      ],
+      "sentence_indices": [
+        10
+      ],
+      "id": "e68",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s2:Skills"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b9"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e69",
+      "sections": [
+        "Certifications"
+      ],
+      "section_ids": [
+        "s3:Certifications"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b14"
+      ],
+      "sentence_indices": [
+        18
+      ],
+      "id": "e70",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s4:Summary"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Agile Scrum & SAFe Delivery"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b42"
+      ],
+      "sentence_indices": [
+        46
+      ],
+      "id": "e71",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        81
+      ],
+      "id": "e72",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e73",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Artificial Intelligence",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Ai And Emerging Technologies: IBM Artificial Intelligence Fundamentals; GenAI for Executives & Business Leaders"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b12"
+      ],
+      "sentence_indices": [
+        16
+      ],
+      "id": "e74",
+      "sections": [
+        "Certifications"
+      ],
+      "section_ids": [
+        "s3:Certifications"
+      ]
+    },
+    {
+      "text": "ETL",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        121
+      ],
+      "id": "e75",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "ETL",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data;"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        131
+      ],
+      "id": "e76",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Microservices",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        84
+      ],
+      "id": "e77",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "REST APIs",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        122
+      ],
+      "id": "e78",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Scrum",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b9"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e79",
+      "sections": [
+        "Certifications"
+      ],
+      "section_ids": [
+        "s3:Certifications"
+      ]
+    },
+    {
+      "text": "Scrum",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Agile Scrum & SAFe Delivery"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b42"
+      ],
+      "sentence_indices": [
+        46
+      ],
+      "id": "e80",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Scrum",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        81
+      ],
+      "id": "e81",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Scrum",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e82",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "data analysis",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Executed SQL queries for data validation, data analysis, reconciliation, and production support."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        120
+      ],
+      "id": "e83",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Airflow",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        132
+      ],
+      "id": "e84",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Hadoop",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        132
+      ],
+      "id": "e85",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "JIRA",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "JIRA, Confluence, Visio, Power BI & Azure DevOps"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b55"
+      ],
+      "sentence_indices": [
+        59
+      ],
+      "id": "e86",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "JIRA",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        117
+      ],
+      "id": "e87",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "JIRA",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e88",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Kafka",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        132
+      ],
+      "id": "e89",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Postman",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b60"
+      ],
+      "sentence_indices": [
+        122
+      ],
+      "id": "e90",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Postman",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b62"
+      ],
+      "sentence_indices": [
+        130
+      ],
+      "id": "e91",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Power BI",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "JIRA, Confluence, Visio, Power BI & Azure DevOps"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b55"
+      ],
+      "sentence_indices": [
+        59
+      ],
+      "id": "e92",
+      "sections": [
+        "Business Analysis And Product Management"
+      ],
+      "section_ids": [
+        "s6:Business Analysis And Product Management"
+      ]
+    },
+    {
+      "text": "Power BI",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        88
+      ],
+      "id": "e93",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Spark",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b63"
+      ],
+      "sentence_indices": [
+        132
+      ],
+      "id": "e94",
+      "sections": [
+        "Tools and Technology"
+      ],
+      "section_ids": [
+        "s8:Tools and Technology"
+      ]
+    },
+    {
+      "text": "Tableau",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b58"
+      ],
+      "sentence_indices": [
+        88
+      ],
+      "id": "e95",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s7:Experience"
+      ]
+    },
+    {
+      "text": "Amravati University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Amravati University"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b66"
+      ],
+      "sentence_indices": [
+        137
+      ],
+      "id": "e96",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "Pune University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Pune | University: Pune University"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b64"
+      ],
+      "sentence_indices": [
+        134
+      ],
+      "id": "e97",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "Pune University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Year: 2004 | Qualification: Diploma in Information Technology from ACTS, Pune | University: Pune University"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b65"
+      ],
+      "sentence_indices": [
+        135
+      ],
+      "id": "e98",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Pune | University: Pune University"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b64"
+      ],
+      "sentence_indices": [
+        134
+      ],
+      "id": "e99",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Year: 2004 | Qualification: Diploma in Information Technology from ACTS, Pune | University: Pune University"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b65"
+      ],
+      "sentence_indices": [
+        135
+      ],
+      "id": "e100",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    },
+    {
+      "text": "University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b66"
+      ],
+      "sentence_indices": [
+        136
+      ],
+      "id": "e101",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s9:Education"
+      ]
+    }
+  ],
+  "preprocessing": {
+    "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
+    "normalized_preview": "PERSONAL INFORMATION\nName: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant | Location: Pune | Phone: 9993340671 | Email: madhuaashish@gmail.com\nPlace: Pune\nName At End: AASHISH GOLHANI\nSKILLS\n\u2022 Agile & Waterfall methodologies and frameworks\n\u2022 Project management techniques\n\u2022 Communication and collaboration skills\n\u2022 Leadership and team management skills (Team Size-15+)\n\u2022 Change management and organizational develop",
+    "sentence_count": 138,
+    "sections": [
+      {
+        "id": "s1:Personal Information",
+        "name": "Personal Information",
+        "sentence_count": 5
+      },
+      {
+        "id": "s2:Skills",
+        "name": "Skills",
+        "sentence_count": 8
+      },
+      {
+        "id": "s3:Certifications",
+        "name": "Certifications",
+        "sentence_count": 4
+      },
+      {
+        "id": "s4:Summary",
+        "name": "Summary",
+        "sentence_count": 4
+      },
+      {
+        "id": "s5:Core Banking And Domain Expertise",
+        "name": "Core Banking And Domain Expertise",
+        "sentence_count": 20
+      },
+      {
+        "id": "s6:Business Analysis And Product Management",
+        "name": "Business Analysis And Product Management",
+        "sentence_count": 20
+      },
+      {
+        "id": "s7:Experience",
+        "name": "Experience",
+        "sentence_count": 69
+      },
+      {
+        "id": "s8:Tools and Technology",
+        "name": "Tools and Technology",
+        "sentence_count": 3
+      },
+      {
+        "id": "s9:Education",
+        "name": "Education",
+        "sentence_count": 5
+      }
+    ]
+  }
+}

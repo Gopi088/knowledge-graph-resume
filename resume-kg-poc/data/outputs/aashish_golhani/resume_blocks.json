@@ -1,0 +1,2902 @@
+{
+  "personal_information": {
+    "name": "AASHISH GOLHANI",
+    "title": "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant",
+    "location": "Pune",
+    "phone": "9993340671",
+    "email": "madhuaashish@gmail.com"
+  },
+  "skills": [
+    "Agile & Waterfall methodologies and frameworks",
+    "Project management techniques",
+    "Communication and collaboration skills",
+    "Leadership and team management skills (Team Size-15+)",
+    "Change management and organizational development skills",
+    "Agile metrics and performance measurement",
+    "Technical knowledge in software development and IT operations",
+    "Process improvement and continuous delivery skills"
+  ],
+  "certifications": {
+    "business_analysis_and_agile": [
+      "PSM-I",
+      "COEPD Business Analysis",
+      "A to Z Business Analyst",
+      "Agile Coaching",
+      "Design Thinking",
+      "Agile Metrics & Scrum Reporting"
+    ],
+    "program_and_project_management": [
+      "PMO Certification",
+      "MS Project",
+      "Program Management Essentials"
+    ],
+    "technology_and_transformation": [
+      "DevOps Foundation",
+      "Cloud Architecture",
+      "Cybersecurity Analyst",
+      "Digital Transformation"
+    ],
+    "ai_and_emerging_technologies": [
+      "IBM Artificial Intelligence Fundamentals",
+      "GenAI for Executives & Business Leaders"
+    ]
+  },
+  "profile_snapshot": [
+    "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation.",
+    "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients.",
+    "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance.",
+    "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals."
+  ],
+  "core_banking_and_domain_expertise": [
+    "Retail Lending & Digital Loans",
+    "KYC / AML / CDD/ EDD",
+    "Banking Fraud and Risks",
+    "Transaction Banking",
+    "Loan Origination Systems (LOS)",
+    "Loan Management Systems (LMS)",
+    "Corporate & Wholesale Lending",
+    "Mortgage Processing & Underwriting",
+    "Customer Onboarding & Regulatory Compliance",
+    "Trade Finance & Treasury Products",
+    "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA",
+    "Letter of Credit (LC)",
+    "Bank Guarantee (BG)",
+    "Cash Credit (CC)",
+    "Overdraft (OD)",
+    "Working Capital Finance",
+    "Supply Chain Finance",
+    "Syndicated Loans",
+    "Treasury & Transaction Banking",
+    "Insurance"
+  ],
+  "business_analysis_and_product_management": [
+    "Requirement Gathering & Elicitation",
+    "Business Analysis & Functional Consulting",
+    "BRD, FRD, SRS & Functional Specifications",
+    "User Stories, Epics & Acceptance Criteria",
+    "Product Backlog Management & Prioritization",
+    "Agile Scrum & SAFe Delivery",
+    "Stakeholder & Vendor Management",
+    "Gap Analysis & Impact Analysis",
+    "As-Is / To-Be Process Mapping",
+    "Business Process Re-engineering (BPR)",
+    "API & System Integration Analysis",
+    "Data Mapping, Data Migration & SQL Analysis",
+    "UAT, SIT, Defect Triage & Release Readiness",
+    "Core Banking, Retail Banking & Corporate Banking",
+    "Payments (NEFT, RTGS, IMPS, UPI, SWIFT, ISO 20022)",
+    "Corporate Lending, Mortgage & Loan Origination",
+    "Risk Management, IFRS 9 & Basel III",
+    "KYC, AML & Regulatory Compliance",
+    "JIRA, Confluence, Visio, Power BI & Azure DevOps",
+    "Leadership, Mentoring & Cross-functional Collaboration"
+  ],
+  "work_history": [
+    {
+      "company": "Persistent Systems Ltd.",
+      "duration": "Dec 2023- June 2026",
+      "designation": "Banking Domain Consultant",
+      "role_and_responsibilities": [
+        "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+        "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+        "Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+        "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+        "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+        "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+        "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+        "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+        "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+        "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+        "Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+        "Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+        "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+      ]
+    },
+    {
+      "company": "Bandhan Bank Ltd.",
+      "duration": "Jan 2019 \u2013 Dec 2023",
+      "designation": "Lead Business Analyst/ Product Owner",
+      "role_and_responsibilities": [
+        "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+        "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+        "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+        "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+        "Managed Agile delivery using Scrum and Kanban methodologies.",
+        "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+        "Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+        "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+        "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+        "Collaborated with QA teams for UAT planning, production validation, and release management.",
+        "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+        "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+      ]
+    },
+    {
+      "company": "Axis Bank Ltd.",
+      "duration": "Oct 2017 \u2013 Dec 2018",
+      "designation": "Senior Business Analyst",
+      "role_and_responsibilities": [
+        "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+        "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+        "Defined project scope, business objectives, solution approach, and implementation roadmap.",
+        "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+        "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+        "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+        "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+        "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+        "Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+        "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+        "Directed UAT planning, defect triage, production validation, and Hypercare support.",
+        "Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+        "Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+        "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+        "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations."
+      ]
+    },
+    {
+      "company": "HDFC Bank Ltd.",
+      "duration": "Sep 2012 \u2013 Oct 2017",
+      "designation": "Business Analyst",
+      "role_and_responsibilities": [
+        "Gathered and analyzed business requirements for banking products and process improvements.",
+        "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+        "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+        "Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+        "Supported Agile and Waterfall delivery models for banking transformation projects.",
+        "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+        "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+        "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+        "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+        "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+        "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+        "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+        "Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+        "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+        "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+        "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+        "Supported production deployment, Hypercare activities, incident management, and release management."
+      ]
+    },
+    {
+      "company": "American Home Mortgage Services/Homeward",
+      "duration": "Aug 2006 \u2013 Aug 2012",
+      "designation": "Underwriter",
+      "role_and_responsibilities": [
+        "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+        "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+        "Ensured mortgage compliance and underwriting quality standards."
+      ]
+    }
+  ],
+  "tools_and_technology": {
+    "professional": [
+      "MS Word",
+      "MS Excel",
+      "MS PowerPoint",
+      "Oracle Flexcube",
+      "Finacle",
+      "Newgen",
+      "FinOne",
+      "Agile (Scrum) Model",
+      "Waterfall Model",
+      "JIRA",
+      "MS Visio",
+      "Lucid chart",
+      "Balsamiq",
+      "Confluence",
+      "Draw.IO",
+      "AS400",
+      "LANSA",
+      "C Sharp (C#)",
+      "Angular",
+      "Postman",
+      "Swagger / Open API",
+      "SoapUI",
+      "XML/JSON validators"
+    ],
+    "beginner": [
+      "Databricks",
+      "AWS",
+      "Aure Dev Ops",
+      "SQL",
+      "SQL Server Management Studio / SQL tools",
+      "Oracle",
+      "DB2",
+      "Jaspersoft",
+      "ETL",
+      "Big data",
+      "Airflow",
+      "Splunk / Kibana",
+      "Apache Hadoop",
+      "Data Lake",
+      "Apache Iceberg",
+      "Kubernetes",
+      "Apache Spark",
+      "Apache Airflow",
+      "NIFI",
+      "Kafka"
+    ]
+  },
+  "education": [
+    {
+      "year": "2008",
+      "qualification": "PG Certificate in Data Management & Clinical Research",
+      "location": "Pune",
+      "university": "Pune University"
+    },
+    {
+      "year": "2004",
+      "qualification": "Diploma in Information Technology from ACTS, Pune",
+      "university": "Pune University"
+    },
+    {
+      "year": "2003",
+      "qualification": "Bachelor of Pharmacy",
+      "university": "Amravati University"
+    }
+  ],
+  "place": "Pune",
+  "name_at_end": "AASHISH GOLHANI",
+  "_audit": {
+    "format": "section-keyed-resume-blocks/v1",
+    "source_format": "structured_resume_json",
+    "summary": {
+      "source_line_count": 142,
+      "assigned_source_line_count": 142,
+      "unassigned_source_line_indices": [],
+      "section_count": 9,
+      "block_count": 67,
+      "sentence_count": 138,
+      "entity_count": 102,
+      "relationship_count": 20,
+      "complete": true
+    },
+    "unassigned_source_line_indices": [],
+    "block_map": [
+      {
+        "block_id": "b0",
+        "section_id": "s1:Personal Information",
+        "section_key": "personal_information",
+        "item_indices": [],
+        "source_line_indices": [
+          1,
+          2,
+          3
+        ],
+        "source_paths": [
+          "$.personal_information",
+          "$.place",
+          "$.name_at_end"
+        ]
+      },
+      {
+        "block_id": "b1",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          5
+        ],
+        "source_paths": [
+          "$.skills[0]"
+        ]
+      },
+      {
+        "block_id": "b2",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          6
+        ],
+        "source_paths": [
+          "$.skills[1]"
+        ]
+      },
+      {
+        "block_id": "b3",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          2
+        ],
+        "source_line_indices": [
+          7
+        ],
+        "source_paths": [
+          "$.skills[2]"
+        ]
+      },
+      {
+        "block_id": "b4",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          3
+        ],
+        "source_line_indices": [
+          8
+        ],
+        "source_paths": [
+          "$.skills[3]"
+        ]
+      },
+      {
+        "block_id": "b5",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          4
+        ],
+        "source_line_indices": [
+          9
+        ],
+        "source_paths": [
+          "$.skills[4]"
+        ]
+      },
+      {
+        "block_id": "b6",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          5
+        ],
+        "source_line_indices": [
+          10
+        ],
+        "source_paths": [
+          "$.skills[5]"
+        ]
+      },
+      {
+        "block_id": "b7",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          6
+        ],
+        "source_line_indices": [
+          11
+        ],
+        "source_paths": [
+          "$.skills[6]"
+        ]
+      },
+      {
+        "block_id": "b8",
+        "section_id": "s2:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          7
+        ],
+        "source_line_indices": [
+          12
+        ],
+        "source_paths": [
+          "$.skills[7]"
+        ]
+      },
+      {
+        "block_id": "b9",
+        "section_id": "s3:Certifications",
+        "section_key": "certifications",
+        "item_indices": [],
+        "source_line_indices": [
+          14
+        ],
+        "source_paths": [
+          "$.certifications.business_analysis_and_agile"
+        ]
+      },
+      {
+        "block_id": "b10",
+        "section_id": "s3:Certifications",
+        "section_key": "certifications",
+        "item_indices": [],
+        "source_line_indices": [
+          15
+        ],
+        "source_paths": [
+          "$.certifications.program_and_project_management"
+        ]
+      },
+      {
+        "block_id": "b11",
+        "section_id": "s3:Certifications",
+        "section_key": "certifications",
+        "item_indices": [],
+        "source_line_indices": [
+          16
+        ],
+        "source_paths": [
+          "$.certifications.technology_and_transformation"
+        ]
+      },
+      {
+        "block_id": "b12",
+        "section_id": "s3:Certifications",
+        "section_key": "certifications",
+        "item_indices": [],
+        "source_line_indices": [
+          17
+        ],
+        "source_paths": [
+          "$.certifications.ai_and_emerging_technologies"
+        ]
+      },
+      {
+        "block_id": "b13",
+        "section_id": "s4:Summary",
+        "section_key": "profile_snapshot",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          19
+        ],
+        "source_paths": [
+          "$.profile_snapshot[0]"
+        ]
+      },
+      {
+        "block_id": "b14",
+        "section_id": "s4:Summary",
+        "section_key": "profile_snapshot",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          20
+        ],
+        "source_paths": [
+          "$.profile_snapshot[1]"
+        ]
+      },
+      {
+        "block_id": "b15",
+        "section_id": "s4:Summary",
+        "section_key": "profile_snapshot",
+        "item_indices": [
+          2
+        ],
+        "source_line_indices": [
+          21
+        ],
+        "source_paths": [
+          "$.profile_snapshot[2]"
+        ]
+      },
+      {
+        "block_id": "b16",
+        "section_id": "s4:Summary",
+        "section_key": "profile_snapshot",
+        "item_indices": [
+          3
+        ],
+        "source_line_indices": [
+          22
+        ],
+        "source_paths": [
+          "$.profile_snapshot[3]"
+        ]
+      },
+      {
+        "block_id": "b17",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          24
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[0]"
+        ]
+      },
+      {
+        "block_id": "b18",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          25
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[1]"
+        ]
+      },
+      {
+        "block_id": "b19",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          2
+        ],
+        "source_line_indices": [
+          26
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[2]"
+        ]
+      },
+      {
+        "block_id": "b20",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          3
+        ],
+        "source_line_indices": [
+          27
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[3]"
+        ]
+      },
+      {
+        "block_id": "b21",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          4
+        ],
+        "source_line_indices": [
+          28
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[4]"
+        ]
+      },
+      {
+        "block_id": "b22",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          5
+        ],
+        "source_line_indices": [
+          29
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[5]"
+        ]
+      },
+      {
+        "block_id": "b23",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          6
+        ],
+        "source_line_indices": [
+          30
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[6]"
+        ]
+      },
+      {
+        "block_id": "b24",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          7
+        ],
+        "source_line_indices": [
+          31
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[7]"
+        ]
+      },
+      {
+        "block_id": "b25",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          8
+        ],
+        "source_line_indices": [
+          32
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[8]"
+        ]
+      },
+      {
+        "block_id": "b26",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          9
+        ],
+        "source_line_indices": [
+          33
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[9]"
+        ]
+      },
+      {
+        "block_id": "b27",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          10
+        ],
+        "source_line_indices": [
+          34
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[10]"
+        ]
+      },
+      {
+        "block_id": "b28",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          11
+        ],
+        "source_line_indices": [
+          35
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[11]"
+        ]
+      },
+      {
+        "block_id": "b29",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          12
+        ],
+        "source_line_indices": [
+          36
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[12]"
+        ]
+      },
+      {
+        "block_id": "b30",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          13
+        ],
+        "source_line_indices": [
+          37
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[13]"
+        ]
+      },
+      {
+        "block_id": "b31",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          14
+        ],
+        "source_line_indices": [
+          38
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[14]"
+        ]
+      },
+      {
+        "block_id": "b32",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          15
+        ],
+        "source_line_indices": [
+          39
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[15]"
+        ]
+      },
+      {
+        "block_id": "b33",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          16
+        ],
+        "source_line_indices": [
+          40
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[16]"
+        ]
+      },
+      {
+        "block_id": "b34",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          17
+        ],
+        "source_line_indices": [
+          41
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[17]"
+        ]
+      },
+      {
+        "block_id": "b35",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          18
+        ],
+        "source_line_indices": [
+          42
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[18]"
+        ]
+      },
+      {
+        "block_id": "b36",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section_key": "core_banking_and_domain_expertise",
+        "item_indices": [
+          19
+        ],
+        "source_line_indices": [
+          43
+        ],
+        "source_paths": [
+          "$.core_banking_and_domain_expertise[19]"
+        ]
+      },
+      {
+        "block_id": "b37",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          45
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[0]"
+        ]
+      },
+      {
+        "block_id": "b38",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          46
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[1]"
+        ]
+      },
+      {
+        "block_id": "b39",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          2
+        ],
+        "source_line_indices": [
+          47
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[2]"
+        ]
+      },
+      {
+        "block_id": "b40",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          3
+        ],
+        "source_line_indices": [
+          48
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[3]"
+        ]
+      },
+      {
+        "block_id": "b41",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          4
+        ],
+        "source_line_indices": [
+          49
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[4]"
+        ]
+      },
+      {
+        "block_id": "b42",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          5
+        ],
+        "source_line_indices": [
+          50
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[5]"
+        ]
+      },
+      {
+        "block_id": "b43",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          6
+        ],
+        "source_line_indices": [
+          51
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[6]"
+        ]
+      },
+      {
+        "block_id": "b44",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          7
+        ],
+        "source_line_indices": [
+          52
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[7]"
+        ]
+      },
+      {
+        "block_id": "b45",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          8
+        ],
+        "source_line_indices": [
+          53
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[8]"
+        ]
+      },
+      {
+        "block_id": "b46",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          9
+        ],
+        "source_line_indices": [
+          54
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[9]"
+        ]
+      },
+      {
+        "block_id": "b47",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          10
+        ],
+        "source_line_indices": [
+          55
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[10]"
+        ]
+      },
+      {
+        "block_id": "b48",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          11
+        ],
+        "source_line_indices": [
+          56
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[11]"
+        ]
+      },
+      {
+        "block_id": "b49",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          12
+        ],
+        "source_line_indices": [
+          57
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[12]"
+        ]
+      },
+      {
+        "block_id": "b50",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          13
+        ],
+        "source_line_indices": [
+          58
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[13]"
+        ]
+      },
+      {
+        "block_id": "b51",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          14
+        ],
+        "source_line_indices": [
+          59
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[14]"
+        ]
+      },
+      {
+        "block_id": "b52",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          15
+        ],
+        "source_line_indices": [
+          60
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[15]"
+        ]
+      },
+      {
+        "block_id": "b53",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          16
+        ],
+        "source_line_indices": [
+          61
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[16]"
+        ]
+      },
+      {
+        "block_id": "b54",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          17
+        ],
+        "source_line_indices": [
+          62
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[17]"
+        ]
+      },
+      {
+        "block_id": "b55",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          18
+        ],
+        "source_line_indices": [
+          63
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[18]"
+        ]
+      },
+      {
+        "block_id": "b56",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section_key": "business_analysis_and_product_management",
+        "item_indices": [
+          19
+        ],
+        "source_line_indices": [
+          64
+        ],
+        "source_paths": [
+          "$.business_analysis_and_product_management[19]"
+        ]
+      },
+      {
+        "block_id": "b57",
+        "section_id": "s7:Experience",
+        "section_key": "work_history",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        "source_paths": [
+          "$.work_history[0]",
+          "$.work_history[0].role_and_responsibilities[0]",
+          "$.work_history[0].role_and_responsibilities[1]",
+          "$.work_history[0].role_and_responsibilities[2]",
+          "$.work_history[0].role_and_responsibilities[3]",
+          "$.work_history[0].role_and_responsibilities[4]",
+          "$.work_history[0].role_and_responsibilities[5]",
+          "$.work_history[0].role_and_responsibilities[6]",
+          "$.work_history[0].role_and_responsibilities[7]",
+          "$.work_history[0].role_and_responsibilities[8]",
+          "$.work_history[0].role_and_responsibilities[9]",
+          "$.work_history[0].role_and_responsibilities[10]",
+          "$.work_history[0].role_and_responsibilities[11]",
+          "$.work_history[0].role_and_responsibilities[12]",
+          "$.work_history[0].role_and_responsibilities[13]"
+        ]
+      },
+      {
+        "block_id": "b58",
+        "section_id": "s7:Experience",
+        "section_key": "work_history",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94
+        ],
+        "source_paths": [
+          "$.work_history[1]",
+          "$.work_history[1].role_and_responsibilities[0]",
+          "$.work_history[1].role_and_responsibilities[1]",
+          "$.work_history[1].role_and_responsibilities[2]",
+          "$.work_history[1].role_and_responsibilities[3]",
+          "$.work_history[1].role_and_responsibilities[4]",
+          "$.work_history[1].role_and_responsibilities[5]",
+          "$.work_history[1].role_and_responsibilities[6]",
+          "$.work_history[1].role_and_responsibilities[7]",
+          "$.work_history[1].role_and_responsibilities[8]",
+          "$.work_history[1].role_and_responsibilities[9]",
+          "$.work_history[1].role_and_responsibilities[10]",
+          "$.work_history[1].role_and_responsibilities[11]",
+          "$.work_history[1].role_and_responsibilities[12]"
+        ]
+      },
+      {
+        "block_id": "b59",
+        "section_id": "s7:Experience",
+        "section_key": "work_history",
+        "item_indices": [
+          2
+        ],
+        "source_line_indices": [
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "source_paths": [
+          "$.work_history[2]",
+          "$.work_history[2].role_and_responsibilities[0]",
+          "$.work_history[2].role_and_responsibilities[1]",
+          "$.work_history[2].role_and_responsibilities[2]",
+          "$.work_history[2].role_and_responsibilities[3]",
+          "$.work_history[2].role_and_responsibilities[4]",
+          "$.work_history[2].role_and_responsibilities[5]",
+          "$.work_history[2].role_and_responsibilities[6]",
+          "$.work_history[2].role_and_responsibilities[7]",
+          "$.work_history[2].role_and_responsibilities[8]",
+          "$.work_history[2].role_and_responsibilities[9]",
+          "$.work_history[2].role_and_responsibilities[10]",
+          "$.work_history[2].role_and_responsibilities[11]",
+          "$.work_history[2].role_and_responsibilities[12]",
+          "$.work_history[2].role_and_responsibilities[13]",
+          "$.work_history[2].role_and_responsibilities[14]"
+        ]
+      },
+      {
+        "block_id": "b60",
+        "section_id": "s7:Experience",
+        "section_key": "work_history",
+        "item_indices": [
+          3
+        ],
+        "source_line_indices": [
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130
+        ],
+        "source_paths": [
+          "$.work_history[3]",
+          "$.work_history[3].role_and_responsibilities[0]",
+          "$.work_history[3].role_and_responsibilities[1]",
+          "$.work_history[3].role_and_responsibilities[2]",
+          "$.work_history[3].role_and_responsibilities[3]",
+          "$.work_history[3].role_and_responsibilities[4]",
+          "$.work_history[3].role_and_responsibilities[5]",
+          "$.work_history[3].role_and_responsibilities[6]",
+          "$.work_history[3].role_and_responsibilities[7]",
+          "$.work_history[3].role_and_responsibilities[8]",
+          "$.work_history[3].role_and_responsibilities[9]",
+          "$.work_history[3].role_and_responsibilities[10]",
+          "$.work_history[3].role_and_responsibilities[11]",
+          "$.work_history[3].role_and_responsibilities[12]",
+          "$.work_history[3].role_and_responsibilities[13]",
+          "$.work_history[3].role_and_responsibilities[14]",
+          "$.work_history[3].role_and_responsibilities[15]",
+          "$.work_history[3].role_and_responsibilities[16]",
+          "$.work_history[3].role_and_responsibilities[17]",
+          "$.work_history[3].role_and_responsibilities[18]"
+        ]
+      },
+      {
+        "block_id": "b61",
+        "section_id": "s7:Experience",
+        "section_key": "work_history",
+        "item_indices": [
+          4
+        ],
+        "source_line_indices": [
+          131,
+          132,
+          133,
+          134
+        ],
+        "source_paths": [
+          "$.work_history[4]",
+          "$.work_history[4].role_and_responsibilities[0]",
+          "$.work_history[4].role_and_responsibilities[1]",
+          "$.work_history[4].role_and_responsibilities[2]"
+        ]
+      },
+      {
+        "block_id": "b62",
+        "section_id": "s8:Tools and Technology",
+        "section_key": "tools_and_technology",
+        "item_indices": [],
+        "source_line_indices": [
+          136
+        ],
+        "source_paths": [
+          "$.tools_and_technology.professional"
+        ]
+      },
+      {
+        "block_id": "b63",
+        "section_id": "s8:Tools and Technology",
+        "section_key": "tools_and_technology",
+        "item_indices": [],
+        "source_line_indices": [
+          137
+        ],
+        "source_paths": [
+          "$.tools_and_technology.beginner"
+        ]
+      },
+      {
+        "block_id": "b64",
+        "section_id": "s9:Education",
+        "section_key": "education",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          139
+        ],
+        "source_paths": [
+          "$.education[0]"
+        ]
+      },
+      {
+        "block_id": "b65",
+        "section_id": "s9:Education",
+        "section_key": "education",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          140
+        ],
+        "source_paths": [
+          "$.education[1]"
+        ]
+      },
+      {
+        "block_id": "b66",
+        "section_id": "s9:Education",
+        "section_key": "education",
+        "item_indices": [
+          2
+        ],
+        "source_line_indices": [
+          141
+        ],
+        "source_paths": [
+          "$.education[2]"
+        ]
+      }
+    ],
+    "source_line_assignments": [
+      {
+        "line_index": 0,
+        "text": "PERSONAL INFORMATION",
+        "section_id": "s1:Personal Information",
+        "section": "Personal Information",
+        "source_path": "$.personal_information",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 1,
+        "text": "Name: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant | Location: Pune | Phone: 9993340671 | Email: madhuaashish@gmail.com",
+        "section_id": "s1:Personal Information",
+        "section": "Personal Information",
+        "source_path": "$.personal_information",
+        "is_section_heading": false,
+        "block_id": "b0",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 2,
+        "text": "Place: Pune",
+        "section_id": "s1:Personal Information",
+        "section": "Personal Information",
+        "source_path": "$.place",
+        "is_section_heading": false,
+        "block_id": "b0",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 3,
+        "text": "Name At End: AASHISH GOLHANI",
+        "section_id": "s1:Personal Information",
+        "section": "Personal Information",
+        "source_path": "$.name_at_end",
+        "is_section_heading": false,
+        "block_id": "b0",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 4,
+        "text": "SKILLS",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 5,
+        "text": "\u2022 Agile & Waterfall methodologies and frameworks",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[0]",
+        "is_section_heading": false,
+        "block_id": "b1",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 6,
+        "text": "\u2022 Project management techniques",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[1]",
+        "is_section_heading": false,
+        "block_id": "b2",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 7,
+        "text": "\u2022 Communication and collaboration skills",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[2]",
+        "is_section_heading": false,
+        "block_id": "b3",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 8,
+        "text": "\u2022 Leadership and team management skills (Team Size-15+)",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[3]",
+        "is_section_heading": false,
+        "block_id": "b4",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 9,
+        "text": "\u2022 Change management and organizational development skills",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[4]",
+        "is_section_heading": false,
+        "block_id": "b5",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 10,
+        "text": "\u2022 Agile metrics and performance measurement",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[5]",
+        "is_section_heading": false,
+        "block_id": "b6",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 11,
+        "text": "\u2022 Technical knowledge in software development and IT operations",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[6]",
+        "is_section_heading": false,
+        "block_id": "b7",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 12,
+        "text": "\u2022 Process improvement and continuous delivery skills",
+        "section_id": "s2:Skills",
+        "section": "Skills",
+        "source_path": "$.skills[7]",
+        "is_section_heading": false,
+        "block_id": "b8",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 13,
+        "text": "CERTIFICATIONS",
+        "section_id": "s3:Certifications",
+        "section": "Certifications",
+        "source_path": "$.certifications",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 14,
+        "text": "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting",
+        "section_id": "s3:Certifications",
+        "section": "Certifications",
+        "source_path": "$.certifications.business_analysis_and_agile",
+        "is_section_heading": false,
+        "block_id": "b9",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 15,
+        "text": "Program And Project Management: PMO Certification; MS Project; Program Management Essentials",
+        "section_id": "s3:Certifications",
+        "section": "Certifications",
+        "source_path": "$.certifications.program_and_project_management",
+        "is_section_heading": false,
+        "block_id": "b10",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 16,
+        "text": "Technology And Transformation: DevOps Foundation; Cloud Architecture; Cybersecurity Analyst; Digital Transformation",
+        "section_id": "s3:Certifications",
+        "section": "Certifications",
+        "source_path": "$.certifications.technology_and_transformation",
+        "is_section_heading": false,
+        "block_id": "b11",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 17,
+        "text": "Ai And Emerging Technologies: IBM Artificial Intelligence Fundamentals; GenAI for Executives & Business Leaders",
+        "section_id": "s3:Certifications",
+        "section": "Certifications",
+        "source_path": "$.certifications.ai_and_emerging_technologies",
+        "is_section_heading": false,
+        "block_id": "b12",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 18,
+        "text": "SUMMARY",
+        "section_id": "s4:Summary",
+        "section": "Summary",
+        "source_path": "$.profile_snapshot",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 19,
+        "text": "\u2022 Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation.",
+        "section_id": "s4:Summary",
+        "section": "Summary",
+        "source_path": "$.profile_snapshot[0]",
+        "is_section_heading": false,
+        "block_id": "b13",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 20,
+        "text": "\u2022 Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients.",
+        "section_id": "s4:Summary",
+        "section": "Summary",
+        "source_path": "$.profile_snapshot[1]",
+        "is_section_heading": false,
+        "block_id": "b14",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 21,
+        "text": "\u2022 Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance.",
+        "section_id": "s4:Summary",
+        "section": "Summary",
+        "source_path": "$.profile_snapshot[2]",
+        "is_section_heading": false,
+        "block_id": "b15",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 22,
+        "text": "\u2022 Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals.",
+        "section_id": "s4:Summary",
+        "section": "Summary",
+        "source_path": "$.profile_snapshot[3]",
+        "is_section_heading": false,
+        "block_id": "b16",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 23,
+        "text": "CORE BANKING AND DOMAIN EXPERTISE",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 24,
+        "text": "\u2022 Retail Lending & Digital Loans",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[0]",
+        "is_section_heading": false,
+        "block_id": "b17",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 25,
+        "text": "\u2022 KYC / AML / CDD/ EDD",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[1]",
+        "is_section_heading": false,
+        "block_id": "b18",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 26,
+        "text": "\u2022 Banking Fraud and Risks",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[2]",
+        "is_section_heading": false,
+        "block_id": "b19",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 27,
+        "text": "\u2022 Transaction Banking",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[3]",
+        "is_section_heading": false,
+        "block_id": "b20",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 28,
+        "text": "\u2022 Loan Origination Systems (LOS)",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[4]",
+        "is_section_heading": false,
+        "block_id": "b21",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 29,
+        "text": "\u2022 Loan Management Systems (LMS)",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[5]",
+        "is_section_heading": false,
+        "block_id": "b22",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 30,
+        "text": "\u2022 Corporate & Wholesale Lending",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[6]",
+        "is_section_heading": false,
+        "block_id": "b23",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 31,
+        "text": "\u2022 Mortgage Processing & Underwriting",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[7]",
+        "is_section_heading": false,
+        "block_id": "b24",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 32,
+        "text": "\u2022 Customer Onboarding & Regulatory Compliance",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[8]",
+        "is_section_heading": false,
+        "block_id": "b25",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 33,
+        "text": "\u2022 Trade Finance & Treasury Products",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[9]",
+        "is_section_heading": false,
+        "block_id": "b26",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 34,
+        "text": "\u2022 Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[10]",
+        "is_section_heading": false,
+        "block_id": "b27",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 35,
+        "text": "\u2022 Letter of Credit (LC)",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[11]",
+        "is_section_heading": false,
+        "block_id": "b28",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 36,
+        "text": "\u2022 Bank Guarantee (BG)",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[12]",
+        "is_section_heading": false,
+        "block_id": "b29",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 37,
+        "text": "\u2022 Cash Credit (CC)",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[13]",
+        "is_section_heading": false,
+        "block_id": "b30",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 38,
+        "text": "\u2022 Overdraft (OD)",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[14]",
+        "is_section_heading": false,
+        "block_id": "b31",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 39,
+        "text": "\u2022 Working Capital Finance",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[15]",
+        "is_section_heading": false,
+        "block_id": "b32",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 40,
+        "text": "\u2022 Supply Chain Finance",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[16]",
+        "is_section_heading": false,
+        "block_id": "b33",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 41,
+        "text": "\u2022 Syndicated Loans",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[17]",
+        "is_section_heading": false,
+        "block_id": "b34",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 42,
+        "text": "\u2022 Treasury & Transaction Banking",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[18]",
+        "is_section_heading": false,
+        "block_id": "b35",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 43,
+        "text": "\u2022 Insurance",
+        "section_id": "s5:Core Banking And Domain Expertise",
+        "section": "Core Banking And Domain Expertise",
+        "source_path": "$.core_banking_and_domain_expertise[19]",
+        "is_section_heading": false,
+        "block_id": "b36",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 44,
+        "text": "BUSINESS ANALYSIS AND PRODUCT MANAGEMENT",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 45,
+        "text": "\u2022 Requirement Gathering & Elicitation",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[0]",
+        "is_section_heading": false,
+        "block_id": "b37",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 46,
+        "text": "\u2022 Business Analysis & Functional Consulting",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[1]",
+        "is_section_heading": false,
+        "block_id": "b38",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 47,
+        "text": "\u2022 BRD, FRD, SRS & Functional Specifications",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[2]",
+        "is_section_heading": false,
+        "block_id": "b39",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 48,
+        "text": "\u2022 User Stories, Epics & Acceptance Criteria",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[3]",
+        "is_section_heading": false,
+        "block_id": "b40",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 49,
+        "text": "\u2022 Product Backlog Management & Prioritization",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[4]",
+        "is_section_heading": false,
+        "block_id": "b41",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 50,
+        "text": "\u2022 Agile Scrum & SAFe Delivery",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[5]",
+        "is_section_heading": false,
+        "block_id": "b42",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 51,
+        "text": "\u2022 Stakeholder & Vendor Management",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[6]",
+        "is_section_heading": false,
+        "block_id": "b43",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 52,
+        "text": "\u2022 Gap Analysis & Impact Analysis",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[7]",
+        "is_section_heading": false,
+        "block_id": "b44",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 53,
+        "text": "\u2022 As-Is / To-Be Process Mapping",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[8]",
+        "is_section_heading": false,
+        "block_id": "b45",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 54,
+        "text": "\u2022 Business Process Re-engineering (BPR)",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[9]",
+        "is_section_heading": false,
+        "block_id": "b46",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 55,
+        "text": "\u2022 API & System Integration Analysis",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[10]",
+        "is_section_heading": false,
+        "block_id": "b47",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 56,
+        "text": "\u2022 Data Mapping, Data Migration & SQL Analysis",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[11]",
+        "is_section_heading": false,
+        "block_id": "b48",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 57,
+        "text": "\u2022 UAT, SIT, Defect Triage & Release Readiness",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[12]",
+        "is_section_heading": false,
+        "block_id": "b49",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 58,
+        "text": "\u2022 Core Banking, Retail Banking & Corporate Banking",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[13]",
+        "is_section_heading": false,
+        "block_id": "b50",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 59,
+        "text": "\u2022 Payments (NEFT, RTGS, IMPS, UPI, SWIFT, ISO 20022)",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[14]",
+        "is_section_heading": false,
+        "block_id": "b51",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 60,
+        "text": "\u2022 Corporate Lending, Mortgage & Loan Origination",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[15]",
+        "is_section_heading": false,
+        "block_id": "b52",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 61,
+        "text": "\u2022 Risk Management, IFRS 9 & Basel III",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[16]",
+        "is_section_heading": false,
+        "block_id": "b53",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 62,
+        "text": "\u2022 KYC, AML & Regulatory Compliance",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[17]",
+        "is_section_heading": false,
+        "block_id": "b54",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 63,
+        "text": "\u2022 JIRA, Confluence, Visio, Power BI & Azure DevOps",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[18]",
+        "is_section_heading": false,
+        "block_id": "b55",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 64,
+        "text": "\u2022 Leadership, Mentoring & Cross-functional Collaboration",
+        "section_id": "s6:Business Analysis And Product Management",
+        "section": "Business Analysis And Product Management",
+        "source_path": "$.business_analysis_and_product_management[19]",
+        "is_section_heading": false,
+        "block_id": "b56",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 65,
+        "text": "EXPERIENCE",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 66,
+        "text": "Banking Domain Consultant at Persistent Systems Ltd. (Dec 2023- June 2026)",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 67,
+        "text": "\u2022 Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[0]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 68,
+        "text": "\u2022 Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[1]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 69,
+        "text": "\u2022 Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[2]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 70,
+        "text": "\u2022 Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[3]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 71,
+        "text": "\u2022 Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[4]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 72,
+        "text": "\u2022 Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[5]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 73,
+        "text": "\u2022 Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[6]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 74,
+        "text": "\u2022 Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[7]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 75,
+        "text": "\u2022 Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[8]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 76,
+        "text": "\u2022 Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[9]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 77,
+        "text": "\u2022 Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[10]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 78,
+        "text": "\u2022 Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[11]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 79,
+        "text": "\u2022 Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[12]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 80,
+        "text": "\u2022 Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[0].role_and_responsibilities[13]",
+        "is_section_heading": false,
+        "block_id": "b57",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 81,
+        "text": "Lead Business Analyst/ Product Owner at Bandhan Bank Ltd. (Jan 2019 \u2013 Dec 2023)",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 82,
+        "text": "\u2022 Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[0]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 83,
+        "text": "\u2022 Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[1]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 84,
+        "text": "\u2022 Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[2]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 85,
+        "text": "\u2022 Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[3]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 86,
+        "text": "\u2022 Managed Agile delivery using Scrum and Kanban methodologies.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[4]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 87,
+        "text": "\u2022 Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[5]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 88,
+        "text": "\u2022 Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[6]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 89,
+        "text": "\u2022 Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[7]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 90,
+        "text": "\u2022 Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[8]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 91,
+        "text": "\u2022 Collaborated with QA teams for UAT planning, production validation, and release management.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[9]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 92,
+        "text": "\u2022 Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[10]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 93,
+        "text": "\u2022 Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[11]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 94,
+        "text": "\u2022 Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[1].role_and_responsibilities[12]",
+        "is_section_heading": false,
+        "block_id": "b58",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 95,
+        "text": "Senior Business Analyst at Axis Bank Ltd. (Oct 2017 \u2013 Dec 2018)",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 96,
+        "text": "\u2022 Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[0]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 97,
+        "text": "\u2022 Managed end-to-end Business Analysis activities across multiple Agile projects.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[1]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 98,
+        "text": "\u2022 Defined project scope, business objectives, solution approach, and implementation roadmap.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[2]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 99,
+        "text": "\u2022 Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[3]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 100,
+        "text": "\u2022 Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[4]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 101,
+        "text": "\u2022 Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[5]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 102,
+        "text": "\u2022 Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[6]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 103,
+        "text": "\u2022 Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[7]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 104,
+        "text": "\u2022 Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[8]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 105,
+        "text": "\u2022 Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[9]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 106,
+        "text": "\u2022 Directed UAT planning, defect triage, production validation, and Hypercare support.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[10]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 107,
+        "text": "\u2022 Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[11]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 108,
+        "text": "\u2022 Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[12]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 109,
+        "text": "\u2022 Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[13]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 110,
+        "text": "\u2022 Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[2].role_and_responsibilities[14]",
+        "is_section_heading": false,
+        "block_id": "b59",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 111,
+        "text": "Business Analyst at HDFC Bank Ltd. (Sep 2012 \u2013 Oct 2017)",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 112,
+        "text": "\u2022 Gathered and analyzed business requirements for banking products and process improvements.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[0]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 113,
+        "text": "\u2022 Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[1]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 114,
+        "text": "\u2022 Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[2]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 115,
+        "text": "\u2022 Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[3]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 116,
+        "text": "\u2022 Supported Agile and Waterfall delivery models for banking transformation projects.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[4]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 117,
+        "text": "\u2022 Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[5]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 118,
+        "text": "\u2022 Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[6]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 119,
+        "text": "\u2022 Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[7]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 120,
+        "text": "\u2022 Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[8]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 121,
+        "text": "\u2022 Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[9]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 122,
+        "text": "\u2022 Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[10]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 123,
+        "text": "\u2022 Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[11]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 124,
+        "text": "\u2022 Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[12]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 125,
+        "text": "\u2022 Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[13]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 126,
+        "text": "\u2022 Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[14]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 127,
+        "text": "\u2022 Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[15]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 128,
+        "text": "\u2022 Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[16]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 129,
+        "text": "\u2022 Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[17]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 130,
+        "text": "\u2022 Supported production deployment, Hypercare activities, incident management, and release management.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[3].role_and_responsibilities[18]",
+        "is_section_heading": false,
+        "block_id": "b60",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 131,
+        "text": "Underwriter at American Home Mortgage Services/Homeward (Aug 2006 \u2013 Aug 2012)",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[4]",
+        "is_section_heading": false,
+        "block_id": "b61",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 132,
+        "text": "\u2022 Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[4].role_and_responsibilities[0]",
+        "is_section_heading": false,
+        "block_id": "b61",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 133,
+        "text": "\u2022 Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[4].role_and_responsibilities[1]",
+        "is_section_heading": false,
+        "block_id": "b61",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 134,
+        "text": "\u2022 Ensured mortgage compliance and underwriting quality standards.",
+        "section_id": "s7:Experience",
+        "section": "Experience",
+        "source_path": "$.work_history[4].role_and_responsibilities[2]",
+        "is_section_heading": false,
+        "block_id": "b61",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 135,
+        "text": "TOOLS AND TECHNOLOGY",
+        "section_id": "s8:Tools and Technology",
+        "section": "Tools and Technology",
+        "source_path": "$.tools_and_technology",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 136,
+        "text": "Professional: MS Word; MS Excel; MS PowerPoint; Oracle Flexcube; Finacle; Newgen; FinOne; Agile (Scrum) Model; Waterfall Model; JIRA; MS Visio; Lucid chart; Balsamiq; Confluence; Draw.IO; AS400; LANSA; C Sharp (C#); Angular; Postman; Swagger / Open API; SoapUI; XML/JSON validators",
+        "section_id": "s8:Tools and Technology",
+        "section": "Tools and Technology",
+        "source_path": "$.tools_and_technology.professional",
+        "is_section_heading": false,
+        "block_id": "b62",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 137,
+        "text": "Beginner: Databricks; AWS; Aure Dev Ops; SQL; SQL Server Management Studio / SQL tools; Oracle; DB2; Jaspersoft; ETL; Big data; Airflow; Splunk / Kibana; Apache Hadoop; Data Lake; Apache Iceberg; Kubernetes; Apache Spark; Apache Airflow; NIFI; Kafka",
+        "section_id": "s8:Tools and Technology",
+        "section": "Tools and Technology",
+        "source_path": "$.tools_and_technology.beginner",
+        "is_section_heading": false,
+        "block_id": "b63",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 138,
+        "text": "EDUCATION",
+        "section_id": "s9:Education",
+        "section": "Education",
+        "source_path": "$.education",
+        "is_section_heading": true,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 139,
+        "text": "\u2022 Year: 2008 | Qualification: PG Certificate in Data Management & Clinical Research | Location: Pune | University: Pune University",
+        "section_id": "s9:Education",
+        "section": "Education",
+        "source_path": "$.education[0]",
+        "is_section_heading": false,
+        "block_id": "b64",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 140,
+        "text": "\u2022 Year: 2004 | Qualification: Diploma in Information Technology from ACTS, Pune | University: Pune University",
+        "section_id": "s9:Education",
+        "section": "Education",
+        "source_path": "$.education[1]",
+        "is_section_heading": false,
+        "block_id": "b65",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 141,
+        "text": "\u2022 Year: 2003 | Qualification: Bachelor of Pharmacy | University: Amravati University",
+        "section_id": "s9:Education",
+        "section": "Education",
+        "source_path": "$.education[2]",
+        "is_section_heading": false,
+        "block_id": "b66",
+        "assignment": "context_block",
+        "assigned": true
+      }
+    ]
+  }
+}

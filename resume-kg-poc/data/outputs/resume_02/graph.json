@@ -1,0 +1,1947 @@
+{
+  "nodes": [
+    {
+      "id": "e0",
+      "label": "Google Cloud Professional",
+      "type": "CERTIFICATION",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Google Cloud Professional Data Engineer."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [
+        "b6"
+      ]
+    },
+    {
+      "id": "e1",
+      "label": "AWS",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e2",
+      "label": "AWS",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e3",
+      "label": "Docker",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e4",
+      "label": "Docker",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e5",
+      "label": "Google Cloud",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Google Cloud Professional Data Engineer."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [
+        "b6"
+      ]
+    },
+    {
+      "id": "e6",
+      "label": "FinEdge Analytics",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e7",
+      "label": "PostgreSQL",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b3"
+      ]
+    },
+    {
+      "id": "e8",
+      "label": "PostgreSQL",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e9",
+      "label": "M.Tech in Data Science from IIT Madras (2021 - 2023)",
+      "type": "DEGREE",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "M.Tech in Data Science from IIT Madras (2021 - 2023)."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "b5"
+      ]
+    },
+    {
+      "id": "e10",
+      "label": "fintech",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e11",
+      "label": "FastAPI",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b4"
+      ]
+    },
+    {
+      "id": "e12",
+      "label": "NumPy",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Performed data analysis with Pandas, NumPy and Matplotlib."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e13",
+      "label": "NumPy",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e14",
+      "label": "Pandas",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Performed data analysis with Pandas, NumPy and Matplotlib."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e15",
+      "label": "Pandas",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e16",
+      "label": "PyTorch",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b4"
+      ]
+    },
+    {
+      "id": "e17",
+      "label": "PyTorch",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e18",
+      "label": "Scikit-learn",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e19",
+      "label": "Scikit-learn",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b3"
+      ]
+    },
+    {
+      "id": "e20",
+      "label": "Scikit-learn",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e21",
+      "label": "TensorFlow",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e22",
+      "label": "TensorFlow",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e23",
+      "label": "Data Engineer",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Google Cloud Professional Data Engineer."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [
+        "b6"
+      ]
+    },
+    {
+      "id": "e24",
+      "label": "Data Scientist",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Data Scientist | priya.nair@example.com"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Header"
+      ],
+      "block_ids": [
+        "b0"
+      ]
+    },
+    {
+      "id": "e25",
+      "label": "Data Scientist",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Data Scientist with 2 years of experience in machine learning and data analysis."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [
+        "b1"
+      ]
+    },
+    {
+      "id": "e26",
+      "label": "Data Scientist",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e27",
+      "label": "Candidate",
+      "type": "PERSON",
+      "confidence": 0.95,
+      "method": "spaCy NER / resume subject",
+      "source_sentences": [
+        "Priya Nair"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Header"
+      ],
+      "block_ids": [
+        "b0"
+      ]
+    },
+    {
+      "id": "e28",
+      "label": "Python",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e29",
+      "label": "Python",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b3"
+      ]
+    },
+    {
+      "id": "e30",
+      "label": "Python",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e31",
+      "label": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e32",
+      "label": "SQL",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e33",
+      "label": "Credit risk scoring",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b3"
+      ]
+    },
+    {
+      "id": "e34",
+      "label": "NLP sentiment analysis",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b4"
+      ]
+    },
+    {
+      "id": "e35",
+      "label": "ETL",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e36",
+      "label": "Machine Learning",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e37",
+      "label": "NLP",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b4"
+      ]
+    },
+    {
+      "id": "e38",
+      "label": "NLP",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e39",
+      "label": "data analysis",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Data Scientist with 2 years of experience in machine learning and data analysis."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [
+        "b1"
+      ]
+    },
+    {
+      "id": "e40",
+      "label": "data analysis",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Performed data analysis with Pandas, NumPy and Matplotlib."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e41",
+      "label": "machine learning",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Data Scientist with 2 years of experience in machine learning and data analysis."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [
+        "b1"
+      ]
+    },
+    {
+      "id": "e42",
+      "label": "machine learning",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e43",
+      "label": "Airflow",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e44",
+      "label": "Airflow",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e45",
+      "label": "Git",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e46",
+      "label": "Tableau",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "b2"
+      ]
+    },
+    {
+      "id": "e47",
+      "label": "Tableau",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [
+        "b7"
+      ]
+    },
+    {
+      "id": "e48",
+      "label": "IIT Madras",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "M.Tech in Data Science from IIT Madras (2021 - 2023)."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "b5"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "e26",
+      "target": "e6",
+      "source_label": "Data Scientist",
+      "target_label": "FinEdge Analytics",
+      "relationship": "AT_COMPANY",
+      "confidence": 0.9,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e26",
+      "source_label": "Candidate",
+      "target_label": "Data Scientist",
+      "relationship": "HAS_ROLE",
+      "confidence": 0.88,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e6",
+      "source_label": "Candidate",
+      "target_label": "FinEdge Analytics",
+      "relationship": "WORKED_AT",
+      "confidence": 0.88,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e18",
+      "source_label": "Candidate",
+      "target_label": "Scikit-learn",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e21",
+      "source_label": "Candidate",
+      "target_label": "TensorFlow",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e28",
+      "source_label": "Candidate",
+      "target_label": "Python",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e42",
+      "source_label": "Candidate",
+      "target_label": "machine learning",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e31",
+      "source_label": "Candidate",
+      "target_label": "SQL",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e35",
+      "source_label": "Candidate",
+      "target_label": "ETL",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e43",
+      "source_label": "Candidate",
+      "target_label": "Airflow",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e46",
+      "source_label": "Candidate",
+      "target_label": "Tableau",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e1",
+      "source_label": "Candidate",
+      "target_label": "AWS",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Used AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e27",
+      "target": "e3",
+      "source_label": "Candidate",
+      "target_label": "Docker",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Used AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e33",
+      "target": "e7",
+      "source_label": "Credit risk scoring",
+      "target_label": "PostgreSQL",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b3"
+    },
+    {
+      "source": "e33",
+      "target": "e19",
+      "source_label": "Credit risk scoring",
+      "target_label": "Scikit-learn",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b3"
+    },
+    {
+      "source": "e33",
+      "target": "e29",
+      "source_label": "Credit risk scoring",
+      "target_label": "Python",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b3"
+    },
+    {
+      "source": "e27",
+      "target": "e33",
+      "source_label": "Candidate",
+      "target_label": "Credit risk scoring",
+      "relationship": "WORKED_ON",
+      "confidence": 0.86,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b3"
+    },
+    {
+      "source": "e34",
+      "target": "e11",
+      "source_label": "NLP sentiment analysis",
+      "target_label": "FastAPI",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b4"
+    },
+    {
+      "source": "e34",
+      "target": "e16",
+      "source_label": "NLP sentiment analysis",
+      "target_label": "PyTorch",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b4"
+    },
+    {
+      "source": "e34",
+      "target": "e37",
+      "source_label": "NLP sentiment analysis",
+      "target_label": "NLP",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b4"
+    },
+    {
+      "source": "e27",
+      "target": "e34",
+      "source_label": "Candidate",
+      "target_label": "NLP sentiment analysis",
+      "relationship": "WORKED_ON",
+      "confidence": 0.86,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": "b4"
+    },
+    {
+      "source": "e27",
+      "target": "e9",
+      "source_label": "Candidate",
+      "target_label": "M.Tech in Data Science from IIT Madras (2021 - 2023)",
+      "relationship": "HOLDS_DEGREE",
+      "confidence": 0.9,
+      "source_sentence": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+      "evidence_sentences": [
+        "M.Tech in Data Science from IIT Madras (2021 - 2023)."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": "b5"
+    },
+    {
+      "source": "e27",
+      "target": "e0",
+      "source_label": "Candidate",
+      "target_label": "Google Cloud Professional",
+      "relationship": "EARNED",
+      "confidence": 0.9,
+      "source_sentence": "Google Cloud Professional Data Engineer.",
+      "evidence_sentences": [
+        "Google Cloud Professional Data Engineer."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": "b6"
+    },
+    {
+      "source": "e27",
+      "target": "e8",
+      "source_label": "Candidate",
+      "target_label": "PostgreSQL",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e13",
+      "source_label": "Candidate",
+      "target_label": "NumPy",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e15",
+      "source_label": "Candidate",
+      "target_label": "Pandas",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e17",
+      "source_label": "Candidate",
+      "target_label": "PyTorch",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e20",
+      "source_label": "Candidate",
+      "target_label": "Scikit-learn",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e22",
+      "source_label": "Candidate",
+      "target_label": "TensorFlow",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e30",
+      "source_label": "Candidate",
+      "target_label": "Python",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e32",
+      "source_label": "Candidate",
+      "target_label": "SQL",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e44",
+      "source_label": "Candidate",
+      "target_label": "Airflow",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e47",
+      "source_label": "Candidate",
+      "target_label": "Tableau",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e2",
+      "source_label": "Candidate",
+      "target_label": "AWS",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e4",
+      "source_label": "Candidate",
+      "target_label": "Docker",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e36",
+      "source_label": "Candidate",
+      "target_label": "Machine Learning",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e38",
+      "source_label": "Candidate",
+      "target_label": "NLP",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e27",
+      "target": "e45",
+      "source_label": "Candidate",
+      "target_label": "Git",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": "b7"
+    },
+    {
+      "source": "e26",
+      "target": "e1",
+      "source_label": "Data Scientist",
+      "target_label": "AWS",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nUsed AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e3",
+      "source_label": "Data Scientist",
+      "target_label": "Docker",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nUsed AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e18",
+      "source_label": "Data Scientist",
+      "target_label": "Scikit-learn",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e21",
+      "source_label": "Data Scientist",
+      "target_label": "TensorFlow",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e28",
+      "source_label": "Data Scientist",
+      "target_label": "Python",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e31",
+      "source_label": "Data Scientist",
+      "target_label": "SQL",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e35",
+      "source_label": "Data Scientist",
+      "target_label": "ETL",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e42",
+      "source_label": "Data Scientist",
+      "target_label": "machine learning",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e43",
+      "source_label": "Data Scientist",
+      "target_label": "Airflow",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e26",
+      "target": "e46",
+      "source_label": "Data Scientist",
+      "target_label": "Tableau",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": "b2"
+    },
+    {
+      "source": "e9",
+      "target": "e48",
+      "source_label": "M.Tech in Data Science from IIT Madras (2021 - 2023)",
+      "target_label": "IIT Madras",
+      "relationship": "FROM_UNIVERSITY",
+      "confidence": 0.9,
+      "source_sentence": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+      "evidence_sentences": [
+        "M.Tech in Data Science from IIT Madras (2021 - 2023)."
+      ],
+      "evidence_kind": "structured_education_entry",
+      "method": "source-context rules",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": "b5"
+    }
+  ],
+  "stats": {
+    "node_count": 49,
+    "edge_count": 49,
+    "explicit_edges": 49,
+    "semantic_edges": 0,
+    "note": "Graph edges are source-verified relationships. Similarity and cluster assignments do not create graph edges."
+  },
+  "clusters": {
+    "dbscan": {
+      "algorithm": "DBSCAN(eps=0.5, min_samples=2, metric=cosine)",
+      "purpose": "discover natural semantic groups + noise/outliers",
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        5,
+        5,
+        5,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        -1,
+        8,
+        8,
+        8,
+        9,
+        9,
+        -1,
+        -1,
+        -1,
+        10,
+        11,
+        11,
+        12,
+        12,
+        10,
+        10,
+        13,
+        13,
+        -1,
+        14,
+        14,
+        -1
+      ],
+      "clusters": {
+        "0": [
+          "Google Cloud Professional (CERTIFICATION)",
+          "AWS (CLOUD)",
+          "AWS (CLOUD)",
+          "Docker (CLOUD)",
+          "Docker (CLOUD)",
+          "Google Cloud (CLOUD)"
+        ],
+        "1": [
+          "PostgreSQL (DATABASE)",
+          "PostgreSQL (DATABASE)"
+        ],
+        "2": [
+          "NumPy (FRAMEWORK)",
+          "NumPy (FRAMEWORK)"
+        ],
+        "3": [
+          "Pandas (FRAMEWORK)",
+          "Pandas (FRAMEWORK)"
+        ],
+        "4": [
+          "PyTorch (FRAMEWORK)",
+          "PyTorch (FRAMEWORK)"
+        ],
+        "5": [
+          "Scikit-learn (FRAMEWORK)",
+          "Scikit-learn (FRAMEWORK)",
+          "Scikit-learn (FRAMEWORK)"
+        ],
+        "6": [
+          "TensorFlow (FRAMEWORK)",
+          "TensorFlow (FRAMEWORK)"
+        ],
+        "7": [
+          "Data Engineer (JOB_ROLE)",
+          "Data Scientist (JOB_ROLE)",
+          "Data Scientist (JOB_ROLE)",
+          "Data Scientist (JOB_ROLE)"
+        ],
+        "8": [
+          "Python (PROGRAMMING_LANGUAGE)",
+          "Python (PROGRAMMING_LANGUAGE)",
+          "Python (PROGRAMMING_LANGUAGE)"
+        ],
+        "9": [
+          "SQL (PROGRAMMING_LANGUAGE)",
+          "SQL (PROGRAMMING_LANGUAGE)"
+        ],
+        "10": [
+          "Machine Learning (SKILL)",
+          "machine learning (SKILL)",
+          "machine learning (SKILL)"
+        ],
+        "11": [
+          "NLP (SKILL)",
+          "NLP (SKILL)"
+        ],
+        "12": [
+          "data analysis (SKILL)",
+          "data analysis (SKILL)"
+        ],
+        "13": [
+          "Airflow (TOOL)",
+          "Airflow (TOOL)"
+        ],
+        "14": [
+          "Tableau (TOOL)",
+          "Tableau (TOOL)"
+        ]
+      },
+      "noise_outliers": [
+        "FinEdge Analytics (COMPANY)",
+        "M.Tech in Data Science from IIT Madras (2021 - 2023) (DEGREE)",
+        "fintech (DOMAIN)",
+        "FastAPI (FRAMEWORK)",
+        "Candidate (PERSON)",
+        "Credit risk scoring (PROJECT)",
+        "NLP sentiment analysis (PROJECT)",
+        "ETL (SKILL)",
+        "Git (TOOL)",
+        "IIT Madras (UNIVERSITY)"
+      ],
+      "n_clusters": 15
+    },
+    "kmeans": {
+      "algorithm": "KMeans(k=4)",
+      "purpose": "group entities into k semantic clusters",
+      "k": 4,
+      "labels": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "clusters": {
+        "2": [
+          "Google Cloud Professional (CERTIFICATION)",
+          "AWS (CLOUD)",
+          "AWS (CLOUD)",
+          "Docker (CLOUD)",
+          "Docker (CLOUD)",
+          "Google Cloud (CLOUD)",
+          "FinEdge Analytics (COMPANY)",
+          "PostgreSQL (DATABASE)",
+          "PostgreSQL (DATABASE)",
+          "M.Tech in Data Science from IIT Madras (2021 - 2023) (DEGREE)",
+          "fintech (DOMAIN)",
+          "Data Engineer (JOB_ROLE)",
+          "Data Scientist (JOB_ROLE)",
+          "Data Scientist (JOB_ROLE)",
+          "Data Scientist (JOB_ROLE)",
+          "Candidate (PERSON)",
+          "Credit risk scoring (PROJECT)",
+          "Airflow (TOOL)",
+          "Airflow (TOOL)",
+          "Git (TOOL)",
+          "Tableau (TOOL)",
+          "Tableau (TOOL)",
+          "IIT Madras (UNIVERSITY)"
+        ],
+        "0": [
+          "FastAPI (FRAMEWORK)",
+          "NumPy (FRAMEWORK)",
+          "NumPy (FRAMEWORK)",
+          "Pandas (FRAMEWORK)",
+          "Pandas (FRAMEWORK)",
+          "PyTorch (FRAMEWORK)",
+          "PyTorch (FRAMEWORK)",
+          "Scikit-learn (FRAMEWORK)",
+          "Scikit-learn (FRAMEWORK)",
+          "Scikit-learn (FRAMEWORK)",
+          "TensorFlow (FRAMEWORK)",
+          "TensorFlow (FRAMEWORK)"
+        ],
+        "3": [
+          "Python (PROGRAMMING_LANGUAGE)",
+          "Python (PROGRAMMING_LANGUAGE)",
+          "Python (PROGRAMMING_LANGUAGE)",
+          "SQL (PROGRAMMING_LANGUAGE)",
+          "SQL (PROGRAMMING_LANGUAGE)"
+        ],
+        "1": [
+          "NLP sentiment analysis (PROJECT)",
+          "ETL (SKILL)",
+          "Machine Learning (SKILL)",
+          "NLP (SKILL)",
+          "NLP (SKILL)",
+          "data analysis (SKILL)",
+          "data analysis (SKILL)",
+          "machine learning (SKILL)",
+          "machine learning (SKILL)"
+        ]
+      },
+      "silhouette_score": 0.1799
+    }
+  },
+  "block_count": 8
+}

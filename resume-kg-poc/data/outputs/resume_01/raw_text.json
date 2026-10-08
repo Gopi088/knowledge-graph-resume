@@ -1,0 +1,7 @@
+{
+  "doc_id": "resume_01",
+  "source": "resume_pdf",
+  "char_count": 953,
+  "created_at": "2026-10-07T14:06:24.206523+00:00",
+  "raw_text": "Aarav Sharma\nBackend Developer | aarav.sharma@example.com | +91-98765-43210\nSummary\nBackend Developer with 3 years of experience building scalable APIs and microservices.\nExperience\nSoftware Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.\nIntegrated Redis for caching and Kafka for event-driven messaging.\nProjects\nShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.\nReal-time analytics dashboard using Python, Pandas and PostgreSQL.\nEducation\nB.Tech in Computer Science from Mumbai University (2018 - 2022).\nCertifications\nAWS Certified Solutions Architect.\nSkills\nPython, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,\nCI/CD, Kafka, Git, Agile.\n"
+}

@@ -1,0 +1,257 @@
+{
+  "dbscan": {
+    "algorithm": "DBSCAN(eps=0.5, min_samples=2, metric=cosine)",
+    "purpose": "discover natural semantic groups + noise/outliers",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      7,
+      7,
+      -1,
+      8,
+      8,
+      8,
+      9,
+      9,
+      -1,
+      -1,
+      -1,
+      10,
+      11,
+      11,
+      12,
+      12,
+      10,
+      10,
+      13,
+      13,
+      -1,
+      14,
+      14,
+      -1
+    ],
+    "clusters": {
+      "0": [
+        "Google Cloud Professional (CERTIFICATION)",
+        "AWS (CLOUD)",
+        "AWS (CLOUD)",
+        "Docker (CLOUD)",
+        "Docker (CLOUD)",
+        "Google Cloud (CLOUD)"
+      ],
+      "1": [
+        "PostgreSQL (DATABASE)",
+        "PostgreSQL (DATABASE)"
+      ],
+      "2": [
+        "NumPy (FRAMEWORK)",
+        "NumPy (FRAMEWORK)"
+      ],
+      "3": [
+        "Pandas (FRAMEWORK)",
+        "Pandas (FRAMEWORK)"
+      ],
+      "4": [
+        "PyTorch (FRAMEWORK)",
+        "PyTorch (FRAMEWORK)"
+      ],
+      "5": [
+        "Scikit-learn (FRAMEWORK)",
+        "Scikit-learn (FRAMEWORK)",
+        "Scikit-learn (FRAMEWORK)"
+      ],
+      "6": [
+        "TensorFlow (FRAMEWORK)",
+        "TensorFlow (FRAMEWORK)"
+      ],
+      "7": [
+        "Data Engineer (JOB_ROLE)",
+        "Data Scientist (JOB_ROLE)",
+        "Data Scientist (JOB_ROLE)",
+        "Data Scientist (JOB_ROLE)"
+      ],
+      "8": [
+        "Python (PROGRAMMING_LANGUAGE)",
+        "Python (PROGRAMMING_LANGUAGE)",
+        "Python (PROGRAMMING_LANGUAGE)"
+      ],
+      "9": [
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)"
+      ],
+      "10": [
+        "Machine Learning (SKILL)",
+        "machine learning (SKILL)",
+        "machine learning (SKILL)"
+      ],
+      "11": [
+        "NLP (SKILL)",
+        "NLP (SKILL)"
+      ],
+      "12": [
+        "data analysis (SKILL)",
+        "data analysis (SKILL)"
+      ],
+      "13": [
+        "Airflow (TOOL)",
+        "Airflow (TOOL)"
+      ],
+      "14": [
+        "Tableau (TOOL)",
+        "Tableau (TOOL)"
+      ]
+    },
+    "noise_outliers": [
+      "FinEdge Analytics (COMPANY)",
+      "M.Tech in Data Science from IIT Madras (2021 - 2023) (DEGREE)",
+      "fintech (DOMAIN)",
+      "FastAPI (FRAMEWORK)",
+      "Candidate (PERSON)",
+      "Credit risk scoring (PROJECT)",
+      "NLP sentiment analysis (PROJECT)",
+      "ETL (SKILL)",
+      "Git (TOOL)",
+      "IIT Madras (UNIVERSITY)"
+    ],
+    "n_clusters": 15
+  },
+  "kmeans": {
+    "algorithm": "KMeans(k=4)",
+    "purpose": "group entities into k semantic clusters",
+    "k": 4,
+    "labels": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "clusters": {
+      "2": [
+        "Google Cloud Professional (CERTIFICATION)",
+        "AWS (CLOUD)",
+        "AWS (CLOUD)",
+        "Docker (CLOUD)",
+        "Docker (CLOUD)",
+        "Google Cloud (CLOUD)",
+        "FinEdge Analytics (COMPANY)",
+        "PostgreSQL (DATABASE)",
+        "PostgreSQL (DATABASE)",
+        "M.Tech in Data Science from IIT Madras (2021 - 2023) (DEGREE)",
+        "fintech (DOMAIN)",
+        "Data Engineer (JOB_ROLE)",
+        "Data Scientist (JOB_ROLE)",
+        "Data Scientist (JOB_ROLE)",
+        "Data Scientist (JOB_ROLE)",
+        "Candidate (PERSON)",
+        "Credit risk scoring (PROJECT)",
+        "Airflow (TOOL)",
+        "Airflow (TOOL)",
+        "Git (TOOL)",
+        "Tableau (TOOL)",
+        "Tableau (TOOL)",
+        "IIT Madras (UNIVERSITY)"
+      ],
+      "0": [
+        "FastAPI (FRAMEWORK)",
+        "NumPy (FRAMEWORK)",
+        "NumPy (FRAMEWORK)",
+        "Pandas (FRAMEWORK)",
+        "Pandas (FRAMEWORK)",
+        "PyTorch (FRAMEWORK)",
+        "PyTorch (FRAMEWORK)",
+        "Scikit-learn (FRAMEWORK)",
+        "Scikit-learn (FRAMEWORK)",
+        "Scikit-learn (FRAMEWORK)",
+        "TensorFlow (FRAMEWORK)",
+        "TensorFlow (FRAMEWORK)"
+      ],
+      "3": [
+        "Python (PROGRAMMING_LANGUAGE)",
+        "Python (PROGRAMMING_LANGUAGE)",
+        "Python (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)"
+      ],
+      "1": [
+        "NLP sentiment analysis (PROJECT)",
+        "ETL (SKILL)",
+        "Machine Learning (SKILL)",
+        "NLP (SKILL)",
+        "NLP (SKILL)",
+        "data analysis (SKILL)",
+        "data analysis (SKILL)",
+        "machine learning (SKILL)",
+        "machine learning (SKILL)"
+      ]
+    },
+    "silhouette_score": 0.1799
+  }
+}

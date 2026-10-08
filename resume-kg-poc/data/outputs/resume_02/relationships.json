@@ -1,0 +1,1006 @@
+{
+  "count": 49,
+  "relationships": [
+    {
+      "source": "Data Scientist",
+      "target": "FinEdge Analytics",
+      "source_id": "e26",
+      "target_id": "e6",
+      "relationship": "AT_COMPANY",
+      "confidence": 0.9,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "evidence_sentence_indices": [
+        4
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r0"
+    },
+    {
+      "source": "Candidate",
+      "target": "Data Scientist",
+      "source_id": "e27",
+      "target_id": "e26",
+      "relationship": "HAS_ROLE",
+      "confidence": 0.88,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "evidence_sentence_indices": [
+        4
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r1"
+    },
+    {
+      "source": "Candidate",
+      "target": "FinEdge Analytics",
+      "source_id": "e27",
+      "target_id": "e6",
+      "relationship": "WORKED_AT",
+      "confidence": 0.88,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
+      ],
+      "evidence_sentence_indices": [
+        4
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r2"
+    },
+    {
+      "source": "Candidate",
+      "target": "Scikit-learn",
+      "source_id": "e27",
+      "target_id": "e18",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        5
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r3"
+    },
+    {
+      "source": "Candidate",
+      "target": "TensorFlow",
+      "source_id": "e27",
+      "target_id": "e21",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        5
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r4"
+    },
+    {
+      "source": "Candidate",
+      "target": "Python",
+      "source_id": "e27",
+      "target_id": "e28",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        5
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r5"
+    },
+    {
+      "source": "Candidate",
+      "target": "machine learning",
+      "source_id": "e27",
+      "target_id": "e42",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        5
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r6"
+    },
+    {
+      "source": "Candidate",
+      "target": "SQL",
+      "source_id": "e27",
+      "target_id": "e31",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        6
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r7"
+    },
+    {
+      "source": "Candidate",
+      "target": "ETL",
+      "source_id": "e27",
+      "target_id": "e35",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        6
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r8"
+    },
+    {
+      "source": "Candidate",
+      "target": "Airflow",
+      "source_id": "e27",
+      "target_id": "e43",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        6
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r9"
+    },
+    {
+      "source": "Candidate",
+      "target": "Tableau",
+      "source_id": "e27",
+      "target_id": "e46",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        6
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r10"
+    },
+    {
+      "source": "Candidate",
+      "target": "AWS",
+      "source_id": "e27",
+      "target_id": "e1",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Used AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_sentence_indices": [
+        7
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r11"
+    },
+    {
+      "source": "Candidate",
+      "target": "Docker",
+      "source_id": "e27",
+      "target_id": "e3",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Used AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_sentence_indices": [
+        7
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r12"
+    },
+    {
+      "source": "Credit risk scoring",
+      "target": "PostgreSQL",
+      "source_id": "e33",
+      "target_id": "e7",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_sentence_indices": [
+        9
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b3",
+      "id": "r13"
+    },
+    {
+      "source": "Credit risk scoring",
+      "target": "Scikit-learn",
+      "source_id": "e33",
+      "target_id": "e19",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_sentence_indices": [
+        9
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b3",
+      "id": "r14"
+    },
+    {
+      "source": "Credit risk scoring",
+      "target": "Python",
+      "source_id": "e33",
+      "target_id": "e29",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_sentence_indices": [
+        9
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b3",
+      "id": "r15"
+    },
+    {
+      "source": "Candidate",
+      "target": "Credit risk scoring",
+      "source_id": "e27",
+      "target_id": "e33",
+      "relationship": "WORKED_ON",
+      "confidence": 0.86,
+      "source_sentence": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "evidence_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "evidence_sentence_indices": [
+        9
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b3",
+      "id": "r16"
+    },
+    {
+      "source": "NLP sentiment analysis",
+      "target": "FastAPI",
+      "source_id": "e34",
+      "target_id": "e11",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_sentence_indices": [
+        10
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b4",
+      "id": "r17"
+    },
+    {
+      "source": "NLP sentiment analysis",
+      "target": "PyTorch",
+      "source_id": "e34",
+      "target_id": "e16",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_sentence_indices": [
+        10
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b4",
+      "id": "r18"
+    },
+    {
+      "source": "NLP sentiment analysis",
+      "target": "NLP",
+      "source_id": "e34",
+      "target_id": "e37",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_sentence_indices": [
+        10
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b4",
+      "id": "r19"
+    },
+    {
+      "source": "Candidate",
+      "target": "NLP sentiment analysis",
+      "source_id": "e27",
+      "target_id": "e34",
+      "relationship": "WORKED_ON",
+      "confidence": 0.86,
+      "source_sentence": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "evidence_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "evidence_sentence_indices": [
+        10
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Projects",
+      "block_id": "b4",
+      "id": "r20"
+    },
+    {
+      "source": "Candidate",
+      "target": "M.Tech in Data Science from IIT Madras (2021 - 2023)",
+      "source_id": "e27",
+      "target_id": "e9",
+      "relationship": "HOLDS_DEGREE",
+      "confidence": 0.9,
+      "source_sentence": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+      "evidence_sentences": [
+        "M.Tech in Data Science from IIT Madras (2021 - 2023)."
+      ],
+      "evidence_sentence_indices": [
+        11
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Education",
+      "block_id": "b5",
+      "id": "r21"
+    },
+    {
+      "source": "Candidate",
+      "target": "Google Cloud Professional",
+      "source_id": "e27",
+      "target_id": "e0",
+      "relationship": "EARNED",
+      "confidence": 0.9,
+      "source_sentence": "Google Cloud Professional Data Engineer.",
+      "evidence_sentences": [
+        "Google Cloud Professional Data Engineer."
+      ],
+      "evidence_sentence_indices": [
+        12
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Certifications",
+      "block_id": "b6",
+      "id": "r22"
+    },
+    {
+      "source": "Candidate",
+      "target": "PostgreSQL",
+      "source_id": "e27",
+      "target_id": "e8",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r23"
+    },
+    {
+      "source": "Candidate",
+      "target": "NumPy",
+      "source_id": "e27",
+      "target_id": "e13",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r24"
+    },
+    {
+      "source": "Candidate",
+      "target": "Pandas",
+      "source_id": "e27",
+      "target_id": "e15",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r25"
+    },
+    {
+      "source": "Candidate",
+      "target": "PyTorch",
+      "source_id": "e27",
+      "target_id": "e17",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r26"
+    },
+    {
+      "source": "Candidate",
+      "target": "Scikit-learn",
+      "source_id": "e27",
+      "target_id": "e20",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r27"
+    },
+    {
+      "source": "Candidate",
+      "target": "TensorFlow",
+      "source_id": "e27",
+      "target_id": "e22",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r28"
+    },
+    {
+      "source": "Candidate",
+      "target": "Python",
+      "source_id": "e27",
+      "target_id": "e30",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r29"
+    },
+    {
+      "source": "Candidate",
+      "target": "SQL",
+      "source_id": "e27",
+      "target_id": "e32",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r30"
+    },
+    {
+      "source": "Candidate",
+      "target": "Airflow",
+      "source_id": "e27",
+      "target_id": "e44",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r31"
+    },
+    {
+      "source": "Candidate",
+      "target": "Tableau",
+      "source_id": "e27",
+      "target_id": "e47",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "evidence_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r32"
+    },
+    {
+      "source": "Candidate",
+      "target": "AWS",
+      "source_id": "e27",
+      "target_id": "e2",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_sentence_indices": [
+        14
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r33"
+    },
+    {
+      "source": "Candidate",
+      "target": "Docker",
+      "source_id": "e27",
+      "target_id": "e4",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_sentence_indices": [
+        14
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r34"
+    },
+    {
+      "source": "Candidate",
+      "target": "Machine Learning",
+      "source_id": "e27",
+      "target_id": "e36",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_sentence_indices": [
+        14
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r35"
+    },
+    {
+      "source": "Candidate",
+      "target": "NLP",
+      "source_id": "e27",
+      "target_id": "e38",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_sentence_indices": [
+        14
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r36"
+    },
+    {
+      "source": "Candidate",
+      "target": "Git",
+      "source_id": "e27",
+      "target_id": "e45",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Docker, AWS, Machine Learning, NLP, Git.",
+      "evidence_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "evidence_sentence_indices": [
+        14
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b7",
+      "id": "r37"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "AWS",
+      "source_id": "e26",
+      "target_id": "e1",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nUsed AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        7
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r38"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "Docker",
+      "source_id": "e26",
+      "target_id": "e3",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nUsed AWS and Docker to deploy ML models in the fintech domain.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        7
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r39"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "Scikit-learn",
+      "source_id": "e26",
+      "target_id": "e18",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        5
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r40"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "TensorFlow",
+      "source_id": "e26",
+      "target_id": "e21",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        5
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r41"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "Python",
+      "source_id": "e26",
+      "target_id": "e28",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        5
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r42"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "SQL",
+      "source_id": "e26",
+      "target_id": "e31",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        6
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r43"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "ETL",
+      "source_id": "e26",
+      "target_id": "e35",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        6
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r44"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "machine learning",
+      "source_id": "e26",
+      "target_id": "e42",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        5
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r45"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "Airflow",
+      "source_id": "e26",
+      "target_id": "e43",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        6
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r46"
+    },
+    {
+      "source": "Data Scientist",
+      "target": "Tableau",
+      "source_id": "e26",
+      "target_id": "e46",
+      "relationship": "ROLE_USES_TECHNOLOGY",
+      "confidence": 0.86,
+      "source_sentence": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "evidence_sentences": [
+        "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "evidence_sentence_indices": [
+        4,
+        6
+      ],
+      "evidence_kind": "structured_experience_entry",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b2",
+      "id": "r47"
+    },
+    {
+      "source": "M.Tech in Data Science from IIT Madras (2021 - 2023)",
+      "target": "IIT Madras",
+      "source_id": "e9",
+      "target_id": "e48",
+      "relationship": "FROM_UNIVERSITY",
+      "confidence": 0.9,
+      "source_sentence": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+      "evidence_sentences": [
+        "M.Tech in Data Science from IIT Madras (2021 - 2023)."
+      ],
+      "evidence_sentence_indices": [
+        11
+      ],
+      "evidence_kind": "structured_education_entry",
+      "method": "source-context rules",
+      "section": "Education",
+      "block_id": "b5",
+      "id": "r48"
+    }
+  ],
+  "note": "Every edge is supported by its source sentence or a structurally linked resume entry, with section/block provenance."
+}

@@ -1,0 +1,410 @@
+{
+  "count": 20,
+  "relationships": [
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Agile",
+      "source_id": "e42",
+      "target_id": "e67",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Agile & Waterfall methodologies and frameworks",
+      "evidence_sentences": [
+        "Agile & Waterfall methodologies and frameworks"
+      ],
+      "evidence_sentence_indices": [
+        5
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b1",
+      "id": "r0"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Agile",
+      "source_id": "e42",
+      "target_id": "e68",
+      "relationship": "HAS_SKILL",
+      "confidence": 0.86,
+      "source_sentence": "Agile metrics and performance measurement",
+      "evidence_sentences": [
+        "Agile metrics and performance measurement"
+      ],
+      "evidence_sentence_indices": [
+        10
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Skills",
+      "block_id": "b6",
+      "id": "r1"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Agile",
+      "source_id": "e42",
+      "target_id": "e69",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting",
+      "evidence_sentences": [
+        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Certifications",
+      "block_id": "b9",
+      "id": "r2"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Scrum",
+      "source_id": "e42",
+      "target_id": "e79",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting",
+      "evidence_sentences": [
+        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+      ],
+      "evidence_sentence_indices": [
+        13
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Certifications",
+      "block_id": "b9",
+      "id": "r3"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Be Process Mapping",
+      "source_id": "e42",
+      "target_id": "e19",
+      "relationship": "HOLDS_DEGREE",
+      "confidence": 0.9,
+      "source_sentence": "As-Is / To-Be Process Mapping",
+      "evidence_sentences": [
+        "As-Is / To-Be Process Mapping"
+      ],
+      "evidence_sentence_indices": [
+        49
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Business Analysis And Product Management",
+      "block_id": "b45",
+      "id": "r4"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Be models, operational procedures, and regulatory requirements",
+      "source_id": "e42",
+      "target_id": "e20",
+      "relationship": "HOLDS_DEGREE",
+      "confidence": 0.9,
+      "source_sentence": "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+      "evidence_sentences": [
+        "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements."
+      ],
+      "evidence_sentence_indices": [
+        66
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b57",
+      "id": "r5"
+    },
+    {
+      "source": "Scrum",
+      "target": "Agile",
+      "source_id": "e63",
+      "target_id": "e72",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "evidence_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "evidence_sentence_indices": [
+        81
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b58",
+      "id": "r6"
+    },
+    {
+      "source": "Scrum",
+      "target": "Scrum",
+      "source_id": "e63",
+      "target_id": "e81",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "evidence_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "evidence_sentence_indices": [
+        81
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b58",
+      "id": "r7"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Scrum",
+      "source_id": "e42",
+      "target_id": "e63",
+      "relationship": "WORKED_ON",
+      "confidence": 0.86,
+      "source_sentence": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "evidence_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "evidence_sentence_indices": [
+        81
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b58",
+      "id": "r8"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "SQL",
+      "source_id": "e42",
+      "target_id": "e46",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "evidence_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "evidence_sentence_indices": [
+        88
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b58",
+      "id": "r9"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Power BI",
+      "source_id": "e42",
+      "target_id": "e93",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "evidence_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "evidence_sentence_indices": [
+        88
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b58",
+      "id": "r10"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Tableau",
+      "source_id": "e42",
+      "target_id": "e95",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "evidence_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "evidence_sentence_indices": [
+        88
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b58",
+      "id": "r11"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence di",
+      "source_id": "e42",
+      "target_id": "e21",
+      "relationship": "HOLDS_DEGREE",
+      "confidence": 0.9,
+      "source_sentence": "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+      "evidence_sentences": [
+        "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation."
+      ],
+      "evidence_sentence_indices": [
+        115
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b60",
+      "id": "r12"
+    },
+    {
+      "source": "JIRA and maintained",
+      "target": "JIRA",
+      "source_id": "e61",
+      "target_id": "e87",
+      "relationship": "USES_TECHNOLOGY",
+      "confidence": 0.88,
+      "source_sentence": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+      "evidence_sentences": [
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+      ],
+      "evidence_sentence_indices": [
+        117
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b60",
+      "id": "r13"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "JIRA and maintained",
+      "source_id": "e42",
+      "target_id": "e61",
+      "relationship": "WORKED_ON",
+      "confidence": 0.86,
+      "source_sentence": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+      "evidence_sentences": [
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+      ],
+      "evidence_sentence_indices": [
+        117
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b60",
+      "id": "r14"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "REST APIs",
+      "source_id": "e42",
+      "target_id": "e78",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+      "evidence_sentences": [
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+      ],
+      "evidence_sentence_indices": [
+        122
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b60",
+      "id": "r15"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Postman",
+      "source_id": "e42",
+      "target_id": "e90",
+      "relationship": "USED_OR_APPLIED",
+      "confidence": 0.78,
+      "source_sentence": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+      "evidence_sentences": [
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+      ],
+      "evidence_sentence_indices": [
+        122
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Experience",
+      "block_id": "b60",
+      "id": "r16"
+    },
+    {
+      "source": "AASHISH GOLHANI",
+      "target": "Bachelor of Pharmacy | University:",
+      "source_id": "e42",
+      "target_id": "e18",
+      "relationship": "HOLDS_DEGREE",
+      "confidence": 0.9,
+      "source_sentence": "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
+      "evidence_sentences": [
+        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:"
+      ],
+      "evidence_sentence_indices": [
+        136
+      ],
+      "evidence_kind": "same_sentence",
+      "method": "source-context rules",
+      "section": "Education",
+      "block_id": "b66",
+      "id": "r17"
+    },
+    {
+      "source": "Bachelor of Pharmacy | University:",
+      "target": "Amravati University",
+      "source_id": "e18",
+      "target_id": "e96",
+      "relationship": "FROM_UNIVERSITY",
+      "confidence": 0.9,
+      "source_sentence": "Year: 2003 | Qualification: Bachelor of Pharmacy | University:\nAmravati University",
+      "evidence_sentences": [
+        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
+        "Amravati University"
+      ],
+      "evidence_sentence_indices": [
+        136,
+        137
+      ],
+      "evidence_kind": "structured_education_entry",
+      "method": "source-context rules",
+      "section": "Education",
+      "block_id": "b66",
+      "id": "r18"
+    },
+    {
+      "source": "Bachelor of Pharmacy | University:",
+      "target": "University",
+      "source_id": "e18",
+      "target_id": "e101",
+      "relationship": "FROM_UNIVERSITY",
+      "confidence": 0.9,
+      "source_sentence": "Year: 2003 | Qualification: Bachelor of Pharmacy | University:\nAmravati University",
+      "evidence_sentences": [
+        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
+        "Amravati University"
+      ],
+      "evidence_sentence_indices": [
+        136,
+        137
+      ],
+      "evidence_kind": "structured_education_entry",
+      "method": "source-context rules",
+      "section": "Education",
+      "block_id": "b66",
+      "id": "r19"
+    }
+  ],
+  "note": "Every edge is supported by its source sentence or a structurally linked resume entry, with section/block provenance."
+}

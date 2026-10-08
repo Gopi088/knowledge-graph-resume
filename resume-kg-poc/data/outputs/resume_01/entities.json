@@ -1,0 +1,1128 @@
+{
+  "count": 47,
+  "entities": [
+    {
+      "text": "AWS Certified",
+      "type": "CERTIFICATION",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "AWS Certified Solutions Architect."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b6"
+      ],
+      "sentence_indices": [
+        12
+      ],
+      "id": "e0",
+      "sections": [
+        "Certifications"
+      ],
+      "section_ids": [
+        "s5:Certifications"
+      ]
+    },
+    {
+      "text": "AWS",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed REST APIs using Python and Django and deployed them on AWS."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        5
+      ],
+      "id": "e1",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "AWS",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "AWS Certified Solutions Architect."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b6"
+      ],
+      "sentence_indices": [
+        12
+      ],
+      "id": "e2",
+      "sections": [
+        "Certifications"
+      ],
+      "section_ids": [
+        "s5:Certifications"
+      ]
+    },
+    {
+      "text": "AWS",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e3",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "CI/CD",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        7
+      ],
+      "id": "e4",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "CI/CD",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "CI/CD, Kafka, Git, Agile."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        14
+      ],
+      "id": "e5",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Docker",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        6
+      ],
+      "id": "e6",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Docker",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b3"
+      ],
+      "sentence_indices": [
+        9
+      ],
+      "id": "e7",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Docker",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e8",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Jenkins",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        7
+      ],
+      "id": "e9",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Jenkins",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e10",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Kubernetes",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        7
+      ],
+      "id": "e11",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Kubernetes",
+      "type": "CLOUD",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e12",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "TechNova Solutions",
+      "type": "COMPANY",
+      "confidence": 0.9,
+      "method": "employer context pattern",
+      "source_sentences": [
+        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        4
+      ],
+      "id": "e13",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "PostgreSQL",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        6
+      ],
+      "id": "e14",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "PostgreSQL",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b3"
+      ],
+      "sentence_indices": [
+        9
+      ],
+      "id": "e15",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "PostgreSQL",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b4"
+      ],
+      "sentence_indices": [
+        10
+      ],
+      "id": "e16",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "PostgreSQL",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e17",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Redis",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Integrated Redis for caching and Kafka for event-driven messaging."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        8
+      ],
+      "id": "e18",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Redis",
+      "type": "DATABASE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e19",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "B.Tech in Computer Science from Mumbai University (2018 - 2022)",
+      "type": "DEGREE",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b5"
+      ],
+      "sentence_indices": [
+        11
+      ],
+      "id": "e20",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s4:Education"
+      ]
+    },
+    {
+      "text": "e-commerce",
+      "type": "DOMAIN",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b3"
+      ],
+      "sentence_indices": [
+        9
+      ],
+      "id": "e21",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Django",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed REST APIs using Python and Django and deployed them on AWS."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        5
+      ],
+      "id": "e22",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Django",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b3"
+      ],
+      "sentence_indices": [
+        9
+      ],
+      "id": "e23",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Django",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e24",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "FastAPI",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        6
+      ],
+      "id": "e25",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "FastAPI",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e26",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Flask",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e27",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Pandas",
+      "type": "FRAMEWORK",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b4"
+      ],
+      "sentence_indices": [
+        10
+      ],
+      "id": "e28",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Backend Developer",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Backend Developer | aarav.sharma@example.com"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b0"
+      ],
+      "sentence_indices": [
+        1
+      ],
+      "id": "e29",
+      "sections": [
+        "Header"
+      ],
+      "section_ids": [
+        "s0:Header"
+      ]
+    },
+    {
+      "text": "Backend Developer",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Backend Developer with 3 years of experience building scalable APIs and microservices."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b1"
+      ],
+      "sentence_indices": [
+        3
+      ],
+      "id": "e30",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s1:Summary"
+      ]
+    },
+    {
+      "text": "Software Engineer",
+      "type": "JOB_ROLE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        4
+      ],
+      "id": "e31",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Candidate",
+      "type": "PERSON",
+      "confidence": 0.95,
+      "method": "spaCy NER / resume subject",
+      "source_sentences": [
+        "Aarav Sharma"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b0"
+      ],
+      "sentence_indices": [
+        0
+      ],
+      "id": "e32",
+      "sections": [
+        "Header"
+      ],
+      "section_ids": [
+        "s0:Header"
+      ]
+    },
+    {
+      "text": "Python",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed REST APIs using Python and Django and deployed them on AWS."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        5
+      ],
+      "id": "e33",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Python",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b4"
+      ],
+      "sentence_indices": [
+        10
+      ],
+      "id": "e34",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Python",
+      "type": "PROGRAMMING_LANGUAGE",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e35",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "ShopKart API",
+      "type": "PROJECT",
+      "confidence": 0.7,
+      "method": "spaCy NER",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 2,
+      "block_ids": [
+        "b3"
+      ],
+      "sentence_indices": [
+        9
+      ],
+      "id": "e36",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Real-time analytics",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b4"
+      ],
+      "sentence_indices": [
+        10
+      ],
+      "id": "e37",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "Agile",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "CI/CD, Kafka, Git, Agile."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        14
+      ],
+      "id": "e38",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "REST API",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        13
+      ],
+      "id": "e39",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "REST APIs",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Developed REST APIs using Python and Django and deployed them on AWS."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        5
+      ],
+      "id": "e40",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "microservices",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Backend Developer with 3 years of experience building scalable APIs and microservices."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b1"
+      ],
+      "sentence_indices": [
+        3
+      ],
+      "id": "e41",
+      "sections": [
+        "Summary"
+      ],
+      "section_ids": [
+        "s1:Summary"
+      ]
+    },
+    {
+      "text": "microservices",
+      "type": "SKILL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        6
+      ],
+      "id": "e42",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Git",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "CI/CD, Kafka, Git, Agile."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        14
+      ],
+      "id": "e43",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Kafka",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "Integrated Redis for caching and Kafka for event-driven messaging."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b2"
+      ],
+      "sentence_indices": [
+        8
+      ],
+      "id": "e44",
+      "sections": [
+        "Experience"
+      ],
+      "section_ids": [
+        "s2:Experience"
+      ]
+    },
+    {
+      "text": "Kafka",
+      "type": "TOOL",
+      "confidence": 0.9,
+      "method": "gazetteer + NLP parsing",
+      "source_sentences": [
+        "CI/CD, Kafka, Git, Agile."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b7"
+      ],
+      "sentence_indices": [
+        14
+      ],
+      "id": "e45",
+      "sections": [
+        "Skills"
+      ],
+      "section_ids": [
+        "s6:Skills"
+      ]
+    },
+    {
+      "text": "Mumbai University",
+      "type": "UNIVERSITY",
+      "confidence": 0.88,
+      "method": "regex + NLP parsing",
+      "source_sentences": [
+        "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b5"
+      ],
+      "sentence_indices": [
+        11
+      ],
+      "id": "e46",
+      "sections": [
+        "Education"
+      ],
+      "section_ids": [
+        "s4:Education"
+      ]
+    }
+  ],
+  "preprocessing": {
+    "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
+    "normalized_preview": "Aarav Sharma\nBackend Developer | aarav.sharma@example.com | +91-98765-43210\nSummary\nBackend Developer with 3 years of experience building scalable APIs and microservices.\nExperience\nSoftware Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.\nIntegrated Redis for caching a",
+    "sentence_count": 15,
+    "sections": [
+      {
+        "id": "s0:Header",
+        "name": "Header",
+        "sentence_count": 3
+      },
+      {
+        "id": "s1:Summary",
+        "name": "Summary",
+        "sentence_count": 1
+      },
+      {
+        "id": "s2:Experience",
+        "name": "Experience",
+        "sentence_count": 5
+      },
+      {
+        "id": "s3:Projects",
+        "name": "Projects",
+        "sentence_count": 2
+      },
+      {
+        "id": "s4:Education",
+        "name": "Education",
+        "sentence_count": 1
+      },
+      {
+        "id": "s5:Certifications",
+        "name": "Certifications",
+        "sentence_count": 1
+      },
+      {
+        "id": "s6:Skills",
+        "name": "Skills",
+        "sentence_count": 2
+      }
+    ]
+  }
+}
