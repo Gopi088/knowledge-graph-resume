@@ -1,6 +1,666 @@
 {
-  "count": 49,
+  "count": 17,
   "entities": [
+    {
+      "id": "person",
+      "label": "Priya Nair",
+      "type": "PERSON",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Priya Nair"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Personal Information"
+      ],
+      "block_ids": [
+        "d0",
+        "d1"
+      ],
+      "source_path": "$.personal_information.name",
+      "source_text": "Priya Nair",
+      "source_blocks": [
+        "d0",
+        "d1"
+      ],
+      "source_evidence": [
+        {
+          "text": "Priya Nair",
+          "section": "Header",
+          "page": null,
+          "bbox": null,
+          "block_type": "CONTACT",
+          "destination": "$.personal_information",
+          "reason": "contact identity from the resume header"
+        },
+        {
+          "text": "Data Scientist | priya.nair@example.com | +91-99887-76655",
+          "section": "Header",
+          "page": null,
+          "bbox": null,
+          "block_type": "CONTACT",
+          "destination": "$.personal_information",
+          "reason": "contact identity from the resume header"
+        }
+      ],
+      "text": "Priya Nair"
+    },
+    {
+      "id": "n1",
+      "label": "Data Scientist with 2 years of experience in machine learning and data analysis.",
+      "type": "SUMMARY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Data Scientist with 2 years of experience in machine learning and data analysis."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [],
+      "source_path": "$.profile_snapshot[0]",
+      "source_text": "Data Scientist with 2 years of experience in machine learning and data analysis.",
+      "text": "Data Scientist with 2 years of experience in machine learning and data analysis."
+    },
+    {
+      "id": "n2",
+      "label": "FinEdge Analytics, Hyderabad",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "FinEdge Analytics, Hyderabad"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_path": "$.work_history[0].company",
+      "source_text": "FinEdge Analytics, Hyderabad",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "COMPANY_ROLE",
+          "destination": "$.work_history[0].roles[0]",
+          "reason": "title opens a role under the active employer"
+        },
+        {
+          "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "FinEdge Analytics, Hyderabad"
+    },
+    {
+      "id": "n3",
+      "label": "Data Scientist",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Data Scientist"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_path": "$.work_history[0].roles[0].designation",
+      "source_text": "Data Scientist",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "COMPANY_ROLE",
+          "destination": "$.work_history[0].roles[0]",
+          "reason": "title opens a role under the active employer"
+        },
+        {
+          "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Data Scientist"
+    },
+    {
+      "id": "n4",
+      "label": "2023 - Present",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2023 - Present"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_path": "$.work_history[0].roles[0].employment_periods[0].source_text",
+      "source_text": "2023 - Present",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "COMPANY_ROLE",
+          "destination": "$.work_history[0].roles[0]",
+          "reason": "title opens a role under the active employer"
+        },
+        {
+          "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "2023 - Present"
+    },
+    {
+      "id": "n5",
+      "label": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d6"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+      "source_text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+      "source_blocks": [
+        "d6"
+      ],
+      "source_evidence": [
+        {
+          "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow."
+    },
+    {
+      "id": "n6",
+      "label": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d7"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+      "source_text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+      "source_blocks": [
+        "d7"
+      ],
+      "source_evidence": [
+        {
+          "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
+    },
+    {
+      "id": "n7",
+      "label": "Used AWS and Docker to deploy ML models in the fintech domain.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Used AWS and Docker to deploy ML models in the fintech domain."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d8"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+      "source_text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+      "source_blocks": [
+        "d8"
+      ],
+      "source_evidence": [
+        {
+          "text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Used AWS and Docker to deploy ML models in the fintech domain."
+    },
+    {
+      "id": "n8",
+      "label": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Performed data analysis with Pandas, NumPy and Matplotlib."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d9"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+      "source_text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+      "source_blocks": [
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Performed data analysis with Pandas, NumPy and Matplotlib."
+    },
+    {
+      "id": "n9",
+      "label": "M.Tech in Data Science",
+      "type": "DEGREE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "M.Tech in Data Science"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "d14"
+      ],
+      "source_path": "$.education[0].degree",
+      "source_text": "M.Tech in Data Science",
+      "source_blocks": [
+        "d14"
+      ],
+      "source_evidence": [
+        {
+          "text": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+          "section": "Education",
+          "page": null,
+          "bbox": null,
+          "block_type": "EDUCATION",
+          "destination": "$.education[0]",
+          "reason": "education row/qualification with its following fields"
+        }
+      ],
+      "text": "M.Tech in Data Science"
+    },
+    {
+      "id": "n10",
+      "label": "IIT Madras",
+      "type": "INSTITUTION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "IIT Madras"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "d14"
+      ],
+      "source_path": "$.education[0].institution",
+      "source_text": "IIT Madras",
+      "source_blocks": [
+        "d14"
+      ],
+      "source_evidence": [
+        {
+          "text": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+          "section": "Education",
+          "page": null,
+          "bbox": null,
+          "block_type": "EDUCATION",
+          "destination": "$.education[0]",
+          "reason": "education row/qualification with its following fields"
+        }
+      ],
+      "text": "IIT Madras"
+    },
+    {
+      "id": "n11",
+      "label": "2021 - 2023",
+      "type": "DATE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2021 - 2023"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "d14"
+      ],
+      "source_path": "$.education[0].year",
+      "source_text": "2021 - 2023",
+      "source_blocks": [
+        "d14"
+      ],
+      "source_evidence": [
+        {
+          "text": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+          "section": "Education",
+          "page": null,
+          "bbox": null,
+          "block_type": "EDUCATION",
+          "destination": "$.education[0]",
+          "reason": "education row/qualification with its following fields"
+        }
+      ],
+      "text": "2021 - 2023"
+    },
+    {
+      "id": "n12",
+      "label": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "type": "PROJECT",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "d11"
+      ],
+      "source_path": "$.projects[0]",
+      "source_text": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "source_blocks": [
+        "d11"
+      ],
+      "source_evidence": [
+        {
+          "text": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+          "section": "Projects",
+          "page": null,
+          "bbox": null,
+          "block_type": "PROJECT",
+          "destination": "$.projects[0]",
+          "reason": "project heading/list item owns its description and labeled fields"
+        }
+      ],
+      "text": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
+    },
+    {
+      "id": "n13",
+      "label": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "type": "PROJECT",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "NLP sentiment analysis app built with PyTorch and FastAPI."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "d12"
+      ],
+      "source_path": "$.projects[1]",
+      "source_text": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "source_blocks": [
+        "d12"
+      ],
+      "source_evidence": [
+        {
+          "text": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+          "section": "Projects",
+          "page": null,
+          "bbox": null,
+          "block_type": "PROJECT",
+          "destination": "$.projects[1]",
+          "reason": "project heading/list item owns its description and labeled fields"
+        }
+      ],
+      "text": "NLP sentiment analysis app built with PyTorch and FastAPI."
+    },
+    {
+      "id": "n14",
+      "label": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[0]",
+      "source_text": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+      "text": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+    },
+    {
+      "id": "n15",
+      "label": "Docker, AWS, Machine Learning, NLP, Git.",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Docker, AWS, Machine Learning, NLP, Git."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[1]",
+      "source_text": "Docker, AWS, Machine Learning, NLP, Git.",
+      "text": "Docker, AWS, Machine Learning, NLP, Git."
+    },
+    {
+      "id": "n16",
+      "label": "Google Cloud Professional Data Engineer.",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Google Cloud Professional Data Engineer."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[0]",
+      "source_text": "Google Cloud Professional Data Engineer.",
+      "text": "Google Cloud Professional Data Engineer."
+    }
+  ],
+  "source_mentions_count": 49,
+  "source_mentions": [
     {
       "text": "Google Cloud Professional",
       "type": "CERTIFICATION",
@@ -1130,7 +1790,7 @@
     }
   ],
   "preprocessing": {
-    "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
+    "method": "structure-preserving text normalization (unicode NFKC, trailing-whitespace cleanup; source line boundaries retained) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
     "normalized_preview": "Priya Nair\nData Scientist | priya.nair@example.com | +91-99887-76655\nSummary\nData Scientist with 2 years of experience in machine learning and data analysis.\nExperience\nData Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.\nUsed AWS and Docker to deploy ML models in the fintech domain.\nPerformed data analysis with Pandas, NumPy and Matp",
     "sentence_count": 15,
     "sections": [

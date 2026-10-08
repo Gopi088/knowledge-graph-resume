@@ -1,0 +1,5248 @@
+{
+  "format": "resume-block-audit/v1",
+  "source_format": "resume_text",
+  "summary": {
+    "source_line_count": 183,
+    "assigned_source_line_count": 183,
+    "unassigned_source_line_indices": [],
+    "section_count": 10,
+    "block_count": 110,
+    "sentence_count": 178,
+    "entity_count": 39,
+    "relationship_count": 119,
+    "complete": true,
+    "source_context_relationship_count": 11,
+    "canonical_relationship_count": 119
+  },
+  "coverage": {
+    "sentence_count": 178,
+    "assigned_sentence_count": 178,
+    "source_line_count": 170,
+    "assigned_source_line_count": 170,
+    "complete": true,
+    "entity_count": 39,
+    "assigned_entity_count": 39,
+    "relationship_count": 11,
+    "assigned_relationship_count": 11,
+    "unassigned_sentence_indices": [],
+    "unassigned_source_line_indices": [],
+    "source_context_relationship_count": 11,
+    "canonical_relationship_count": 119,
+    "canonical_relationships_validated": true
+  },
+  "sections": [
+    {
+      "id": "s0:Header",
+      "name": "Header",
+      "heading_lines": [],
+      "source_line_indices": [
+        0,
+        1,
+        2
+      ],
+      "block_ids": [
+        "b0"
+      ],
+      "blocks": [
+        {
+          "id": "b0",
+          "entry_type": "personal_information_entry",
+          "source_line_indices": [
+            0,
+            1,
+            2
+          ],
+          "source_lines": [
+            "Levi Arbole",
+            "Email: arbole60@gmail.com | 9823506339",
+            "Location: Ambernath, Thane"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Levi Arbole",
+            "Email: arbole60@gmail.com | 9823506339",
+            "Location: Ambernath, Thane"
+          ],
+          "entity_ids": [
+            "e14"
+          ],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s1:Summary",
+      "name": "Summary",
+      "heading_lines": [
+        "Professional Summary"
+      ],
+      "source_line_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "block_ids": [
+        "b1"
+      ],
+      "blocks": [
+        {
+          "id": "b1",
+          "entry_type": "summary_context",
+          "source_line_indices": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "source_lines": [
+            "Professional with years of experience as Senior Business Analyst in Banking, Finance,",
+            "Insurance, and E-commerce domains. Proven expertise in requirement gathering, process",
+            "improvement, regulatory compliance, and project management. Adept at bridging business",
+            "and technology, managing end-to-end project lifecycles, and ensuring regulatory",
+            "compliance. Skilled in stakeholder engagement, UAT coordination, API integration, and",
+            "documentation (BRD, FRD, SOPs). Known for delivering data-driven insights and improving",
+            "operational efficiency through structured problem-solving and collaboration."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Professional with years of experience as Senior Business Analyst in Banking, Finance,",
+            "Insurance, and E-commerce domains.",
+            "Proven expertise in requirement gathering, process",
+            "improvement, regulatory compliance, and project management.",
+            "Adept at bridging business",
+            "and technology, managing end-to-end project lifecycles, and ensuring regulatory",
+            "compliance.",
+            "Skilled in stakeholder engagement, UAT coordination, API integration, and",
+            "documentation (BRD, FRD, SOPs).",
+            "Known for delivering data-driven insights and improving",
+            "operational efficiency through structured problem-solving and collaboration."
+          ],
+          "entity_ids": [
+            "e7",
+            "e10"
+          ],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s2:Core Competencies",
+      "name": "Core Competencies",
+      "heading_lines": [
+        "Core Competencies"
+      ],
+      "source_line_indices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "block_ids": [
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16",
+        "b17",
+        "b18",
+        "b19"
+      ],
+      "blocks": [
+        {
+          "id": "b2",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            12
+          ],
+          "source_lines": [
+            "\u25cf Requirements Gathering & Analysis"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Requirements Gathering & Analysis"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b3",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            13,
+            14
+          ],
+          "source_lines": [
+            "\u25cf Business Requirement document, Functional Requirement Document & Test cases",
+            "scenario and execution."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Business Requirement document, Functional Requirement Document & Test cases",
+            "scenario and execution."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b4",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            15
+          ],
+          "source_lines": [
+            "\u25cf UAT Testing and coordination."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "UAT Testing and coordination."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b5",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            16
+          ],
+          "source_lines": [
+            "\u25cf Preparing Impact analysis document."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Preparing Impact analysis document."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b6",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            17
+          ],
+          "source_lines": [
+            "\u25cf Documenting Deployments note for Live Deployment."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Documenting Deployments note for Live Deployment."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b7",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            18
+          ],
+          "source_lines": [
+            "\u25cf Project Planning & Delivery"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Project Planning & Delivery"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b8",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            19
+          ],
+          "source_lines": [
+            "\u25cf Regulatory Compliance (CKYC, RBI, NSDL, CDSL)."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Regulatory Compliance (CKYC, RBI, NSDL, CDSL)."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b9",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            20
+          ],
+          "source_lines": [
+            "\u25cf Cross-functional Collaboration with Team Management and Interpersonal skills."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Cross-functional Collaboration with Team Management and Interpersonal skills."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b10",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            21
+          ],
+          "source_lines": [
+            "\u25cf Hands-on experience in JIRA, Load Runner, Service Now MS office."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Hands-on experience in JIRA, Load Runner, Service Now MS office."
+          ],
+          "entity_ids": [
+            "e26"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b11",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            22
+          ],
+          "source_lines": [
+            "\u25cf API Integrations and Implementations."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "API Integrations and Implementations."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b12",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            23
+          ],
+          "source_lines": [
+            "\u25cf Proficiency with Oracle SQL,, Postman Tools."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Proficiency with Oracle SQL,, Postman Tools."
+          ],
+          "entity_ids": [
+            "e16",
+            "e29"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b13",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            24
+          ],
+          "source_lines": [
+            "\u25cf Process walkthrough and creating SOPs and manuals for knowledge sharing."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Process walkthrough and creating SOPs and manuals for knowledge sharing."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b14",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            25
+          ],
+          "source_lines": [
+            "\u25cf Stakeholders Management and Collaboration"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Stakeholders Management and Collaboration"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b15",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            26
+          ],
+          "source_lines": [
+            "\u25cf Gap Analysis documentation"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Gap Analysis documentation"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b16",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            27
+          ],
+          "source_lines": [
+            "\u25cf Drive project lifecycle from requirement inception to post-go-live support"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Drive project lifecycle from requirement inception to post-go-live support"
+          ],
+          "entity_ids": [
+            "e20",
+            "e22"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b17",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            28
+          ],
+          "source_lines": [
+            "\u25cf Workshops, Demos & End-User Training"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Workshops, Demos & End-User Training"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b18",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            29
+          ],
+          "source_lines": [
+            "\u25cf Production Support & Post-Go-Live Monitoring"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Production Support & Post-Go-Live Monitoring"
+          ],
+          "entity_ids": [
+            "e15"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b19",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            30
+          ],
+          "source_lines": [
+            "\u25cf Support production validations, DR drills, and post-release issue triaging"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Support production validations, DR drills, and post-release issue triaging"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s3:Experience",
+      "name": "Experience",
+      "heading_lines": [
+        "Professional Experience"
+      ],
+      "source_line_indices": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "block_ids": [
+        "b20",
+        "b21",
+        "b22",
+        "b23",
+        "b24",
+        "b25",
+        "b26",
+        "b27",
+        "b28",
+        "b29",
+        "b30",
+        "b31",
+        "b32",
+        "b33",
+        "b34",
+        "b35",
+        "b36",
+        "b37",
+        "b38",
+        "b39",
+        "b40",
+        "b41",
+        "b42",
+        "b43",
+        "b44",
+        "b45",
+        "b46",
+        "b47",
+        "b48",
+        "b49",
+        "b50",
+        "b51",
+        "b52",
+        "b53",
+        "b54",
+        "b55",
+        "b56",
+        "b57",
+        "b58",
+        "b59",
+        "b60",
+        "b61",
+        "b62",
+        "b63",
+        "b64",
+        "b65",
+        "b66",
+        "b67",
+        "b68",
+        "b69",
+        "b70",
+        "b71",
+        "b72",
+        "b73",
+        "b74",
+        "b75",
+        "b76",
+        "b77",
+        "b78",
+        "b79",
+        "b80"
+      ],
+      "blocks": [
+        {
+          "id": "b20",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            33
+          ],
+          "source_lines": [
+            "Clover Infotech Pvt Ltd \u2013 Senior Business Analyst"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Clover Infotech Pvt Ltd \u2013 Senior Business Analyst"
+          ],
+          "entity_ids": [
+            "e0"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b21",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            34
+          ],
+          "source_lines": [
+            "Client \u2013 HDFC Bank"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Client \u2013 HDFC Bank"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b22",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            35
+          ],
+          "source_lines": [
+            "July 2025 \u2013 June 2026( 11 months )"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "July 2025 \u2013 June 2026( 11 months )"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b23",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            36
+          ],
+          "source_lines": [
+            "\u25cf Leading project delivery for key BFSI clients."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Leading project delivery for key BFSI clients."
+          ],
+          "entity_ids": [
+            "e23"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b24",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            37,
+            38
+          ],
+          "source_lines": [
+            "\u25cf Liaise with Risk, Compliance, Audit, and Operations teams to understand ORM",
+            "objectives and pain points."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Liaise with Risk, Compliance, Audit, and Operations teams to understand ORM",
+            "objectives and pain points."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b25",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            39,
+            40
+          ],
+          "source_lines": [
+            "\u25cf Gather feedback from operational users to continuously refine the ORM framework",
+            "and system feature."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Gather feedback from operational users to continuously refine the ORM framework",
+            "and system feature."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b26",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            41,
+            42
+          ],
+          "source_lines": [
+            "\u25cf Define test scenarios and acceptance criteria based on use cases and compliance",
+            "requirements."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Define test scenarios and acceptance criteria based on use cases and compliance",
+            "requirements."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b27",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            43
+          ],
+          "source_lines": [
+            "\u25cf Document and analyze risk-related processes such as:"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Document and analyze risk-related processes such as:"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b28",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            44
+          ],
+          "source_lines": [
+            "\u25cb Risk & Control Self Assessments (RCSA)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Risk & Control Self Assessments (RCSA)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b29",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            45
+          ],
+          "source_lines": [
+            "\u25cb Key Risk Indicators (KRI)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Key Risk Indicators (KRI)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b30",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            46
+          ],
+          "source_lines": [
+            "\u25cb Loss Event Management"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Loss Event Management"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b31",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            47
+          ],
+          "source_lines": [
+            "\u25cb Issue and Action Tracking"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Issue and Action Tracking"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b32",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            48
+          ],
+          "source_lines": [
+            "\u25cf Managing UAT, coordinating with dev teams, and tracking CRs."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Managing UAT, coordinating with dev teams, and tracking CRs."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b33",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            49
+          ],
+          "source_lines": [
+            "\u25cf Collaborating with clients on production issues and"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Collaborating with clients on production issues and"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b34",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            50
+          ],
+          "source_lines": [
+            "\u25cf audit gap closures."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "audit gap closures."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b35",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            51,
+            52
+          ],
+          "source_lines": [
+            "\u25cf Work with stakeholders (risk, compliance, procurement, IT, legal) to understand",
+            "TPRM needs"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Work with stakeholders (risk, compliance, procurement, IT, legal) to understand",
+            "TPRM needs"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b36",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            53
+          ],
+          "source_lines": [
+            "\u25cf Gather business, regulatory, and risk requirements"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Gather business, regulatory, and risk requirements"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b37",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            54
+          ],
+          "source_lines": [
+            "\u25cf Document:"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Document:"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b38",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            55
+          ],
+          "source_lines": [
+            "\u25cb Vendor onboarding requirements"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Vendor onboarding requirements"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b39",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            56
+          ],
+          "source_lines": [
+            "\u25cb Risk assessment workflows"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Risk assessment workflows"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b40",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            57
+          ],
+          "source_lines": [
+            "\u25cb Due diligence criteria"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Due diligence criteria"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b41",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            58
+          ],
+          "source_lines": [
+            "\u25cf Translate business needs into functional specifications"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Translate business needs into functional specifications"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b42",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            59
+          ],
+          "source_lines": [
+            "\u25cf Define and improve risk assessment frameworks"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Define and improve risk assessment frameworks"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b43",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            60
+          ],
+          "source_lines": [
+            "\u25cf Work with TPRM platforms (e.g., ServiceNow)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Work with TPRM platforms (e.g., ServiceNow)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b44",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            61
+          ],
+          "source_lines": [
+            "\u25cf Support:"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Support:"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b45",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            62
+          ],
+          "source_lines": [
+            "\u25cb System implementation"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "System implementation"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b46",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            63
+          ],
+          "source_lines": [
+            "\u25cb Configuration of workflows"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Configuration of workflows"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b47",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            64
+          ],
+          "source_lines": [
+            "\u25cb User acceptance testing (UAT)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "User acceptance testing (UAT)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b48",
+          "entry_type": "experience_entry",
+          "source_line_indices": [
+            65,
+            66,
+            67,
+            68
+          ],
+          "source_lines": [
+            "\u25cf Ensure tools capture correct risk data and reporting outputs",
+            "Wipro Ltd \u2013 Senior Business Analyst",
+            "Client - ICICI",
+            "Dec 2022\u2013 June 2025 (2y 6mon)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Ensure tools capture correct risk data and reporting outputs",
+            "Wipro Ltd \u2013 Senior Business Analyst",
+            "Client - ICICI",
+            "Dec 2022\u2013 June 2025 (2y 6mon)"
+          ],
+          "entity_ids": [
+            "e4"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b49",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            69
+          ],
+          "source_lines": [
+            "\u25cf Deployed at ICICI Bank Corporate \u2013 led 4 major projects."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Deployed at ICICI Bank Corporate \u2013 led 4 major projects."
+          ],
+          "entity_ids": [
+            "e1"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b50",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            71,
+            72
+          ],
+          "source_lines": [
+            "\u25cf Applications handled: PINS (Portfolio investment scheme) (Banking Trading",
+            "application), Barcode Tracking (HMI & Mobile App), Govt. Bidding Scrolls."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Applications handled: PINS (Portfolio investment scheme)",
+            "(Banking Trading",
+            "application), Barcode Tracking (HMI & Mobile App), Govt.",
+            "Bidding Scrolls."
+          ],
+          "entity_ids": [
+            "e8"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b51",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            73,
+            74
+          ],
+          "source_lines": [
+            "\u25cf Handling production issues and closing it within the given TAT and led annual audit",
+            "gap closures."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Handling production issues and closing it within the given TAT and led annual audit",
+            "gap closures."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b52",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            75,
+            76
+          ],
+          "source_lines": [
+            "\u25cf Interacting with stakeholders to enhance processes and ensure compliance and",
+            "regularisation."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Interacting with stakeholders to enhance processes and ensure compliance and",
+            "regularisation."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b53",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            77
+          ],
+          "source_lines": [
+            "\u25cf Driving Multiple Change request at a time and New requirements management"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Driving Multiple Change request at a time and New requirements management"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b54",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            78,
+            79
+          ],
+          "source_lines": [
+            "\u25cf Preparation test cases scenarios and executing in UAT environment and Golive with",
+            "the end product."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Preparation test cases scenarios and executing in UAT environment and Golive with",
+            "the end product."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b55",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            80
+          ],
+          "source_lines": [
+            "\u25cf API testing and Integration with core banking systems."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "API testing and Integration with core banking systems."
+          ],
+          "entity_ids": [
+            "e12"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b56",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            81,
+            82,
+            83
+          ],
+          "source_lines": [
+            "\u25cf Closure of vulnerabilities in the application highlighted by compliance,information",
+            "security groups by collaborating with development along with closure of RBI audit",
+            "observations and adhere to RBI guidelines."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Closure of vulnerabilities in the application highlighted by compliance,information",
+            "security groups by collaborating with development along with closure of RBI audit",
+            "observations and adhere to RBI guidelines."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b57",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            84
+          ],
+          "source_lines": [
+            "\u25cf Performed data analysis using SQL/Excel to support decision-making."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Performed data analysis using SQL/Excel to support decision-making."
+          ],
+          "entity_ids": [
+            "e17",
+            "e25"
+          ],
+          "relationship_ids": [
+            "r0",
+            "r1"
+          ]
+        },
+        {
+          "id": "b58",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            86
+          ],
+          "source_lines": [
+            "Tata Consultancy Services (TCS) \u2013 Functional Analyst"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Tata Consultancy Services (TCS) \u2013 Functional Analyst"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b59",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            87
+          ],
+          "source_lines": [
+            "Client - SBI"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Client - SBI"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b60",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            88
+          ],
+          "source_lines": [
+            "June 2021 \u2013Dec 2022 ( 1year 6months)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "June 2021 \u2013Dec 2022 ( 1year 6months)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b61",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            89
+          ],
+          "source_lines": [
+            "\u25cf In-house hiring by TCS from Nelito systems."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "In-house hiring by TCS from Nelito systems."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b62",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            90,
+            91,
+            92
+          ],
+          "source_lines": [
+            "\u25cf Deployed on CKYC Compliance project for SBI; ensured smooth CKYC number",
+            "generation through CERSAI. Drafted and signed off technical documents; coordinated",
+            "development and testing."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Deployed on CKYC Compliance project for SBI; ensured smooth CKYC number",
+            "generation through CERSAI.",
+            "Drafted and signed off technical documents; coordinated",
+            "development and testing."
+          ],
+          "entity_ids": [
+            "e21"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b63",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            93
+          ],
+          "source_lines": [
+            "\u25cf Handled real-time production issues, API-level debugging, and DR activities."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Handled real-time production issues, API-level debugging, and DR activities."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b64",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            94,
+            95
+          ],
+          "source_lines": [
+            "\u25cf Interact with compliance, legal, and operations teams to identify bank-specific CKYC",
+            "requirement."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Interact with compliance, legal, and operations teams to identify bank-specific CKYC",
+            "requirement."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b65",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            96,
+            97
+          ],
+          "source_lines": [
+            "\u25cf Prepare Business Requirement Document (BRD) and Functional Specification",
+            "Documents (FSD)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Prepare Business Requirement Document (BRD) and Functional Specification",
+            "Documents (FSD)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b66",
+          "entry_type": "experience_entry",
+          "source_line_indices": [
+            98,
+            99,
+            100,
+            101,
+            102
+          ],
+          "source_lines": [
+            "\u25cf Design test cases for different onboarding scenarios (e.g., new customer, update KYC,",
+            "CKYC fetch)",
+            "Nelito Systems (DTS Group) \u2013 Functional Analyst",
+            "Client - SBI",
+            "Feb 2021 \u2013 Jun 2021(4 months)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Design test cases for different onboarding scenarios (e.g., new customer, update KYC,",
+            "CKYC fetch)",
+            "Nelito Systems (DTS Group) \u2013 Functional Analyst",
+            "Client - SBI",
+            "Feb 2021 \u2013 Jun 2021(4 months)"
+          ],
+          "entity_ids": [
+            "e2"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b67",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            103
+          ],
+          "source_lines": [
+            "\u25cf Involved in CKYC/Trade Finance modules."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Involved in CKYC/Trade Finance modules."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b68",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            104
+          ],
+          "source_lines": [
+            "\u25cf business and tech teams; addressed ID and API-level issues."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "business and tech teams; addressed ID and API-level issues."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b69",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            105
+          ],
+          "source_lines": [
+            "QualityKiosk Technologies Pvt. Ltd. \u2013 Transitions Executive"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "QualityKiosk Technologies Pvt. Ltd. \u2013 Transitions Executive"
+          ],
+          "entity_ids": [
+            "e3"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b70",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            106
+          ],
+          "source_lines": [
+            "Nov 2017 \u2013 Feb 2021( 3y 2 mon)"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Nov 2017 \u2013 Feb 2021( 3y 2 mon)"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b71",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            107
+          ],
+          "source_lines": [
+            "\u25cf Requirement gathering from stakeholders across life,, general insurance segments."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Requirement gathering from stakeholders across life,, general insurance segments."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b72",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            108,
+            109
+          ],
+          "source_lines": [
+            "\u25cf Working with systems to streamline claim approvals, automate documentation, and",
+            "reduce TAT."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Working with systems to streamline claim approvals, automate documentation, and",
+            "reduce TAT."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b73",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            110
+          ],
+          "source_lines": [
+            "\u25cf Cater to audit trails, data governance, and compliance reporting observation."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Cater to audit trails, data governance, and compliance reporting observation."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b74",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            111
+          ],
+          "source_lines": [
+            "\u25cf Collaborating with developer teams for seamless customer experience."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Collaborating with developer teams for seamless customer experience."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b75",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            112
+          ],
+          "source_lines": [
+            "\u25cf Managed client transitions across BFSI, telecom, and e-commerce domains."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Managed client transitions across BFSI, telecom, and e-commerce domains."
+          ],
+          "entity_ids": [
+            "e13"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b76",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            113,
+            114
+          ],
+          "source_lines": [
+            "\u25cf Led documentation efforts and implemented automation via UIPath for Insurance",
+            "client Bajaj Allianz call center and Bajaj health insurance Products"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Led documentation efforts and implemented automation via UIPath for Insurance",
+            "client Bajaj Allianz call center and Bajaj health insurance Products"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b77",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            115,
+            116,
+            117
+          ],
+          "source_lines": [
+            "\u25cf Conducted GAP analysis, requirement validation, and SLA tracking. Handled projects",
+            "on payment domains like Domestic and international payments (e.g., NEFT, RTGS,",
+            "UPI, SWIFT,)."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Conducted GAP analysis, requirement validation, and SLA tracking.",
+            "Handled projects",
+            "on payment domains like Domestic and international payments (e.g., NEFT, RTGS,",
+            "UPI, SWIFT,)."
+          ],
+          "entity_ids": [
+            "e19"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b78",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            118
+          ],
+          "source_lines": [
+            "\u25cf OTP based transactions (credit, debit, prepaid)."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "OTP based transactions (credit, debit, prepaid)."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b79",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            119
+          ],
+          "source_lines": [
+            "\u25cf Monitoring Payment gateways, merchant onboarding, and wallets journeys"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Monitoring Payment gateways, merchant onboarding, and wallets journeys"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b80",
+          "entry_type": "experience_responsibility",
+          "source_line_indices": [
+            120,
+            121
+          ],
+          "source_lines": [
+            "\u25cf Collaborating with developers during development and maintained application",
+            "module"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Collaborating with developers during development and maintained application",
+            "module"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s4:Projects",
+      "name": "Projects",
+      "heading_lines": [
+        "Project Highlights"
+      ],
+      "source_line_indices": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "block_ids": [
+        "b81",
+        "b82",
+        "b83",
+        "b84",
+        "b85"
+      ],
+      "blocks": [
+        {
+          "id": "b81",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            124,
+            125
+          ],
+          "source_lines": [
+            "\u25cf Integration of ORM with ServiceNow GRC Module and automatising the Risk",
+            "management , Audit and Compliance experience in the organisation."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Integration of ORM with ServiceNow GRC Module and automatising the Risk",
+            "management , Audit and Compliance experience in the organisation."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b82",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            126,
+            127
+          ],
+          "source_lines": [
+            "\u25cf Trading Application (PINS) \u2013 Spearheaded development for seamless NRI onboarding",
+            "and trading experience."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Trading Application (PINS) \u2013 Spearheaded development for seamless NRI onboarding",
+            "and trading experience."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b83",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            128,
+            129
+          ],
+          "source_lines": [
+            "\u25cf Implementing report automation to Broker and Customers and API integration for",
+            "smooth customer onboarding through various channels"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Implementing report automation to Broker and Customers and API integration for",
+            "smooth customer onboarding through various channels"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b84",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            130,
+            131
+          ],
+          "source_lines": [
+            "\u25cf CKYC Compliance Project for SBI \u2013 Enabled integration with CERSAI for 100%",
+            "customer compliance."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "CKYC Compliance Project for SBI \u2013 Enabled integration with CERSAI for 100%",
+            "customer compliance."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b85",
+          "entry_type": "project_entry",
+          "source_line_indices": [
+            132,
+            133
+          ],
+          "source_lines": [
+            "\u25cf Implementation of UIPath for Insurance portal of Bajaj Allianz call center in Citrix",
+            "environment and Bajaj Allianz newly launched insurance Products."
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Implementation of UIPath for Insurance portal of Bajaj Allianz call center in Citrix",
+            "environment and Bajaj Allianz newly launched insurance Products."
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s5:Domain Experience",
+      "name": "Domain Experience",
+      "heading_lines": [
+        "Domain Experience"
+      ],
+      "source_line_indices": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141
+      ],
+      "block_ids": [
+        "b86",
+        "b87",
+        "b88",
+        "b89",
+        "b90"
+      ],
+      "blocks": [
+        {
+          "id": "b86",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            135,
+            136,
+            137
+          ],
+          "source_lines": [
+            "\u25cf Banking: ICICI Bank, State bank of India, HDFC bank,",
+            "BNP Paribas",
+            "RAK, ADCB, Bank Muscat,"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Banking: ICICI Bank, State bank of India, HDFC bank,",
+            "BNP Paribas",
+            "RAK, ADCB, Bank Muscat,"
+          ],
+          "entity_ids": [
+            "e9"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b87",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            138
+          ],
+          "source_lines": [
+            "\u25cf Insurance: SBI Life, HDFC Life, Bajaj Allianz, ICICI Prulife, Aditya Birla, L & T insurance"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Insurance: SBI Life, HDFC Life, Bajaj Allianz, ICICI Prulife, Aditya Birla, L & T insurance"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b88",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            139
+          ],
+          "source_lines": [
+            "\u25cf Trading: : ICICI Securities, BTPN (Indonesia) , Axis securities"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Trading: : ICICI Securities, BTPN (Indonesia) , Axis securities"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b89",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            140
+          ],
+          "source_lines": [
+            "\u25cf E-commerce: :UAE RTA,Jet airways"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "E-commerce: :UAE RTA,Jet airways"
+          ],
+          "entity_ids": [
+            "e11"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b90",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            141
+          ],
+          "source_lines": [
+            "\u25cf Regulatory Bodies: NSDL, CDSL"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Regulatory Bodies: NSDL, CDSL"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s6:Technical Skills",
+      "name": "Technical Skills",
+      "heading_lines": [
+        "Technical Skills"
+      ],
+      "source_line_indices": [
+        142,
+        143,
+        144,
+        145
+      ],
+      "block_ids": [
+        "b91",
+        "b92",
+        "b93"
+      ],
+      "blocks": [
+        {
+          "id": "b91",
+          "entry_type": "skill_list_entry",
+          "source_line_indices": [
+            143
+          ],
+          "source_lines": [
+            "\u25cf Tools: JIRA, Service Now,HP LoadRunner, UIPath, Postman, API, Arcos portal,"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Tools: JIRA, Service Now,HP LoadRunner, UIPath, Postman, API, Arcos portal,"
+          ],
+          "entity_ids": [
+            "e24",
+            "e27",
+            "e30"
+          ],
+          "relationship_ids": [
+            "r2",
+            "r3"
+          ]
+        },
+        {
+          "id": "b92",
+          "entry_type": "skill_list_entry",
+          "source_line_indices": [
+            144
+          ],
+          "source_lines": [
+            "\u25cf Databases: MySQL, Oracle SQL"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Databases: MySQL, Oracle SQL"
+          ],
+          "entity_ids": [
+            "e5",
+            "e18"
+          ],
+          "relationship_ids": [
+            "r4",
+            "r5"
+          ]
+        },
+        {
+          "id": "b93",
+          "entry_type": "skill_list_entry",
+          "source_line_indices": [
+            145
+          ],
+          "source_lines": [
+            "\u25cf Operating Systems: Windows, Linux"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Operating Systems: Windows, Linux"
+          ],
+          "entity_ids": [
+            "e28"
+          ],
+          "relationship_ids": [
+            "r6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7:Education",
+      "name": "Education",
+      "heading_lines": [
+        "Education Qualification"
+      ],
+      "source_line_indices": [
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        181,
+        182
+      ],
+      "block_ids": [
+        "b94",
+        "b95",
+        "b96",
+        "b97",
+        "b98",
+        "b99",
+        "b100",
+        "b101",
+        "b102",
+        "b103",
+        "b104",
+        "b108",
+        "b109"
+      ],
+      "blocks": [
+        {
+          "id": "b94",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            147
+          ],
+          "source_lines": [
+            "Degree"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Degree"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b95",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            148,
+            149,
+            150,
+            151,
+            152
+          ],
+          "source_lines": [
+            "College/School",
+            "University/Board",
+            "Year of Passing",
+            "BE Computer",
+            "Percentage &"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "College/School",
+            "University/Board",
+            "Year of Passing",
+            "BE Computer",
+            "Percentage &"
+          ],
+          "entity_ids": [
+            "e6",
+            "e31",
+            "e37",
+            "e38"
+          ],
+          "relationship_ids": [
+            "r7",
+            "r8",
+            "r9",
+            "r10"
+          ]
+        },
+        {
+          "id": "b96",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            153
+          ],
+          "source_lines": [
+            "Pointer"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Pointer"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b97",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            154
+          ],
+          "source_lines": [
+            "PCE, New Panvel"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "PCE, New Panvel"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b98",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            155
+          ],
+          "source_lines": [
+            "Third year of"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Third year of"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b99",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            156
+          ],
+          "source_lines": [
+            "Engineering"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Engineering"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b100",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            157
+          ],
+          "source_lines": [
+            "Mumbai University 2017"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Mumbai University 2017"
+          ],
+          "entity_ids": [
+            "e33"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b101",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            158,
+            159,
+            160,
+            161,
+            162
+          ],
+          "source_lines": [
+            "60.00/ 6.75",
+            "PCE, New Panvel",
+            "Second year of",
+            "Engineering",
+            "Mumbai University 2016"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "00/ 6.75",
+            "PCE, New Panvel",
+            "Second year of",
+            "Engineering",
+            "Mumbai University 2016"
+          ],
+          "entity_ids": [
+            "e34"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b102",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            163,
+            164,
+            165,
+            166,
+            167,
+            168
+          ],
+          "source_lines": [
+            "60.20 / 6.79",
+            "PCE, New Panvel",
+            "Diploma in I.T",
+            "Dr. NYTP, Bhivpuri",
+            "Road",
+            "Mumbai University 2015"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "20 / 6.79",
+            "PCE, New Panvel",
+            "Diploma in I.T",
+            "Dr. NYTP, Bhivpuri",
+            "Road",
+            "Mumbai University 2015"
+          ],
+          "entity_ids": [
+            "e35"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b103",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            169,
+            170
+          ],
+          "source_lines": [
+            "52.82 / 5.75",
+            "Mumbai University 2014"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "82 / 5.75",
+            "Mumbai University 2014"
+          ],
+          "entity_ids": [
+            "e36"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b104",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            171,
+            173,
+            174,
+            175,
+            176
+          ],
+          "source_lines": [
+            "74.44",
+            "SSC",
+            "Kendriya Vidyalaya",
+            "Ambernath",
+            "CBSE"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "44",
+            "SSC",
+            "Kendriya Vidyalaya",
+            "Ambernath",
+            "CBSE"
+          ],
+          "entity_ids": [
+            "e32"
+          ],
+          "relationship_ids": []
+        },
+        {
+          "id": "b108",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            181
+          ],
+          "source_lines": [
+            "2011"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "2011"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b109",
+          "entry_type": "education_entry",
+          "source_line_indices": [
+            182
+          ],
+          "source_lines": [
+            "67.7"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "7"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s8:Personal Information",
+      "name": "Personal Information",
+      "heading_lines": [
+        "Personal Details"
+      ],
+      "source_line_indices": [
+        177,
+        178
+      ],
+      "block_ids": [
+        "b105"
+      ],
+      "blocks": [
+        {
+          "id": "b105",
+          "entry_type": "personal_information_entry",
+          "source_line_indices": [
+            178
+          ],
+          "source_lines": [
+            "\u25cf Date of Birth: 22nd June 1995"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Date of Birth: 22nd June 1995"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s9:Languages",
+      "name": "Languages",
+      "heading_lines": [
+        "\u25cf Languages: English, Hindi,"
+      ],
+      "source_line_indices": [
+        179,
+        180
+      ],
+      "block_ids": [
+        "b106",
+        "b107"
+      ],
+      "blocks": [
+        {
+          "id": "b106",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            179
+          ],
+          "source_lines": [
+            "\u25cf Languages: English, Hindi,"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "English, Hindi,"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        },
+        {
+          "id": "b107",
+          "entry_type": "source_line_context",
+          "source_line_indices": [
+            180
+          ],
+          "source_lines": [
+            "\u25cf Nationality: Indian"
+          ],
+          "source_paths": [],
+          "sentences": [
+            "Nationality: Indian"
+          ],
+          "entity_ids": [],
+          "relationship_ids": []
+        }
+      ]
+    }
+  ],
+  "source_line_assignments": [
+    {
+      "line_index": 0,
+      "text": "Levi Arbole",
+      "section_id": "s0:Header",
+      "section": "Header",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b0",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 1,
+      "text": "Email: arbole60@gmail.com | 9823506339",
+      "section_id": "s0:Header",
+      "section": "Header",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b0",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 2,
+      "text": "Location: Ambernath, Thane",
+      "section_id": "s0:Header",
+      "section": "Header",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b0",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 3,
+      "text": "Professional Summary",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 4,
+      "text": "Professional with years of experience as Senior Business Analyst in Banking, Finance,",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 5,
+      "text": "Insurance, and E-commerce domains. Proven expertise in requirement gathering, process",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 6,
+      "text": "improvement, regulatory compliance, and project management. Adept at bridging business",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 7,
+      "text": "and technology, managing end-to-end project lifecycles, and ensuring regulatory",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 8,
+      "text": "compliance. Skilled in stakeholder engagement, UAT coordination, API integration, and",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 9,
+      "text": "documentation (BRD, FRD, SOPs). Known for delivering data-driven insights and improving",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 10,
+      "text": "operational efficiency through structured problem-solving and collaboration.",
+      "section_id": "s1:Summary",
+      "section": "Summary",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b1",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 11,
+      "text": "Core Competencies",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 12,
+      "text": "\u25cf Requirements Gathering & Analysis",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b2",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 13,
+      "text": "\u25cf Business Requirement document, Functional Requirement Document & Test cases",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b3",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 14,
+      "text": "scenario and execution.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b3",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 15,
+      "text": "\u25cf UAT Testing and coordination.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b4",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 16,
+      "text": "\u25cf Preparing Impact analysis document.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b5",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 17,
+      "text": "\u25cf Documenting Deployments note for Live Deployment.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b6",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 18,
+      "text": "\u25cf Project Planning & Delivery",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b7",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 19,
+      "text": "\u25cf Regulatory Compliance (CKYC, RBI, NSDL, CDSL).",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b8",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 20,
+      "text": "\u25cf Cross-functional Collaboration with Team Management and Interpersonal skills.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b9",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 21,
+      "text": "\u25cf Hands-on experience in JIRA, Load Runner, Service Now MS office.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b10",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 22,
+      "text": "\u25cf API Integrations and Implementations.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b11",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 23,
+      "text": "\u25cf Proficiency with Oracle SQL,, Postman Tools.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b12",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 24,
+      "text": "\u25cf Process walkthrough and creating SOPs and manuals for knowledge sharing.",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b13",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 25,
+      "text": "\u25cf Stakeholders Management and Collaboration",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b14",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 26,
+      "text": "\u25cf Gap Analysis documentation",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b15",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 27,
+      "text": "\u25cf Drive project lifecycle from requirement inception to post-go-live support",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b16",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 28,
+      "text": "\u25cf Workshops, Demos & End-User Training",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b17",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 29,
+      "text": "\u25cf Production Support & Post-Go-Live Monitoring",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b18",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 30,
+      "text": "\u25cf Support production validations, DR drills, and post-release issue triaging",
+      "section_id": "s2:Core Competencies",
+      "section": "Core Competencies",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b19",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 31,
+      "text": "Professional Experience",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 32,
+      "text": "2",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": true,
+      "block_id": null,
+      "assignment": "page_number_marker",
+      "assigned": true
+    },
+    {
+      "line_index": 33,
+      "text": "Clover Infotech Pvt Ltd \u2013 Senior Business Analyst",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b20",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 34,
+      "text": "Client \u2013 HDFC Bank",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b21",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 35,
+      "text": "July 2025 \u2013 June 2026( 11 months )",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b22",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 36,
+      "text": "\u25cf Leading project delivery for key BFSI clients.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b23",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 37,
+      "text": "\u25cf Liaise with Risk, Compliance, Audit, and Operations teams to understand ORM",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b24",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 38,
+      "text": "objectives and pain points.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b24",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 39,
+      "text": "\u25cf Gather feedback from operational users to continuously refine the ORM framework",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b25",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 40,
+      "text": "and system feature.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b25",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 41,
+      "text": "\u25cf Define test scenarios and acceptance criteria based on use cases and compliance",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b26",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 42,
+      "text": "requirements.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b26",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 43,
+      "text": "\u25cf Document and analyze risk-related processes such as:",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b27",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 44,
+      "text": "\u25cb Risk & Control Self Assessments (RCSA)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b28",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 45,
+      "text": "\u25cb Key Risk Indicators (KRI)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b29",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 46,
+      "text": "\u25cb Loss Event Management",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b30",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 47,
+      "text": "\u25cb Issue and Action Tracking",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b31",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 48,
+      "text": "\u25cf Managing UAT, coordinating with dev teams, and tracking CRs.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b32",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 49,
+      "text": "\u25cf Collaborating with clients on production issues and",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b33",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 50,
+      "text": "\u25cf audit gap closures.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b34",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 51,
+      "text": "\u25cf Work with stakeholders (risk, compliance, procurement, IT, legal) to understand",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b35",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 52,
+      "text": "TPRM needs",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b35",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 53,
+      "text": "\u25cf Gather business, regulatory, and risk requirements",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b36",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 54,
+      "text": "\u25cf Document:",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b37",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 55,
+      "text": "\u25cb Vendor onboarding requirements",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b38",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 56,
+      "text": "\u25cb Risk assessment workflows",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b39",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 57,
+      "text": "\u25cb Due diligence criteria",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b40",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 58,
+      "text": "\u25cf Translate business needs into functional specifications",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b41",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 59,
+      "text": "\u25cf Define and improve risk assessment frameworks",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b42",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 60,
+      "text": "\u25cf Work with TPRM platforms (e.g., ServiceNow)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b43",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 61,
+      "text": "\u25cf Support:",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b44",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 62,
+      "text": "\u25cb System implementation",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b45",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 63,
+      "text": "\u25cb Configuration of workflows",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b46",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 64,
+      "text": "\u25cb User acceptance testing (UAT)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cb",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b47",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 65,
+      "text": "\u25cf Ensure tools capture correct risk data and reporting outputs",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b48",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 66,
+      "text": "Wipro Ltd \u2013 Senior Business Analyst",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b48",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 67,
+      "text": "Client - ICICI",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b48",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 68,
+      "text": "Dec 2022\u2013 June 2025 (2y 6mon)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b48",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 69,
+      "text": "\u25cf Deployed at ICICI Bank Corporate \u2013 led 4 major projects.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b49",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 70,
+      "text": "3",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": true,
+      "block_id": null,
+      "assignment": "page_number_marker",
+      "assigned": true
+    },
+    {
+      "line_index": 71,
+      "text": "\u25cf Applications handled: PINS (Portfolio investment scheme) (Banking Trading",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b50",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 72,
+      "text": "application), Barcode Tracking (HMI & Mobile App), Govt. Bidding Scrolls.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b50",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 73,
+      "text": "\u25cf Handling production issues and closing it within the given TAT and led annual audit",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b51",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 74,
+      "text": "gap closures.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b51",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 75,
+      "text": "\u25cf Interacting with stakeholders to enhance processes and ensure compliance and",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b52",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 76,
+      "text": "regularisation.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b52",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 77,
+      "text": "\u25cf Driving Multiple Change request at a time and New requirements management",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b53",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 78,
+      "text": "\u25cf Preparation test cases scenarios and executing in UAT environment and Golive with",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b54",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 79,
+      "text": "the end product.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b54",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 80,
+      "text": "\u25cf API testing and Integration with core banking systems.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b55",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 81,
+      "text": "\u25cf Closure of vulnerabilities in the application highlighted by compliance,information",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b56",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 82,
+      "text": "security groups by collaborating with development along with closure of RBI audit",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b56",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 83,
+      "text": "observations and adhere to RBI guidelines.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b56",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 84,
+      "text": "\u25cf Performed data analysis using SQL/Excel to support decision-making.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b57",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 85,
+      "text": "4",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": true,
+      "block_id": null,
+      "assignment": "page_number_marker",
+      "assigned": true
+    },
+    {
+      "line_index": 86,
+      "text": "Tata Consultancy Services (TCS) \u2013 Functional Analyst",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b58",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 87,
+      "text": "Client - SBI",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b59",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 88,
+      "text": "June 2021 \u2013Dec 2022 ( 1year 6months)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b60",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 89,
+      "text": "\u25cf In-house hiring by TCS from Nelito systems.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b61",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 90,
+      "text": "\u25cf Deployed on CKYC Compliance project for SBI; ensured smooth CKYC number",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b62",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 91,
+      "text": "generation through CERSAI. Drafted and signed off technical documents; coordinated",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b62",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 92,
+      "text": "development and testing.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b62",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 93,
+      "text": "\u25cf Handled real-time production issues, API-level debugging, and DR activities.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b63",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 94,
+      "text": "\u25cf Interact with compliance, legal, and operations teams to identify bank-specific CKYC",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b64",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 95,
+      "text": "requirement.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b64",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 96,
+      "text": "\u25cf Prepare Business Requirement Document (BRD) and Functional Specification",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b65",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 97,
+      "text": "Documents (FSD)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b65",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 98,
+      "text": "\u25cf Design test cases for different onboarding scenarios (e.g., new customer, update KYC,",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b66",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 99,
+      "text": "CKYC fetch)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b66",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 100,
+      "text": "Nelito Systems (DTS Group) \u2013 Functional Analyst",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b66",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 101,
+      "text": "Client - SBI",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b66",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 102,
+      "text": "Feb 2021 \u2013 Jun 2021(4 months)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b66",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 103,
+      "text": "\u25cf Involved in CKYC/Trade Finance modules.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b67",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 104,
+      "text": "\u25cf business and tech teams; addressed ID and API-level issues.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b68",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 105,
+      "text": "QualityKiosk Technologies Pvt. Ltd. \u2013 Transitions Executive",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b69",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 106,
+      "text": "Nov 2017 \u2013 Feb 2021( 3y 2 mon)",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b70",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 107,
+      "text": "\u25cf Requirement gathering from stakeholders across life,, general insurance segments.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b71",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 108,
+      "text": "\u25cf Working with systems to streamline claim approvals, automate documentation, and",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b72",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 109,
+      "text": "reduce TAT.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b72",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 110,
+      "text": "\u25cf Cater to audit trails, data governance, and compliance reporting observation.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b73",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 111,
+      "text": "\u25cf Collaborating with developer teams for seamless customer experience.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b74",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 112,
+      "text": "\u25cf Managed client transitions across BFSI, telecom, and e-commerce domains.",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b75",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 113,
+      "text": "\u25cf Led documentation efforts and implemented automation via UIPath for Insurance",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b76",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 114,
+      "text": "client Bajaj Allianz call center and Bajaj health insurance Products",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b76",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 115,
+      "text": "\u25cf Conducted GAP analysis, requirement validation, and SLA tracking. Handled projects",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b77",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 116,
+      "text": "on payment domains like Domestic and international payments (e.g., NEFT, RTGS,",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b77",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 117,
+      "text": "UPI, SWIFT,).",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b77",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 118,
+      "text": "\u25cf OTP based transactions (credit, debit, prepaid).",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b78",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 119,
+      "text": "\u25cf Monitoring Payment gateways, merchant onboarding, and wallets journeys",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b79",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 120,
+      "text": "\u25cf Collaborating with developers during development and maintained application",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b80",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 121,
+      "text": "module",
+      "section_id": "s3:Experience",
+      "section": "Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b80",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 122,
+      "text": "Project Highlights",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 123,
+      "text": "5",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": true,
+      "block_id": null,
+      "assignment": "page_number_marker",
+      "assigned": true
+    },
+    {
+      "line_index": 124,
+      "text": "\u25cf Integration of ORM with ServiceNow GRC Module and automatising the Risk",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b81",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 125,
+      "text": "management , Audit and Compliance experience in the organisation.",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b81",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 126,
+      "text": "\u25cf Trading Application (PINS) \u2013 Spearheaded development for seamless NRI onboarding",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b82",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 127,
+      "text": "and trading experience.",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b82",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 128,
+      "text": "\u25cf Implementing report automation to Broker and Customers and API integration for",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b83",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 129,
+      "text": "smooth customer onboarding through various channels",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b83",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 130,
+      "text": "\u25cf CKYC Compliance Project for SBI \u2013 Enabled integration with CERSAI for 100%",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b84",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 131,
+      "text": "customer compliance.",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b84",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 132,
+      "text": "\u25cf Implementation of UIPath for Insurance portal of Bajaj Allianz call center in Citrix",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b85",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 133,
+      "text": "environment and Bajaj Allianz newly launched insurance Products.",
+      "section_id": "s4:Projects",
+      "section": "Projects",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b85",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 134,
+      "text": "Domain Experience",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 135,
+      "text": "\u25cf Banking: ICICI Bank, State bank of India, HDFC bank,",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b86",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 136,
+      "text": "BNP Paribas",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b86",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 137,
+      "text": "RAK, ADCB, Bank Muscat,",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b86",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 138,
+      "text": "\u25cf Insurance: SBI Life, HDFC Life, Bajaj Allianz, ICICI Prulife, Aditya Birla, L & T insurance",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b87",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 139,
+      "text": "\u25cf Trading: : ICICI Securities, BTPN (Indonesia) , Axis securities",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b88",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 140,
+      "text": "\u25cf E-commerce: :UAE RTA,Jet airways",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b89",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 141,
+      "text": "\u25cf Regulatory Bodies: NSDL, CDSL",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b90",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 142,
+      "text": "Technical Skills",
+      "section_id": "s6:Technical Skills",
+      "section": "Technical Skills",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 143,
+      "text": "\u25cf Tools: JIRA, Service Now,HP LoadRunner, UIPath, Postman, API, Arcos portal,",
+      "section_id": "s6:Technical Skills",
+      "section": "Technical Skills",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b91",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 144,
+      "text": "\u25cf Databases: MySQL, Oracle SQL",
+      "section_id": "s6:Technical Skills",
+      "section": "Technical Skills",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b92",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 145,
+      "text": "\u25cf Operating Systems: Windows, Linux",
+      "section_id": "s6:Technical Skills",
+      "section": "Technical Skills",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b93",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 146,
+      "text": "Education Qualification",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 147,
+      "text": "Degree",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b94",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 148,
+      "text": "College/School",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b95",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 149,
+      "text": "University/Board",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b95",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 150,
+      "text": "Year of Passing",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b95",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 151,
+      "text": "BE Computer",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b95",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 152,
+      "text": "Percentage &",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b95",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 153,
+      "text": "Pointer",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b96",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 154,
+      "text": "PCE, New Panvel",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b97",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 155,
+      "text": "Third year of",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b98",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 156,
+      "text": "Engineering",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b99",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 157,
+      "text": "Mumbai University 2017",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b100",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 158,
+      "text": "60.00/ 6.75",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "60.",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b101",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 159,
+      "text": "PCE, New Panvel",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b101",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 160,
+      "text": "Second year of",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b101",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 161,
+      "text": "Engineering",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b101",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 162,
+      "text": "Mumbai University 2016",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b101",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 163,
+      "text": "60.20 / 6.79",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "60.",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b102",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 164,
+      "text": "PCE, New Panvel",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b102",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 165,
+      "text": "Diploma in I.T",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b102",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 166,
+      "text": "Dr. NYTP, Bhivpuri",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b102",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 167,
+      "text": "Road",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b102",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 168,
+      "text": "Mumbai University 2015",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b102",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 169,
+      "text": "52.82 / 5.75",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "52.",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b103",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 170,
+      "text": "Mumbai University 2014",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b103",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 171,
+      "text": "74.44",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "74.",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b104",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 172,
+      "text": "6",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": true,
+      "block_id": null,
+      "assignment": "page_number_marker",
+      "assigned": true
+    },
+    {
+      "line_index": 173,
+      "text": "SSC",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b104",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 174,
+      "text": "Kendriya Vidyalaya",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b104",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 175,
+      "text": "Ambernath",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b104",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 176,
+      "text": "CBSE",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b104",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 177,
+      "text": "Personal Details",
+      "section_id": "s8:Personal Information",
+      "section": "Personal Information",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": null,
+      "assignment": "section_heading",
+      "assigned": true
+    },
+    {
+      "line_index": 178,
+      "text": "\u25cf Date of Birth: 22nd June 1995",
+      "section_id": "s8:Personal Information",
+      "section": "Personal Information",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b105",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 179,
+      "text": "\u25cf Languages: English, Hindi,",
+      "section_id": "s9:Languages",
+      "section": "Languages",
+      "source_path": null,
+      "is_section_heading": true,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "English, Hindi,",
+      "is_page_number": false,
+      "block_id": "b106",
+      "assignment": "section_heading_and_block_content",
+      "assigned": true
+    },
+    {
+      "line_index": 180,
+      "text": "\u25cf Nationality: Indian",
+      "section_id": "s9:Languages",
+      "section": "Languages",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "\u25cf",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b107",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 181,
+      "text": "2011",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b108",
+      "assignment": "context_block",
+      "assigned": true
+    },
+    {
+      "line_index": 182,
+      "text": "67.7",
+      "section_id": "s7:Education",
+      "section": "Education",
+      "source_path": null,
+      "is_section_heading": false,
+      "is_bullet": true,
+      "list_marker": "67.",
+      "inline_body": "",
+      "is_page_number": false,
+      "block_id": "b109",
+      "assignment": "context_block",
+      "assigned": true
+    }
+  ],
+  "semantic_coverage": {
+    "total_source_blocks": 184,
+    "semantic_blocks": 164,
+    "classified_blocks": 164,
+    "grouped_blocks": 164,
+    "ignored_artifacts": 5,
+    "ignored_page_numbers": 5,
+    "ignored_headers_footers": 0,
+    "decorative_bullet_markers": 0,
+    "unclassified_blocks": 0,
+    "unresolved_source_ids": [],
+    "complete": true
+  }
+}

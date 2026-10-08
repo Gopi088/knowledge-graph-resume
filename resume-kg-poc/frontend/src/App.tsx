@@ -67,6 +67,7 @@ interface Artifacts {
   };
   "block_audit.json"?: BlockAudit;
   "resume_blocks.json"?: Record<string, any>;
+  "canonical_resume.json"?: Record<string, any>;
   "embeddings.json"?: { model: string; dim: number; entity_texts: string[]; vectors_preview?: number[][] };
   "clusters.json"?: any;
   "similarity.json"?: { top_pairs: { a: string; b: string; similarity: number }[] };
@@ -461,8 +462,8 @@ export default function App() {
           )}
 
           {tab === "relationships" && (
-            <><h2>Explicit relationships ({relationships.length}) — SVO / context parsing</h2>
-            <p className="hint">All edges here are method=NLP parsing (solid). No cosine-similarity edge is treated as factual.</p>
+            <><h2>Validated relationships ({relationships.length}) — canonical resume structure</h2>
+            <p className="hint">Edges come from grouped resume records and retain source-path evidence. Similarity does not create relationships.</p>
             <table><thead><tr><th>Source</th><th>Relationship</th><th>Target</th><th>Conf</th><th>Section</th><th>Source sentence</th></tr></thead>
             <tbody>{relationships.map((r, i) => (
               <tr key={i} onClick={() => setSelected(r)} style={{ cursor: "pointer" }}>

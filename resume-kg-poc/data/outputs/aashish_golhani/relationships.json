@@ -1,410 +1,3706 @@
 {
-  "count": 20,
+  "count": 185,
   "relationships": [
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Agile",
-      "source_id": "e42",
-      "target_id": "e67",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Agile & Waterfall methodologies and frameworks",
+      "source": "person",
+      "target": "n1",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant",
+      "relationship": "HAS_PROFESSIONAL_TITLE",
+      "confidence": 1.0,
+      "source_sentence": "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant",
       "evidence_sentences": [
-        "Agile & Waterfall methodologies and frameworks"
+        "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant"
       ],
-      "evidence_sentence_indices": [
-        5
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b1",
-      "id": "r0"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Personal Information",
+      "block_id": null,
+      "scope_path": "$.personal_information",
+      "evidence_path": "$.personal_information.title",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Agile",
-      "source_id": "e42",
-      "target_id": "e68",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Agile metrics and performance measurement",
+      "source": "person",
+      "target": "n2",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Pune",
+      "relationship": "LOCATED_IN",
+      "confidence": 1.0,
+      "source_sentence": "Pune",
       "evidence_sentences": [
-        "Agile metrics and performance measurement"
+        "Pune"
       ],
-      "evidence_sentence_indices": [
-        10
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b6",
-      "id": "r1"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Personal Information",
+      "block_id": null,
+      "scope_path": "$.personal_information",
+      "evidence_path": "$.personal_information.location",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Agile",
-      "source_id": "e42",
-      "target_id": "e69",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting",
+      "source": "person",
+      "target": "n3",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation.",
+      "relationship": "HAS_SUMMARY",
+      "confidence": 1.0,
+      "source_sentence": "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation.",
       "evidence_sentences": [
-        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+        "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
       ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Certifications",
-      "block_id": "b9",
-      "id": "r2"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Summary",
+      "block_id": null,
+      "scope_path": "$.profile_snapshot",
+      "evidence_path": "$.profile_snapshot[0]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Scrum",
-      "source_id": "e42",
-      "target_id": "e79",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting",
+      "source": "person",
+      "target": "n4",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients.",
+      "relationship": "HAS_SUMMARY",
+      "confidence": 1.0,
+      "source_sentence": "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients.",
       "evidence_sentences": [
-        "Business Analysis And Agile: PSM-I; COEPD Business Analysis; A to Z Business Analyst; Agile Coaching; Design Thinking; Agile Metrics & Scrum Reporting"
+        "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
       ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Certifications",
-      "block_id": "b9",
-      "id": "r3"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Summary",
+      "block_id": null,
+      "scope_path": "$.profile_snapshot",
+      "evidence_path": "$.profile_snapshot[1]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Be Process Mapping",
-      "source_id": "e42",
-      "target_id": "e19",
-      "relationship": "HOLDS_DEGREE",
-      "confidence": 0.9,
-      "source_sentence": "As-Is / To-Be Process Mapping",
+      "source": "person",
+      "target": "n5",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance.",
+      "relationship": "HAS_SUMMARY",
+      "confidence": 1.0,
+      "source_sentence": "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance.",
       "evidence_sentences": [
-        "As-Is / To-Be Process Mapping"
+        "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
       ],
-      "evidence_sentence_indices": [
-        49
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Business Analysis And Product Management",
-      "block_id": "b45",
-      "id": "r4"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Summary",
+      "block_id": null,
+      "scope_path": "$.profile_snapshot",
+      "evidence_path": "$.profile_snapshot[2]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Be models, operational procedures, and regulatory requirements",
-      "source_id": "e42",
-      "target_id": "e20",
-      "relationship": "HOLDS_DEGREE",
-      "confidence": 0.9,
+      "source": "person",
+      "target": "n6",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals.",
+      "relationship": "HAS_SUMMARY",
+      "confidence": 1.0,
+      "source_sentence": "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals.",
+      "evidence_sentences": [
+        "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Summary",
+      "block_id": null,
+      "scope_path": "$.profile_snapshot",
+      "evidence_path": "$.profile_snapshot[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n7",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Persistent Systems Ltd.",
+      "relationship": "WORKED_AT",
+      "confidence": 1.0,
+      "source_sentence": "Persistent Systems Ltd. Banking Domain Consultant",
+      "evidence_sentences": [
+        "Persistent Systems Ltd. Banking Domain Consultant"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0]",
+      "evidence_path": "$.work_history[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n8",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Banking Domain Consultant",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "Persistent Systems Ltd. Banking Domain Consultant Dec 2023- June 2026",
+      "evidence_sentences": [
+        "Persistent Systems Ltd. Banking Domain Consultant Dec 2023- June 2026"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0]",
+      "evidence_path": "$.work_history[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n7",
+      "target": "n8",
+      "source_label": "Persistent Systems Ltd.",
+      "target_label": "Banking Domain Consultant",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "Persistent Systems Ltd. Banking Domain Consultant Dec 2023- June 2026",
+      "evidence_sentences": [
+        "Persistent Systems Ltd. Banking Domain Consultant Dec 2023- June 2026"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0]",
+      "evidence_path": "$.work_history[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n9",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Dec 2023- June 2026",
+      "relationship": "HAS_EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "source_sentence": "Dec 2023- June 2026",
+      "evidence_sentences": [
+        "Dec 2023- June 2026"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].employment_periods[0].source_text",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n10",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+      "evidence_sentences": [
+        "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n11",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+      "evidence_sentences": [
+        "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n12",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+      "evidence_sentences": [
+        "Guided Business Analysts during requirement elicitation, requirement validation, and solution design."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n13",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+      "evidence_sentences": [
+        "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n14",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
       "evidence_sentences": [
         "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements."
       ],
-      "evidence_sentence_indices": [
-        66
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b57",
-      "id": "r5"
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[4]",
+      "source_blocks": []
     },
     {
-      "source": "Scrum",
-      "target": "Agile",
-      "source_id": "e63",
-      "target_id": "e72",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
+      "source": "n8",
+      "target": "n15",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+      "evidence_sentences": [
+        "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n16",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+      "evidence_sentences": [
+        "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n17",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+      "evidence_sentences": [
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n18",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+      "evidence_sentences": [
+        "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n19",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+      "evidence_sentences": [
+        "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n20",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+      "evidence_sentences": [
+        "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n21",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+      "evidence_sentences": [
+        "Reviewed SQL data validation reports, reconciliation reports, and production metrics."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[11]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n22",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+      "evidence_sentences": [
+        "Assisted Product Owners with backlog prioritization, business value assessment, and release planning."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "n8",
+      "target": "n23",
+      "source_label": "Banking Domain Consultant",
+      "target_label": "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance.",
+      "evidence_sentences": [
+        "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n24",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Bandhan Bank Ltd.",
+      "relationship": "WORKED_AT",
+      "confidence": 1.0,
+      "source_sentence": "Bandhan Bank Ltd. Lead Business Analyst/ Product Owner",
+      "evidence_sentences": [
+        "Bandhan Bank Ltd. Lead Business Analyst/ Product Owner"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1]",
+      "evidence_path": "$.work_history[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n25",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Lead Business Analyst/ Product Owner",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "Bandhan Bank Ltd. Lead Business Analyst/ Product Owner Jan 2019 \u2013 Dec 2023",
+      "evidence_sentences": [
+        "Bandhan Bank Ltd. Lead Business Analyst/ Product Owner Jan 2019 \u2013 Dec 2023"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1]",
+      "evidence_path": "$.work_history[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n24",
+      "target": "n25",
+      "source_label": "Bandhan Bank Ltd.",
+      "target_label": "Lead Business Analyst/ Product Owner",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "Bandhan Bank Ltd. Lead Business Analyst/ Product Owner Jan 2019 \u2013 Dec 2023",
+      "evidence_sentences": [
+        "Bandhan Bank Ltd. Lead Business Analyst/ Product Owner Jan 2019 \u2013 Dec 2023"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1]",
+      "evidence_path": "$.work_history[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n26",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Jan 2019 \u2013 Dec 2023",
+      "relationship": "HAS_EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "source_sentence": "Jan 2019 \u2013 Dec 2023",
+      "evidence_sentences": [
+        "Jan 2019 \u2013 Dec 2023"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].employment_periods[0].source_text",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n27",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+      "evidence_sentences": [
+        "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n28",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+      "evidence_sentences": [
+        "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n29",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+      "evidence_sentences": [
+        "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n30",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+      "evidence_sentences": [
+        "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n31",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Managed Agile delivery using Scrum and Kanban methodologies.",
       "evidence_sentences": [
         "Managed Agile delivery using Scrum and Kanban methodologies."
       ],
-      "evidence_sentence_indices": [
-        81
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b58",
-      "id": "r6"
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[4]",
+      "source_blocks": []
     },
     {
-      "source": "Scrum",
-      "target": "Scrum",
-      "source_id": "e63",
-      "target_id": "e81",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "source": "n25",
+      "target": "n32",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
       "evidence_sentences": [
-        "Managed Agile delivery using Scrum and Kanban methodologies."
+        "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions."
       ],
-      "evidence_sentence_indices": [
-        81
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b58",
-      "id": "r7"
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[5]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Scrum",
-      "source_id": "e42",
-      "target_id": "e63",
-      "relationship": "WORKED_ON",
-      "confidence": 0.86,
-      "source_sentence": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "source": "n25",
+      "target": "n33",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
       "evidence_sentences": [
-        "Managed Agile delivery using Scrum and Kanban methodologies."
+        "Worked closely with UX teams to review wireframes, prototypes, and customer journeys."
       ],
-      "evidence_sentence_indices": [
-        81
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b58",
-      "id": "r8"
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[6]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "SQL",
-      "source_id": "e42",
-      "target_id": "e46",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
+      "source": "n25",
+      "target": "n34",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+      "evidence_sentences": [
+        "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n35",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+      "evidence_sentences": [
+        "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n36",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Collaborated with QA teams for UAT planning, production validation, and release management.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Collaborated with QA teams for UAT planning, production validation, and release management.",
+      "evidence_sentences": [
+        "Collaborated with QA teams for UAT planning, production validation, and release management."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n37",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+      "evidence_sentences": [
+        "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "n25",
+      "target": "n38",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
       "evidence_sentences": [
         "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
       ],
-      "evidence_sentence_indices": [
-        88
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b58",
-      "id": "r9"
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[11]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Power BI",
-      "source_id": "e42",
-      "target_id": "e93",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "source": "n25",
+      "target": "n39",
+      "source_label": "Lead Business Analyst/ Product Owner",
+      "target_label": "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance.",
       "evidence_sentences": [
-        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+        "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
       ],
-      "evidence_sentence_indices": [
-        88
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b58",
-      "id": "r10"
+      "block_id": null,
+      "scope_path": "$.work_history[1].roles[0]",
+      "evidence_path": "$.work_history[1].roles[0].role_and_responsibilities[12]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Tableau",
-      "source_id": "e42",
-      "target_id": "e95",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "source": "person",
+      "target": "n40",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Axis Bank Ltd.",
+      "relationship": "WORKED_AT",
+      "confidence": 1.0,
+      "source_sentence": "Axis Bank Ltd. Senior Business Analyst",
       "evidence_sentences": [
-        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+        "Axis Bank Ltd. Senior Business Analyst"
       ],
-      "evidence_sentence_indices": [
-        88
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b58",
-      "id": "r11"
+      "block_id": null,
+      "scope_path": "$.work_history[2]",
+      "evidence_path": "$.work_history[2]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence di",
-      "source_id": "e42",
-      "target_id": "e21",
-      "relationship": "HOLDS_DEGREE",
-      "confidence": 0.9,
+      "source": "person",
+      "target": "n41",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Senior Business Analyst",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "Axis Bank Ltd. Senior Business Analyst Oct 2017 \u2013 Dec 2018",
+      "evidence_sentences": [
+        "Axis Bank Ltd. Senior Business Analyst Oct 2017 \u2013 Dec 2018"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2]",
+      "evidence_path": "$.work_history[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n40",
+      "target": "n41",
+      "source_label": "Axis Bank Ltd.",
+      "target_label": "Senior Business Analyst",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "Axis Bank Ltd. Senior Business Analyst Oct 2017 \u2013 Dec 2018",
+      "evidence_sentences": [
+        "Axis Bank Ltd. Senior Business Analyst Oct 2017 \u2013 Dec 2018"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2]",
+      "evidence_path": "$.work_history[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n42",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Oct 2017 \u2013 Dec 2018",
+      "relationship": "HAS_EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "source_sentence": "Oct 2017 \u2013 Dec 2018",
+      "evidence_sentences": [
+        "Oct 2017 \u2013 Dec 2018"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].employment_periods[0].source_text",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n43",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+      "evidence_sentences": [
+        "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n44",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+      "evidence_sentences": [
+        "Managed end-to-end Business Analysis activities across multiple Agile projects."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n45",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Defined project scope, business objectives, solution approach, and implementation roadmap.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Defined project scope, business objectives, solution approach, and implementation roadmap.",
+      "evidence_sentences": [
+        "Defined project scope, business objectives, solution approach, and implementation roadmap."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n46",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+      "evidence_sentences": [
+        "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n47",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+      "evidence_sentences": [
+        "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n48",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+      "evidence_sentences": [
+        "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n49",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+      "evidence_sentences": [
+        "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n50",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+      "evidence_sentences": [
+        "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n51",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+      "evidence_sentences": [
+        "Worked closely with Product Owners to prioritize Epics, Features, and User Stories."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n52",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+      "evidence_sentences": [
+        "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n53",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Directed UAT planning, defect triage, production validation, and Hypercare support.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Directed UAT planning, defect triage, production validation, and Hypercare support.",
+      "evidence_sentences": [
+        "Directed UAT planning, defect triage, production validation, and Hypercare support."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n54",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+      "evidence_sentences": [
+        "Coordinated API integrations, Data Mapping, System Integrations, and migration projects."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[11]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n55",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+      "evidence_sentences": [
+        "Mentored junior Business Analysts and conducted peer reviews of project documentation."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n56",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+      "evidence_sentences": [
+        "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "n41",
+      "target": "n57",
+      "source_label": "Senior Business Analyst",
+      "target_label": "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations.",
+      "evidence_sentences": [
+        "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[2].roles[0]",
+      "evidence_path": "$.work_history[2].roles[0].role_and_responsibilities[14]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n58",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "HDFC Bank Ltd.",
+      "relationship": "WORKED_AT",
+      "confidence": 1.0,
+      "source_sentence": "HDFC Bank Ltd. Business Analyst",
+      "evidence_sentences": [
+        "HDFC Bank Ltd. Business Analyst"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3]",
+      "evidence_path": "$.work_history[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n59",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Business Analyst",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "HDFC Bank Ltd. Business Analyst Sep 2012 \u2013 Oct 2017",
+      "evidence_sentences": [
+        "HDFC Bank Ltd. Business Analyst Sep 2012 \u2013 Oct 2017"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3]",
+      "evidence_path": "$.work_history[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "n58",
+      "target": "n59",
+      "source_label": "HDFC Bank Ltd.",
+      "target_label": "Business Analyst",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "HDFC Bank Ltd. Business Analyst Sep 2012 \u2013 Oct 2017",
+      "evidence_sentences": [
+        "HDFC Bank Ltd. Business Analyst Sep 2012 \u2013 Oct 2017"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3]",
+      "evidence_path": "$.work_history[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n60",
+      "source_label": "Business Analyst",
+      "target_label": "Sep 2012 \u2013 Oct 2017",
+      "relationship": "HAS_EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "source_sentence": "Sep 2012 \u2013 Oct 2017",
+      "evidence_sentences": [
+        "Sep 2012 \u2013 Oct 2017"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].employment_periods[0].source_text",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n61",
+      "source_label": "Business Analyst",
+      "target_label": "Gathered and analyzed business requirements for banking products and process improvements.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Gathered and analyzed business requirements for banking products and process improvements.",
+      "evidence_sentences": [
+        "Gathered and analyzed business requirements for banking products and process improvements."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n62",
+      "source_label": "Business Analyst",
+      "target_label": "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+      "evidence_sentences": [
+        "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n63",
+      "source_label": "Business Analyst",
+      "target_label": "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+      "evidence_sentences": [
+        "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n64",
+      "source_label": "Business Analyst",
+      "target_label": "Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+      "evidence_sentences": [
+        "Worked on requirement documentation, stakeholder coordination, UAT, and production support."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n65",
+      "source_label": "Business Analyst",
+      "target_label": "Supported Agile and Waterfall delivery models for banking transformation projects.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Supported Agile and Waterfall delivery models for banking transformation projects.",
+      "evidence_sentences": [
+        "Supported Agile and Waterfall delivery models for banking transformation projects."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n66",
+      "source_label": "Business Analyst",
+      "target_label": "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+      "evidence_sentences": [
+        "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n67",
+      "source_label": "Business Analyst",
+      "target_label": "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+      "evidence_sentences": [
+        "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n68",
+      "source_label": "Business Analyst",
+      "target_label": "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+      "evidence_sentences": [
+        "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n69",
+      "source_label": "Business Analyst",
+      "target_label": "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
       "evidence_sentences": [
         "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation."
       ],
-      "evidence_sentence_indices": [
-        115
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b60",
-      "id": "r12"
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[8]",
+      "source_blocks": []
     },
     {
-      "source": "JIRA and maintained",
-      "target": "JIRA",
-      "source_id": "e61",
-      "target_id": "e87",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
+      "source": "n59",
+      "target": "n70",
+      "source_label": "Business Analyst",
+      "target_label": "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+      "evidence_sentences": [
+        "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC)."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n71",
+      "source_label": "Business Analyst",
+      "target_label": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
       "evidence_sentences": [
         "Managed product backlog items using JIRA and maintained project documentation in Confluence."
       ],
-      "evidence_sentence_indices": [
-        117
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b60",
-      "id": "r13"
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[10]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "JIRA and maintained",
-      "source_id": "e42",
-      "target_id": "e61",
-      "relationship": "WORKED_ON",
-      "confidence": 0.86,
-      "source_sentence": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+      "source": "n59",
+      "target": "n72",
+      "source_label": "Business Analyst",
+      "target_label": "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
       "evidence_sentences": [
-        "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+        "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives."
       ],
-      "evidence_sentence_indices": [
-        117
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b60",
-      "id": "r14"
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[11]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "REST APIs",
-      "source_id": "e42",
-      "target_id": "e78",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
+      "source": "n59",
+      "target": "n73",
+      "source_label": "Business Analyst",
+      "target_label": "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+      "evidence_sentences": [
+        "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n74",
+      "source_label": "Business Analyst",
+      "target_label": "Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+      "evidence_sentences": [
+        "Executed SQL queries for data validation, data analysis, reconciliation, and production support."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n75",
+      "source_label": "Business Analyst",
+      "target_label": "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+      "evidence_sentences": [
+        "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[14]",
+      "source_blocks": []
+    },
+    {
+      "source": "n59",
+      "target": "n76",
+      "source_label": "Business Analyst",
+      "target_label": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
       "evidence_sentences": [
         "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
       ],
-      "evidence_sentence_indices": [
-        122
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b60",
-      "id": "r15"
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[15]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Postman",
-      "source_id": "e42",
-      "target_id": "e90",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+      "source": "n59",
+      "target": "n77",
+      "source_label": "Business Analyst",
+      "target_label": "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
       "evidence_sentences": [
-        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+        "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management."
       ],
-      "evidence_sentence_indices": [
-        122
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b60",
-      "id": "r16"
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[16]",
+      "source_blocks": []
     },
     {
-      "source": "AASHISH GOLHANI",
-      "target": "Bachelor of Pharmacy | University:",
-      "source_id": "e42",
-      "target_id": "e18",
-      "relationship": "HOLDS_DEGREE",
-      "confidence": 0.9,
-      "source_sentence": "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
+      "source": "n59",
+      "target": "n78",
+      "source_label": "Business Analyst",
+      "target_label": "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
       "evidence_sentences": [
-        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:"
+        "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives."
       ],
-      "evidence_sentence_indices": [
-        136
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Education",
-      "block_id": "b66",
-      "id": "r17"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[17]",
+      "source_blocks": []
     },
     {
-      "source": "Bachelor of Pharmacy | University:",
-      "target": "Amravati University",
-      "source_id": "e18",
-      "target_id": "e96",
-      "relationship": "FROM_UNIVERSITY",
-      "confidence": 0.9,
-      "source_sentence": "Year: 2003 | Qualification: Bachelor of Pharmacy | University:\nAmravati University",
+      "source": "n59",
+      "target": "n79",
+      "source_label": "Business Analyst",
+      "target_label": "Supported production deployment, Hypercare activities, incident management, and release management.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Supported production deployment, Hypercare activities, incident management, and release management.",
       "evidence_sentences": [
-        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
-        "Amravati University"
+        "Supported production deployment, Hypercare activities, incident management, and release management."
       ],
-      "evidence_sentence_indices": [
-        136,
-        137
-      ],
-      "evidence_kind": "structured_education_entry",
-      "method": "source-context rules",
-      "section": "Education",
-      "block_id": "b66",
-      "id": "r18"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[3].roles[0]",
+      "evidence_path": "$.work_history[3].roles[0].role_and_responsibilities[18]",
+      "source_blocks": []
     },
     {
-      "source": "Bachelor of Pharmacy | University:",
-      "target": "University",
-      "source_id": "e18",
-      "target_id": "e101",
-      "relationship": "FROM_UNIVERSITY",
-      "confidence": 0.9,
-      "source_sentence": "Year: 2003 | Qualification: Bachelor of Pharmacy | University:\nAmravati University",
+      "source": "person",
+      "target": "n80",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "American Home Mortgage Services/Homeward",
+      "relationship": "WORKED_AT",
+      "confidence": 1.0,
+      "source_sentence": "American Home Mortgage Services/Homeward Underwriter",
       "evidence_sentences": [
-        "Year: 2003 | Qualification: Bachelor of Pharmacy | University:",
-        "Amravati University"
+        "American Home Mortgage Services/Homeward Underwriter"
       ],
-      "evidence_sentence_indices": [
-        136,
-        137
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4]",
+      "evidence_path": "$.work_history[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n81",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Underwriter",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "American Home Mortgage Services/Homeward Underwriter Aug 2006 \u2013 Aug 2012",
+      "evidence_sentences": [
+        "American Home Mortgage Services/Homeward Underwriter Aug 2006 \u2013 Aug 2012"
       ],
-      "evidence_kind": "structured_education_entry",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4]",
+      "evidence_path": "$.work_history[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "n80",
+      "target": "n81",
+      "source_label": "American Home Mortgage Services/Homeward",
+      "target_label": "Underwriter",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "American Home Mortgage Services/Homeward Underwriter Aug 2006 \u2013 Aug 2012",
+      "evidence_sentences": [
+        "American Home Mortgage Services/Homeward Underwriter Aug 2006 \u2013 Aug 2012"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4]",
+      "evidence_path": "$.work_history[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "n81",
+      "target": "n82",
+      "source_label": "Underwriter",
+      "target_label": "Aug 2006 \u2013 Aug 2012",
+      "relationship": "HAS_EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "source_sentence": "Aug 2006 \u2013 Aug 2012",
+      "evidence_sentences": [
+        "Aug 2006 \u2013 Aug 2012"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4].roles[0]",
+      "evidence_path": "$.work_history[4].roles[0].employment_periods[0].source_text",
+      "source_blocks": []
+    },
+    {
+      "source": "n81",
+      "target": "n83",
+      "source_label": "Underwriter",
+      "target_label": "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+      "evidence_sentences": [
+        "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral)."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4].roles[0]",
+      "evidence_path": "$.work_history[4].roles[0].role_and_responsibilities[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n81",
+      "target": "n84",
+      "source_label": "Underwriter",
+      "target_label": "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+      "evidence_sentences": [
+        "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4].roles[0]",
+      "evidence_path": "$.work_history[4].roles[0].role_and_responsibilities[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n81",
+      "target": "n85",
+      "source_label": "Underwriter",
+      "target_label": "Ensured mortgage compliance and underwriting quality standards.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
+      "source_sentence": "Ensured mortgage compliance and underwriting quality standards.",
+      "evidence_sentences": [
+        "Ensured mortgage compliance and underwriting quality standards."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[4].roles[0]",
+      "evidence_path": "$.work_history[4].roles[0].role_and_responsibilities[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n86",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "PG Certificate in Data Management & Clinical Research",
+      "relationship": "COMPLETED_DEGREE",
+      "confidence": 1.0,
+      "source_sentence": "2008 PG Certificate in Data Management & Clinical Research Pune Pune University PG Certificate in Data Management & Clinical Research",
+      "evidence_sentences": [
+        "2008 PG Certificate in Data Management & Clinical Research Pune Pune University PG Certificate in Data Management & Clinical Research"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Education",
-      "block_id": "b66",
-      "id": "r19"
+      "block_id": null,
+      "scope_path": "$.education[0]",
+      "evidence_path": "$.education[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n86",
+      "target": "n87",
+      "source_label": "PG Certificate in Data Management & Clinical Research",
+      "target_label": "Pune University",
+      "relationship": "AWARDED_BY",
+      "confidence": 1.0,
+      "source_sentence": "2008 PG Certificate in Data Management & Clinical Research Pune Pune University PG Certificate in Data Management & Clinical Research",
+      "evidence_sentences": [
+        "2008 PG Certificate in Data Management & Clinical Research Pune Pune University PG Certificate in Data Management & Clinical Research"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[0]",
+      "evidence_path": "$.education[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "n86",
+      "target": "n88",
+      "source_label": "PG Certificate in Data Management & Clinical Research",
+      "target_label": "2008",
+      "relationship": "COMPLETED_IN",
+      "confidence": 1.0,
+      "source_sentence": "2008",
+      "evidence_sentences": [
+        "2008"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[0]",
+      "evidence_path": "$.education[0].year",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n89",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Diploma in Information Technology from ACTS, Pune",
+      "relationship": "COMPLETED_DEGREE",
+      "confidence": 1.0,
+      "source_sentence": "2004 Diploma in Information Technology from ACTS, Pune Pune University Diploma in Information Technology from ACTS, Pune",
+      "evidence_sentences": [
+        "2004 Diploma in Information Technology from ACTS, Pune Pune University Diploma in Information Technology from ACTS, Pune"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[1]",
+      "evidence_path": "$.education[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n89",
+      "target": "n90",
+      "source_label": "Diploma in Information Technology from ACTS, Pune",
+      "target_label": "Pune University",
+      "relationship": "AWARDED_BY",
+      "confidence": 1.0,
+      "source_sentence": "2004 Diploma in Information Technology from ACTS, Pune Pune University Diploma in Information Technology from ACTS, Pune",
+      "evidence_sentences": [
+        "2004 Diploma in Information Technology from ACTS, Pune Pune University Diploma in Information Technology from ACTS, Pune"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[1]",
+      "evidence_path": "$.education[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "n89",
+      "target": "n91",
+      "source_label": "Diploma in Information Technology from ACTS, Pune",
+      "target_label": "2004",
+      "relationship": "COMPLETED_IN",
+      "confidence": 1.0,
+      "source_sentence": "2004",
+      "evidence_sentences": [
+        "2004"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[1]",
+      "evidence_path": "$.education[1].year",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n92",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Bachelor of Pharmacy",
+      "relationship": "COMPLETED_DEGREE",
+      "confidence": 1.0,
+      "source_sentence": "2003 Bachelor of Pharmacy Amravati University Bachelor of Pharmacy",
+      "evidence_sentences": [
+        "2003 Bachelor of Pharmacy Amravati University Bachelor of Pharmacy"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[2]",
+      "evidence_path": "$.education[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n92",
+      "target": "n93",
+      "source_label": "Bachelor of Pharmacy",
+      "target_label": "Amravati University",
+      "relationship": "AWARDED_BY",
+      "confidence": 1.0,
+      "source_sentence": "2003 Bachelor of Pharmacy Amravati University Bachelor of Pharmacy",
+      "evidence_sentences": [
+        "2003 Bachelor of Pharmacy Amravati University Bachelor of Pharmacy"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[2]",
+      "evidence_path": "$.education[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "n92",
+      "target": "n94",
+      "source_label": "Bachelor of Pharmacy",
+      "target_label": "2003",
+      "relationship": "COMPLETED_IN",
+      "confidence": 1.0,
+      "source_sentence": "2003",
+      "evidence_sentences": [
+        "2003"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[2]",
+      "evidence_path": "$.education[2].year",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n95",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Agile & Waterfall methodologies and frameworks",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Agile & Waterfall methodologies and frameworks",
+      "evidence_sentences": [
+        "Agile & Waterfall methodologies and frameworks"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n96",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Project management techniques",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Project management techniques",
+      "evidence_sentences": [
+        "Project management techniques"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n97",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Communication and collaboration skills",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Communication and collaboration skills",
+      "evidence_sentences": [
+        "Communication and collaboration skills"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n98",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Leadership and team management skills (Team Size-15+)",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Leadership and team management skills (Team Size-15+)",
+      "evidence_sentences": [
+        "Leadership and team management skills (Team Size-15+)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n99",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Change management and organizational development skills",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Change management and organizational development skills",
+      "evidence_sentences": [
+        "Change management and organizational development skills"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n100",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Agile metrics and performance measurement",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Agile metrics and performance measurement",
+      "evidence_sentences": [
+        "Agile metrics and performance measurement"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n101",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Technical knowledge in software development and IT operations",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Technical knowledge in software development and IT operations",
+      "evidence_sentences": [
+        "Technical knowledge in software development and IT operations"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n102",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Process improvement and continuous delivery skills",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Process improvement and continuous delivery skills",
+      "evidence_sentences": [
+        "Process improvement and continuous delivery skills"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n103",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "MS Word",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "MS Word",
+      "evidence_sentences": [
+        "MS Word"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n104",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "MS Excel",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "MS Excel",
+      "evidence_sentences": [
+        "MS Excel"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n105",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "MS PowerPoint",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "MS PowerPoint",
+      "evidence_sentences": [
+        "MS PowerPoint"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n106",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Oracle Flexcube",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Oracle Flexcube",
+      "evidence_sentences": [
+        "Oracle Flexcube"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n107",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Finacle",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Finacle",
+      "evidence_sentences": [
+        "Finacle"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n108",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Newgen",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Newgen",
+      "evidence_sentences": [
+        "Newgen"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n109",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "FinOne",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "FinOne",
+      "evidence_sentences": [
+        "FinOne"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n110",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Agile (Scrum) Model",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Agile (Scrum) Model",
+      "evidence_sentences": [
+        "Agile (Scrum) Model"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n111",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Waterfall Model",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Waterfall Model",
+      "evidence_sentences": [
+        "Waterfall Model"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n112",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "JIRA",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "JIRA",
+      "evidence_sentences": [
+        "JIRA"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n113",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "MS Visio",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "MS Visio",
+      "evidence_sentences": [
+        "MS Visio"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n114",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Lucid chart",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Lucid chart",
+      "evidence_sentences": [
+        "Lucid chart"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[11]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n115",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Balsamiq",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Balsamiq",
+      "evidence_sentences": [
+        "Balsamiq"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n116",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Confluence",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Confluence",
+      "evidence_sentences": [
+        "Confluence"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n117",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Draw.IO",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Draw.IO",
+      "evidence_sentences": [
+        "Draw.IO"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[14]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n118",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "AS400",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "AS400",
+      "evidence_sentences": [
+        "AS400"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[15]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n119",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "LANSA",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "LANSA",
+      "evidence_sentences": [
+        "LANSA"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[16]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n120",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "C Sharp (C#)",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "C Sharp (C#)",
+      "evidence_sentences": [
+        "C Sharp (C#)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[17]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n121",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Angular",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Angular",
+      "evidence_sentences": [
+        "Angular"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[18]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n122",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Postman",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Postman",
+      "evidence_sentences": [
+        "Postman"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[19]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n123",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Swagger / Open API",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Swagger / Open API",
+      "evidence_sentences": [
+        "Swagger / Open API"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[20]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n124",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "SoapUI",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "SoapUI",
+      "evidence_sentences": [
+        "SoapUI"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[21]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n125",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "XML/JSON validators",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "XML/JSON validators",
+      "evidence_sentences": [
+        "XML/JSON validators"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.professional[22]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n126",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Databricks",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Databricks",
+      "evidence_sentences": [
+        "Databricks"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n127",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "AWS",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "AWS",
+      "evidence_sentences": [
+        "AWS"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n128",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Aure Dev Ops",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Aure Dev Ops",
+      "evidence_sentences": [
+        "Aure Dev Ops"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n129",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "SQL",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "SQL",
+      "evidence_sentences": [
+        "SQL"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n130",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "SQL Server Management Studio / SQL tools",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "SQL Server Management Studio / SQL tools",
+      "evidence_sentences": [
+        "SQL Server Management Studio / SQL tools"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n131",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Oracle",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Oracle",
+      "evidence_sentences": [
+        "Oracle"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n132",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "DB2",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "DB2",
+      "evidence_sentences": [
+        "DB2"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n133",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Jaspersoft",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Jaspersoft",
+      "evidence_sentences": [
+        "Jaspersoft"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n134",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "ETL",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "ETL",
+      "evidence_sentences": [
+        "ETL"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n135",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Big data",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Big data",
+      "evidence_sentences": [
+        "Big data"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n136",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Airflow",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Airflow",
+      "evidence_sentences": [
+        "Airflow"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n137",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Splunk / Kibana",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Splunk / Kibana",
+      "evidence_sentences": [
+        "Splunk / Kibana"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[11]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n138",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Apache Hadoop",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Apache Hadoop",
+      "evidence_sentences": [
+        "Apache Hadoop"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n139",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Data Lake",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Data Lake",
+      "evidence_sentences": [
+        "Data Lake"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n140",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Apache Iceberg",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Apache Iceberg",
+      "evidence_sentences": [
+        "Apache Iceberg"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[14]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n141",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Kubernetes",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Kubernetes",
+      "evidence_sentences": [
+        "Kubernetes"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[15]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n142",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Apache Spark",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Apache Spark",
+      "evidence_sentences": [
+        "Apache Spark"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[16]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n143",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Apache Airflow",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Apache Airflow",
+      "evidence_sentences": [
+        "Apache Airflow"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[17]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n144",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "NIFI",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "NIFI",
+      "evidence_sentences": [
+        "NIFI"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[18]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n145",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Kafka",
+      "relationship": "HAS_TECHNOLOGY_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Kafka",
+      "evidence_sentences": [
+        "Kafka"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Technical Skills",
+      "block_id": null,
+      "scope_path": "$.technical_skills",
+      "evidence_path": "$.technical_skills.beginner[19]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n146",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "PSM-I",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "PSM-I",
+      "evidence_sentences": [
+        "PSM-I"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n147",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "COEPD Business Analysis",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "COEPD Business Analysis",
+      "evidence_sentences": [
+        "COEPD Business Analysis"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n148",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "A to Z Business Analyst",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "A to Z Business Analyst",
+      "evidence_sentences": [
+        "A to Z Business Analyst"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n149",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Agile Coaching",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Agile Coaching",
+      "evidence_sentences": [
+        "Agile Coaching"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n150",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Design Thinking",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Design Thinking",
+      "evidence_sentences": [
+        "Design Thinking"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n151",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Agile Metrics & Scrum Reporting",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Agile Metrics & Scrum Reporting",
+      "evidence_sentences": [
+        "Agile Metrics & Scrum Reporting"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n152",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "PMO Certification",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "PMO Certification",
+      "evidence_sentences": [
+        "PMO Certification"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n153",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "MS Project",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "MS Project",
+      "evidence_sentences": [
+        "MS Project"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n154",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Program Management Essentials",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Program Management Essentials",
+      "evidence_sentences": [
+        "Program Management Essentials"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n155",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "DevOps Foundation",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "DevOps Foundation",
+      "evidence_sentences": [
+        "DevOps Foundation"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n156",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Cloud Architecture",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Cloud Architecture",
+      "evidence_sentences": [
+        "Cloud Architecture"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n157",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Cybersecurity Analyst",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Cybersecurity Analyst",
+      "evidence_sentences": [
+        "Cybersecurity Analyst"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[11]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n158",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Digital Transformation",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "Digital Transformation",
+      "evidence_sentences": [
+        "Digital Transformation"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n159",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "IBM Artificial Intelligence Fundamentals",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "IBM Artificial Intelligence Fundamentals",
+      "evidence_sentences": [
+        "IBM Artificial Intelligence Fundamentals"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n160",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "GenAI for Executives & Business Leaders",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
+      "source_sentence": "GenAI for Executives & Business Leaders",
+      "evidence_sentences": [
+        "GenAI for Executives & Business Leaders"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Certifications",
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[14]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n161",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Retail Lending & Digital Loans",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Retail Lending & Digital Loans",
+      "evidence_sentences": [
+        "Retail Lending & Digital Loans"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[0]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n162",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "KYC / AML / CDD/ EDD",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "KYC / AML / CDD/ EDD",
+      "evidence_sentences": [
+        "KYC / AML / CDD/ EDD"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[1]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n163",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Banking Fraud and Risks",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Banking Fraud and Risks",
+      "evidence_sentences": [
+        "Banking Fraud and Risks"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[2]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n164",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Transaction Banking",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Transaction Banking",
+      "evidence_sentences": [
+        "Transaction Banking"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[3]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n165",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Loan Origination Systems (LOS)",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Loan Origination Systems (LOS)",
+      "evidence_sentences": [
+        "Loan Origination Systems (LOS)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[4]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n166",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Loan Management Systems (LMS)",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Loan Management Systems (LMS)",
+      "evidence_sentences": [
+        "Loan Management Systems (LMS)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[5]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n167",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Corporate & Wholesale Lending",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Corporate & Wholesale Lending",
+      "evidence_sentences": [
+        "Corporate & Wholesale Lending"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[6]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n168",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Mortgage Processing & Underwriting",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Mortgage Processing & Underwriting",
+      "evidence_sentences": [
+        "Mortgage Processing & Underwriting"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[7]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n169",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Customer Onboarding & Regulatory Compliance",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Customer Onboarding & Regulatory Compliance",
+      "evidence_sentences": [
+        "Customer Onboarding & Regulatory Compliance"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[8]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n170",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Trade Finance & Treasury Products",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Trade Finance & Treasury Products",
+      "evidence_sentences": [
+        "Trade Finance & Treasury Products"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[9]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n171",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA",
+      "evidence_sentences": [
+        "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[10]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n172",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Letter of Credit (LC)",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Letter of Credit (LC)",
+      "evidence_sentences": [
+        "Letter of Credit (LC)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[11]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n173",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Bank Guarantee (BG)",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Bank Guarantee (BG)",
+      "evidence_sentences": [
+        "Bank Guarantee (BG)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[12]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n174",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Cash Credit (CC)",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Cash Credit (CC)",
+      "evidence_sentences": [
+        "Cash Credit (CC)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[13]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n175",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Overdraft (OD)",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Overdraft (OD)",
+      "evidence_sentences": [
+        "Overdraft (OD)"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[14]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n176",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Working Capital Finance",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Working Capital Finance",
+      "evidence_sentences": [
+        "Working Capital Finance"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[15]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n177",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Supply Chain Finance",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Supply Chain Finance",
+      "evidence_sentences": [
+        "Supply Chain Finance"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[16]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n178",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Syndicated Loans",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Syndicated Loans",
+      "evidence_sentences": [
+        "Syndicated Loans"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[17]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n179",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Treasury & Transaction Banking",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Treasury & Transaction Banking",
+      "evidence_sentences": [
+        "Treasury & Transaction Banking"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[18]",
+      "source_blocks": []
+    },
+    {
+      "source": "person",
+      "target": "n180",
+      "source_label": "AASHISH GOLHANI",
+      "target_label": "Insurance",
+      "relationship": "HAS_DOMAIN_EXPERIENCE",
+      "confidence": 1.0,
+      "source_sentence": "Insurance",
+      "evidence_sentences": [
+        "Insurance"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Domain Experience",
+      "block_id": null,
+      "scope_path": "$.domain_experience",
+      "evidence_path": "$.domain_experience[19]",
+      "source_blocks": []
     }
   ],
-  "note": "Every edge is supported by its source sentence or a structurally linked resume entry, with section/block provenance."
+  "note": "Every relationship is derived from a validated canonical resume record with source-path provenance."
 }

@@ -1,6 +1,3315 @@
 {
-  "count": 102,
+  "count": 181,
   "entities": [
+    {
+      "id": "person",
+      "label": "AASHISH GOLHANI",
+      "type": "PERSON",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "AASHISH GOLHANI"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Personal Information"
+      ],
+      "block_ids": [],
+      "source_path": "$.personal_information.name",
+      "source_text": "AASHISH GOLHANI",
+      "text": "AASHISH GOLHANI"
+    },
+    {
+      "id": "n1",
+      "label": "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant",
+      "type": "JOB_TITLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Personal Information"
+      ],
+      "block_ids": [],
+      "source_path": "$.personal_information.title",
+      "source_text": "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant",
+      "text": "Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant"
+    },
+    {
+      "id": "n2",
+      "label": "Pune",
+      "type": "LOCATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Pune"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Personal Information"
+      ],
+      "block_ids": [],
+      "source_path": "$.personal_information.location",
+      "source_text": "Pune",
+      "text": "Pune"
+    },
+    {
+      "id": "n3",
+      "label": "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation.",
+      "type": "SUMMARY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [],
+      "source_path": "$.profile_snapshot[0]",
+      "source_text": "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation.",
+      "text": "Seasoned Banking & Mortgage Transformation SME / Lead Business Analyst / Product Owner / Functional Consultant with 14+ years of Banking & Financial Services experience and 6 years in US Mortgage domain, specializing in Lending, Mortgage, KYC/AML, Loan Origination Systems (LOS), Loan Management Systems (LMS), Payments and Digital Banking Transformation."
+    },
+    {
+      "id": "n4",
+      "label": "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients.",
+      "type": "SUMMARY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [],
+      "source_path": "$.profile_snapshot[1]",
+      "source_text": "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients.",
+      "text": "Proven expertise in leading end-to-end requirement lifecycle management, product backlog ownership, stakeholder engagement, process transformation, API/integration impact analysis, UAT, and Agile delivery for global banking clients."
+    },
+    {
+      "id": "n5",
+      "label": "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance.",
+      "type": "SUMMARY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [],
+      "source_path": "$.profile_snapshot[2]",
+      "source_text": "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance.",
+      "text": "Strong functional expertise across Retail Banking, Wholesale Banking, Trade Finance, Payments Modernization, Lending Lifecycle, Customer Onboarding, and Regulatory Compliance."
+    },
+    {
+      "id": "n6",
+      "label": "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals.",
+      "type": "SUMMARY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [],
+      "source_path": "$.profile_snapshot[3]",
+      "source_text": "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals.",
+      "text": "Experienced in bridging business and technology teams by translating business needs into scalable functional solutions aligned with strategic business goals."
+    },
+    {
+      "id": "n7",
+      "label": "Persistent Systems Ltd.",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Persistent Systems Ltd."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].company",
+      "source_text": "Persistent Systems Ltd.",
+      "text": "Persistent Systems Ltd."
+    },
+    {
+      "id": "n8",
+      "label": "Banking Domain Consultant",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Banking Domain Consultant"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].designation",
+      "source_text": "Banking Domain Consultant",
+      "text": "Banking Domain Consultant"
+    },
+    {
+      "id": "n9",
+      "label": "Dec 2023- June 2026",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Dec 2023- June 2026"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].employment_periods[0].source_text",
+      "source_text": "Dec 2023- June 2026",
+      "source_blocks": [],
+      "text": "Dec 2023- June 2026"
+    },
+    {
+      "id": "n10",
+      "label": "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+      "source_text": "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects.",
+      "text": "Served as Banking Subject Matter Expert for Retail Banking, Corporate Banking, Wholesale Banking, Core Banking, Payments, Lending, Mortgage, Risk, Treasury, and Digital Banking transformation projects."
+    },
+    {
+      "id": "n11",
+      "label": "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+      "source_text": "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance.",
+      "text": "Provided domain expertise on banking products including CASA, Deposits, Loans, Credit Cards, Debit Cards, Corporate Lending, Mortgage, and Trade Finance."
+    },
+    {
+      "id": "n12",
+      "label": "Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Guided Business Analysts during requirement elicitation, requirement validation, and solution design."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+      "source_text": "Guided Business Analysts during requirement elicitation, requirement validation, and solution design.",
+      "text": "Guided Business Analysts during requirement elicitation, requirement validation, and solution design."
+    },
+    {
+      "id": "n13",
+      "label": "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+      "source_text": "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective.",
+      "text": "Validated BRDs, FRDs, Functional Specifications, User Stories, and Acceptance Criteria from a business perspective."
+    },
+    {
+      "id": "n14",
+      "label": "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[4]",
+      "source_text": "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements.",
+      "text": "Reviewed business process flows, As-Is and To-Be models, operational procedures, and regulatory requirements."
+    },
+    {
+      "id": "n15",
+      "label": "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[5]",
+      "source_text": "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities.",
+      "text": "Conducted stakeholder workshops to identify business needs, process gaps, and improvement opportunities."
+    },
+    {
+      "id": "n16",
+      "label": "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[6]",
+      "source_text": "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions.",
+      "text": "Supported implementation of KYC, AML, CDD, EDD, Fraud Detection, Transaction Monitoring, and Customer Onboarding solutions."
+    },
+    {
+      "id": "n17",
+      "label": "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[7]",
+      "source_text": "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay.",
+      "text": "Provided expertise on Payments including NEFT, RTGS, IMPS, UPI, SWIFT, ISO 8583, ISO 20022, Visa, Mastercard, and RuPay."
+    },
+    {
+      "id": "n18",
+      "label": "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[8]",
+      "source_text": "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives.",
+      "text": "Supported Credit Risk, Operational Risk, Basel III, IFRS 9, PD, LGD, EAD, RWA, SPPI Test, and Expected Credit Loss (ECL) initiatives."
+    },
+    {
+      "id": "n19",
+      "label": "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[9]",
+      "source_text": "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements.",
+      "text": "Worked closely with developers to clarify business rules, workflows, API integrations, and data mapping requirements."
+    },
+    {
+      "id": "n20",
+      "label": "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[10]",
+      "source_text": "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution.",
+      "text": "Supported SIT, UAT, production validation, Hypercare, and post-production issue resolution."
+    },
+    {
+      "id": "n21",
+      "label": "Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Reviewed SQL data validation reports, reconciliation reports, and production metrics."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[11]",
+      "source_text": "Reviewed SQL data validation reports, reconciliation reports, and production metrics.",
+      "text": "Reviewed SQL data validation reports, reconciliation reports, and production metrics."
+    },
+    {
+      "id": "n22",
+      "label": "Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Assisted Product Owners with backlog prioritization, business value assessment, and release planning."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[12]",
+      "source_text": "Assisted Product Owners with backlog prioritization, business value assessment, and release planning.",
+      "text": "Assisted Product Owners with backlog prioritization, business value assessment, and release planning."
+    },
+    {
+      "id": "n23",
+      "label": "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[13]",
+      "source_text": "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance.",
+      "text": "Conducted knowledge transfer sessions and mentored Business Analysts on banking domain concepts and regulatory compliance."
+    },
+    {
+      "id": "n24",
+      "label": "Bandhan Bank Ltd.",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Bandhan Bank Ltd."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].company",
+      "source_text": "Bandhan Bank Ltd.",
+      "text": "Bandhan Bank Ltd."
+    },
+    {
+      "id": "n25",
+      "label": "Lead Business Analyst/ Product Owner",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Lead Business Analyst/ Product Owner"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].designation",
+      "source_text": "Lead Business Analyst/ Product Owner",
+      "text": "Lead Business Analyst/ Product Owner"
+    },
+    {
+      "id": "n26",
+      "label": "Jan 2019 \u2013 Dec 2023",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Jan 2019 \u2013 Dec 2023"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].employment_periods[0].source_text",
+      "source_text": "Jan 2019 \u2013 Dec 2023",
+      "source_blocks": [],
+      "text": "Jan 2019 \u2013 Dec 2023"
+    },
+    {
+      "id": "n27",
+      "label": "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[0]",
+      "source_text": "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives.",
+      "text": "Owned product vision, roadmap, and backlog for Digital Banking, Payments, Lending, and Core Banking transformation initiatives."
+    },
+    {
+      "id": "n28",
+      "label": "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[1]",
+      "source_text": "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy.",
+      "text": "Collaborated with business stakeholders, SMEs, customers, and development teams to define product strategy."
+    },
+    {
+      "id": "n29",
+      "label": "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[2]",
+      "source_text": "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization.",
+      "text": "Prioritized Product Backlog using business value, customer impact, regulatory requirements, and MoSCoW prioritization."
+    },
+    {
+      "id": "n30",
+      "label": "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[3]",
+      "source_text": "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans.",
+      "text": "Defined Epics, Features, User Stories, Acceptance Criteria, and Release Plans."
+    },
+    {
+      "id": "n31",
+      "label": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Managed Agile delivery using Scrum and Kanban methodologies."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[4]",
+      "source_text": "Managed Agile delivery using Scrum and Kanban methodologies.",
+      "text": "Managed Agile delivery using Scrum and Kanban methodologies."
+    },
+    {
+      "id": "n32",
+      "label": "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[5]",
+      "source_text": "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions.",
+      "text": "Conducted Sprint Planning, Sprint Reviews, Backlog Refinement, and Release Planning sessions."
+    },
+    {
+      "id": "n33",
+      "label": "Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked closely with UX teams to review wireframes, prototypes, and customer journeys."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[6]",
+      "source_text": "Worked closely with UX teams to review wireframes, prototypes, and customer journeys.",
+      "text": "Worked closely with UX teams to review wireframes, prototypes, and customer journeys."
+    },
+    {
+      "id": "n34",
+      "label": "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[7]",
+      "source_text": "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations.",
+      "text": "Coordinated API integrations, REST services, Microservices architecture, and third-party system integrations."
+    },
+    {
+      "id": "n35",
+      "label": "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[8]",
+      "source_text": "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements.",
+      "text": "Ensured product compliance with KYC, AML, Basel III, IFRS 9, PCI DSS, ISO 8583, ISO 20022, and regulatory requirements."
+    },
+    {
+      "id": "n36",
+      "label": "Collaborated with QA teams for UAT planning, production validation, and release management.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Collaborated with QA teams for UAT planning, production validation, and release management."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[9]",
+      "source_text": "Collaborated with QA teams for UAT planning, production validation, and release management.",
+      "text": "Collaborated with QA teams for UAT planning, production validation, and release management."
+    },
+    {
+      "id": "n37",
+      "label": "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[10]",
+      "source_text": "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives.",
+      "text": "Monitored product KPIs, customer feedback, production incidents, and continuous improvement initiatives."
+    },
+    {
+      "id": "n38",
+      "label": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[11]",
+      "source_text": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance.",
+      "text": "Worked with Data Analytics teams using SQL, dashboards, Power BI, and Tableau to monitor product performance."
+    },
+    {
+      "id": "n39",
+      "label": "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[1].roles[0].role_and_responsibilities[12]",
+      "source_text": "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance.",
+      "text": "Coordinated cross-functional teams across Retail Banking, Payments, Lending, Risk, Treasury, and Compliance."
+    },
+    {
+      "id": "n40",
+      "label": "Axis Bank Ltd.",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Axis Bank Ltd."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].company",
+      "source_text": "Axis Bank Ltd.",
+      "text": "Axis Bank Ltd."
+    },
+    {
+      "id": "n41",
+      "label": "Senior Business Analyst",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Senior Business Analyst"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].designation",
+      "source_text": "Senior Business Analyst",
+      "text": "Senior Business Analyst"
+    },
+    {
+      "id": "n42",
+      "label": "Oct 2017 \u2013 Dec 2018",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Oct 2017 \u2013 Dec 2018"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].employment_periods[0].source_text",
+      "source_text": "Oct 2017 \u2013 Dec 2018",
+      "source_blocks": [],
+      "text": "Oct 2017 \u2013 Dec 2018"
+    },
+    {
+      "id": "n43",
+      "label": "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[0]",
+      "source_text": "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams.",
+      "text": "Led requirement gathering sessions with business stakeholders, product managers, architects, compliance teams, and development teams."
+    },
+    {
+      "id": "n44",
+      "label": "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Managed end-to-end Business Analysis activities across multiple Agile projects."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[1]",
+      "source_text": "Managed end-to-end Business Analysis activities across multiple Agile projects.",
+      "text": "Managed end-to-end Business Analysis activities across multiple Agile projects."
+    },
+    {
+      "id": "n45",
+      "label": "Defined project scope, business objectives, solution approach, and implementation roadmap.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Defined project scope, business objectives, solution approach, and implementation roadmap."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[2]",
+      "source_text": "Defined project scope, business objectives, solution approach, and implementation roadmap.",
+      "text": "Defined project scope, business objectives, solution approach, and implementation roadmap."
+    },
+    {
+      "id": "n46",
+      "label": "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[3]",
+      "source_text": "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts.",
+      "text": "Reviewed and approved BRDs, FRDs, User Stories, Functional Specifications, and Acceptance Criteria prepared by Business Analysts."
+    },
+    {
+      "id": "n47",
+      "label": "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[4]",
+      "source_text": "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings.",
+      "text": "Facilitated requirement workshops, Joint Application Development (JAD) sessions, and stakeholder meetings."
+    },
+    {
+      "id": "n48",
+      "label": "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[5]",
+      "source_text": "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment.",
+      "text": "Performed enterprise-level Gap Analysis, Impact Assessment, Business Process Reengineering (BPR), and Solution Assessment."
+    },
+    {
+      "id": "n49",
+      "label": "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[6]",
+      "source_text": "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects.",
+      "text": "Led cross-functional teams across Retail Banking, Corporate Banking, Payments, Lending, Core Banking, Treasury, and Risk Management projects."
+    },
+    {
+      "id": "n50",
+      "label": "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[7]",
+      "source_text": "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management.",
+      "text": "Coordinated Agile ceremonies, backlog prioritization, release planning, sprint planning, and dependency management."
+    },
+    {
+      "id": "n51",
+      "label": "Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked closely with Product Owners to prioritize Epics, Features, and User Stories."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[8]",
+      "source_text": "Worked closely with Product Owners to prioritize Epics, Features, and User Stories.",
+      "text": "Worked closely with Product Owners to prioritize Epics, Features, and User Stories."
+    },
+    {
+      "id": "n52",
+      "label": "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[9]",
+      "source_text": "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC.",
+      "text": "Ensured Requirement Traceability Matrix (RTM) compliance throughout the SDLC."
+    },
+    {
+      "id": "n53",
+      "label": "Directed UAT planning, defect triage, production validation, and Hypercare support.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Directed UAT planning, defect triage, production validation, and Hypercare support."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[10]",
+      "source_text": "Directed UAT planning, defect triage, production validation, and Hypercare support.",
+      "text": "Directed UAT planning, defect triage, production validation, and Hypercare support."
+    },
+    {
+      "id": "n54",
+      "label": "Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Coordinated API integrations, Data Mapping, System Integrations, and migration projects."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[11]",
+      "source_text": "Coordinated API integrations, Data Mapping, System Integrations, and migration projects.",
+      "text": "Coordinated API integrations, Data Mapping, System Integrations, and migration projects."
+    },
+    {
+      "id": "n55",
+      "label": "Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Mentored junior Business Analysts and conducted peer reviews of project documentation."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[12]",
+      "source_text": "Mentored junior Business Analysts and conducted peer reviews of project documentation.",
+      "text": "Mentored junior Business Analysts and conducted peer reviews of project documentation."
+    },
+    {
+      "id": "n56",
+      "label": "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[13]",
+      "source_text": "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives.",
+      "text": "Collaborated with regulatory teams to support Basel III, IFRS 9, AML/KYC, and compliance initiatives."
+    },
+    {
+      "id": "n57",
+      "label": "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[2].roles[0].role_and_responsibilities[14]",
+      "source_text": "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations.",
+      "text": "Prepared executive dashboards, project status reports, RAID logs, and stakeholder presentations."
+    },
+    {
+      "id": "n58",
+      "label": "HDFC Bank Ltd.",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "HDFC Bank Ltd."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].company",
+      "source_text": "HDFC Bank Ltd.",
+      "text": "HDFC Bank Ltd."
+    },
+    {
+      "id": "n59",
+      "label": "Business Analyst",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Business Analyst"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].designation",
+      "source_text": "Business Analyst",
+      "text": "Business Analyst"
+    },
+    {
+      "id": "n60",
+      "label": "Sep 2012 \u2013 Oct 2017",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Sep 2012 \u2013 Oct 2017"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].employment_periods[0].source_text",
+      "source_text": "Sep 2012 \u2013 Oct 2017",
+      "source_blocks": [],
+      "text": "Sep 2012 \u2013 Oct 2017"
+    },
+    {
+      "id": "n61",
+      "label": "Gathered and analyzed business requirements for banking products and process improvements.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Gathered and analyzed business requirements for banking products and process improvements."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[0]",
+      "source_text": "Gathered and analyzed business requirements for banking products and process improvements.",
+      "text": "Gathered and analyzed business requirements for banking products and process improvements."
+    },
+    {
+      "id": "n62",
+      "label": "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[1]",
+      "source_text": "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking.",
+      "text": "Led business analysis activities for banking transformation initiatives across Lending, Mortgage, Payments and Core Banking."
+    },
+    {
+      "id": "n63",
+      "label": "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[2]",
+      "source_text": "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications.",
+      "text": "Prepared BRD, FRD, RTM, process flows, use cases, and functional specifications."
+    },
+    {
+      "id": "n64",
+      "label": "Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked on requirement documentation, stakeholder coordination, UAT, and production support."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[3]",
+      "source_text": "Worked on requirement documentation, stakeholder coordination, UAT, and production support.",
+      "text": "Worked on requirement documentation, stakeholder coordination, UAT, and production support."
+    },
+    {
+      "id": "n65",
+      "label": "Supported Agile and Waterfall delivery models for banking transformation projects.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supported Agile and Waterfall delivery models for banking transformation projects."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[4]",
+      "source_text": "Supported Agile and Waterfall delivery models for banking transformation projects.",
+      "text": "Supported Agile and Waterfall delivery models for banking transformation projects."
+    },
+    {
+      "id": "n66",
+      "label": "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[5]",
+      "source_text": "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions.",
+      "text": "Gathered, analyzed, and documented business, functional, and non-functional requirements through stakeholder workshops and requirement elicitation sessions."
+    },
+    {
+      "id": "n67",
+      "label": "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[6]",
+      "source_text": "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria.",
+      "text": "Prepared Business Requirement Documents (BRD), Functional Requirement Documents (FRD), Software Requirement Specifications (SRS), Functional Specification Documents (FSD), User Stories, Epics, Features, and Acceptance Criteria."
+    },
+    {
+      "id": "n68",
+      "label": "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[7]",
+      "source_text": "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities.",
+      "text": "Performed Gap Analysis, Impact Analysis, Root Cause Analysis (RCA), SWOT Analysis, Feasibility Analysis, and Process Analysis to identify business improvement opportunities."
+    },
+    {
+      "id": "n69",
+      "label": "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[8]",
+      "source_text": "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation.",
+      "text": "Created As-Is and To-Be process flows, workflow diagrams, UML use cases, activity diagrams, sequence diagrams, wireframes, mockups, and business process documentation."
+    },
+    {
+      "id": "n70",
+      "label": "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC)."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[9]",
+      "source_text": "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC).",
+      "text": "Collaborated with Product Owners, SMEs, Developers, QA teams, Architects, and business stakeholders throughout the Software Development Life Cycle (SDLC)."
+    },
+    {
+      "id": "n71",
+      "label": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[10]",
+      "source_text": "Managed product backlog items using JIRA and maintained project documentation in Confluence.",
+      "text": "Managed product backlog items using JIRA and maintained project documentation in Confluence."
+    },
+    {
+      "id": "n72",
+      "label": "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[11]",
+      "source_text": "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives.",
+      "text": "Participated in Agile ceremonies including Sprint Planning, Daily Stand-ups, Backlog Grooming, Sprint Reviews, and Sprint Retrospectives."
+    },
+    {
+      "id": "n73",
+      "label": "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[12]",
+      "source_text": "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing.",
+      "text": "Prepared Requirement Traceability Matrix (RTM) to ensure complete traceability from requirements through testing."
+    },
+    {
+      "id": "n74",
+      "label": "Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Executed SQL queries for data validation, data analysis, reconciliation, and production support."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[13]",
+      "source_text": "Executed SQL queries for data validation, data analysis, reconciliation, and production support.",
+      "text": "Executed SQL queries for data validation, data analysis, reconciliation, and production support."
+    },
+    {
+      "id": "n75",
+      "label": "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[14]",
+      "source_text": "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities.",
+      "text": "Conducted Data Mapping, Data Validation, Data Migration analysis, and ETL validation activities."
+    },
+    {
+      "id": "n76",
+      "label": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[15]",
+      "source_text": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman.",
+      "text": "Supported API integration testing using REST APIs, JSON, XML, Swagger, and Postman."
+    },
+    {
+      "id": "n77",
+      "label": "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[16]",
+      "source_text": "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management.",
+      "text": "Prepared UAT Test Scenarios and Test Cases and coordinated User Acceptance Testing (UAT), SIT, Regression Testing, and defect management."
+    },
+    {
+      "id": "n78",
+      "label": "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[17]",
+      "source_text": "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives.",
+      "text": "Worked on Retail Banking, Core Banking, Digital Banking, Payments, Lending, Mortgage, KYC/AML, and Customer Onboarding initiatives."
+    },
+    {
+      "id": "n79",
+      "label": "Supported production deployment, Hypercare activities, incident management, and release management.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supported production deployment, Hypercare activities, incident management, and release management."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[3].roles[0].role_and_responsibilities[18]",
+      "source_text": "Supported production deployment, Hypercare activities, incident management, and release management.",
+      "text": "Supported production deployment, Hypercare activities, incident management, and release management."
+    },
+    {
+      "id": "n80",
+      "label": "American Home Mortgage Services/Homeward",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "American Home Mortgage Services/Homeward"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[4].company",
+      "source_text": "American Home Mortgage Services/Homeward",
+      "text": "American Home Mortgage Services/Homeward"
+    },
+    {
+      "id": "n81",
+      "label": "Underwriter",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Underwriter"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[4].roles[0].designation",
+      "source_text": "Underwriter",
+      "text": "Underwriter"
+    },
+    {
+      "id": "n82",
+      "label": "Aug 2006 \u2013 Aug 2012",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Aug 2006 \u2013 Aug 2012"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[4].roles[0].employment_periods[0].source_text",
+      "source_text": "Aug 2006 \u2013 Aug 2012",
+      "source_blocks": [],
+      "text": "Aug 2006 \u2013 Aug 2012"
+    },
+    {
+      "id": "n83",
+      "label": "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral)."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[4].roles[0].role_and_responsibilities[0]",
+      "source_text": "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral).",
+      "text": "Performed underwriting and loan assessment using the 4C framework (Character, Capacity, Capital, Collateral)."
+    },
+    {
+      "id": "n84",
+      "label": "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[4].roles[0].role_and_responsibilities[1]",
+      "source_text": "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews.",
+      "text": "Conducted DTI calculations, asset verification, debt reconciliation, and appraisal reviews."
+    },
+    {
+      "id": "n85",
+      "label": "Ensured mortgage compliance and underwriting quality standards.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Ensured mortgage compliance and underwriting quality standards."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.work_history[4].roles[0].role_and_responsibilities[2]",
+      "source_text": "Ensured mortgage compliance and underwriting quality standards.",
+      "text": "Ensured mortgage compliance and underwriting quality standards."
+    },
+    {
+      "id": "n86",
+      "label": "PG Certificate in Data Management & Clinical Research",
+      "type": "DEGREE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "PG Certificate in Data Management & Clinical Research"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[0].degree",
+      "source_text": "PG Certificate in Data Management & Clinical Research",
+      "text": "PG Certificate in Data Management & Clinical Research"
+    },
+    {
+      "id": "n87",
+      "label": "Pune University",
+      "type": "INSTITUTION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Pune University"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[0].university",
+      "source_text": "Pune University",
+      "text": "Pune University"
+    },
+    {
+      "id": "n88",
+      "label": "2008",
+      "type": "DATE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2008"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[0].year",
+      "source_text": "2008",
+      "text": "2008"
+    },
+    {
+      "id": "n89",
+      "label": "Diploma in Information Technology from ACTS, Pune",
+      "type": "DEGREE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Diploma in Information Technology from ACTS, Pune"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[1].degree",
+      "source_text": "Diploma in Information Technology from ACTS, Pune",
+      "text": "Diploma in Information Technology from ACTS, Pune"
+    },
+    {
+      "id": "n90",
+      "label": "Pune University",
+      "type": "INSTITUTION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Pune University"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[1].university",
+      "source_text": "Pune University",
+      "text": "Pune University"
+    },
+    {
+      "id": "n91",
+      "label": "2004",
+      "type": "DATE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2004"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[1].year",
+      "source_text": "2004",
+      "text": "2004"
+    },
+    {
+      "id": "n92",
+      "label": "Bachelor of Pharmacy",
+      "type": "DEGREE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Bachelor of Pharmacy"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[2].degree",
+      "source_text": "Bachelor of Pharmacy",
+      "text": "Bachelor of Pharmacy"
+    },
+    {
+      "id": "n93",
+      "label": "Amravati University",
+      "type": "INSTITUTION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Amravati University"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[2].university",
+      "source_text": "Amravati University",
+      "text": "Amravati University"
+    },
+    {
+      "id": "n94",
+      "label": "2003",
+      "type": "DATE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2003"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [],
+      "source_path": "$.education[2].year",
+      "source_text": "2003",
+      "text": "2003"
+    },
+    {
+      "id": "n95",
+      "label": "Agile & Waterfall methodologies and frameworks",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Agile & Waterfall methodologies and frameworks"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[0]",
+      "source_text": "Agile & Waterfall methodologies and frameworks",
+      "text": "Agile & Waterfall methodologies and frameworks"
+    },
+    {
+      "id": "n96",
+      "label": "Project management techniques",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Project management techniques"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[1]",
+      "source_text": "Project management techniques",
+      "text": "Project management techniques"
+    },
+    {
+      "id": "n97",
+      "label": "Communication and collaboration skills",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Communication and collaboration skills"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[2]",
+      "source_text": "Communication and collaboration skills",
+      "text": "Communication and collaboration skills"
+    },
+    {
+      "id": "n98",
+      "label": "Leadership and team management skills (Team Size-15+)",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Leadership and team management skills (Team Size-15+)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[3]",
+      "source_text": "Leadership and team management skills (Team Size-15+)",
+      "text": "Leadership and team management skills (Team Size-15+)"
+    },
+    {
+      "id": "n99",
+      "label": "Change management and organizational development skills",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Change management and organizational development skills"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[4]",
+      "source_text": "Change management and organizational development skills",
+      "text": "Change management and organizational development skills"
+    },
+    {
+      "id": "n100",
+      "label": "Agile metrics and performance measurement",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Agile metrics and performance measurement"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[5]",
+      "source_text": "Agile metrics and performance measurement",
+      "text": "Agile metrics and performance measurement"
+    },
+    {
+      "id": "n101",
+      "label": "Technical knowledge in software development and IT operations",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Technical knowledge in software development and IT operations"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[6]",
+      "source_text": "Technical knowledge in software development and IT operations",
+      "text": "Technical knowledge in software development and IT operations"
+    },
+    {
+      "id": "n102",
+      "label": "Process improvement and continuous delivery skills",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Process improvement and continuous delivery skills"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[7]",
+      "source_text": "Process improvement and continuous delivery skills",
+      "text": "Process improvement and continuous delivery skills"
+    },
+    {
+      "id": "n103",
+      "label": "MS Word",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "MS Word"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[0]",
+      "source_text": "MS Word",
+      "category": "professional",
+      "text": "MS Word"
+    },
+    {
+      "id": "n104",
+      "label": "MS Excel",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "MS Excel"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[1]",
+      "source_text": "MS Excel",
+      "category": "professional",
+      "text": "MS Excel"
+    },
+    {
+      "id": "n105",
+      "label": "MS PowerPoint",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "MS PowerPoint"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[2]",
+      "source_text": "MS PowerPoint",
+      "category": "professional",
+      "text": "MS PowerPoint"
+    },
+    {
+      "id": "n106",
+      "label": "Oracle Flexcube",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Oracle Flexcube"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[3]",
+      "source_text": "Oracle Flexcube",
+      "category": "professional",
+      "text": "Oracle Flexcube"
+    },
+    {
+      "id": "n107",
+      "label": "Finacle",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Finacle"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[4]",
+      "source_text": "Finacle",
+      "category": "professional",
+      "text": "Finacle"
+    },
+    {
+      "id": "n108",
+      "label": "Newgen",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Newgen"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[5]",
+      "source_text": "Newgen",
+      "category": "professional",
+      "text": "Newgen"
+    },
+    {
+      "id": "n109",
+      "label": "FinOne",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "FinOne"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[6]",
+      "source_text": "FinOne",
+      "category": "professional",
+      "text": "FinOne"
+    },
+    {
+      "id": "n110",
+      "label": "Agile (Scrum) Model",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Agile (Scrum) Model"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[7]",
+      "source_text": "Agile (Scrum) Model",
+      "category": "professional",
+      "text": "Agile (Scrum) Model"
+    },
+    {
+      "id": "n111",
+      "label": "Waterfall Model",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Waterfall Model"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[8]",
+      "source_text": "Waterfall Model",
+      "category": "professional",
+      "text": "Waterfall Model"
+    },
+    {
+      "id": "n112",
+      "label": "JIRA",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "JIRA"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[9]",
+      "source_text": "JIRA",
+      "category": "professional",
+      "text": "JIRA"
+    },
+    {
+      "id": "n113",
+      "label": "MS Visio",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "MS Visio"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[10]",
+      "source_text": "MS Visio",
+      "category": "professional",
+      "text": "MS Visio"
+    },
+    {
+      "id": "n114",
+      "label": "Lucid chart",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Lucid chart"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[11]",
+      "source_text": "Lucid chart",
+      "category": "professional",
+      "text": "Lucid chart"
+    },
+    {
+      "id": "n115",
+      "label": "Balsamiq",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Balsamiq"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[12]",
+      "source_text": "Balsamiq",
+      "category": "professional",
+      "text": "Balsamiq"
+    },
+    {
+      "id": "n116",
+      "label": "Confluence",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Confluence"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[13]",
+      "source_text": "Confluence",
+      "category": "professional",
+      "text": "Confluence"
+    },
+    {
+      "id": "n117",
+      "label": "Draw.IO",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Draw.IO"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[14]",
+      "source_text": "Draw.IO",
+      "category": "professional",
+      "text": "Draw.IO"
+    },
+    {
+      "id": "n118",
+      "label": "AS400",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "AS400"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[15]",
+      "source_text": "AS400",
+      "category": "professional",
+      "text": "AS400"
+    },
+    {
+      "id": "n119",
+      "label": "LANSA",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "LANSA"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[16]",
+      "source_text": "LANSA",
+      "category": "professional",
+      "text": "LANSA"
+    },
+    {
+      "id": "n120",
+      "label": "C Sharp (C#)",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "C Sharp (C#)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[17]",
+      "source_text": "C Sharp (C#)",
+      "category": "professional",
+      "text": "C Sharp (C#)"
+    },
+    {
+      "id": "n121",
+      "label": "Angular",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Angular"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[18]",
+      "source_text": "Angular",
+      "category": "professional",
+      "text": "Angular"
+    },
+    {
+      "id": "n122",
+      "label": "Postman",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Postman"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[19]",
+      "source_text": "Postman",
+      "category": "professional",
+      "text": "Postman"
+    },
+    {
+      "id": "n123",
+      "label": "Swagger / Open API",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Swagger / Open API"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[20]",
+      "source_text": "Swagger / Open API",
+      "category": "professional",
+      "text": "Swagger / Open API"
+    },
+    {
+      "id": "n124",
+      "label": "SoapUI",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "SoapUI"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[21]",
+      "source_text": "SoapUI",
+      "category": "professional",
+      "text": "SoapUI"
+    },
+    {
+      "id": "n125",
+      "label": "XML/JSON validators",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "XML/JSON validators"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.professional[22]",
+      "source_text": "XML/JSON validators",
+      "category": "professional",
+      "text": "XML/JSON validators"
+    },
+    {
+      "id": "n126",
+      "label": "Databricks",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Databricks"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[0]",
+      "source_text": "Databricks",
+      "category": "beginner",
+      "text": "Databricks"
+    },
+    {
+      "id": "n127",
+      "label": "AWS",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "AWS"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[1]",
+      "source_text": "AWS",
+      "category": "beginner",
+      "text": "AWS"
+    },
+    {
+      "id": "n128",
+      "label": "Aure Dev Ops",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Aure Dev Ops"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[2]",
+      "source_text": "Aure Dev Ops",
+      "category": "beginner",
+      "text": "Aure Dev Ops"
+    },
+    {
+      "id": "n129",
+      "label": "SQL",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "SQL"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[3]",
+      "source_text": "SQL",
+      "category": "beginner",
+      "text": "SQL"
+    },
+    {
+      "id": "n130",
+      "label": "SQL Server Management Studio / SQL tools",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "SQL Server Management Studio / SQL tools"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[4]",
+      "source_text": "SQL Server Management Studio / SQL tools",
+      "category": "beginner",
+      "text": "SQL Server Management Studio / SQL tools"
+    },
+    {
+      "id": "n131",
+      "label": "Oracle",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Oracle"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[5]",
+      "source_text": "Oracle",
+      "category": "beginner",
+      "text": "Oracle"
+    },
+    {
+      "id": "n132",
+      "label": "DB2",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "DB2"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[6]",
+      "source_text": "DB2",
+      "category": "beginner",
+      "text": "DB2"
+    },
+    {
+      "id": "n133",
+      "label": "Jaspersoft",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Jaspersoft"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[7]",
+      "source_text": "Jaspersoft",
+      "category": "beginner",
+      "text": "Jaspersoft"
+    },
+    {
+      "id": "n134",
+      "label": "ETL",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "ETL"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[8]",
+      "source_text": "ETL",
+      "category": "beginner",
+      "text": "ETL"
+    },
+    {
+      "id": "n135",
+      "label": "Big data",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Big data"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[9]",
+      "source_text": "Big data",
+      "category": "beginner",
+      "text": "Big data"
+    },
+    {
+      "id": "n136",
+      "label": "Airflow",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Airflow"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[10]",
+      "source_text": "Airflow",
+      "category": "beginner",
+      "text": "Airflow"
+    },
+    {
+      "id": "n137",
+      "label": "Splunk / Kibana",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Splunk / Kibana"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[11]",
+      "source_text": "Splunk / Kibana",
+      "category": "beginner",
+      "text": "Splunk / Kibana"
+    },
+    {
+      "id": "n138",
+      "label": "Apache Hadoop",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Apache Hadoop"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[12]",
+      "source_text": "Apache Hadoop",
+      "category": "beginner",
+      "text": "Apache Hadoop"
+    },
+    {
+      "id": "n139",
+      "label": "Data Lake",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Data Lake"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[13]",
+      "source_text": "Data Lake",
+      "category": "beginner",
+      "text": "Data Lake"
+    },
+    {
+      "id": "n140",
+      "label": "Apache Iceberg",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Apache Iceberg"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[14]",
+      "source_text": "Apache Iceberg",
+      "category": "beginner",
+      "text": "Apache Iceberg"
+    },
+    {
+      "id": "n141",
+      "label": "Kubernetes",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Kubernetes"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[15]",
+      "source_text": "Kubernetes",
+      "category": "beginner",
+      "text": "Kubernetes"
+    },
+    {
+      "id": "n142",
+      "label": "Apache Spark",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Apache Spark"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[16]",
+      "source_text": "Apache Spark",
+      "category": "beginner",
+      "text": "Apache Spark"
+    },
+    {
+      "id": "n143",
+      "label": "Apache Airflow",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Apache Airflow"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[17]",
+      "source_text": "Apache Airflow",
+      "category": "beginner",
+      "text": "Apache Airflow"
+    },
+    {
+      "id": "n144",
+      "label": "NIFI",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "NIFI"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[18]",
+      "source_text": "NIFI",
+      "category": "beginner",
+      "text": "NIFI"
+    },
+    {
+      "id": "n145",
+      "label": "Kafka",
+      "type": "TECHNOLOGY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Kafka"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Technical Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.technical_skills.beginner[19]",
+      "source_text": "Kafka",
+      "category": "beginner",
+      "text": "Kafka"
+    },
+    {
+      "id": "n146",
+      "label": "PSM-I",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "PSM-I"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[0]",
+      "source_text": "PSM-I",
+      "text": "PSM-I"
+    },
+    {
+      "id": "n147",
+      "label": "COEPD Business Analysis",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "COEPD Business Analysis"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[1]",
+      "source_text": "COEPD Business Analysis",
+      "text": "COEPD Business Analysis"
+    },
+    {
+      "id": "n148",
+      "label": "A to Z Business Analyst",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "A to Z Business Analyst"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[2]",
+      "source_text": "A to Z Business Analyst",
+      "text": "A to Z Business Analyst"
+    },
+    {
+      "id": "n149",
+      "label": "Agile Coaching",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Agile Coaching"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[3]",
+      "source_text": "Agile Coaching",
+      "text": "Agile Coaching"
+    },
+    {
+      "id": "n150",
+      "label": "Design Thinking",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Design Thinking"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[4]",
+      "source_text": "Design Thinking",
+      "text": "Design Thinking"
+    },
+    {
+      "id": "n151",
+      "label": "Agile Metrics & Scrum Reporting",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Agile Metrics & Scrum Reporting"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[5]",
+      "source_text": "Agile Metrics & Scrum Reporting",
+      "text": "Agile Metrics & Scrum Reporting"
+    },
+    {
+      "id": "n152",
+      "label": "PMO Certification",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "PMO Certification"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[6]",
+      "source_text": "PMO Certification",
+      "text": "PMO Certification"
+    },
+    {
+      "id": "n153",
+      "label": "MS Project",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "MS Project"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[7]",
+      "source_text": "MS Project",
+      "text": "MS Project"
+    },
+    {
+      "id": "n154",
+      "label": "Program Management Essentials",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Program Management Essentials"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[8]",
+      "source_text": "Program Management Essentials",
+      "text": "Program Management Essentials"
+    },
+    {
+      "id": "n155",
+      "label": "DevOps Foundation",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "DevOps Foundation"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[9]",
+      "source_text": "DevOps Foundation",
+      "text": "DevOps Foundation"
+    },
+    {
+      "id": "n156",
+      "label": "Cloud Architecture",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Cloud Architecture"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[10]",
+      "source_text": "Cloud Architecture",
+      "text": "Cloud Architecture"
+    },
+    {
+      "id": "n157",
+      "label": "Cybersecurity Analyst",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Cybersecurity Analyst"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[11]",
+      "source_text": "Cybersecurity Analyst",
+      "text": "Cybersecurity Analyst"
+    },
+    {
+      "id": "n158",
+      "label": "Digital Transformation",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Digital Transformation"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[12]",
+      "source_text": "Digital Transformation",
+      "text": "Digital Transformation"
+    },
+    {
+      "id": "n159",
+      "label": "IBM Artificial Intelligence Fundamentals",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "IBM Artificial Intelligence Fundamentals"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[13]",
+      "source_text": "IBM Artificial Intelligence Fundamentals",
+      "text": "IBM Artificial Intelligence Fundamentals"
+    },
+    {
+      "id": "n160",
+      "label": "GenAI for Executives & Business Leaders",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "GenAI for Executives & Business Leaders"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[14]",
+      "source_text": "GenAI for Executives & Business Leaders",
+      "text": "GenAI for Executives & Business Leaders"
+    },
+    {
+      "id": "n161",
+      "label": "Retail Lending & Digital Loans",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Retail Lending & Digital Loans"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[0]",
+      "source_text": "Retail Lending & Digital Loans",
+      "text": "Retail Lending & Digital Loans"
+    },
+    {
+      "id": "n162",
+      "label": "KYC / AML / CDD/ EDD",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "KYC / AML / CDD/ EDD"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[1]",
+      "source_text": "KYC / AML / CDD/ EDD",
+      "text": "KYC / AML / CDD/ EDD"
+    },
+    {
+      "id": "n163",
+      "label": "Banking Fraud and Risks",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Banking Fraud and Risks"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[2]",
+      "source_text": "Banking Fraud and Risks",
+      "text": "Banking Fraud and Risks"
+    },
+    {
+      "id": "n164",
+      "label": "Transaction Banking",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Transaction Banking"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[3]",
+      "source_text": "Transaction Banking",
+      "text": "Transaction Banking"
+    },
+    {
+      "id": "n165",
+      "label": "Loan Origination Systems (LOS)",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Loan Origination Systems (LOS)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[4]",
+      "source_text": "Loan Origination Systems (LOS)",
+      "text": "Loan Origination Systems (LOS)"
+    },
+    {
+      "id": "n166",
+      "label": "Loan Management Systems (LMS)",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Loan Management Systems (LMS)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[5]",
+      "source_text": "Loan Management Systems (LMS)",
+      "text": "Loan Management Systems (LMS)"
+    },
+    {
+      "id": "n167",
+      "label": "Corporate & Wholesale Lending",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Corporate & Wholesale Lending"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[6]",
+      "source_text": "Corporate & Wholesale Lending",
+      "text": "Corporate & Wholesale Lending"
+    },
+    {
+      "id": "n168",
+      "label": "Mortgage Processing & Underwriting",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Mortgage Processing & Underwriting"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[7]",
+      "source_text": "Mortgage Processing & Underwriting",
+      "text": "Mortgage Processing & Underwriting"
+    },
+    {
+      "id": "n169",
+      "label": "Customer Onboarding & Regulatory Compliance",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Customer Onboarding & Regulatory Compliance"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[8]",
+      "source_text": "Customer Onboarding & Regulatory Compliance",
+      "text": "Customer Onboarding & Regulatory Compliance"
+    },
+    {
+      "id": "n170",
+      "label": "Trade Finance & Treasury Products",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Trade Finance & Treasury Products"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[9]",
+      "source_text": "Trade Finance & Treasury Products",
+      "text": "Trade Finance & Treasury Products"
+    },
+    {
+      "id": "n171",
+      "label": "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[10]",
+      "source_text": "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA",
+      "text": "Payments (NEFT/RTGS/ IMPS/ ISO 20022/ SWIFT /NACHA"
+    },
+    {
+      "id": "n172",
+      "label": "Letter of Credit (LC)",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Letter of Credit (LC)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[11]",
+      "source_text": "Letter of Credit (LC)",
+      "text": "Letter of Credit (LC)"
+    },
+    {
+      "id": "n173",
+      "label": "Bank Guarantee (BG)",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Bank Guarantee (BG)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[12]",
+      "source_text": "Bank Guarantee (BG)",
+      "text": "Bank Guarantee (BG)"
+    },
+    {
+      "id": "n174",
+      "label": "Cash Credit (CC)",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Cash Credit (CC)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[13]",
+      "source_text": "Cash Credit (CC)",
+      "text": "Cash Credit (CC)"
+    },
+    {
+      "id": "n175",
+      "label": "Overdraft (OD)",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Overdraft (OD)"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[14]",
+      "source_text": "Overdraft (OD)",
+      "text": "Overdraft (OD)"
+    },
+    {
+      "id": "n176",
+      "label": "Working Capital Finance",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Working Capital Finance"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[15]",
+      "source_text": "Working Capital Finance",
+      "text": "Working Capital Finance"
+    },
+    {
+      "id": "n177",
+      "label": "Supply Chain Finance",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Supply Chain Finance"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[16]",
+      "source_text": "Supply Chain Finance",
+      "text": "Supply Chain Finance"
+    },
+    {
+      "id": "n178",
+      "label": "Syndicated Loans",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Syndicated Loans"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[17]",
+      "source_text": "Syndicated Loans",
+      "text": "Syndicated Loans"
+    },
+    {
+      "id": "n179",
+      "label": "Treasury & Transaction Banking",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Treasury & Transaction Banking"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[18]",
+      "source_text": "Treasury & Transaction Banking",
+      "text": "Treasury & Transaction Banking"
+    },
+    {
+      "id": "n180",
+      "label": "Insurance",
+      "type": "DOMAIN",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Insurance"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Domain Experience"
+      ],
+      "block_ids": [],
+      "source_path": "$.domain_experience[19]",
+      "source_text": "Insurance",
+      "text": "Insurance"
+    }
+  ],
+  "source_mentions_count": 102,
+  "source_mentions": [
     {
       "text": "AWS",
       "type": "CLOUD",
@@ -41,10 +3350,10 @@
       ],
       "id": "e1",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -294,10 +3603,10 @@
       ],
       "id": "e12",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -340,10 +3649,10 @@
       ],
       "id": "e14",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -455,10 +3764,10 @@
       ],
       "id": "e19",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -676,10 +3985,10 @@
       ],
       "id": "e28",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -699,10 +4008,10 @@
       ],
       "id": "e29",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -722,10 +4031,10 @@
       ],
       "id": "e30",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -745,10 +4054,10 @@
       ],
       "id": "e31",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -814,10 +4123,10 @@
       ],
       "id": "e34",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -837,10 +4146,10 @@
       ],
       "id": "e35",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -982,7 +4291,7 @@
       ]
     },
     {
-      "text": "AASHISH GOLHANI",
+      "text": "aashish_golhani",
       "type": "PERSON",
       "confidence": 0.95,
       "method": "spaCy NER / resume subject",
@@ -1044,10 +4353,10 @@
       ],
       "id": "e44",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -1159,10 +4468,10 @@
       ],
       "id": "e49",
       "sections": [
-        "Core Banking And Domain Expertise"
+        "Domain Experience"
       ],
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ]
     },
     {
@@ -1182,10 +4491,10 @@
       ],
       "id": "e50",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -1320,10 +4629,10 @@
       ],
       "id": "e56",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -1669,10 +4978,10 @@
       ],
       "id": "e71",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -1876,10 +5185,10 @@
       ],
       "id": "e80",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -2014,10 +5323,10 @@
       ],
       "id": "e86",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -2152,10 +5461,10 @@
       ],
       "id": "e92",
       "sections": [
-        "Business Analysis And Product Management"
+        "Business Analysis and Product Management"
       ],
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ]
     },
     {
@@ -2367,7 +5676,7 @@
     }
   ],
   "preprocessing": {
-    "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
+    "method": "structure-preserving text normalization (unicode NFKC, trailing-whitespace cleanup; source line boundaries retained) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
     "normalized_preview": "PERSONAL INFORMATION\nName: AASHISH GOLHANI | Title: Banking Transformation SME | Lending/LOS/LMS/ KYC/ Payments Expert | Lead BA/Product/Functional Consultant | Location: Pune | Phone: 9993340671 | Email: madhuaashish@gmail.com\nPlace: Pune\nName At End: AASHISH GOLHANI\nSKILLS\n\u2022 Agile & Waterfall methodologies and frameworks\n\u2022 Project management techniques\n\u2022 Communication and collaboration skills\n\u2022 Leadership and team management skills (Team Size-15+)\n\u2022 Change management and organizational develop",
     "sentence_count": 138,
     "sections": [
@@ -2392,13 +5701,13 @@
         "sentence_count": 4
       },
       {
-        "id": "s5:Core Banking And Domain Expertise",
-        "name": "Core Banking And Domain Expertise",
+        "id": "s5:Domain Experience",
+        "name": "Domain Experience",
         "sentence_count": 20
       },
       {
-        "id": "s6:Business Analysis And Product Management",
-        "name": "Business Analysis And Product Management",
+        "id": "s6:Business Analysis and Product Management",
+        "name": "Business Analysis and Product Management",
         "sentence_count": 20
       },
       {

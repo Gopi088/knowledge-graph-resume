@@ -1,1132 +1,426 @@
 {
-  "count": 55,
+  "count": 17,
   "relationships": [
     {
-      "source": "Software Engineer",
-      "target": "TechNova Solutions",
-      "source_id": "e31",
-      "target_id": "e13",
-      "relationship": "AT_COMPANY",
-      "confidence": 0.9,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+      "source": "person",
+      "target": "n1",
+      "source_label": "Aarav Sharma",
+      "target_label": "Backend Developer with 3 years of experience building scalable APIs and microservices.",
+      "relationship": "HAS_SUMMARY",
+      "confidence": 1.0,
+      "source_sentence": "Backend Developer with 3 years of experience building scalable APIs and microservices.",
       "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)"
+        "Backend Developer with 3 years of experience building scalable APIs and microservices."
       ],
-      "evidence_sentence_indices": [
-        4
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r0"
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Summary",
+      "block_id": null,
+      "scope_path": "$.profile_snapshot",
+      "evidence_path": "$.profile_snapshot[0]",
+      "source_blocks": [
+        "d0",
+        "d1"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "Software Engineer",
-      "source_id": "e32",
-      "target_id": "e31",
-      "relationship": "HAS_ROLE",
-      "confidence": 0.88,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)"
-      ],
-      "evidence_sentence_indices": [
-        4
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r1"
-    },
-    {
-      "source": "Candidate",
-      "target": "TechNova Solutions",
-      "source_id": "e32",
-      "target_id": "e13",
+      "source": "person",
+      "target": "n2",
+      "source_label": "Aarav Sharma",
+      "target_label": "TechNova Solutions, Bengaluru",
       "relationship": "WORKED_AT",
-      "confidence": 0.88,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+      "confidence": 1.0,
+      "source_sentence": "TechNova Solutions, Bengaluru Software Engineer",
       "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)"
+        "TechNova Solutions, Bengaluru Software Engineer"
       ],
-      "evidence_sentence_indices": [
-        4
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b2",
-      "id": "r2"
+      "block_id": null,
+      "scope_path": "$.work_history[0]",
+      "evidence_path": "$.work_history[0]",
+      "source_blocks": [
+        "d0",
+        "d1",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "AWS",
-      "source_id": "e32",
-      "target_id": "e1",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
+      "source": "person",
+      "target": "n3",
+      "source_label": "Aarav Sharma",
+      "target_label": "Software Engineer",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "TechNova Solutions, Bengaluru Software Engineer 2022 - Present",
+      "evidence_sentences": [
+        "TechNova Solutions, Bengaluru Software Engineer 2022 - Present"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0]",
+      "evidence_path": "$.work_history[0]",
+      "source_blocks": [
+        "d0",
+        "d1",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
+    },
+    {
+      "source": "n2",
+      "target": "n3",
+      "source_label": "TechNova Solutions, Bengaluru",
+      "target_label": "Software Engineer",
+      "relationship": "HAS_ROLE",
+      "confidence": 1.0,
+      "source_sentence": "TechNova Solutions, Bengaluru Software Engineer 2022 - Present",
+      "evidence_sentences": [
+        "TechNova Solutions, Bengaluru Software Engineer 2022 - Present"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0]",
+      "evidence_path": "$.work_history[0]",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
+    },
+    {
+      "source": "n3",
+      "target": "n4",
+      "source_label": "Software Engineer",
+      "target_label": "2022 - Present",
+      "relationship": "HAS_EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "source_sentence": "2022 - Present",
+      "evidence_sentences": [
+        "2022 - Present"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Experience",
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].employment_periods[0].source_text",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
+    },
+    {
+      "source": "n3",
+      "target": "n5",
+      "source_label": "Software Engineer",
+      "target_label": "Developed REST APIs using Python and Django and deployed them on AWS.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Developed REST APIs using Python and Django and deployed them on AWS.",
       "evidence_sentences": [
         "Developed REST APIs using Python and Django and deployed them on AWS."
       ],
-      "evidence_sentence_indices": [
-        5
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b2",
-      "id": "r3"
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "Django",
-      "source_id": "e32",
-      "target_id": "e22",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Developed REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        5
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r4"
-    },
-    {
-      "source": "Candidate",
-      "target": "Python",
-      "source_id": "e32",
-      "target_id": "e33",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Developed REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        5
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r5"
-    },
-    {
-      "source": "Candidate",
-      "target": "REST APIs",
-      "source_id": "e32",
-      "target_id": "e40",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Developed REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        5
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r6"
-    },
-    {
-      "source": "Candidate",
-      "target": "Docker",
-      "source_id": "e32",
-      "target_id": "e6",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
+      "source": "n3",
+      "target": "n6",
+      "source_label": "Software Engineer",
+      "target_label": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
       "evidence_sentences": [
         "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
       ],
-      "evidence_sentence_indices": [
-        6
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b2",
-      "id": "r7"
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "PostgreSQL",
-      "source_id": "e32",
-      "target_id": "e14",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        6
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r8"
-    },
-    {
-      "source": "Candidate",
-      "target": "FastAPI",
-      "source_id": "e32",
-      "target_id": "e25",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        6
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r9"
-    },
-    {
-      "source": "Candidate",
-      "target": "microservices",
-      "source_id": "e32",
-      "target_id": "e42",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        6
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r10"
-    },
-    {
-      "source": "Candidate",
-      "target": "CI/CD",
-      "source_id": "e32",
-      "target_id": "e4",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
+      "source": "n3",
+      "target": "n7",
+      "source_label": "Software Engineer",
+      "target_label": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
       "evidence_sentences": [
         "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
       ],
-      "evidence_sentence_indices": [
-        7
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b2",
-      "id": "r11"
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "Jenkins",
-      "source_id": "e32",
-      "target_id": "e9",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
-      "evidence_sentences": [
-        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
-      ],
-      "evidence_sentence_indices": [
-        7
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r12"
-    },
-    {
-      "source": "Candidate",
-      "target": "Kubernetes",
-      "source_id": "e32",
-      "target_id": "e11",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
-      "evidence_sentences": [
-        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
-      ],
-      "evidence_sentence_indices": [
-        7
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r13"
-    },
-    {
-      "source": "Candidate",
-      "target": "Redis",
-      "source_id": "e32",
-      "target_id": "e18",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
+      "source": "n3",
+      "target": "n8",
+      "source_label": "Software Engineer",
+      "target_label": "Integrated Redis for caching and Kafka for event-driven messaging.",
+      "relationship": "HAS_RESPONSIBILITY",
+      "confidence": 1.0,
       "source_sentence": "Integrated Redis for caching and Kafka for event-driven messaging.",
       "evidence_sentences": [
         "Integrated Redis for caching and Kafka for event-driven messaging."
       ],
-      "evidence_sentence_indices": [
-        8
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Experience",
-      "block_id": "b2",
-      "id": "r14"
+      "block_id": null,
+      "scope_path": "$.work_history[0].roles[0]",
+      "evidence_path": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "Kafka",
-      "source_id": "e32",
-      "target_id": "e44",
-      "relationship": "USED_OR_APPLIED",
-      "confidence": 0.78,
-      "source_sentence": "Integrated Redis for caching and Kafka for event-driven messaging.",
+      "source": "person",
+      "target": "n9",
+      "source_label": "Aarav Sharma",
+      "target_label": "B.Tech in Computer Science",
+      "relationship": "COMPLETED_DEGREE",
+      "confidence": 1.0,
+      "source_sentence": "B.Tech in Computer Science Mumbai University 2018 - 2022 ['d14'] B.Tech in Computer Science",
       "evidence_sentences": [
-        "Integrated Redis for caching and Kafka for event-driven messaging."
+        "B.Tech in Computer Science Mumbai University 2018 - 2022 ['d14'] B.Tech in Computer Science"
       ],
-      "evidence_sentence_indices": [
-        8
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r15"
-    },
-    {
-      "source": "ShopKart API",
-      "target": "Docker",
-      "source_id": "e36",
-      "target_id": "e7",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
-      "evidence_sentences": [
-        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
-      ],
-      "evidence_sentence_indices": [
-        9
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b3",
-      "id": "r16"
-    },
-    {
-      "source": "ShopKart API",
-      "target": "PostgreSQL",
-      "source_id": "e36",
-      "target_id": "e15",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
-      "evidence_sentences": [
-        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
-      ],
-      "evidence_sentence_indices": [
-        9
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b3",
-      "id": "r17"
-    },
-    {
-      "source": "ShopKart API",
-      "target": "Django",
-      "source_id": "e36",
-      "target_id": "e23",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
-      "evidence_sentences": [
-        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
-      ],
-      "evidence_sentence_indices": [
-        9
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b3",
-      "id": "r18"
-    },
-    {
-      "source": "Candidate",
-      "target": "ShopKart API",
-      "source_id": "e32",
-      "target_id": "e36",
-      "relationship": "WORKED_ON",
-      "confidence": 0.86,
-      "source_sentence": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
-      "evidence_sentences": [
-        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
-      ],
-      "evidence_sentence_indices": [
-        9
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b3",
-      "id": "r19"
-    },
-    {
-      "source": "Real-time analytics",
-      "target": "PostgreSQL",
-      "source_id": "e37",
-      "target_id": "e16",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
-      "evidence_sentences": [
-        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
-      ],
-      "evidence_sentence_indices": [
-        10
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b4",
-      "id": "r20"
-    },
-    {
-      "source": "Real-time analytics",
-      "target": "Pandas",
-      "source_id": "e37",
-      "target_id": "e28",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
-      "evidence_sentences": [
-        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
-      ],
-      "evidence_sentence_indices": [
-        10
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b4",
-      "id": "r21"
-    },
-    {
-      "source": "Real-time analytics",
-      "target": "Python",
-      "source_id": "e37",
-      "target_id": "e34",
-      "relationship": "USES_TECHNOLOGY",
-      "confidence": 0.88,
-      "source_sentence": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
-      "evidence_sentences": [
-        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
-      ],
-      "evidence_sentence_indices": [
-        10
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b4",
-      "id": "r22"
-    },
-    {
-      "source": "Candidate",
-      "target": "Real-time analytics",
-      "source_id": "e32",
-      "target_id": "e37",
-      "relationship": "WORKED_ON",
-      "confidence": 0.86,
-      "source_sentence": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
-      "evidence_sentences": [
-        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
-      ],
-      "evidence_sentence_indices": [
-        10
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Projects",
-      "block_id": "b4",
-      "id": "r23"
-    },
-    {
-      "source": "Candidate",
-      "target": "B.Tech in Computer Science from Mumbai University (2018 - 2022)",
-      "source_id": "e32",
-      "target_id": "e20",
-      "relationship": "HOLDS_DEGREE",
-      "confidence": 0.9,
-      "source_sentence": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
-      "evidence_sentences": [
-        "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
-      ],
-      "evidence_sentence_indices": [
-        11
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Education",
-      "block_id": "b5",
-      "id": "r24"
+      "block_id": null,
+      "scope_path": "$.education[0]",
+      "evidence_path": "$.education[0]",
+      "source_blocks": [
+        "d0",
+        "d1",
+        "d14"
+      ]
     },
     {
-      "source": "Candidate",
-      "target": "AWS Certified",
-      "source_id": "e32",
-      "target_id": "e0",
-      "relationship": "EARNED",
-      "confidence": 0.9,
+      "source": "n9",
+      "target": "n10",
+      "source_label": "B.Tech in Computer Science",
+      "target_label": "Mumbai University",
+      "relationship": "AWARDED_BY",
+      "confidence": 1.0,
+      "source_sentence": "B.Tech in Computer Science Mumbai University 2018 - 2022 ['d14'] B.Tech in Computer Science",
+      "evidence_sentences": [
+        "B.Tech in Computer Science Mumbai University 2018 - 2022 ['d14'] B.Tech in Computer Science"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[0]",
+      "evidence_path": "$.education[0]",
+      "source_blocks": [
+        "d14"
+      ]
+    },
+    {
+      "source": "n9",
+      "target": "n11",
+      "source_label": "B.Tech in Computer Science",
+      "target_label": "2018 - 2022",
+      "relationship": "COMPLETED_IN",
+      "confidence": 1.0,
+      "source_sentence": "2018 - 2022",
+      "evidence_sentences": [
+        "2018 - 2022"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Education",
+      "block_id": null,
+      "scope_path": "$.education[0]",
+      "evidence_path": "$.education[0].year",
+      "source_blocks": [
+        "d14"
+      ]
+    },
+    {
+      "source": "person",
+      "target": "n12",
+      "source_label": "Aarav Sharma",
+      "target_label": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+      "relationship": "COMPLETED_PROJECT",
+      "confidence": 1.0,
+      "source_sentence": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker. ['d11']",
+      "evidence_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker. ['d11']"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": null,
+      "scope_path": "$.projects[0]",
+      "evidence_path": "$.projects[0]",
+      "source_blocks": [
+        "d0",
+        "d1",
+        "d11"
+      ]
+    },
+    {
+      "source": "person",
+      "target": "n13",
+      "source_label": "Aarav Sharma",
+      "target_label": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+      "relationship": "COMPLETED_PROJECT",
+      "confidence": 1.0,
+      "source_sentence": "Real-time analytics dashboard using Python, Pandas and PostgreSQL. ['d12']",
+      "evidence_sentences": [
+        "Real-time analytics dashboard using Python, Pandas and PostgreSQL. ['d12']"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Projects",
+      "block_id": null,
+      "scope_path": "$.projects[1]",
+      "evidence_path": "$.projects[1]",
+      "source_blocks": [
+        "d0",
+        "d1",
+        "d12"
+      ]
+    },
+    {
+      "source": "person",
+      "target": "n14",
+      "source_label": "Aarav Sharma",
+      "target_label": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+      "evidence_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[0]",
+      "source_blocks": [
+        "d0",
+        "d1"
+      ]
+    },
+    {
+      "source": "person",
+      "target": "n15",
+      "source_label": "Aarav Sharma",
+      "target_label": "CI/CD, Kafka, Git, Agile.",
+      "relationship": "HAS_SKILL",
+      "confidence": 1.0,
+      "source_sentence": "CI/CD, Kafka, Git, Agile.",
+      "evidence_sentences": [
+        "CI/CD, Kafka, Git, Agile."
+      ],
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
+      "section": "Skills",
+      "block_id": null,
+      "scope_path": "$.skills",
+      "evidence_path": "$.skills[1]",
+      "source_blocks": [
+        "d0",
+        "d1"
+      ]
+    },
+    {
+      "source": "person",
+      "target": "n16",
+      "source_label": "Aarav Sharma",
+      "target_label": "AWS Certified Solutions Architect.",
+      "relationship": "HAS_CERTIFICATION",
+      "confidence": 1.0,
       "source_sentence": "AWS Certified Solutions Architect.",
       "evidence_sentences": [
         "AWS Certified Solutions Architect."
       ],
-      "evidence_sentence_indices": [
-        12
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
+      "evidence_kind": "canonical_structural_context",
+      "method": "validated canonical hierarchy",
+      "kind": "explicit",
       "section": "Certifications",
-      "block_id": "b6",
-      "id": "r25"
-    },
-    {
-      "source": "Candidate",
-      "target": "AWS",
-      "source_id": "e32",
-      "target_id": "e3",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r26"
-    },
-    {
-      "source": "Candidate",
-      "target": "Docker",
-      "source_id": "e32",
-      "target_id": "e8",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r27"
-    },
-    {
-      "source": "Candidate",
-      "target": "Jenkins",
-      "source_id": "e32",
-      "target_id": "e10",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r28"
-    },
-    {
-      "source": "Candidate",
-      "target": "Kubernetes",
-      "source_id": "e32",
-      "target_id": "e12",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r29"
-    },
-    {
-      "source": "Candidate",
-      "target": "PostgreSQL",
-      "source_id": "e32",
-      "target_id": "e17",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r30"
-    },
-    {
-      "source": "Candidate",
-      "target": "Redis",
-      "source_id": "e32",
-      "target_id": "e19",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r31"
-    },
-    {
-      "source": "Candidate",
-      "target": "Django",
-      "source_id": "e32",
-      "target_id": "e24",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r32"
-    },
-    {
-      "source": "Candidate",
-      "target": "FastAPI",
-      "source_id": "e32",
-      "target_id": "e26",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r33"
-    },
-    {
-      "source": "Candidate",
-      "target": "Flask",
-      "source_id": "e32",
-      "target_id": "e27",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r34"
-    },
-    {
-      "source": "Candidate",
-      "target": "Python",
-      "source_id": "e32",
-      "target_id": "e35",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r35"
-    },
-    {
-      "source": "Candidate",
-      "target": "REST API",
-      "source_id": "e32",
-      "target_id": "e39",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
-      "evidence_sentences": [
-        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
-      ],
-      "evidence_sentence_indices": [
-        13
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r36"
-    },
-    {
-      "source": "Candidate",
-      "target": "CI/CD",
-      "source_id": "e32",
-      "target_id": "e5",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "CI/CD, Kafka, Git, Agile.",
-      "evidence_sentences": [
-        "CI/CD, Kafka, Git, Agile."
-      ],
-      "evidence_sentence_indices": [
-        14
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r37"
-    },
-    {
-      "source": "Candidate",
-      "target": "Agile",
-      "source_id": "e32",
-      "target_id": "e38",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "CI/CD, Kafka, Git, Agile.",
-      "evidence_sentences": [
-        "CI/CD, Kafka, Git, Agile."
-      ],
-      "evidence_sentence_indices": [
-        14
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r38"
-    },
-    {
-      "source": "Candidate",
-      "target": "Git",
-      "source_id": "e32",
-      "target_id": "e43",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "CI/CD, Kafka, Git, Agile.",
-      "evidence_sentences": [
-        "CI/CD, Kafka, Git, Agile."
-      ],
-      "evidence_sentence_indices": [
-        14
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r39"
-    },
-    {
-      "source": "Candidate",
-      "target": "Kafka",
-      "source_id": "e32",
-      "target_id": "e45",
-      "relationship": "HAS_SKILL",
-      "confidence": 0.86,
-      "source_sentence": "CI/CD, Kafka, Git, Agile.",
-      "evidence_sentences": [
-        "CI/CD, Kafka, Git, Agile."
-      ],
-      "evidence_sentence_indices": [
-        14
-      ],
-      "evidence_kind": "same_sentence",
-      "method": "source-context rules",
-      "section": "Skills",
-      "block_id": "b7",
-      "id": "r40"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "AWS",
-      "source_id": "e31",
-      "target_id": "e1",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        5
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r41"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "CI/CD",
-      "source_id": "e31",
-      "target_id": "e4",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        7
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r42"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Docker",
-      "source_id": "e31",
-      "target_id": "e6",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        6
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r43"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Jenkins",
-      "source_id": "e31",
-      "target_id": "e9",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        7
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r44"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Kubernetes",
-      "source_id": "e31",
-      "target_id": "e11",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        7
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r45"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "PostgreSQL",
-      "source_id": "e31",
-      "target_id": "e14",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        6
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r46"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Redis",
-      "source_id": "e31",
-      "target_id": "e18",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nIntegrated Redis for caching and Kafka for event-driven messaging.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Integrated Redis for caching and Kafka for event-driven messaging."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        8
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r47"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Django",
-      "source_id": "e31",
-      "target_id": "e22",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        5
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r48"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "FastAPI",
-      "source_id": "e31",
-      "target_id": "e25",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        6
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r49"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Python",
-      "source_id": "e31",
-      "target_id": "e33",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        5
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r50"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "REST APIs",
-      "source_id": "e31",
-      "target_id": "e40",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Developed REST APIs using Python and Django and deployed them on AWS."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        5
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r51"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "microservices",
-      "source_id": "e31",
-      "target_id": "e42",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        6
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r52"
-    },
-    {
-      "source": "Software Engineer",
-      "target": "Kafka",
-      "source_id": "e31",
-      "target_id": "e44",
-      "relationship": "ROLE_USES_TECHNOLOGY",
-      "confidence": 0.86,
-      "source_sentence": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nIntegrated Redis for caching and Kafka for event-driven messaging.",
-      "evidence_sentences": [
-        "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
-        "Integrated Redis for caching and Kafka for event-driven messaging."
-      ],
-      "evidence_sentence_indices": [
-        4,
-        8
-      ],
-      "evidence_kind": "structured_experience_entry",
-      "method": "source-context rules",
-      "section": "Experience",
-      "block_id": "b2",
-      "id": "r53"
-    },
-    {
-      "source": "B.Tech in Computer Science from Mumbai University (2018 - 2022)",
-      "target": "Mumbai University",
-      "source_id": "e20",
-      "target_id": "e46",
-      "relationship": "FROM_UNIVERSITY",
-      "confidence": 0.9,
-      "source_sentence": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
-      "evidence_sentences": [
-        "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
-      ],
-      "evidence_sentence_indices": [
-        11
-      ],
-      "evidence_kind": "structured_education_entry",
-      "method": "source-context rules",
-      "section": "Education",
-      "block_id": "b5",
-      "id": "r54"
+      "block_id": null,
+      "scope_path": "$.certifications",
+      "evidence_path": "$.certifications[0]",
+      "source_blocks": [
+        "d0",
+        "d1"
+      ]
     }
   ],
-  "note": "Every edge is supported by its source sentence or a structurally linked resume entry, with section/block provenance."
+  "note": "Every relationship is derived from a validated canonical resume record with source-path provenance."
 }

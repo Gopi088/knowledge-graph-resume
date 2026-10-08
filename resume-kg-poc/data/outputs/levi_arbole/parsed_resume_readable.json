@@ -1,0 +1,883 @@
+{
+  "schema_version": "canonical-resume/v1",
+  "personal_information": {
+    "name": "Levi Arbole",
+    "source_blocks": [
+      "d0",
+      "d1",
+      "d2"
+    ],
+    "email": "arbole60@gmail.com",
+    "phone": "9823506339",
+    "location": "Ambernath, Thane"
+  },
+  "personal_details": {
+    "source_blocks": [
+      "d214",
+      "d216",
+      "d218"
+    ],
+    "date_of_birth": "22nd June 1995",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "nationality": "Indian"
+  },
+  "profile_snapshot": [
+    "Professional with years of experience as Senior Business Analyst in Banking, Finance, Insurance, and E-commerce domains. Proven expertise in requirement gathering, process improvement, regulatory compliance, and project management. Adept at bridging business and technology, managing end-to-end project lifecycles, and ensuring regulatory compliance. Skilled in stakeholder engagement, UAT coordination, API integration, and documentation (BRD, FRD, SOPs). Known for delivering data-driven insights and improving operational efficiency through structured problem-solving and collaboration."
+  ],
+  "work_history": [
+    {
+      "company": "Clover Infotech Pvt Ltd",
+      "roles": [
+        {
+          "designation": "Senior Business Analyst",
+          "role_and_responsibilities": [
+            "Leading project delivery for key BFSI clients.",
+            "Liaise with Risk, Compliance, Audit, and Operations teams to understand ORM objectives and pain points.",
+            "Gather feedback from operational users to continuously refine the ORM framework and system feature.",
+            "Define test scenarios and acceptance criteria based on use cases and compliance requirements.",
+            "Document and analyze risk-related processes such as: Risk & Control Self Assessments (RCSA); Key Risk Indicators (KRI); Loss Event Management; Issue and Action Tracking",
+            "Managing UAT, coordinating with dev teams, and tracking CRs.",
+            "Collaborating with clients on production issues and audit gap closures.",
+            "Work with stakeholders (risk, compliance, procurement, IT, legal) to understand TPRM needs",
+            "Gather business, regulatory, and risk requirements",
+            "Document: Vendor onboarding requirements; Risk assessment workflows; Due diligence criteria",
+            "Translate business needs into functional specifications",
+            "Define and improve risk assessment frameworks",
+            "Work with TPRM platforms (e.g., ServiceNow)",
+            "Support: System implementation; Configuration of workflows; User acceptance testing (UAT)",
+            "Ensure tools capture correct risk data and reporting outputs"
+          ],
+          "responsibility_sources": [
+            [
+              "d42"
+            ],
+            [
+              "d43",
+              "d44"
+            ],
+            [
+              "d45",
+              "d46"
+            ],
+            [
+              "d47",
+              "d48"
+            ],
+            [
+              "d49",
+              "d50",
+              "d51",
+              "d52",
+              "d53"
+            ],
+            [
+              "d54"
+            ],
+            [
+              "d55",
+              "d56"
+            ],
+            [
+              "d57",
+              "d58"
+            ],
+            [
+              "d59"
+            ],
+            [
+              "d60",
+              "d61",
+              "d62",
+              "d63"
+            ],
+            [
+              "d64"
+            ],
+            [
+              "d65"
+            ],
+            [
+              "d66"
+            ],
+            [
+              "d67",
+              "d68",
+              "d69",
+              "d70"
+            ],
+            [
+              "d71"
+            ]
+          ],
+          "source_blocks": [
+            "d38",
+            "d39",
+            "d40",
+            "d42",
+            "d43",
+            "d44",
+            "d45",
+            "d46",
+            "d47",
+            "d48",
+            "d49",
+            "d50",
+            "d51",
+            "d52",
+            "d53",
+            "d54",
+            "d55",
+            "d56",
+            "d57",
+            "d58",
+            "d59",
+            "d60",
+            "d61",
+            "d62",
+            "d63",
+            "d64",
+            "d65",
+            "d66",
+            "d67",
+            "d68",
+            "d69",
+            "d70",
+            "d71"
+          ],
+          "clients": [
+            "HDFC Bank"
+          ],
+          "field_sources": {
+            "clients": [
+              "d39"
+            ],
+            "employment_period": [
+              "d40"
+            ]
+          },
+          "duration": "July 2025 – June 2026",
+          "reported_duration": "11 months",
+          "start_date": "July 2025",
+          "end_date": "June 2026",
+          "employment_periods": [
+            {
+              "source_text": "July 2025 – June 2026",
+              "start_date": "July 2025",
+              "end_date": "June 2026"
+            }
+          ],
+          "employment_period": {
+            "source_text": "July 2025 – June 2026",
+            "start_date": "July 2025",
+            "end_date": "June 2026"
+          }
+        }
+      ],
+      "source_blocks": [
+        "d38",
+        "d39",
+        "d40",
+        "d42",
+        "d43",
+        "d44",
+        "d45",
+        "d46",
+        "d47",
+        "d48",
+        "d49",
+        "d50",
+        "d51",
+        "d52",
+        "d53",
+        "d54",
+        "d55",
+        "d56",
+        "d57",
+        "d58",
+        "d59",
+        "d60",
+        "d61",
+        "d62",
+        "d63",
+        "d64",
+        "d65",
+        "d66",
+        "d67",
+        "d68",
+        "d69",
+        "d70",
+        "d71"
+      ],
+      "duration": ""
+    },
+    {
+      "company": "Wipro Ltd",
+      "roles": [
+        {
+          "designation": "Senior Business Analyst",
+          "role_and_responsibilities": [
+            "Deployed at ICICI Bank Corporate – led 4 major projects.",
+            "Applications handled: PINS (Portfolio investment scheme) (Banking Trading application), Barcode Tracking (HMI & Mobile App), Govt. Bidding Scrolls.",
+            "Handling production issues and closing it within the given TAT and led annual audit gap closures.",
+            "Interacting with stakeholders to enhance processes and ensure compliance and regularisation.",
+            "Driving Multiple Change request at a time and New requirements management",
+            "Preparation test cases scenarios and executing in UAT environment and Golive with the end product.",
+            "API testing and Integration with core banking systems.",
+            "Closure of vulnerabilities in the application highlighted by compliance,information security groups by collaborating with development along with closure of RBI audit observations and adhere to RBI guidelines.",
+            "Performed data analysis using SQL/Excel to support decision-making."
+          ],
+          "responsibility_sources": [
+            [
+              "d75"
+            ],
+            [
+              "d80",
+              "d81"
+            ],
+            [
+              "d82",
+              "d83"
+            ],
+            [
+              "d84",
+              "d85"
+            ],
+            [
+              "d86"
+            ],
+            [
+              "d87",
+              "d88"
+            ],
+            [
+              "d89"
+            ],
+            [
+              "d90",
+              "d91",
+              "d92"
+            ],
+            [
+              "d93"
+            ]
+          ],
+          "source_blocks": [
+            "d72",
+            "d73",
+            "d74",
+            "d75",
+            "d80",
+            "d81",
+            "d82",
+            "d83",
+            "d84",
+            "d85",
+            "d86",
+            "d87",
+            "d88",
+            "d89",
+            "d90",
+            "d91",
+            "d92",
+            "d93"
+          ],
+          "clients": [
+            "ICICI"
+          ],
+          "field_sources": {
+            "clients": [
+              "d73"
+            ],
+            "employment_period": [
+              "d74"
+            ]
+          },
+          "duration": "Dec 2022– June 2025",
+          "reported_duration": "2y 6mon",
+          "start_date": "Dec 2022",
+          "end_date": "June 2025",
+          "employment_periods": [
+            {
+              "source_text": "Dec 2022– June 2025",
+              "start_date": "Dec 2022",
+              "end_date": "June 2025"
+            }
+          ],
+          "employment_period": {
+            "source_text": "Dec 2022– June 2025",
+            "start_date": "Dec 2022",
+            "end_date": "June 2025"
+          }
+        }
+      ],
+      "source_blocks": [
+        "d72",
+        "d73",
+        "d74",
+        "d75",
+        "d80",
+        "d81",
+        "d82",
+        "d83",
+        "d84",
+        "d85",
+        "d86",
+        "d87",
+        "d88",
+        "d89",
+        "d90",
+        "d91",
+        "d92",
+        "d93"
+      ],
+      "duration": ""
+    },
+    {
+      "company": "Tata Consultancy Services (TCS)",
+      "roles": [
+        {
+          "designation": "Functional Analyst",
+          "role_and_responsibilities": [
+            "In-house hiring by TCS from Nelito systems.",
+            "Deployed on CKYC Compliance project for SBI; ensured smooth CKYC number generation through CERSAI. Drafted and signed off technical documents; coordinated development and testing.",
+            "Handled real-time production issues, API-level debugging, and DR activities.",
+            "Interact with compliance, legal, and operations teams to identify bank-specific CKYC requirement.",
+            "Prepare Business Requirement Document (BRD) and Functional Specification Documents (FSD)",
+            "Design test cases for different onboarding scenarios (e.g., new customer, update KYC, CKYC fetch)"
+          ],
+          "responsibility_sources": [
+            [
+              "d103"
+            ],
+            [
+              "d104",
+              "d105",
+              "d106"
+            ],
+            [
+              "d107"
+            ],
+            [
+              "d108",
+              "d109"
+            ],
+            [
+              "d110",
+              "d111"
+            ],
+            [
+              "d112",
+              "d113"
+            ]
+          ],
+          "source_blocks": [
+            "d99",
+            "d100",
+            "d101",
+            "d103",
+            "d104",
+            "d105",
+            "d106",
+            "d107",
+            "d108",
+            "d109",
+            "d110",
+            "d111",
+            "d112",
+            "d113"
+          ],
+          "clients": [
+            "SBI"
+          ],
+          "field_sources": {
+            "clients": [
+              "d100"
+            ],
+            "employment_period": [
+              "d101"
+            ]
+          },
+          "duration": "June 2021 –Dec 2022",
+          "reported_duration": "1year 6months",
+          "start_date": "June 2021",
+          "end_date": "Dec 2022",
+          "employment_periods": [
+            {
+              "source_text": "June 2021 –Dec 2022",
+              "start_date": "June 2021",
+              "end_date": "Dec 2022"
+            }
+          ],
+          "employment_period": {
+            "source_text": "June 2021 –Dec 2022",
+            "start_date": "June 2021",
+            "end_date": "Dec 2022"
+          }
+        }
+      ],
+      "source_blocks": [
+        "d99",
+        "d100",
+        "d101",
+        "d103",
+        "d104",
+        "d105",
+        "d106",
+        "d107",
+        "d108",
+        "d109",
+        "d110",
+        "d111",
+        "d112",
+        "d113"
+      ],
+      "duration": ""
+    },
+    {
+      "company": "Nelito Systems (DTS Group)",
+      "roles": [
+        {
+          "designation": "Functional Analyst",
+          "role_and_responsibilities": [
+            "Involved in CKYC/Trade Finance modules.",
+            "business and tech teams; addressed ID and API-level issues."
+          ],
+          "responsibility_sources": [
+            [
+              "d117"
+            ],
+            [
+              "d118"
+            ]
+          ],
+          "source_blocks": [
+            "d114",
+            "d115",
+            "d116",
+            "d117",
+            "d118"
+          ],
+          "clients": [
+            "SBI"
+          ],
+          "field_sources": {
+            "clients": [
+              "d115"
+            ],
+            "employment_period": [
+              "d116"
+            ]
+          },
+          "duration": "Feb 2021 – Jun 2021",
+          "reported_duration": "4 months",
+          "start_date": "Feb 2021",
+          "end_date": "Jun 2021",
+          "employment_periods": [
+            {
+              "source_text": "Feb 2021 – Jun 2021",
+              "start_date": "Feb 2021",
+              "end_date": "Jun 2021"
+            }
+          ],
+          "employment_period": {
+            "source_text": "Feb 2021 – Jun 2021",
+            "start_date": "Feb 2021",
+            "end_date": "Jun 2021"
+          }
+        }
+      ],
+      "source_blocks": [
+        "d114",
+        "d115",
+        "d116",
+        "d117",
+        "d118"
+      ],
+      "duration": ""
+    },
+    {
+      "company": "QualityKiosk Technologies Pvt. Ltd.",
+      "roles": [
+        {
+          "designation": "Transitions Executive",
+          "role_and_responsibilities": [
+            "Requirement gathering from stakeholders across life,, general insurance segments.",
+            "Working with systems to streamline claim approvals, automate documentation, and reduce TAT.",
+            "Cater to audit trails, data governance, and compliance reporting observation.",
+            "Collaborating with developer teams for seamless customer experience.",
+            "Managed client transitions across BFSI, telecom, and e-commerce domains.",
+            "Led documentation efforts and implemented automation via UIPath for Insurance client Bajaj Allianz call center and Bajaj health insurance Products",
+            "Conducted GAP analysis, requirement validation, and SLA tracking. Handled projects on payment domains like Domestic and international payments (e.g., NEFT, RTGS, UPI, SWIFT,).",
+            "OTP based transactions (credit, debit, prepaid).",
+            "Monitoring Payment gateways, merchant onboarding, and wallets journeys",
+            "Collaborating with developers during development and maintained application module"
+          ],
+          "responsibility_sources": [
+            [
+              "d121"
+            ],
+            [
+              "d122",
+              "d123"
+            ],
+            [
+              "d124"
+            ],
+            [
+              "d125"
+            ],
+            [
+              "d126"
+            ],
+            [
+              "d127",
+              "d128"
+            ],
+            [
+              "d129",
+              "d130",
+              "d131"
+            ],
+            [
+              "d132"
+            ],
+            [
+              "d133"
+            ],
+            [
+              "d134",
+              "d135"
+            ]
+          ],
+          "source_blocks": [
+            "d119",
+            "d120",
+            "d121",
+            "d122",
+            "d123",
+            "d124",
+            "d125",
+            "d126",
+            "d127",
+            "d128",
+            "d129",
+            "d130",
+            "d131",
+            "d132",
+            "d133",
+            "d134",
+            "d135"
+          ],
+          "duration": "Nov 2017 – Feb 2021",
+          "reported_duration": "3y 2 mon",
+          "start_date": "Nov 2017",
+          "end_date": "Feb 2021",
+          "field_sources": {
+            "employment_period": [
+              "d120"
+            ]
+          },
+          "clients": [],
+          "employment_periods": [
+            {
+              "source_text": "Nov 2017 – Feb 2021",
+              "start_date": "Nov 2017",
+              "end_date": "Feb 2021"
+            }
+          ],
+          "employment_period": {
+            "source_text": "Nov 2017 – Feb 2021",
+            "start_date": "Nov 2017",
+            "end_date": "Feb 2021"
+          }
+        }
+      ],
+      "source_blocks": [
+        "d119",
+        "d120",
+        "d121",
+        "d122",
+        "d123",
+        "d124",
+        "d125",
+        "d126",
+        "d127",
+        "d128",
+        "d129",
+        "d130",
+        "d131",
+        "d132",
+        "d133",
+        "d134",
+        "d135"
+      ],
+      "duration": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "BE Computer",
+      "source_blocks": [
+        "d176",
+        "d177",
+        "d178",
+        "d179",
+        "d180"
+      ],
+      "institution": "PCE, New Panvel",
+      "university_or_board": "Mumbai University",
+      "year": "2017",
+      "score": "60.00/ 6.75",
+      "qualification": "BE Computer"
+    },
+    {
+      "degree": "Third year of Engineering",
+      "source_blocks": [
+        "d181",
+        "d182",
+        "d183",
+        "d184",
+        "d185",
+        "d186"
+      ],
+      "institution": "PCE, New Panvel",
+      "university_or_board": "Mumbai University",
+      "year": "2016",
+      "score": "60.20 / 6.79",
+      "qualification": "Third year of Engineering"
+    },
+    {
+      "degree": "Second year of Engineering",
+      "source_blocks": [
+        "d187",
+        "d188",
+        "d189",
+        "d190",
+        "d191",
+        "d192"
+      ],
+      "institution": "PCE, New Panvel",
+      "university_or_board": "Mumbai University",
+      "year": "2015",
+      "score": "52.82 / 5.75",
+      "qualification": "Second year of Engineering"
+    },
+    {
+      "degree": "Diploma in I.T",
+      "source_blocks": [
+        "d193",
+        "d194",
+        "d195",
+        "d196",
+        "d197",
+        "d198"
+      ],
+      "institution": "Dr. NYTP, Bhivpuri Road",
+      "university_or_board": "Mumbai University",
+      "year": "2014",
+      "score": "74.44",
+      "qualification": "Diploma in I.T"
+    },
+    {
+      "degree": "SSC",
+      "source_blocks": [
+        "d204",
+        "d205",
+        "d206",
+        "d207",
+        "d208",
+        "d209"
+      ],
+      "institution": "Kendriya Vidyalaya Ambernath",
+      "university_or_board": "CBSE",
+      "year": "2011",
+      "score": "67.7",
+      "qualification": "SSC"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Integration of ORM with ServiceNow GRC Module and automatising the Risk management , Audit and Compliance experience in the organisation.",
+      "source_blocks": [
+        "d142",
+        "d143"
+      ]
+    },
+    {
+      "description": "Trading Application (PINS) – Spearheaded development for seamless NRI onboarding and trading experience.",
+      "source_blocks": [
+        "d144",
+        "d145"
+      ]
+    },
+    {
+      "description": "Implementing report automation to Broker and Customers and API integration for smooth customer onboarding through various channels",
+      "source_blocks": [
+        "d146",
+        "d147"
+      ]
+    },
+    {
+      "description": "CKYC Compliance Project for SBI – Enabled integration with CERSAI for 100% customer compliance.",
+      "source_blocks": [
+        "d148",
+        "d149"
+      ]
+    },
+    {
+      "description": "Implementation of UIPath for Insurance portal of Bajaj Allianz call center in Citrix environment and Bajaj Allianz newly launched insurance Products.",
+      "source_blocks": [
+        "d150",
+        "d151"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Requirements Gathering & Analysis"
+    },
+    {
+      "name": "Business Requirement document, Functional Requirement Document & Test cases scenario and execution."
+    },
+    {
+      "name": "UAT Testing and coordination."
+    },
+    {
+      "name": "Preparing Impact analysis document."
+    },
+    {
+      "name": "Documenting Deployments note for Live Deployment."
+    },
+    {
+      "name": "Project Planning & Delivery"
+    },
+    {
+      "name": "Regulatory Compliance (CKYC, RBI, NSDL, CDSL)."
+    },
+    {
+      "name": "Cross-functional Collaboration with Team Management and Interpersonal skills."
+    },
+    {
+      "name": "Hands-on experience in JIRA, Load Runner, Service Now MS office."
+    },
+    {
+      "name": "API Integrations and Implementations."
+    },
+    {
+      "name": "Proficiency with Oracle SQL,, Postman Tools."
+    },
+    {
+      "name": "Process walkthrough and creating SOPs and manuals for knowledge sharing."
+    },
+    {
+      "name": "Stakeholders Management and Collaboration"
+    },
+    {
+      "name": "Gap Analysis documentation"
+    },
+    {
+      "name": "Drive project lifecycle from requirement inception to post-go-live support"
+    },
+    {
+      "name": "Workshops, Demos & End-User Training"
+    },
+    {
+      "name": "Production Support & Post-Go-Live Monitoring"
+    },
+    {
+      "name": "Support production validations, DR drills, and post-release issue triaging"
+    }
+  ],
+  "technical_skills": {
+    "tools": [
+      "JIRA",
+      "Service Now",
+      "HP LoadRunner",
+      "UIPath",
+      "Postman",
+      "API",
+      "Arcos portal"
+    ],
+    "databases": [
+      "MySQL",
+      "Oracle SQL"
+    ],
+    "operating_systems": [
+      "Windows",
+      "Linux"
+    ]
+  },
+  "certifications": [],
+  "awards": [],
+  "achievements": [],
+  "publications": [],
+  "domain_experience": [
+    {
+      "name": "Banking",
+      "organizations": [
+        "ICICI Bank",
+        "State bank of India",
+        "HDFC bank",
+        "RAK",
+        "ADCB",
+        "Bank Muscat",
+        "BNP Paribas"
+      ],
+      "source_blocks": [
+        "d154",
+        "d155",
+        "d156"
+      ]
+    },
+    {
+      "name": "Insurance",
+      "organizations": [
+        "SBI Life",
+        "HDFC Life",
+        "Bajaj Allianz",
+        "ICICI Prulife",
+        "Aditya Birla",
+        "L & T insurance"
+      ],
+      "source_blocks": [
+        "d157"
+      ]
+    },
+    {
+      "name": "Trading",
+      "organizations": [
+        ": ICICI Securities",
+        "BTPN (Indonesia)",
+        "Axis securities"
+      ],
+      "source_blocks": [
+        "d158"
+      ]
+    },
+    {
+      "name": "E-commerce",
+      "organizations": [
+        ":UAE RTA",
+        "Jet airways"
+      ],
+      "source_blocks": [
+        "d159"
+      ]
+    },
+    {
+      "name": "Regulatory Bodies",
+      "organizations": [
+        "NSDL",
+        "CDSL"
+      ],
+      "source_blocks": [
+        "d160"
+      ]
+    }
+  ],
+  "source_sections": {},
+  "unresolved_blocks": []
+}

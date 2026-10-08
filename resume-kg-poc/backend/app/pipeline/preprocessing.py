@@ -15,9 +15,8 @@ later stages need for context:
     came from a headline/bullet line.
 
 Only conservative cleanup is applied: unicode NFKC, line-ending
-unification, trailing-whitespace stripping, collapsing of 3+ blank lines,
-and de-hyphenation of words split across a line break ("micro-\\nservices"
--> "microservices"). Nothing semantically meaningful is removed.
+unification, and trailing-whitespace stripping. Source line and blank-line
+boundaries are preserved because they carry context for block grouping.
 
 Output keeps the old `sentences: list[str]` contract (normalized sentence
 strings) and adds `sentence_meta`, `sections` and `normalized_text`.
@@ -32,30 +31,49 @@ from difflib import get_close_matches
 SECTION_ALIASES: dict[str, tuple[str, ...]] = {
     "Summary": (
         "summary", "professional summary", "career summary", "profile",
-        "professional profile", "career objective", "objective", "about me",
-        "about", "personal statement",
+        "professional profile", "profile summary", "career objective", "objective", "about me",
+        "about", "personal statement", "executive summary",
     ),
-    "Personal Information": ("personal information", "contact information", "contact details"),
+    "Personal Information": (
+        "personal information", "personal details", "personal detail", "contact",
+        "contact information", "contact details", "personal profile",
+    ),
     "Experience": (
         "experience", "work experience", "professional experience",
         "pofessional experience", "professional experiance", "work experiance",
         "employment history", "work history", "career history",
         "relevant experience", "industry experience", "project experience",
         "professional background", "internship experience", "internships", "internship",
+        "career experience", "employment", "professional employment", "work background",
+        "career profile", "experience summary", "career highlights", "employment experience",
     ),
     "Projects": (
         "project", "projects", "personal projects", "academic projects",
         "key projects", "research projects", "selected projects", "project experience",
+        "project highlights", "key achievements and projects",
+        "project portfolio", "selected work", "portfolio",
+        "projects and achievements", "projects and highlights",
     ),
     "Education": (
-        "education", "educational background", "academic background",
-        "academic qualifications", "education and qualifications", "eeducation",
+        "education", "education qualification", "educational qualification", "educational background", "academic background",
+        "academic qualifications", "academic qualification", "education qualification", "educational qualifications", "education and qualifications", "eeducation",
     ),
+    "Domain Experience": (
+        "domain experience", "domain expertise", "industry domain experience",
+        "core banking and domain expertise",
+    ),
+    "Business Analysis and Product Management": (
+        "business analysis and product management", "business analysis & product management",
+    ),
+    "Technical Program Management": ("technical program management",),
     "Skills": (
-        "skills", "technical skills", "key skills", "core skills",
-        "core competencies", "areas of expertise", "technical expertise",
+        "skills", "key skills", "core skills",
+        "areas of expertise", "technical expertise",
         "skills and competencies", "skills and qualifications", "technical competencies",
-        "technical proficiencies", "technologies",
+        "technical proficiencies",
+        "key competencies", "competencies", "areas of strength", "areas of competence",
+        "technologies", "technical tools", "computer skills", "professional skills",
+        "functional skills", "interpersonal skills", "soft skills", "key strengths",
         "tech stack", "tools and technologies",
     ),
     "Certifications": (
@@ -66,8 +84,12 @@ SECTION_ALIASES: dict[str, tuple[str, ...]] = {
         "certificates and licences", "licenses and certificates",
         "licences and certificates", "professional certifications",
         "achievements and certifications", "achievement and certification",
+        "certifications and awards", "certificates and awards", "certification and licenses",
+        "certifications and licenses",
     ),
-    "Training": ("training", "professional training", "courses", "coursework"),
+    "Technical Skills": ("technical skills", "technical skill set"),
+    "Core Competencies": ("core competencies", "core competency", "core competences"),
+    "Training": ("training", "professional training", "professional development", "courses", "coursework"),
     "Tools and Technology": ("tools and technology", "tools and technologies", "technology stack"),
     "Publications": ("publication", "publications", "research publications"),
     "Awards": ("award", "awards", "achievements", "honors", "honours"),
@@ -86,8 +108,8 @@ _ALIAS_TO_SECTION = {
 HEADER_CONTACT = "Header"
 OTHER_SECTION = "Other"
 
-_BULLET_CLASS = r"[\u2022\u25aa\u25cf\u00b7\u2013\u2014>\*\-]"
-_LIST_PREFIX = re.compile(r"^\s*(?:(?P<bullet>[\u2022\u25aa\u25cf\u00b7\u2013\u2014>*\-])\s*|(?P<number>\d+[.)])\s*)")
+_BULLET_CLASS = r"[\u2022\u25aa\u25cf\u25cb\u25e6\u00b7\u2013\u2014>\*\-]"
+_LIST_PREFIX = re.compile(r"^\s*(?:(?P<bullet>[\u2022\u25aa\u25cf\u25cb\u25e6\u00b7\u2013\u2014>*\-])\s*|(?P<number>\d+[.)])\s*)")
 
 
 def _is_header_line(line: str) -> "str | None":
@@ -107,6 +129,16 @@ def _is_header_line(line: str) -> "str | None":
     if normalized in _ALIAS_TO_SECTION:
         return _ALIAS_TO_SECTION[normalized]
 
+    # Singular achievement labels commonly introduce a bullet inside an
+    # employment entry ("Achievement: Increased revenue ..."); treating that
+    # short label as the Awards section would cut off the active job context.
+    if normalized in {"achievement", "accomplishment"}:
+        return None
+
+    # Distinguish common skill sub-headings from the parent skill inventory.
+    if normalized in {"core competencies", "core competency", "core competences"}:
+        return "Core Competencies"
+
     # Resume headings frequently contain OCR/typing noise. Correct only
     # heading-like lines and require a close match to a known heading.
     if len(normalized) <= 60 and not re.search(r"[.!?]", s):
@@ -117,8 +149,14 @@ def _is_header_line(line: str) -> "str | None":
     # Preserve short custom headings when they are clearly formatted as
     # headings. This lets a resume use labels such as "CERTIFICATES & AWARDS"
     # without letting normal sentence text change the active section.
+    custom_heading_terms = re.compile(
+        r"\b(summary|experience|employment|education|skill|certification|certificate|"
+        r"award|achievement|project|publication|training|objective|profile|expertise|"
+        r"language|interest|reference|volunteer|leadership|contact|personal|technology)\b", re.I,
+    )
     if (re.fullmatch(r"[A-Z][A-Z\s&/\\-]{2,58}", s)
             and " " in s.strip()
+            and custom_heading_terms.search(s)
             and not re.search(r"[.!?/#]", s)):
         return s.title()
     return None
@@ -188,6 +226,10 @@ def _render_resume_json(data) -> tuple[str, dict[int, str]]:
             "skills": "Skills",
             "tools and technology": "Tools and Technology",
             "tools and technologies": "Tools and Technology",
+            "technical skills": "Technical Skills",
+            "technical skill set": "Technical Skills",
+            "core competencies": "Core Competencies",
+            "core competency": "Core Competencies",
         }
         return aliases.get(key_norm, _json_label(key))
 
@@ -270,14 +312,11 @@ def normalize_text(raw_text: str) -> str:
     """Conservative cleanup only — case, punctuation and layout survive."""
     text = unicodedata.normalize("NFKC", raw_text or "")
     text = text.replace("\r\n", "\n").replace("\r", "\n")
-    # de-hyphenate words split across a line break ("micro-\nservices")
-    # Retain a hyphen at a wrapped line boundary. It may be meaningful
-    # (client-facing, multi-asset), and dropping it corrupts source wording.
-    text = re.sub(r"(\w)-\n(\w)", r"\1-\2", text)
-    # strip trailing spaces, collapse 3+ blank lines to max one blank line
+    # Retain hyphens and line boundaries: both may carry source meaning.
+    # Keep source line positions; continuation joining belongs to semantic grouping.
     lines = [ln.rstrip() for ln in text.split("\n")]
     text = "\n".join(lines)
-    text = re.sub(r"\n{3,}", "\n\n", text)
+    # Preserve blank lines as boundary evidence.
     return text.strip()
 
 
@@ -296,15 +335,34 @@ def detect_sections(normalized: str) -> tuple[list[dict], list[dict]]:
     current = HEADER_CONTACT
     section_number = 0
     current_section_id = f"s{section_number}:Header"
-    for line_index, line in enumerate(_split_into_lines(normalized)):
+    source_lines = _split_into_lines(normalized)
+    split_heading_continuations: set[int] = set()
+    for line_index, line in enumerate(source_lines):
+        if line_index in split_heading_continuations:
+            prefix = _LIST_PREFIX.match(line)
+            line_meta.append({
+                "line_index": line_index, "source_line": line.strip(), "line": line.strip(),
+                "indent": len(line) - len(line.lstrip()), "is_bullet": bool(prefix),
+                "list_marker": (prefix.group("bullet") or prefix.group("number")) if prefix else "",
+                "section_id": current_section_id, "section": current, "is_header": True,
+            })
+            continue
         header, inline_body = _section_header_and_body(line)
+        if not header and line.strip() and line_index + 1 < len(source_lines):
+            combined = f"{line.strip()} {source_lines[line_index + 1].strip()}"
+            combined_key = re.sub(r"\s+", " ", combined.casefold().replace("&", "and")).strip()
+            if combined_key in _ALIAS_TO_SECTION:
+                header = _ALIAS_TO_SECTION[combined_key]
+                split_heading_continuations.add(line_index + 1)
         prefix = _LIST_PREFIX.match(line)
+        is_page_number = bool(re.fullmatch(r"\s*(?:page\s+)?\d{1,3}(?:\s*(?:of|/)\s*\d+)?\s*", line, re.I))
         common = {
             "line_index": line_index,
             "source_line": line.strip(),
             "indent": len(line) - len(line.lstrip()),
             "is_bullet": bool(prefix),
             "list_marker": (prefix.group("bullet") or prefix.group("number")) if prefix else "",
+            "is_page_number": is_page_number,
         }
         if header:
             current = header
@@ -320,6 +378,84 @@ def detect_sections(normalized: str) -> tuple[list[dict], list[dict]]:
             line_meta.append({**common, "line": "", "section": current, "is_header": False})
         else:
             line_meta.append({**common, "line": line.strip(), "section": current, "is_header": False})
+
+    # Headingless resumes are common. Infer only from high-signal record shapes
+    # (dated job headers, qualification rows, project/certificate labels), then
+    # let subsequent source lines inherit that local context. Avoid embedding
+    # similarity or entity types as section evidence.
+    if section_number == 0 or any(lm.get("section") == HEADER_CONTACT for lm in line_meta):
+        active = HEADER_CONTACT
+        inferred_index = 0
+        saw_content = False
+        role_words = re.compile(
+            r"\b(analyst|engineer|developer|consultant|manager|director|designer|architect|"
+            r"scientist|officer|specialist|associate|executive|intern|underwriter|administrator|"
+            r"technician|nurse|teacher|coordinator|accountant|researcher|president|lead)\b", re.I
+        )
+        date_range = re.compile(
+            r"(?:\b(?:19|20)\d{2}\s*[-–—/]|\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}.*[-–—])",
+            re.I,
+        )
+        degree_words = re.compile(
+            r"\b(bachelor|master|ph\.?d|mba|b\.?tech|m\.?tech|b\.?e\.?|m\.?e\.?|"
+            r"b\.?s\.?|m\.?s\.?|b\.?a\.?|m\.?a\.?|b\.?com\.?|m\.?com\.?|"
+            r"diploma|associate degree|high school|secondary school|ssc|hsc|ged)\b", re.I
+        )
+        for lm in line_meta:
+            if lm.get("is_header"):
+                active = lm["section"]
+                continue
+            if lm.get("section") != HEADER_CONTACT:
+                active = lm["section"]
+                continue
+            if lm.get("is_page_number") or not lm.get("line", "").strip():
+                continue
+            value = lm["line"].strip()
+            folded = value.casefold().strip(" :.-")
+            inferred = None
+            if re.match(r"^(?:key\s+)?projects?\s*[:\-]", value, re.I):
+                inferred = "Projects"
+            elif re.match(r"^(?:education|academic qualifications?)\s*[:\-]", value, re.I):
+                inferred = "Education"
+            elif re.match(r"^(?:certifications?|certificates?|licenses?|licences?)\s*[:\-]", value, re.I):
+                inferred = "Certifications"
+            elif re.match(r"^(?:technical\s+)?skills?\s*[:\-]", value, re.I):
+                inferred = "Skills"
+            elif degree_words.search(value) and (re.search(r"\b(from|university|college|institute|school)\b", value, re.I)
+                    or date_range.search(value)):
+                inferred = "Education"
+            elif (degree_words.match(value) and len(value) < 140
+                  and not re.search(r"[.!?]", value)):
+                inferred = "Education"
+            elif date_range.search(value) and role_words.search(value) and len(value) < 260:
+                inferred = "Experience"
+            elif (role_words.search(value) and len(value) < 180
+                  and re.search(r"\s(?:at|[@|])\s|\s[–—]\s", value, re.I)
+                  and not re.search(r"[.!?]", value)):
+                inferred = "Experience"
+            elif re.search(r"\b(certified|certification|certificate)\b", value, re.I):
+                inferred = "Certifications"
+            elif (active != "Experience" and value.count(",") >= 2 and
+                  len(re.findall(r"\b(python|java|sql|aws|azure|docker|react|excel|tensorflow|machine learning|git|postgresql|kubernetes|pandas|tableau)\b", value, re.I)) >= 2
+                  and not re.search(r"\b(certified|certification|certificate)\b", value, re.I)):
+                inferred = "Skills"
+            elif re.match(r"^(?:project\s*(?:name|title)?\s*[:\-])", value, re.I):
+                inferred = "Projects"
+            elif (active == "Header" and saw_content and
+                  len(value) > 45 and
+                  (re.search(r"\b(experience|professional|skilled|expertise|speciali[sz]e|career objective)\b", value, re.I)
+                   or re.search(r"[.!?]$", value))):
+                inferred = "Summary"
+
+            if inferred:
+                active = inferred
+                inferred_index += 1
+            elif not saw_content and active == HEADER_CONTACT:
+                active = HEADER_CONTACT
+            lm["section"] = active
+            lm["section_id"] = f"s{inferred_index}:{active}"
+            lm["is_inferred_section"] = inferred is not None
+            saw_content = True
 
     sections: list[dict] = []
     for lm in line_meta:
@@ -370,12 +506,14 @@ def preprocess(raw_text: str) -> dict:
     normalized = normalize_text(raw_text)
     source_format = "resume_text"
     json_paths: dict[int, str] = {}
+    structured_data = None
     try:
         parsed_json = json.loads(normalized)
         structured_text, json_paths = _render_resume_json(parsed_json)
         if structured_text:
             normalized = normalize_text(structured_text)
             source_format = "structured_resume_json"
+            structured_data = parsed_json
     except (json.JSONDecodeError, TypeError, ValueError):
         pass
     sections, line_meta = detect_sections(normalized)
@@ -386,7 +524,7 @@ def preprocess(raw_text: str) -> dict:
     sentences: list[str] = []
     sentence_meta: list[dict] = []
     for idx, lm in enumerate(line_meta):
-        if lm["is_header"] or not lm["line"]:
+        if lm["is_header"] or lm.get("is_page_number") or not lm["line"]:
             continue
         for sent in _segment_line(nlp, lm["line"]):
             sentences.append(sent)
@@ -412,11 +550,15 @@ def preprocess(raw_text: str) -> dict:
 
     return {
         "method": ("structure-preserving text normalization (unicode NFKC, "
-                   "whitespace/line-break cleanup, de-hyphenation) + "
+                   "trailing-whitespace cleanup; source line boundaries retained) + "
                    "section detection + per-section sentence segmentation; "
                    "casing, punctuation and section context preserved"),
         "normalized_text": normalized,
         "source_format": source_format,
+        # Preserve the caller's original hierarchy for the structured-output
+        # artifact. Flattened rows remain useful to NLP, but are lossy as a
+        # replacement for an already structured resume.
+        "structured_data": structured_data,
         "normalized_preview": normalized[:500],
         "sentences": sentences,
         "sentence_count": len(sentences),

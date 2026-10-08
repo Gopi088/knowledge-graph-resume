@@ -115,8 +115,8 @@
       "relationship_ids": []
     },
     {
-      "id": "s5:Core Banking And Domain Expertise",
-      "name": "Core Banking And Domain Expertise",
+      "id": "s5:Domain Experience",
+      "name": "Domain Experience",
       "block_ids": [
         "b17",
         "b18",
@@ -173,8 +173,8 @@
       "relationship_ids": []
     },
     {
-      "id": "s6:Business Analysis And Product Management",
-      "name": "Business Analysis And Product Management",
+      "id": "s6:Business Analysis and Product Management",
+      "name": "Business Analysis and Product Management",
       "block_ids": [
         "b37",
         "b38",
@@ -481,8 +481,8 @@
       "assignment_method": "structural",
       "assignment_reason": "sentences from the same physical source line; consecutive plain lines in the same summary/contact section",
       "entities": [
-        "AASHISH GOLHANI",
-        "Banking"
+        "Banking",
+        "aashish_golhani"
       ],
       "entity_ids": [
         "e25",
@@ -972,8 +972,8 @@
     },
     {
       "id": "b17",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         21
@@ -1003,8 +1003,8 @@
     },
     {
       "id": "b18",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         22
@@ -1030,8 +1030,8 @@
     },
     {
       "id": "b19",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         23
@@ -1061,8 +1061,8 @@
     },
     {
       "id": "b20",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         24
@@ -1092,8 +1092,8 @@
     },
     {
       "id": "b21",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         25
@@ -1123,8 +1123,8 @@
     },
     {
       "id": "b22",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         26
@@ -1154,8 +1154,8 @@
     },
     {
       "id": "b23",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         27
@@ -1181,8 +1181,8 @@
     },
     {
       "id": "b24",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         28
@@ -1208,8 +1208,8 @@
     },
     {
       "id": "b25",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         29
@@ -1235,8 +1235,8 @@
     },
     {
       "id": "b26",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         30
@@ -1262,8 +1262,8 @@
     },
     {
       "id": "b27",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         31
@@ -1293,8 +1293,8 @@
     },
     {
       "id": "b28",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         32
@@ -1320,8 +1320,8 @@
     },
     {
       "id": "b29",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         33
@@ -1347,8 +1347,8 @@
     },
     {
       "id": "b30",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         34
@@ -1374,8 +1374,8 @@
     },
     {
       "id": "b31",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         35
@@ -1401,8 +1401,8 @@
     },
     {
       "id": "b32",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         36
@@ -1428,8 +1428,8 @@
     },
     {
       "id": "b33",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         37
@@ -1455,8 +1455,8 @@
     },
     {
       "id": "b34",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         38
@@ -1482,8 +1482,8 @@
     },
     {
       "id": "b35",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         39
@@ -1513,8 +1513,8 @@
     },
     {
       "id": "b36",
-      "section_id": "s5:Core Banking And Domain Expertise",
-      "section": "Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
+      "section": "Domain Experience",
       "entry_type": "source_line_context",
       "sentence_indices": [
         40
@@ -1540,8 +1540,8 @@
     },
     {
       "id": "b37",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         41
@@ -1567,8 +1567,8 @@
     },
     {
       "id": "b38",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         42
@@ -1594,8 +1594,8 @@
     },
     {
       "id": "b39",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         43
@@ -1621,8 +1621,8 @@
     },
     {
       "id": "b40",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         44
@@ -1648,8 +1648,8 @@
     },
     {
       "id": "b41",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         45
@@ -1675,8 +1675,8 @@
     },
     {
       "id": "b42",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         46
@@ -1708,8 +1708,8 @@
     },
     {
       "id": "b43",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         47
@@ -1735,8 +1735,8 @@
     },
     {
       "id": "b44",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         48
@@ -1762,8 +1762,8 @@
     },
     {
       "id": "b45",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         49
@@ -1795,8 +1795,8 @@
     },
     {
       "id": "b46",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         50
@@ -1822,8 +1822,8 @@
     },
     {
       "id": "b47",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         51
@@ -1849,8 +1849,8 @@
     },
     {
       "id": "b48",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         52
@@ -1880,8 +1880,8 @@
     },
     {
       "id": "b49",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         53
@@ -1907,8 +1907,8 @@
     },
     {
       "id": "b50",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         54
@@ -1940,8 +1940,8 @@
     },
     {
       "id": "b51",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         55
@@ -1973,8 +1973,8 @@
     },
     {
       "id": "b52",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         56
@@ -2000,8 +2000,8 @@
     },
     {
       "id": "b53",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         57
@@ -2027,8 +2027,8 @@
     },
     {
       "id": "b54",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         58
@@ -2054,8 +2054,8 @@
     },
     {
       "id": "b55",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         59
@@ -2089,8 +2089,8 @@
     },
     {
       "id": "b56",
-      "section_id": "s6:Business Analysis And Product Management",
-      "section": "Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
+      "section": "Business Analysis and Product Management",
       "entry_type": "source_line_context",
       "sentence_indices": [
         60
@@ -3168,175 +3168,175 @@
     {
       "sentence_index": 21,
       "line_index": 24,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b17"
     },
     {
       "sentence_index": 22,
       "line_index": 25,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b18"
     },
     {
       "sentence_index": 23,
       "line_index": 26,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b19"
     },
     {
       "sentence_index": 24,
       "line_index": 27,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b20"
     },
     {
       "sentence_index": 25,
       "line_index": 28,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b21"
     },
     {
       "sentence_index": 26,
       "line_index": 29,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b22"
     },
     {
       "sentence_index": 27,
       "line_index": 30,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b23"
     },
     {
       "sentence_index": 28,
       "line_index": 31,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b24"
     },
     {
       "sentence_index": 29,
       "line_index": 32,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b25"
     },
     {
       "sentence_index": 30,
       "line_index": 33,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b26"
     },
     {
       "sentence_index": 31,
       "line_index": 34,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b27"
     },
     {
       "sentence_index": 32,
       "line_index": 35,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b28"
     },
     {
       "sentence_index": 33,
       "line_index": 36,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b29"
     },
     {
       "sentence_index": 34,
       "line_index": 37,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b30"
     },
     {
       "sentence_index": 35,
       "line_index": 38,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b31"
     },
     {
       "sentence_index": 36,
       "line_index": 39,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b32"
     },
     {
       "sentence_index": 37,
       "line_index": 40,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b33"
     },
     {
       "sentence_index": 38,
       "line_index": 41,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b34"
     },
     {
       "sentence_index": 39,
       "line_index": 42,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b35"
     },
     {
       "sentence_index": 40,
       "line_index": 43,
-      "section_id": "s5:Core Banking And Domain Expertise",
+      "section_id": "s5:Domain Experience",
       "block_id": "b36"
     },
     {
       "sentence_index": 41,
       "line_index": 45,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b37"
     },
     {
       "sentence_index": 42,
       "line_index": 46,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b38"
     },
     {
       "sentence_index": 43,
       "line_index": 47,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b39"
     },
     {
       "sentence_index": 44,
       "line_index": 48,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b40"
     },
     {
       "sentence_index": 45,
       "line_index": 49,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b41"
     },
     {
       "sentence_index": 46,
       "line_index": 50,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b42"
     },
     {
       "sentence_index": 47,
       "line_index": 51,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b43"
     },
     {
       "sentence_index": 48,
       "line_index": 52,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b44"
     },
     {
       "sentence_index": 49,
       "line_index": 53,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b45",
       "relationship_ids": [
         "r4"
@@ -3345,67 +3345,67 @@
     {
       "sentence_index": 50,
       "line_index": 54,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b46"
     },
     {
       "sentence_index": 51,
       "line_index": 55,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b47"
     },
     {
       "sentence_index": 52,
       "line_index": 56,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b48"
     },
     {
       "sentence_index": 53,
       "line_index": 57,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b49"
     },
     {
       "sentence_index": 54,
       "line_index": 58,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b50"
     },
     {
       "sentence_index": 55,
       "line_index": 59,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b51"
     },
     {
       "sentence_index": 56,
       "line_index": 60,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b52"
     },
     {
       "sentence_index": 57,
       "line_index": 61,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b53"
     },
     {
       "sentence_index": 58,
       "line_index": 62,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b54"
     },
     {
       "sentence_index": 59,
       "line_index": 63,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b55"
     },
     {
       "sentence_index": 60,
       "line_index": 64,
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b56"
     },
     {
@@ -4050,7 +4050,10 @@
     "relationship_count": 20,
     "assigned_relationship_count": 20,
     "unassigned_sentence_indices": [],
-    "unassigned_source_line_indices": []
+    "unassigned_source_line_indices": [],
+    "source_context_relationship_count": 20,
+    "canonical_relationship_count": 185,
+    "canonical_relationships_validated": true
   },
   "merge_decisions": [
     {
@@ -5702,7 +5705,7 @@
     {
       "entity_id": "e1",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b55"
@@ -5834,7 +5837,7 @@
     {
       "entity_id": "e12",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b22"
@@ -5858,7 +5861,7 @@
     {
       "entity_id": "e14",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b21"
@@ -5918,7 +5921,7 @@
     {
       "entity_id": "e19",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b45"
@@ -6033,7 +6036,7 @@
     {
       "entity_id": "e28",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b19"
@@ -6045,7 +6048,7 @@
     {
       "entity_id": "e29",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b20"
@@ -6057,7 +6060,7 @@
     {
       "entity_id": "e30",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b35"
@@ -6069,7 +6072,7 @@
     {
       "entity_id": "e31",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b50"
@@ -6105,7 +6108,7 @@
     {
       "entity_id": "e34",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b17"
@@ -6117,7 +6120,7 @@
     {
       "entity_id": "e35",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b50"
@@ -6225,7 +6228,7 @@
     {
       "entity_id": "e44",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b48"
@@ -6285,7 +6288,7 @@
     {
       "entity_id": "e49",
       "section_ids": [
-        "s5:Core Banking And Domain Expertise"
+        "s5:Domain Experience"
       ],
       "block_ids": [
         "b27"
@@ -6297,7 +6300,7 @@
     {
       "entity_id": "e50",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b51"
@@ -6369,7 +6372,7 @@
     {
       "entity_id": "e56",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b51"
@@ -6551,7 +6554,7 @@
     {
       "entity_id": "e71",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b42"
@@ -6659,7 +6662,7 @@
     {
       "entity_id": "e80",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b42"
@@ -6731,7 +6734,7 @@
     {
       "entity_id": "e86",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b55"
@@ -6803,7 +6806,7 @@
     {
       "entity_id": "e92",
       "section_ids": [
-        "s6:Business Analysis And Product Management"
+        "s6:Business Analysis and Product Management"
       ],
       "block_ids": [
         "b55"
@@ -6966,7 +6969,7 @@
       "relationship_id": "r4",
       "source_entity_id": "e42",
       "target_entity_id": "e19",
-      "section_id": "s6:Business Analysis And Product Management",
+      "section_id": "s6:Business Analysis and Product Management",
       "block_id": "b45",
       "evidence_sentence_indices": [
         49

@@ -1,9 +1,7 @@
-"""High-precision, source-grounded relationship extraction for resumes.
+"""Extract source-context relationship candidates for NLP audit artifacts.
 
-An edge is emitted only when its endpoints are supported by a source sentence
-or a narrowly defined structural entry (currently education details). Embedding
-similarity, entity type, and co-occurrence elsewhere in a section never create
-an edge.
+These candidates support block analysis. Displayed knowledge-graph edges are
+generated and validated separately from the canonical resume hierarchy.
 """
 import re
 

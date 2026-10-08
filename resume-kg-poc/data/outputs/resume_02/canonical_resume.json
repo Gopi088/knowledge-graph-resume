@@ -1,0 +1,725 @@
+{
+  "schema_version": "canonical-resume/v1",
+  "personal_information": {
+    "name": "Priya Nair",
+    "source_blocks": [
+      "d0",
+      "d1"
+    ],
+    "email": "priya.nair@example.com",
+    "phone": "+91-99887-76655"
+  },
+  "personal_details": {},
+  "profile_snapshot": [
+    "Data Scientist with 2 years of experience in machine learning and data analysis."
+  ],
+  "work_history": [
+    {
+      "company": "FinEdge Analytics, Hyderabad",
+      "duration": "2023 - Present",
+      "roles": [
+        {
+          "designation": "Data Scientist",
+          "role_and_responsibilities": [
+            "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+            "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+            "Used AWS and Docker to deploy ML models in the fintech domain.",
+            "Performed data analysis with Pandas, NumPy and Matplotlib."
+          ],
+          "responsibility_sources": [
+            [
+              "d6"
+            ],
+            [
+              "d7"
+            ],
+            [
+              "d8"
+            ],
+            [
+              "d9"
+            ]
+          ],
+          "source_blocks": [
+            "d5",
+            "d6",
+            "d7",
+            "d8",
+            "d9"
+          ],
+          "duration": "2023 - Present",
+          "clients": [],
+          "employment_periods": [
+            {
+              "source_text": "2023 - Present",
+              "start_date": "2023",
+              "end_date": "Present"
+            }
+          ],
+          "employment_period": {
+            "source_text": "2023 - Present",
+            "start_date": "2023",
+            "end_date": "Present"
+          },
+          "start_date": "2023",
+          "end_date": "Present"
+        }
+      ],
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Tech in Data Science",
+      "institution": "IIT Madras",
+      "year": "2021 - 2023",
+      "source_blocks": [
+        "d14"
+      ],
+      "qualification": "M.Tech in Data Science"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+      "source_blocks": [
+        "d11"
+      ]
+    },
+    {
+      "description": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+      "source_blocks": [
+        "d12"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
+    },
+    {
+      "name": "Docker, AWS, Machine Learning, NLP, Git."
+    }
+  ],
+  "technical_skills": {},
+  "certifications": [
+    {
+      "name": "Google Cloud Professional Data Engineer."
+    }
+  ],
+  "awards": [],
+  "achievements": [],
+  "publications": [],
+  "domain_experience": [],
+  "source_sections": {},
+  "source_audit": {
+    "format": "section-keyed-resume-blocks/v1",
+    "source_format": "resume_text",
+    "summary": {
+      "source_line_count": 20,
+      "assigned_source_line_count": 20,
+      "unassigned_source_line_indices": [],
+      "section_count": 7,
+      "block_count": 8,
+      "sentence_count": 15,
+      "entity_count": 49,
+      "relationship_count": 17,
+      "complete": true,
+      "source_context_relationship_count": 49,
+      "canonical_relationship_count": 17
+    },
+    "unassigned_source_line_indices": [],
+    "block_map": [
+      {
+        "block_id": "b1",
+        "section_id": "s1:Summary",
+        "section_key": "profile_snapshot",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          3
+        ],
+        "source_paths": [
+          "$.profile_snapshot[0]"
+        ]
+      },
+      {
+        "block_id": "b2",
+        "section_id": "s2:Experience",
+        "section_key": "work_history",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          5
+        ],
+        "source_paths": [
+          "$.work_history[0].roles[0]"
+        ]
+      },
+      {
+        "block_id": "b3",
+        "section_id": "s3:Projects",
+        "section_key": "projects",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          11
+        ],
+        "source_paths": [
+          "$.projects[0]"
+        ]
+      },
+      {
+        "block_id": "b4",
+        "section_id": "s3:Projects",
+        "section_key": "projects",
+        "item_indices": [
+          1
+        ],
+        "source_line_indices": [
+          12
+        ],
+        "source_paths": [
+          "$.projects[1]"
+        ]
+      },
+      {
+        "block_id": "b5",
+        "section_id": "s4:Education",
+        "section_key": "education",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          14
+        ],
+        "source_paths": [
+          "$.education[0]"
+        ]
+      },
+      {
+        "block_id": "b6",
+        "section_id": "s5:Certifications",
+        "section_key": "certifications",
+        "item_indices": [
+          0
+        ],
+        "source_line_indices": [
+          16
+        ],
+        "source_paths": [
+          "$.certifications[0]"
+        ]
+      },
+      {
+        "block_id": "b7",
+        "section_id": "s6:Skills",
+        "section_key": "skills",
+        "item_indices": [
+          0,
+          1
+        ],
+        "source_line_indices": [
+          18
+        ],
+        "source_paths": [
+          "$.skills[0]"
+        ]
+      }
+    ],
+    "source_line_assignments": [
+      {
+        "line_index": 0,
+        "text": "Priya Nair",
+        "section_id": "s0:Header",
+        "section": "Header",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b0",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 1,
+        "text": "Data Scientist | priya.nair@example.com | +91-99887-76655",
+        "section_id": "s0:Header",
+        "section": "Header",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b0",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 2,
+        "text": "Summary",
+        "section_id": "s1:Summary",
+        "section": "Summary",
+        "source_path": null,
+        "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 3,
+        "text": "Data Scientist with 2 years of experience in machine learning and data analysis.",
+        "section_id": "s1:Summary",
+        "section": "Summary",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b1",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 4,
+        "text": "Experience",
+        "section_id": "s2:Experience",
+        "section": "Experience",
+        "source_path": null,
+        "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 5,
+        "text": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "section_id": "s2:Experience",
+        "section": "Experience",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b2",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 6,
+        "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+        "section_id": "s2:Experience",
+        "section": "Experience",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b2",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 7,
+        "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+        "section_id": "s2:Experience",
+        "section": "Experience",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b2",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 8,
+        "text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+        "section_id": "s2:Experience",
+        "section": "Experience",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b2",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 9,
+        "text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+        "section_id": "s2:Experience",
+        "section": "Experience",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b2",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 10,
+        "text": "Projects",
+        "section_id": "s3:Projects",
+        "section": "Projects",
+        "source_path": null,
+        "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 11,
+        "text": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+        "section_id": "s3:Projects",
+        "section": "Projects",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b3",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 12,
+        "text": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+        "section_id": "s3:Projects",
+        "section": "Projects",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b4",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 13,
+        "text": "Education",
+        "section_id": "s4:Education",
+        "section": "Education",
+        "source_path": null,
+        "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 14,
+        "text": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+        "section_id": "s4:Education",
+        "section": "Education",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b5",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 15,
+        "text": "Certifications",
+        "section_id": "s5:Certifications",
+        "section": "Certifications",
+        "source_path": null,
+        "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 16,
+        "text": "Google Cloud Professional Data Engineer.",
+        "section_id": "s5:Certifications",
+        "section": "Certifications",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b6",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 17,
+        "text": "Skills",
+        "section_id": "s6:Skills",
+        "section": "Skills",
+        "source_path": null,
+        "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": null,
+        "assignment": "section_heading",
+        "assigned": true
+      },
+      {
+        "line_index": 18,
+        "text": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+        "section_id": "s6:Skills",
+        "section": "Skills",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b7",
+        "assignment": "context_block",
+        "assigned": true
+      },
+      {
+        "line_index": 19,
+        "text": "Docker, AWS, Machine Learning, NLP, Git.",
+        "section_id": "s6:Skills",
+        "section": "Skills",
+        "source_path": null,
+        "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
+        "block_id": "b7",
+        "assignment": "context_block",
+        "assigned": true
+      }
+    ],
+    "semantic_block_map": {
+      "d0": {
+        "text": "Priya Nair",
+        "section": "Header",
+        "page": null,
+        "bbox": null,
+        "block_type": "CONTACT",
+        "destination": "$.personal_information",
+        "reason": "contact identity from the resume header"
+      },
+      "d1": {
+        "text": "Data Scientist | priya.nair@example.com | +91-99887-76655",
+        "section": "Header",
+        "page": null,
+        "bbox": null,
+        "block_type": "CONTACT",
+        "destination": "$.personal_information",
+        "reason": "contact identity from the resume header"
+      },
+      "d2:heading": {
+        "text": "Summary",
+        "section": "Summary",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d3": {
+        "text": "Data Scientist with 2 years of experience in machine learning and data analysis.",
+        "section": "Summary",
+        "page": null,
+        "bbox": null,
+        "block_type": "PROFILE_SUMMARY",
+        "destination": "$.profile_snapshot[0]",
+        "reason": "source text within the summary section"
+      },
+      "d4:heading": {
+        "text": "Experience",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d5": {
+        "text": "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "COMPANY_ROLE",
+        "destination": "$.work_history[0].roles[0]",
+        "reason": "title opens a role under the active employer"
+      },
+      "d6": {
+        "text": "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+        "reason": "responsibility in active role"
+      },
+      "d7": {
+        "text": "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+        "reason": "responsibility in active role"
+      },
+      "d8": {
+        "text": "Used AWS and Docker to deploy ML models in the fintech domain.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+        "reason": "responsibility in active role"
+      },
+      "d9": {
+        "text": "Performed data analysis with Pandas, NumPy and Matplotlib.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+        "reason": "responsibility in active role"
+      },
+      "d10:heading": {
+        "text": "Projects",
+        "section": "Projects",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d11": {
+        "text": "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
+        "section": "Projects",
+        "page": null,
+        "bbox": null,
+        "block_type": "PROJECT",
+        "destination": "$.projects[0]",
+        "reason": "project heading/list item owns its description and labeled fields"
+      },
+      "d12": {
+        "text": "NLP sentiment analysis app built with PyTorch and FastAPI.",
+        "section": "Projects",
+        "page": null,
+        "bbox": null,
+        "block_type": "PROJECT",
+        "destination": "$.projects[1]",
+        "reason": "project heading/list item owns its description and labeled fields"
+      },
+      "d13:heading": {
+        "text": "Education",
+        "section": "Education",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d14": {
+        "text": "M.Tech in Data Science from IIT Madras (2021 - 2023).",
+        "section": "Education",
+        "page": null,
+        "bbox": null,
+        "block_type": "EDUCATION",
+        "destination": "$.education[0]",
+        "reason": "education row/qualification with its following fields"
+      },
+      "d15:heading": {
+        "text": "Certifications",
+        "section": "Certifications",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d16": {
+        "text": "Google Cloud Professional Data Engineer.",
+        "section": "Certifications",
+        "page": null,
+        "bbox": null,
+        "block_type": "CERTIFICATION",
+        "destination": "$.certifications[0]",
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d17:heading": {
+        "text": "Skills",
+        "section": "Skills",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d18": {
+        "text": "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
+        "section": "Skills",
+        "page": null,
+        "bbox": null,
+        "block_type": "SKILL",
+        "destination": "$.skills[0]",
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d19": {
+        "text": "Docker, AWS, Machine Learning, NLP, Git.",
+        "section": "Skills",
+        "page": null,
+        "bbox": null,
+        "block_type": "SKILL",
+        "destination": "$.skills[1]",
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      }
+    }
+  },
+  "unresolved_blocks": []
+}

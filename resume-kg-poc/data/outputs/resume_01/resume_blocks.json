@@ -1,32 +1,83 @@
 {
-  "personal_information": [
-    "Aarav Sharma",
-    "Backend Developer | aarav.sharma@example.com | +91-98765-43210"
-  ],
+  "personal_information": {
+    "name": "Aarav Sharma",
+    "source_blocks": [
+      "d0",
+      "d1"
+    ]
+  },
   "profile_snapshot": [
     "Backend Developer with 3 years of experience building scalable APIs and microservices."
   ],
   "work_history": [
     {
-      "role_and_responsibilities": [
-        "Developed REST APIs using Python and Django and deployed them on AWS.",
-        "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
-        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
-        "Integrated Redis for caching and Kafka for event-driven messaging."
-      ],
-      "designation": "Software Engineer",
       "company": "TechNova Solutions, Bengaluru",
-      "duration": "2022 - Present"
+      "duration": "2022 - Present",
+      "roles": [
+        {
+          "designation": "Software Engineer",
+          "role_and_responsibilities": [
+            "Developed REST APIs using Python and Django and deployed them on AWS.",
+            "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+            "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+            "Integrated Redis for caching and Kafka for event-driven messaging."
+          ],
+          "responsibility_sources": [
+            [
+              "d6"
+            ],
+            [
+              "d7"
+            ],
+            [
+              "d8"
+            ],
+            [
+              "d9"
+            ]
+          ],
+          "source_blocks": [
+            "d5",
+            "d6",
+            "d7",
+            "d8",
+            "d9"
+          ],
+          "duration": "2022 - Present"
+        }
+      ],
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ]
     }
   ],
   "projects": [
-    "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
-    "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+    {
+      "description": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+      "source_blocks": [
+        "d11"
+      ]
+    },
+    {
+      "description": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+      "source_blocks": [
+        "d12"
+      ]
+    }
   ],
   "education": [
-    [
-      "B.Tech in Computer Science from Mumbai University (2018 - 2022)."
-    ]
+    {
+      "degree": "B.Tech in Computer Science",
+      "institution": "Mumbai University",
+      "year": "2018 - 2022",
+      "source_blocks": [
+        "d14"
+      ]
+    }
   ],
   "certifications": [
     "AWS Certified Solutions Architect."
@@ -46,25 +97,13 @@
       "block_count": 8,
       "sentence_count": 15,
       "entity_count": 47,
-      "relationship_count": 55,
-      "complete": true
+      "relationship_count": 17,
+      "complete": true,
+      "source_context_relationship_count": 55,
+      "canonical_relationship_count": 17
     },
     "unassigned_source_line_indices": [],
     "block_map": [
-      {
-        "block_id": "b0",
-        "section_id": "s0:Header",
-        "section_key": "personal_information",
-        "item_indices": [
-          0,
-          1
-        ],
-        "source_line_indices": [
-          0,
-          1
-        ],
-        "source_paths": []
-      },
       {
         "block_id": "b1",
         "section_id": "s1:Summary",
@@ -75,7 +114,9 @@
         "source_line_indices": [
           3
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.profile_snapshot[0]"
+        ]
       },
       {
         "block_id": "b2",
@@ -85,13 +126,11 @@
           0
         ],
         "source_line_indices": [
-          5,
-          6,
-          7,
-          8,
-          9
+          5
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.work_history[0].roles[0]"
+        ]
       },
       {
         "block_id": "b3",
@@ -103,7 +142,9 @@
         "source_line_indices": [
           11
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.projects[0]"
+        ]
       },
       {
         "block_id": "b4",
@@ -115,7 +156,9 @@
         "source_line_indices": [
           12
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.projects[1]"
+        ]
       },
       {
         "block_id": "b5",
@@ -127,7 +170,9 @@
         "source_line_indices": [
           14
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.education[0]"
+        ]
       },
       {
         "block_id": "b6",
@@ -139,7 +184,9 @@
         "source_line_indices": [
           16
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.certifications[0]"
+        ]
       },
       {
         "block_id": "b7",
@@ -150,10 +197,11 @@
           1
         ],
         "source_line_indices": [
-          18,
-          19
+          18
         ],
-        "source_paths": []
+        "source_paths": [
+          "$.skills[0]"
+        ]
       }
     ],
     "source_line_assignments": [
@@ -164,6 +212,10 @@
         "section": "Header",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b0",
         "assignment": "context_block",
         "assigned": true
@@ -175,6 +227,10 @@
         "section": "Header",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b0",
         "assignment": "context_block",
         "assigned": true
@@ -186,6 +242,10 @@
         "section": "Summary",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -197,6 +257,10 @@
         "section": "Summary",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b1",
         "assignment": "context_block",
         "assigned": true
@@ -208,6 +272,10 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -219,6 +287,10 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -230,6 +302,10 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -241,6 +317,10 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -252,6 +332,10 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -263,6 +347,10 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -274,6 +362,10 @@
         "section": "Projects",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -285,6 +377,10 @@
         "section": "Projects",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b3",
         "assignment": "context_block",
         "assigned": true
@@ -296,6 +392,10 @@
         "section": "Projects",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b4",
         "assignment": "context_block",
         "assigned": true
@@ -307,6 +407,10 @@
         "section": "Education",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -318,6 +422,10 @@
         "section": "Education",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b5",
         "assignment": "context_block",
         "assigned": true
@@ -329,6 +437,10 @@
         "section": "Certifications",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -340,6 +452,10 @@
         "section": "Certifications",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b6",
         "assignment": "context_block",
         "assigned": true
@@ -351,6 +467,10 @@
         "section": "Skills",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -362,6 +482,10 @@
         "section": "Skills",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b7",
         "assignment": "context_block",
         "assigned": true
@@ -373,10 +497,196 @@
         "section": "Skills",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
+        "is_page_number": false,
         "block_id": "b7",
         "assignment": "context_block",
         "assigned": true
       }
-    ]
+    ],
+    "semantic_block_map": {
+      "d0": {
+        "text": "Aarav Sharma",
+        "section": "Header",
+        "page": null,
+        "bbox": null,
+        "block_type": "CONTACT",
+        "destination": "$.personal_information",
+        "reason": "contact identity from the resume header"
+      },
+      "d1": {
+        "text": "Backend Developer | aarav.sharma@example.com | +91-98765-43210",
+        "section": "Header",
+        "page": null,
+        "bbox": null,
+        "block_type": "CONTACT",
+        "destination": "$.personal_information",
+        "reason": "contact identity from the resume header"
+      },
+      "d2:heading": {
+        "text": "Summary",
+        "section": "Summary",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d3": {
+        "text": "Backend Developer with 3 years of experience building scalable APIs and microservices.",
+        "section": "Summary",
+        "page": null,
+        "bbox": null,
+        "block_type": "PROFILE_SUMMARY",
+        "destination": "$.profile_snapshot[0]",
+        "reason": "source text within the summary section"
+      },
+      "d4:heading": {
+        "text": "Experience",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d5": {
+        "text": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "COMPANY_ROLE",
+        "destination": "$.work_history[0].roles[0]",
+        "reason": "title opens a role under the active employer"
+      },
+      "d6": {
+        "text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+        "reason": "responsibility in active role"
+      },
+      "d7": {
+        "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+        "reason": "responsibility in active role"
+      },
+      "d8": {
+        "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+        "reason": "responsibility in active role"
+      },
+      "d9": {
+        "text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+        "section": "Experience",
+        "page": null,
+        "bbox": null,
+        "block_type": "RESPONSIBILITY",
+        "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+        "reason": "responsibility in active role"
+      },
+      "d10:heading": {
+        "text": "Projects",
+        "section": "Projects",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d11": {
+        "text": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+        "section": "Projects",
+        "page": null,
+        "bbox": null,
+        "block_type": "PROJECT",
+        "destination": "$.projects[0]",
+        "reason": "project heading/list item owns its description and labeled fields"
+      },
+      "d12": {
+        "text": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+        "section": "Projects",
+        "page": null,
+        "bbox": null,
+        "block_type": "PROJECT",
+        "destination": "$.projects[1]",
+        "reason": "project heading/list item owns its description and labeled fields"
+      },
+      "d13:heading": {
+        "text": "Education",
+        "section": "Education",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d14": {
+        "text": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
+        "section": "Education",
+        "page": null,
+        "bbox": null,
+        "block_type": "EDUCATION",
+        "destination": "$.education[0]",
+        "reason": "education row/qualification with its following fields"
+      },
+      "d15:heading": {
+        "text": "Certifications",
+        "section": "Certifications",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d16": {
+        "text": "AWS Certified Solutions Architect.",
+        "section": "Certifications",
+        "page": null,
+        "bbox": null,
+        "block_type": "CERTIFICATION",
+        "destination": "$.certifications[0]",
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d17:heading": {
+        "text": "Skills",
+        "section": "Skills",
+        "page": null,
+        "bbox": null,
+        "block_type": "SECTION_HEADING",
+        "destination": null,
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d18": {
+        "text": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+        "section": "Skills",
+        "page": null,
+        "bbox": null,
+        "block_type": "SKILL",
+        "destination": "$.skills[0]",
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      },
+      "d19": {
+        "text": "CI/CD, Kafka, Git, Agile.",
+        "section": "Skills",
+        "page": null,
+        "bbox": null,
+        "block_type": "SKILL",
+        "destination": "$.skills[1]",
+        "reason": "explicit heading/field or local section and neighboring record structure"
+      }
+    }
   }
 }

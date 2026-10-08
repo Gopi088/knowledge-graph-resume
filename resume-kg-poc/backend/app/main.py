@@ -14,7 +14,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from app.pipeline.pipeline import extract_pdf_text, run_pipeline
+from app.pipeline.pipeline import extract_docx_text, extract_image_text, extract_pdf_text, run_pipeline
 
 app = FastAPI(title="Resume Knowledge Graph PoC (IJISRT25MAY2182 methodology)")
 app.add_middleware(
@@ -29,12 +29,13 @@ class TextRequest(BaseModel):
     text: str
     doc_id: str = "upload"
     candidate_name: str = "Candidate"
+    debug: bool = False
 
 
 @app.post("/api/process-text")
 def process_text(req: TextRequest):
     out_dir = tempfile.mkdtemp(prefix="rkg_")
-    artifacts = run_pipeline(req.text, req.doc_id, out_dir, candidate_name=req.candidate_name)
+    artifacts = run_pipeline(req.text, req.doc_id, out_dir, candidate_name=req.candidate_name, debug=req.debug)
     # drop full vectors from API response to keep payload small
     artifacts["embeddings.json"] = {k: v for k, v in artifacts["embeddings.json"].items() if k != "vectors"}
     return artifacts
@@ -42,13 +43,21 @@ def process_text(req: TextRequest):
 
 @app.post("/api/upload")
 async def upload(file: UploadFile = File(...)):
-    suffix = ".pdf" if (file.filename or "").lower().endswith(".pdf") else ".txt"
+    filename = (file.filename or "").lower()
+    image_extensions = {".png", ".jpg", ".jpeg", ".tif", ".tiff", ".bmp", ".webp"}
+    suffix = (".pdf" if filename.endswith(".pdf") else ".docx" if filename.endswith(".docx") else next(
+        (extension for extension in image_extensions if filename.endswith(extension)), ".txt"
+    ))
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(await file.read())
         tmp_path = tmp.name
     try:
         if suffix == ".pdf":
             text = extract_pdf_text(tmp_path)
+        elif suffix == ".docx":
+            text = extract_docx_text(tmp_path)
+        elif suffix in image_extensions:
+            text = extract_image_text(tmp_path)
         else:
             with open(tmp_path) as f:
                 text = f.read()
@@ -75,7 +84,7 @@ def get_sample(rid: str):
     base = os.path.join(DATA_DIR, "outputs", rid)
     out = {}
     for fname in ["raw_text.json", "entities.json", "relationships.json",
-                   "blocks.json", "block_audit.json", "resume_blocks.json", "embeddings.json", "similarity.json",
+                   "blocks.json", "block_audit.json", "resume_blocks.json", "canonical_resume.json", "semantic_blocks.json", "embeddings.json", "similarity.json",
                    "clusters.json", "graph.json"]:
         path = os.path.join(base, fname)
         if os.path.exists(path):

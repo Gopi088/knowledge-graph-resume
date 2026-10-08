@@ -1,0 +1,203 @@
+{
+  "dbscan": {
+    "algorithm": "DBSCAN(eps=0.5, min_samples=2, metric=cosine)",
+    "purpose": "discover natural semantic groups + noise/outliers",
+    "labels": [
+      0,
+      -1,
+      -1,
+      0,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      -1,
+      3,
+      4,
+      4,
+      4,
+      -1,
+      3,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      5,
+      5,
+      -1,
+      6,
+      6,
+      7,
+      -1,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "clusters": {
+      "0": [
+        "Clover Infotech Pvt Ltd (COMPANY)",
+        "QualityKiosk Technologies Pvt. Ltd. (COMPANY)"
+      ],
+      "1": [
+        "Banking (DOMAIN)",
+        "Banking (DOMAIN)",
+        "Banking (DOMAIN)",
+        "banking (DOMAIN)"
+      ],
+      "2": [
+        "E-commerce (DOMAIN)",
+        "E-commerce (DOMAIN)",
+        "e-commerce (DOMAIN)"
+      ],
+      "3": [
+        "Go (PROGRAMMING_LANGUAGE)",
+        "go (PROGRAMMING_LANGUAGE)"
+      ],
+      "4": [
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)"
+      ],
+      "5": [
+        "JIRA (TOOL)",
+        "JIRA (TOOL)"
+      ],
+      "6": [
+        "Postman (TOOL)",
+        "Postman (TOOL)"
+      ],
+      "7": [
+        "College (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "School (UNIVERSITY)",
+        "University (UNIVERSITY)"
+      ]
+    },
+    "noise_outliers": [
+      "ICICI Bank Corporate (COMPANY)",
+      "Nelito Systems (COMPANY)",
+      "Wipro Ltd (COMPANY)",
+      "MySQL (DATABASE)",
+      "BE Computer (DEGREE)",
+      "levi_arbole (PERSON)",
+      "SWIFT (PROGRAMMING_LANGUAGE)",
+      "Deployed on CKYC Compliance (PROJECT)",
+      "Drive (PROJECT)",
+      "Leading (PROJECT)",
+      "LoadRunner (PROJECT)",
+      "data analysis (SKILL)",
+      "Linux (TOOL)",
+      "Kendriya Vidyalaya (UNIVERSITY)"
+    ],
+    "n_clusters": 8
+  },
+  "kmeans": {
+    "algorithm": "KMeans(k=4)",
+    "purpose": "group entities into k semantic clusters",
+    "k": 4,
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "clusters": {
+      "0": [
+        "Clover Infotech Pvt Ltd (COMPANY)",
+        "ICICI Bank Corporate (COMPANY)",
+        "Nelito Systems (COMPANY)",
+        "QualityKiosk Technologies Pvt. Ltd. (COMPANY)",
+        "Wipro Ltd (COMPANY)",
+        "MySQL (DATABASE)",
+        "BE Computer (DEGREE)",
+        "levi_arbole (PERSON)",
+        "Deployed on CKYC Compliance (PROJECT)",
+        "Drive (PROJECT)",
+        "Leading (PROJECT)",
+        "LoadRunner (PROJECT)",
+        "data analysis (SKILL)",
+        "JIRA (TOOL)",
+        "JIRA (TOOL)",
+        "Linux (TOOL)",
+        "Postman (TOOL)",
+        "Postman (TOOL)"
+      ],
+      "1": [
+        "Banking (DOMAIN)",
+        "Banking (DOMAIN)",
+        "Banking (DOMAIN)",
+        "E-commerce (DOMAIN)",
+        "E-commerce (DOMAIN)",
+        "banking (DOMAIN)",
+        "e-commerce (DOMAIN)"
+      ],
+      "3": [
+        "Go (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SWIFT (PROGRAMMING_LANGUAGE)",
+        "go (PROGRAMMING_LANGUAGE)"
+      ],
+      "2": [
+        "College (UNIVERSITY)",
+        "Kendriya Vidyalaya (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "Mumbai University (UNIVERSITY)",
+        "School (UNIVERSITY)",
+        "University (UNIVERSITY)"
+      ]
+    },
+    "silhouette_score": 0.2745
+  }
+}

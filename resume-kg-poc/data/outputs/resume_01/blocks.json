@@ -845,7 +845,10 @@
     "relationship_count": 55,
     "assigned_relationship_count": 55,
     "unassigned_sentence_indices": [],
-    "unassigned_source_line_indices": []
+    "unassigned_source_line_indices": [],
+    "source_context_relationship_count": 55,
+    "canonical_relationship_count": 17,
+    "canonical_relationships_validated": true
   },
   "merge_decisions": [
     {

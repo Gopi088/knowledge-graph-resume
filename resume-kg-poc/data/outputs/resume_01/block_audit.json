@@ -9,8 +9,10 @@
     "block_count": 8,
     "sentence_count": 15,
     "entity_count": 47,
-    "relationship_count": 55,
-    "complete": true
+    "relationship_count": 17,
+    "complete": true,
+    "source_context_relationship_count": 55,
+    "canonical_relationship_count": 17
   },
   "coverage": {
     "sentence_count": 15,
@@ -23,7 +25,10 @@
     "relationship_count": 55,
     "assigned_relationship_count": 55,
     "unassigned_sentence_indices": [],
-    "unassigned_source_line_indices": []
+    "unassigned_source_line_indices": [],
+    "source_context_relationship_count": 55,
+    "canonical_relationship_count": 17,
+    "canonical_relationships_validated": true
   },
   "sections": [
     {
@@ -415,6 +420,10 @@
       "section": "Header",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b0",
       "assignment": "context_block",
       "assigned": true
@@ -426,6 +435,10 @@
       "section": "Header",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b0",
       "assignment": "context_block",
       "assigned": true
@@ -437,6 +450,10 @@
       "section": "Summary",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -448,6 +465,10 @@
       "section": "Summary",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b1",
       "assignment": "context_block",
       "assigned": true
@@ -459,6 +480,10 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -470,6 +495,10 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -481,6 +510,10 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -492,6 +525,10 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -503,6 +540,10 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -514,6 +555,10 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -525,6 +570,10 @@
       "section": "Projects",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -536,6 +585,10 @@
       "section": "Projects",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b3",
       "assignment": "context_block",
       "assigned": true
@@ -547,6 +600,10 @@
       "section": "Projects",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b4",
       "assignment": "context_block",
       "assigned": true
@@ -558,6 +615,10 @@
       "section": "Education",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -569,6 +630,10 @@
       "section": "Education",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b5",
       "assignment": "context_block",
       "assigned": true
@@ -580,6 +645,10 @@
       "section": "Certifications",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -591,6 +660,10 @@
       "section": "Certifications",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b6",
       "assignment": "context_block",
       "assigned": true
@@ -602,6 +675,10 @@
       "section": "Skills",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -613,6 +690,10 @@
       "section": "Skills",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b7",
       "assignment": "context_block",
       "assigned": true
@@ -624,9 +705,26 @@
       "section": "Skills",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
+      "is_page_number": false,
       "block_id": "b7",
       "assignment": "context_block",
       "assigned": true
     }
-  ]
+  ],
+  "semantic_coverage": {
+    "total_source_blocks": 20,
+    "semantic_blocks": 14,
+    "classified_blocks": 14,
+    "grouped_blocks": 14,
+    "ignored_artifacts": 0,
+    "ignored_page_numbers": 0,
+    "ignored_headers_footers": 0,
+    "decorative_bullet_markers": 0,
+    "unclassified_blocks": 0,
+    "unresolved_source_ids": [],
+    "complete": true
+  }
 }

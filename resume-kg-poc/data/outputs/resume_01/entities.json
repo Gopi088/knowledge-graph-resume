@@ -1,6 +1,666 @@
 {
-  "count": 47,
+  "count": 17,
   "entities": [
+    {
+      "id": "person",
+      "label": "Aarav Sharma",
+      "type": "PERSON",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Aarav Sharma"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Personal Information"
+      ],
+      "block_ids": [
+        "d0",
+        "d1"
+      ],
+      "source_path": "$.personal_information.name",
+      "source_text": "Aarav Sharma",
+      "source_blocks": [
+        "d0",
+        "d1"
+      ],
+      "source_evidence": [
+        {
+          "text": "Aarav Sharma",
+          "section": "Header",
+          "page": null,
+          "bbox": null,
+          "block_type": "CONTACT",
+          "destination": "$.personal_information",
+          "reason": "contact identity from the resume header"
+        },
+        {
+          "text": "Backend Developer | aarav.sharma@example.com | +91-98765-43210",
+          "section": "Header",
+          "page": null,
+          "bbox": null,
+          "block_type": "CONTACT",
+          "destination": "$.personal_information",
+          "reason": "contact identity from the resume header"
+        }
+      ],
+      "text": "Aarav Sharma"
+    },
+    {
+      "id": "n1",
+      "label": "Backend Developer with 3 years of experience building scalable APIs and microservices.",
+      "type": "SUMMARY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Backend Developer with 3 years of experience building scalable APIs and microservices."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Summary"
+      ],
+      "block_ids": [],
+      "source_path": "$.profile_snapshot[0]",
+      "source_text": "Backend Developer with 3 years of experience building scalable APIs and microservices.",
+      "text": "Backend Developer with 3 years of experience building scalable APIs and microservices."
+    },
+    {
+      "id": "n2",
+      "label": "TechNova Solutions, Bengaluru",
+      "type": "COMPANY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "TechNova Solutions, Bengaluru"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_path": "$.work_history[0].company",
+      "source_text": "TechNova Solutions, Bengaluru",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "COMPANY_ROLE",
+          "destination": "$.work_history[0].roles[0]",
+          "reason": "title opens a role under the active employer"
+        },
+        {
+          "text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "TechNova Solutions, Bengaluru"
+    },
+    {
+      "id": "n3",
+      "label": "Software Engineer",
+      "type": "JOB_ROLE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Software Engineer"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_path": "$.work_history[0].roles[0].designation",
+      "source_text": "Software Engineer",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "COMPANY_ROLE",
+          "destination": "$.work_history[0].roles[0]",
+          "reason": "title opens a role under the active employer"
+        },
+        {
+          "text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Software Engineer"
+    },
+    {
+      "id": "n4",
+      "label": "2022 - Present",
+      "type": "EMPLOYMENT_PERIOD",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2022 - Present"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_path": "$.work_history[0].roles[0].employment_periods[0].source_text",
+      "source_text": "2022 - Present",
+      "source_blocks": [
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Software Engineer at TechNova Solutions, Bengaluru (2022 - Present)",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "COMPANY_ROLE",
+          "destination": "$.work_history[0].roles[0]",
+          "reason": "title opens a role under the active employer"
+        },
+        {
+          "text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        },
+        {
+          "text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "2022 - Present"
+    },
+    {
+      "id": "n5",
+      "label": "Developed REST APIs using Python and Django and deployed them on AWS.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Developed REST APIs using Python and Django and deployed them on AWS."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d6"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+      "source_text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+      "source_blocks": [
+        "d6"
+      ],
+      "source_evidence": [
+        {
+          "text": "Developed REST APIs using Python and Django and deployed them on AWS.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[0]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Developed REST APIs using Python and Django and deployed them on AWS."
+    },
+    {
+      "id": "n6",
+      "label": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d7"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+      "source_text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+      "source_blocks": [
+        "d7"
+      ],
+      "source_evidence": [
+        {
+          "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[1]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Built microservices with FastAPI and PostgreSQL, containerized with Docker."
+    },
+    {
+      "id": "n7",
+      "label": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d8"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+      "source_text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+      "source_blocks": [
+        "d8"
+      ],
+      "source_evidence": [
+        {
+          "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[2]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Worked with Kubernetes for orchestration and Jenkins for CI/CD pipelines."
+    },
+    {
+      "id": "n8",
+      "label": "Integrated Redis for caching and Kafka for event-driven messaging.",
+      "type": "RESPONSIBILITY",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Integrated Redis for caching and Kafka for event-driven messaging."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Experience"
+      ],
+      "block_ids": [
+        "d9"
+      ],
+      "source_path": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+      "source_text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+      "source_blocks": [
+        "d9"
+      ],
+      "source_evidence": [
+        {
+          "text": "Integrated Redis for caching and Kafka for event-driven messaging.",
+          "section": "Experience",
+          "page": null,
+          "bbox": null,
+          "block_type": "RESPONSIBILITY",
+          "destination": "$.work_history[0].roles[0].role_and_responsibilities[3]",
+          "reason": "responsibility in active role"
+        }
+      ],
+      "text": "Integrated Redis for caching and Kafka for event-driven messaging."
+    },
+    {
+      "id": "n9",
+      "label": "B.Tech in Computer Science",
+      "type": "DEGREE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "B.Tech in Computer Science"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "d14"
+      ],
+      "source_path": "$.education[0].degree",
+      "source_text": "B.Tech in Computer Science",
+      "source_blocks": [
+        "d14"
+      ],
+      "source_evidence": [
+        {
+          "text": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
+          "section": "Education",
+          "page": null,
+          "bbox": null,
+          "block_type": "EDUCATION",
+          "destination": "$.education[0]",
+          "reason": "education row/qualification with its following fields"
+        }
+      ],
+      "text": "B.Tech in Computer Science"
+    },
+    {
+      "id": "n10",
+      "label": "Mumbai University",
+      "type": "INSTITUTION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Mumbai University"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "d14"
+      ],
+      "source_path": "$.education[0].institution",
+      "source_text": "Mumbai University",
+      "source_blocks": [
+        "d14"
+      ],
+      "source_evidence": [
+        {
+          "text": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
+          "section": "Education",
+          "page": null,
+          "bbox": null,
+          "block_type": "EDUCATION",
+          "destination": "$.education[0]",
+          "reason": "education row/qualification with its following fields"
+        }
+      ],
+      "text": "Mumbai University"
+    },
+    {
+      "id": "n11",
+      "label": "2018 - 2022",
+      "type": "DATE",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "2018 - 2022"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Education"
+      ],
+      "block_ids": [
+        "d14"
+      ],
+      "source_path": "$.education[0].year",
+      "source_text": "2018 - 2022",
+      "source_blocks": [
+        "d14"
+      ],
+      "source_evidence": [
+        {
+          "text": "B.Tech in Computer Science from Mumbai University (2018 - 2022).",
+          "section": "Education",
+          "page": null,
+          "bbox": null,
+          "block_type": "EDUCATION",
+          "destination": "$.education[0]",
+          "reason": "education row/qualification with its following fields"
+        }
+      ],
+      "text": "2018 - 2022"
+    },
+    {
+      "id": "n12",
+      "label": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+      "type": "PROJECT",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "d11"
+      ],
+      "source_path": "$.projects[0]",
+      "source_text": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+      "source_blocks": [
+        "d11"
+      ],
+      "source_evidence": [
+        {
+          "text": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker.",
+          "section": "Projects",
+          "page": null,
+          "bbox": null,
+          "block_type": "PROJECT",
+          "destination": "$.projects[0]",
+          "reason": "project heading/list item owns its description and labeled fields"
+        }
+      ],
+      "text": "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+    },
+    {
+      "id": "n13",
+      "label": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+      "type": "PROJECT",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "d12"
+      ],
+      "source_path": "$.projects[1]",
+      "source_text": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+      "source_blocks": [
+        "d12"
+      ],
+      "source_evidence": [
+        {
+          "text": "Real-time analytics dashboard using Python, Pandas and PostgreSQL.",
+          "section": "Projects",
+          "page": null,
+          "bbox": null,
+          "block_type": "PROJECT",
+          "destination": "$.projects[1]",
+          "reason": "project heading/list item owns its description and labeled fields"
+        }
+      ],
+      "text": "Real-time analytics dashboard using Python, Pandas and PostgreSQL."
+    },
+    {
+      "id": "n14",
+      "label": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[0]",
+      "source_text": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,",
+      "text": "Python, Django, FastAPI, Flask, REST API, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jenkins,"
+    },
+    {
+      "id": "n15",
+      "label": "CI/CD, Kafka, Git, Agile.",
+      "type": "SKILL",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "CI/CD, Kafka, Git, Agile."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Skills"
+      ],
+      "block_ids": [],
+      "source_path": "$.skills[1]",
+      "source_text": "CI/CD, Kafka, Git, Agile.",
+      "text": "CI/CD, Kafka, Git, Agile."
+    },
+    {
+      "id": "n16",
+      "label": "AWS Certified Solutions Architect.",
+      "type": "CERTIFICATION",
+      "confidence": 1.0,
+      "method": "canonical resume structure",
+      "source_sentences": [
+        "AWS Certified Solutions Architect."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Certifications"
+      ],
+      "block_ids": [],
+      "source_path": "$.certifications[0]",
+      "source_text": "AWS Certified Solutions Architect.",
+      "text": "AWS Certified Solutions Architect."
+    }
+  ],
+  "source_mentions_count": 47,
+  "source_mentions": [
     {
       "text": "AWS Certified",
       "type": "CERTIFICATION",
@@ -1084,7 +1744,7 @@
     }
   ],
   "preprocessing": {
-    "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
+    "method": "structure-preserving text normalization (unicode NFKC, trailing-whitespace cleanup; source line boundaries retained) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
     "normalized_preview": "Aarav Sharma\nBackend Developer | aarav.sharma@example.com | +91-98765-43210\nSummary\nBackend Developer with 3 years of experience building scalable APIs and microservices.\nExperience\nSoftware Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.\nIntegrated Redis for caching a",
     "sentence_count": 15,
     "sections": [
