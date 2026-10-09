@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Virtualenvs
+venv/
+.env/
+
+# Batch evaluation outputs (regenerated per run)
+resume-kg-poc/batch_test_output/
+
+# Local resume dataset (large; not versioned)
+resume-kg-poc/resumes/
+
+# Frontend
+resume-kg-poc/frontend/node_modules/
+resume-kg-poc/frontend/dist/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
