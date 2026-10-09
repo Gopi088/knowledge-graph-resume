@@ -236,6 +236,64 @@ function hasDisplayValue(value: unknown): boolean {
   return true;
 }
 
+function phoneFromResumeHeader(rawText: string | undefined): string | undefined {
+  if (!rawText) return undefined;
+  const sectionHeading = /^(?:professional summary|profile summary|summary|about me|professional experience|work experience|employment history|work history|career history|experience|projects?|education|technical skills|skills|core competencies|certifications?|achievements|personal details)\s*:?$/i;
+  const headerLines: string[] = [];
+  for (const line of rawText.split(/\r?\n/)) {
+    const cleaned = line.trim();
+    if (sectionHeading.test(cleaned)) break;
+    if (cleaned) headerLines.push(cleaned);
+    if (headerLines.length >= 18) break;
+  }
+  const phonePattern = /(?:^|[^\w])(\+?\d[\d().\s-]{5,}\d)(?!\w)/g;
+  for (const line of headerLines) {
+    for (const match of line.matchAll(phonePattern)) {
+      const candidate = match[1].trim();
+      const digitCount = candidate.replace(/\D/g, "").length;
+      const looksLikeDate = /^(?:\d{1,2}[/.\-]\d{1,2}[/.\-]\d{2,4}|\d{4}[/.\-]\d{1,2}[/.\-]\d{1,2})$/.test(candidate);
+      if (!looksLikeDate && digitCount >= 7 && digitCount <= 15) return candidate;
+    }
+  }
+  return undefined;
+}
+
+function contactsFromResumeHeader(rawText: string | undefined): Record<string, string> {
+  if (!rawText) return {};
+  const sectionHeading = /^(?:professional summary|profile summary|summary|about me|professional experience|work experience|employment history|work history|career history|experience|projects?|education|technical skills|skills|core competencies|certifications?|achievements|personal details)\s*:?$/i;
+  const lines: string[] = [];
+  for (const line of rawText.split(/\r?\n/)) {
+    const cleaned = line.trim();
+    if (sectionHeading.test(cleaned)) break;
+    if (cleaned) lines.push(cleaned);
+    if (lines.length >= 18) break;
+  }
+  const text = lines.join("\n");
+  const contacts: Record<string, string> = {};
+  const email = text.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i)?.[0];
+  if (email) contacts.email = email;
+  const phone = phoneFromResumeHeader(rawText);
+  if (phone) contacts.phone = phone;
+  for (const [key, pattern] of Object.entries({
+    linkedin: /(?:(?:https?:\/\/)?(?:www\.)?)linkedin\.com\/[^\s|,;]+/i,
+    github: /(?:(?:https?:\/\/)?(?:www\.)?)github\.com\/[^\s|,;]+/i,
+  })) {
+    const link = text.match(pattern)?.[0]?.replace(/[.,)]+$/, "");
+    if (link) contacts[key] = link;
+  }
+  const contactLine = lines.find((line) => /@|\+?\d[\d().\s-]{5,}\d/.test(line));
+  if (contactLine) {
+    const location = contactLine
+      .replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/ig, " ")
+      .replace(/(?:^|[^\w])\+?\d[\d().\s-]{5,}\d(?!\w)/g, " ")
+      .replace(/(?:(?:https?:\/\/)?(?:www\.)?)?(?:linkedin\.com|github\.com)\/[^\s|,;]+/ig, " ")
+      .replace(/\b(?:linkedin|github|email|e-mail|phone|mobile|location|address)\s*:?/ig, " ")
+      .replace(/[|·•]+/g, " ").replace(/\s+/g, " ").trim().replace(/^[,;:-]+|[,;:-]+$/g, "");
+    if (location && !/\d|@/.test(location)) contacts.location = location;
+  }
+  return contacts;
+}
+
 function ReadableValue({ value }: { value: unknown }) {
   if (value == null || typeof value === "boolean") return null;
   if (typeof value === "string" || typeof value === "number") return <>{String(value)}</>;
@@ -407,6 +465,17 @@ export default function App() {
   const blocksDoc = art?.["blocks.json"];
   const blockAudit = art?.["block_audit.json"] ?? auditFromBlocks(blocksDoc);
   const canonicalResume = art?.["canonical_resume.json"];
+  const canonicalPersonal = canonicalResume?.personal_information;
+  const sourceHeaderContacts = contactsFromResumeHeader(art?.["raw_text.json"]?.raw_text);
+  const recoveredHeaderContacts = Object.fromEntries(Object.entries(sourceHeaderContacts)
+    .filter(([key, value]) => !hasDisplayValue(canonicalPersonal?.[key]) && value));
+  const contactsWereRecovered = Boolean(canonicalResume && Object.keys(recoveredHeaderContacts).length);
+  const personalInformationForDisplay = contactsWereRecovered
+    ? { ...canonicalPersonal, ...recoveredHeaderContacts }
+    : canonicalPersonal;
+  const canonicalResumeForDisplay = contactsWereRecovered
+    ? { ...canonicalResume, personal_information: personalInformationForDisplay }
+    : canonicalResume;
   const graph = art?.["graph.json"];
   const clusters = art?.["clusters.json"];
   const emb = art?.["embeddings.json"];
@@ -424,8 +493,8 @@ export default function App() {
   };
 
   const downloadCanonicalResume = () => {
-    if (!canonicalResume) return;
-    const blob = new Blob([JSON.stringify(canonicalResume, null, 2)], { type: "application/json" });
+    if (!canonicalResumeForDisplay) return;
+    const blob = new Blob([JSON.stringify(canonicalResumeForDisplay, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
@@ -596,7 +665,8 @@ export default function App() {
                 {!Object.entries(canonicalResume).some(([key, value]) => !provenanceKeys.has(key) && hasDisplayValue(value)) &&
                   <p className="hint">The latest response contains no parsed resume fields.</p>}
                 <button onClick={downloadCanonicalResume}>Download canonical_resume.json</button>
-                <CanonicalSection title="Personal Information" value={canonicalResume.personal_information} />
+                <CanonicalSection title="Personal Information" value={personalInformationForDisplay} />
+                {contactsWereRecovered && <p className="hint">Missing contact fields were recovered from this resume’s header text.</p>}
                 <CanonicalSection title="Profile Snapshot" value={canonicalResume.profile_snapshot} />
                 <CanonicalWorkHistory value={canonicalResume.work_history} />
                 <CanonicalSection title="Projects" value={canonicalResume.projects} />
@@ -611,7 +681,7 @@ export default function App() {
                 <CanonicalSection title="Personal Details" value={canonicalResume.personal_details} />
                 <details className="audit-section">
                   <summary><b>Canonical JSON</b></summary>
-                  <pre className="raw structured-output">{JSON.stringify(canonicalResume, null, 2)}</pre>
+                  <pre className="raw structured-output">{JSON.stringify(canonicalResumeForDisplay, null, 2)}</pre>
                 </details>
               </>}
             </>

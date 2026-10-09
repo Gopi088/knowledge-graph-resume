@@ -23,6 +23,130 @@ def clean(text):
     return MARKER.sub('', text).strip()
 
 
+def extract_header_identity(rows):
+    """Extract identity/contact fields from the resume header with line provenance.
+
+    Contact details are commonly laid out as icons or separate visual columns,
+    so extracted text can be unlabeled and may put phone, city, and email on
+    the same line. This parser is deliberately limited to the header section.
+    """
+    lines = [(row, clean(str(row.get('text', '')))) for row in rows]
+    fields, field_rows = {}, {}
+    email_re = re.compile(r'\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b', re.I)
+    phone_re = re.compile(r'(?<![\w])\+?\d[\d().\s-]{5,}\d(?![\w])')
+    # Resume links are often printed as bare domains (linkedin.com/in/...) or
+    # preceded by a label on the same contact row. Keep the domain in the
+    # extracted value so it remains clickable in downstream consumers.
+    link_re = re.compile(
+        r'(?:(?:https?://)?(?:www\.)?(?:linkedin\.com|github\.com)/[^\s|,;]+|'
+        r'(?:https?://|www\.)[^\s|,;]+)', re.I)
+    label_re = re.compile(
+        r'\b(name|title|email|e-mail|phone|mobile|contact(?: number)?|location|address|based in|city|'
+        r'linkedin|github|website|portfolio)\s*[:：–—-]\s*',
+        re.I,
+    )
+
+    def put(key, value, row):
+        value = str(value or '').strip(' \t,;|·•')
+        if value and key not in fields:
+            fields[key] = value
+            field_rows[key] = row
+
+    # First collect explicit fields and independent contact tokens.
+    for row, text in lines:
+        for match in label_re.finditer(text):
+            label = re.sub(r'[^a-z]+', '_', match.group(1).casefold()).strip('_')
+            end = label_re.search(text, match.end())
+            raw = text[match.end():end.start() if end else len(text)].strip(' \t,;|·•')
+            key = {'e_mail': 'email', 'mobile': 'phone', 'contact': 'phone',
+                   'contact_number': 'phone', 'address': 'location',
+                   'based_in': 'location', 'city': 'location',
+                   'website': 'website', 'portfolio': 'portfolio'}.get(label, label)
+            if key == 'email':
+                found = email_re.search(raw)
+                raw = found.group(0) if found else raw
+            elif key == 'phone':
+                found = phone_re.search(raw)
+                raw = found.group(0) if found and 7 <= len(re.sub(r'\D', '', found.group(0))) <= 15 else raw
+            elif key in {'linkedin', 'github', 'website', 'portfolio'}:
+                found = link_re.search(raw)
+                raw = found.group(0).rstrip('.,)') if found else raw
+            elif key == 'location':
+                raw = email_re.sub('', phone_re.sub('', link_re.sub('', raw))).strip(' \t,;|·•')
+            put(key, raw, row)
+        email = email_re.search(text)
+        if email:
+            put('email', email.group(0), row)
+        for key, pattern in (
+            ('linkedin', re.compile(r'(?:(?:https?://)?(?:www\.)?)linkedin\.com/[^\s|,;]+', re.I)),
+            ('github', re.compile(r'(?:(?:https?://)?(?:www\.)?)github\.com/[^\s|,;]+', re.I)),
+        ):
+            match = pattern.search(text)
+            if match:
+                put(key, match.group(0).rstrip('.,)'), row)
+        if not any(key in fields and field_rows[key] is row for key in ('linkedin', 'github')):
+            website = re.search(r'(?:(?:https?://)|www\.)[^\s|,;]+', text, re.I)
+            if website:
+                put('website', website.group(0).rstrip('.,)'), row)
+        for match in phone_re.finditer(text):
+            digits = re.sub(r'\D', '', match.group(0))
+            if 7 <= len(digits) <= 15:
+                put('phone', match.group(0), row)
+                break
+
+    # Detect short professional titles separately so they are not mistaken
+    # for a name or city when contact details share their line.
+    for row, text in lines:
+        if (ROLE.search(text) and len(text.split()) <= 8 and not ACTION.search(text)
+                and not email_re.search(text) and not phone_re.search(text)):
+            put('title', text, row)
+            break
+
+    # The first short, human-name-like header line is the candidate name.
+    for row, text in lines:
+        candidate = email_re.sub(' ', text)
+        candidate = phone_re.sub(' ', candidate)
+        candidate = link_re.sub(' ', candidate)
+        candidate = label_re.sub(' ', candidate)
+        candidate = re.sub(r'[|·•]+', ' ', candidate).strip(' ,;:-')
+        if (candidate and len(candidate.split()) <= 6 and not re.search(r'\d|@|[.!?]', candidate)
+                and not ROLE.search(candidate) and not ACTION.search(candidate)
+                and not re.search(r'\b(email|phone|mobile|location|address|linkedin|github)\b', candidate, re.I)):
+            # Do not absorb the title when name and title are printed together.
+            if fields.get('title') and candidate.casefold().endswith(fields['title'].casefold()):
+                candidate = candidate[:-len(fields['title'])].strip(' ,;:-')
+            put('name', candidate, row)
+            if fields.get('name'):
+                break
+
+    # Prefer an explicit location label. Otherwise collect the unclaimed
+    # short text on a contact line or in its own header line (icon columns are
+    # often emitted this way by PDF text extraction).
+    if not fields.get('location') and ('email' in fields or 'phone' in fields):
+        candidates = []
+        for row, text in lines:
+            residual = email_re.sub(' ', text)
+            residual = phone_re.sub(' ', residual)
+            residual = link_re.sub(' ', residual)
+            residual = label_re.sub(' ', residual)
+            for known in (fields.get('name'), fields.get('title')):
+                if known:
+                    residual = re.sub(re.escape(known), ' ', residual, flags=re.I)
+            residual = re.sub(
+                r'\b(?:email|e-mail|phone|mobile|contact|location|address|based in|city|'
+                r'linkedin|github|website|portfolio)\b', ' ', residual, flags=re.I)
+            residual = re.sub(r'[|·•]+', ' ', residual)
+            candidate = re.sub(r'\s+', ' ', residual).strip(' ,;:-')
+            if (candidate and len(candidate.split()) <= 6 and not re.search(r'\d|@|[.!?]', candidate)
+                    and not ROLE.search(candidate) and not ACTION.search(candidate)
+                    and candidate.casefold() not in {str(fields.get('name', '')).casefold(), str(fields.get('title', '')).casefold()}):
+                candidates.append((candidate, row))
+        if candidates:
+            put('location', candidates[-1][0], candidates[-1][1])
+
+    return fields, field_rows
+
+
 def name_like(text):
     words = text.split()
     return (0 < len(words) <= 14 and len(text) < 140 and not ACTION.search(text)
@@ -181,6 +305,20 @@ def prepare_blocks(pre, layout=None):
                 current['section'], current['section_id'] = education_section['section'], education_section['section_id']
                 following['section'], following['section_id'] = education_section['section'], education_section['section_id']
     original_sections = {meta['line_index']: meta['section'] for meta in metas}
+    # Do not let a plausible-looking name/title near the top of a structured
+    # resume start a synthetic employment section. In PDFs, a candidate name,
+    # headline, or contact row can look like an employer/title pair after line
+    # wrapping. Once an explicit work-experience heading exists, only content
+    # beneath that heading can enter Experience; heuristic recovery is reserved
+    # for genuinely headingless resumes.
+    experience_heading_names = {
+        'experience', 'professional experience', 'work experience', 'work history',
+        'employment history', 'career history', 'relevant experience', 'employment',
+    }
+    has_explicit_experience_heading = any(
+        meta.get('is_header') and meta.get('section', '').casefold().strip(' :.-')
+        in experience_heading_names for meta in metas
+    )
     for index, meta in enumerate(metas):
         if not meta.get('line', '').strip():
             continue
@@ -195,7 +333,8 @@ def prepare_blocks(pre, layout=None):
             active_override = None
             active_origin = None
         next_meta = next((m for m in metas[index + 1:] if m.get('line', '').strip() and not m.get('is_page_number')), None)
-        if not meta.get('is_header') and original_section in {'Header', 'Summary', 'Skills', 'Core Competencies', 'Other'}:
+        if (not has_explicit_experience_heading and not meta.get('is_header')
+                and original_section in {'Header', 'Summary', 'Skills', 'Core Competencies', 'Other'}):
             value = clean(text)
             start = employment_header(value)
             standalone = (name_like(value) and ',' not in value and not title_like(value) and next_meta and
@@ -776,6 +915,21 @@ def group_sections(rows):
         elif key in {'skills', 'personal_information', 'certifications'}:
             if key == 'personal_information':
                 value = {}
+                if section.casefold() == 'header':
+                    header_fields, field_rows = extract_header_identity(body)
+                    value.update(header_fields)
+                    for row in body:
+                        owned_fields = [field for field, source_row in field_rows.items() if source_row is row]
+                        if owned_fields:
+                            for field in owned_fields:
+                                _own(row, value, f'$.personal_information.{field}',
+                                     'identity/contact field extracted from resume header source text')
+                        else:
+                            _own(row, value, '$.personal_information',
+                                 'unclassified header source retained in personal information provenance')
+                    groups[sid] = {'key': key, 'value': value}
+                    offsets[key] = offset + 1
+                    continue
                 for row in body:
                     text = clean(row['text'])
                     if row['block_type'] == 'CONTACT':
