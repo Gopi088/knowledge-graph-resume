@@ -7,33 +7,20 @@
     "Data Scientist with 2 years of experience in machine learning and data analysis."
   ],
   "work_history": [
-    {
-      "role_and_responsibilities": [
-        "Developed machine learning models using Python, Scikit-learn and TensorFlow.",
-        "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.",
-        "Used AWS and Docker to deploy ML models in the fintech domain.",
-        "Performed data analysis with Pandas, NumPy and Matplotlib."
-      ],
-      "designation": "Data Scientist",
-      "company": "FinEdge Analytics, Hyderabad",
-      "duration": "2023 - Present"
-    }
+    "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present) Developed machine learning models using Python, Scikit-learn and TensorFlow. Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau. Used AWS and Docker to deploy ML models in the fintech domain. Performed data analysis with Pandas, NumPy and Matplotlib."
   ],
   "projects": [
     "Credit risk scoring project using Python, Scikit-learn and PostgreSQL.",
     "NLP sentiment analysis app built with PyTorch and FastAPI."
   ],
   "education": [
-    [
-      "M.Tech in Data Science from IIT Madras (2021 - 2023)."
-    ]
+    "M.Tech in Data Science from IIT Madras (2021 - 2023)."
   ],
   "certifications": [
     "Google Cloud Professional Data Engineer."
   ],
   "skills": [
-    "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,",
-    "Docker, AWS, Machine Learning, NLP, Git."
+    "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL, Docker, AWS, Machine Learning, NLP, Git."
   ],
   "_audit": {
     "format": "section-keyed-resume-blocks/v1",
@@ -44,7 +31,7 @@
       "unassigned_source_line_indices": [],
       "section_count": 7,
       "block_count": 8,
-      "sentence_count": 15,
+      "sentence_count": 14,
       "entity_count": 49,
       "relationship_count": 49,
       "complete": true
@@ -146,8 +133,7 @@
         "section_id": "s6:Skills",
         "section_key": "skills",
         "item_indices": [
-          0,
-          1
+          0
         ],
         "source_line_indices": [
           18,
@@ -164,6 +150,9 @@
         "section": "Header",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b0",
         "assignment": "context_block",
         "assigned": true
@@ -175,6 +164,9 @@
         "section": "Header",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b0",
         "assignment": "context_block",
         "assigned": true
@@ -186,6 +178,9 @@
         "section": "Summary",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -197,6 +192,9 @@
         "section": "Summary",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b1",
         "assignment": "context_block",
         "assigned": true
@@ -208,6 +206,9 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -219,6 +220,9 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -230,6 +234,9 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -241,6 +248,9 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -252,6 +262,9 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -263,6 +276,9 @@
         "section": "Experience",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b2",
         "assignment": "context_block",
         "assigned": true
@@ -274,6 +290,9 @@
         "section": "Projects",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -285,6 +304,9 @@
         "section": "Projects",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b3",
         "assignment": "context_block",
         "assigned": true
@@ -296,6 +318,9 @@
         "section": "Projects",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b4",
         "assignment": "context_block",
         "assigned": true
@@ -307,6 +332,9 @@
         "section": "Education",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -318,6 +346,9 @@
         "section": "Education",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b5",
         "assignment": "context_block",
         "assigned": true
@@ -329,6 +360,9 @@
         "section": "Certifications",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -340,6 +374,9 @@
         "section": "Certifications",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b6",
         "assignment": "context_block",
         "assigned": true
@@ -351,6 +388,9 @@
         "section": "Skills",
         "source_path": null,
         "is_section_heading": true,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": null,
         "assignment": "section_heading",
         "assigned": true
@@ -362,6 +402,9 @@
         "section": "Skills",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b7",
         "assignment": "context_block",
         "assigned": true
@@ -373,6 +416,9 @@
         "section": "Skills",
         "source_path": null,
         "is_section_heading": false,
+        "is_bullet": false,
+        "list_marker": "",
+        "inline_body": "",
         "block_id": "b7",
         "assignment": "context_block",
         "assigned": true

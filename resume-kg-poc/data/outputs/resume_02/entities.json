@@ -14,7 +14,7 @@
         "b6"
       ],
       "sentence_indices": [
-        12
+        11
       ],
       "id": "e0",
       "sections": [
@@ -37,7 +37,7 @@
         "b2"
       ],
       "sentence_indices": [
-        7
+        6
       ],
       "id": "e1",
       "sections": [
@@ -60,7 +60,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e2",
       "sections": [
@@ -83,7 +83,7 @@
         "b2"
       ],
       "sentence_indices": [
-        7
+        6
       ],
       "id": "e3",
       "sections": [
@@ -106,7 +106,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e4",
       "sections": [
@@ -129,7 +129,7 @@
         "b6"
       ],
       "sentence_indices": [
-        12
+        11
       ],
       "id": "e5",
       "sections": [
@@ -152,7 +152,7 @@
         "b2"
       ],
       "sentence_indices": [
-        4
+        3
       ],
       "id": "e6",
       "sections": [
@@ -175,7 +175,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e7",
       "sections": [
@@ -198,7 +198,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e8",
       "sections": [
@@ -221,7 +221,7 @@
         "b5"
       ],
       "sentence_indices": [
-        11
+        10
       ],
       "id": "e9",
       "sections": [
@@ -244,7 +244,7 @@
         "b2"
       ],
       "sentence_indices": [
-        7
+        6
       ],
       "id": "e10",
       "sections": [
@@ -267,7 +267,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e11",
       "sections": [
@@ -290,7 +290,7 @@
         "b2"
       ],
       "sentence_indices": [
-        8
+        7
       ],
       "id": "e12",
       "sections": [
@@ -313,7 +313,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e13",
       "sections": [
@@ -336,7 +336,7 @@
         "b2"
       ],
       "sentence_indices": [
-        8
+        7
       ],
       "id": "e14",
       "sections": [
@@ -359,7 +359,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e15",
       "sections": [
@@ -382,7 +382,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e16",
       "sections": [
@@ -405,7 +405,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e17",
       "sections": [
@@ -428,7 +428,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e18",
       "sections": [
@@ -451,7 +451,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e19",
       "sections": [
@@ -474,7 +474,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e20",
       "sections": [
@@ -497,7 +497,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e21",
       "sections": [
@@ -520,7 +520,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e22",
       "sections": [
@@ -543,7 +543,7 @@
         "b6"
       ],
       "sentence_indices": [
-        12
+        11
       ],
       "id": "e23",
       "sections": [
@@ -559,7 +559,7 @@
       "confidence": 0.9,
       "method": "gazetteer + NLP parsing",
       "source_sentences": [
-        "Data Scientist | priya.nair@example.com"
+        "Data Scientist | priya.nair@example.com | +91-99887-76655"
       ],
       "frequency": 1,
       "block_ids": [
@@ -589,7 +589,7 @@
         "b1"
       ],
       "sentence_indices": [
-        3
+        2
       ],
       "id": "e25",
       "sections": [
@@ -612,7 +612,7 @@
         "b2"
       ],
       "sentence_indices": [
-        4
+        3
       ],
       "id": "e26",
       "sections": [
@@ -623,7 +623,7 @@
       ]
     },
     {
-      "text": "Candidate",
+      "text": "Priya Nair",
       "type": "PERSON",
       "confidence": 0.95,
       "method": "spaCy NER / resume subject",
@@ -658,7 +658,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e28",
       "sections": [
@@ -681,7 +681,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e29",
       "sections": [
@@ -704,7 +704,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e30",
       "sections": [
@@ -727,7 +727,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e31",
       "sections": [
@@ -750,7 +750,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e32",
       "sections": [
@@ -773,7 +773,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e33",
       "sections": [
@@ -796,7 +796,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e34",
       "sections": [
@@ -819,7 +819,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e35",
       "sections": [
@@ -842,7 +842,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e36",
       "sections": [
@@ -865,7 +865,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e37",
       "sections": [
@@ -888,7 +888,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e38",
       "sections": [
@@ -911,7 +911,7 @@
         "b1"
       ],
       "sentence_indices": [
-        3
+        2
       ],
       "id": "e39",
       "sections": [
@@ -934,7 +934,7 @@
         "b2"
       ],
       "sentence_indices": [
-        8
+        7
       ],
       "id": "e40",
       "sections": [
@@ -957,7 +957,7 @@
         "b1"
       ],
       "sentence_indices": [
-        3
+        2
       ],
       "id": "e41",
       "sections": [
@@ -980,7 +980,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e42",
       "sections": [
@@ -1003,7 +1003,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e43",
       "sections": [
@@ -1026,7 +1026,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e44",
       "sections": [
@@ -1049,7 +1049,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e45",
       "sections": [
@@ -1072,7 +1072,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e46",
       "sections": [
@@ -1095,7 +1095,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e47",
       "sections": [
@@ -1118,7 +1118,7 @@
         "b5"
       ],
       "sentence_indices": [
-        11
+        10
       ],
       "id": "e48",
       "sections": [
@@ -1132,12 +1132,12 @@
   "preprocessing": {
     "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
     "normalized_preview": "Priya Nair\nData Scientist | priya.nair@example.com | +91-99887-76655\nSummary\nData Scientist with 2 years of experience in machine learning and data analysis.\nExperience\nData Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.\nUsed AWS and Docker to deploy ML models in the fintech domain.\nPerformed data analysis with Pandas, NumPy and Matp",
-    "sentence_count": 15,
+    "sentence_count": 14,
     "sections": [
       {
         "id": "s0:Header",
         "name": "Header",
-        "sentence_count": 3
+        "sentence_count": 2
       },
       {
         "id": "s1:Summary",

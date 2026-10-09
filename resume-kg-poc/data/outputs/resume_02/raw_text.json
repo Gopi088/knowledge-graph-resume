@@ -2,6 +2,6 @@
   "doc_id": "resume_02",
   "source": "resume_pdf",
   "char_count": 908,
-  "created_at": "2026-10-07T14:06:26.395343+00:00",
+  "created_at": "2026-10-08T07:09:23.747729+00:00",
   "raw_text": "Priya Nair\nData Scientist | priya.nair@example.com | +91-99887-76655\nSummary\nData Scientist with 2 years of experience in machine learning and data analysis.\nExperience\nData Scientist at FinEdge Analytics, Hyderabad (2023 - Present)\nDeveloped machine learning models using Python, Scikit-learn and TensorFlow.\nBuilt ETL pipelines with Airflow and SQL, deployed dashboards with Tableau.\nUsed AWS and Docker to deploy ML models in the fintech domain.\nPerformed data analysis with Pandas, NumPy and Matplotlib.\nProjects\nCredit risk scoring project using Python, Scikit-learn and PostgreSQL.\nNLP sentiment analysis app built with PyTorch and FastAPI.\nEducation\nM.Tech in Data Science from IIT Madras (2021 - 2023).\nCertifications\nGoogle Cloud Professional Data Engineer.\nSkills\nPython, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,\nDocker, AWS, Machine Learning, NLP, Git.\n"
 }

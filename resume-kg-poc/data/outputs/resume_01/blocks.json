@@ -19,8 +19,7 @@
       ],
       "sentence_indices": [
         0,
-        1,
-        2
+        1
       ],
       "entity_ids": [
         "e29",
@@ -35,7 +34,7 @@
         "b1"
       ],
       "sentence_indices": [
-        3
+        2
       ],
       "entity_ids": [
         "e30",
@@ -50,11 +49,11 @@
         "b2"
       ],
       "sentence_indices": [
+        3,
         4,
         5,
         6,
-        7,
-        8
+        7
       ],
       "entity_ids": [
         "e1",
@@ -113,8 +112,8 @@
         "b4"
       ],
       "sentence_indices": [
-        9,
-        10
+        8,
+        9
       ],
       "entity_ids": [
         "e7",
@@ -145,7 +144,7 @@
         "b5"
       ],
       "sentence_indices": [
-        11
+        10
       ],
       "entity_ids": [
         "e20",
@@ -163,7 +162,7 @@
         "b6"
       ],
       "sentence_indices": [
-        12
+        11
       ],
       "entity_ids": [
         "e0",
@@ -180,8 +179,8 @@
         "b7"
       ],
       "sentence_indices": [
-        13,
-        14
+        12,
+        13
       ],
       "entity_ids": [
         "e3",
@@ -227,8 +226,7 @@
       "entry_type": "personal_information_entry",
       "sentence_indices": [
         0,
-        1,
-        2
+        1
       ],
       "source_line_indices": [
         0,
@@ -241,14 +239,13 @@
       "source_paths": [],
       "sentences": [
         "Aarav Sharma",
-        "Backend Developer | aarav.sharma@example.com",
-        "| +91-98765-43210"
+        "Backend Developer | aarav.sharma@example.com | +91-98765-43210"
       ],
       "assignment_method": "structural",
-      "assignment_reason": "sentences from the same physical source line; consecutive plain lines in the same summary/contact section",
+      "assignment_reason": "consecutive plain lines in the same summary/contact section",
       "entities": [
-        "Backend Developer",
-        "Candidate"
+        "Aarav Sharma",
+        "Backend Developer"
       ],
       "entity_ids": [
         "e29",
@@ -263,7 +260,7 @@
       "section": "Summary",
       "entry_type": "summary_context",
       "sentence_indices": [
-        3
+        2
       ],
       "source_line_indices": [
         3
@@ -294,11 +291,11 @@
       "section": "Experience",
       "entry_type": "experience_entry",
       "sentence_indices": [
+        3,
         4,
         5,
         6,
-        7,
-        8
+        7
       ],
       "source_line_indices": [
         5,
@@ -397,7 +394,7 @@
       "section": "Projects",
       "entry_type": "project_entry",
       "sentence_indices": [
-        9
+        8
       ],
       "source_line_indices": [
         11
@@ -423,7 +420,7 @@
         "e15",
         "e21",
         "e23",
-        "e36"
+        "e37"
       ],
       "relationship_ids": [
         "r16",
@@ -439,7 +436,7 @@
       "section": "Projects",
       "entry_type": "project_entry",
       "sentence_indices": [
-        10
+        9
       ],
       "source_line_indices": [
         12
@@ -463,7 +460,7 @@
         "e16",
         "e28",
         "e34",
-        "e37"
+        "e36"
       ],
       "relationship_ids": [
         "r20",
@@ -479,7 +476,7 @@
       "section": "Education",
       "entry_type": "education_entry",
       "sentence_indices": [
-        11
+        10
       ],
       "source_line_indices": [
         14
@@ -513,7 +510,7 @@
       "section": "Certifications",
       "entry_type": "source_line_context",
       "sentence_indices": [
-        12
+        11
       ],
       "source_line_indices": [
         16
@@ -546,8 +543,8 @@
       "section": "Skills",
       "entry_type": "skill_list_entry",
       "sentence_indices": [
-        13,
-        14
+        12,
+        13
       ],
       "source_line_indices": [
         18,
@@ -622,7 +619,6 @@
   "sentence_blocks": [
     "b0",
     "b0",
-    "b0",
     "b1",
     "b2",
     "b2",
@@ -651,18 +647,12 @@
     },
     {
       "sentence_index": 2,
-      "line_index": 1,
-      "section_id": "s0:Header",
-      "block_id": "b0"
-    },
-    {
-      "sentence_index": 3,
       "line_index": 3,
       "section_id": "s1:Summary",
       "block_id": "b1"
     },
     {
-      "sentence_index": 4,
+      "sentence_index": 3,
       "line_index": 5,
       "section_id": "s2:Experience",
       "block_id": "b2",
@@ -686,7 +676,7 @@
       ]
     },
     {
-      "sentence_index": 5,
+      "sentence_index": 4,
       "line_index": 6,
       "section_id": "s2:Experience",
       "block_id": "b2",
@@ -702,7 +692,7 @@
       ]
     },
     {
-      "sentence_index": 6,
+      "sentence_index": 5,
       "line_index": 7,
       "section_id": "s2:Experience",
       "block_id": "b2",
@@ -718,7 +708,7 @@
       ]
     },
     {
-      "sentence_index": 7,
+      "sentence_index": 6,
       "line_index": 8,
       "section_id": "s2:Experience",
       "block_id": "b2",
@@ -732,7 +722,7 @@
       ]
     },
     {
-      "sentence_index": 8,
+      "sentence_index": 7,
       "line_index": 9,
       "section_id": "s2:Experience",
       "block_id": "b2",
@@ -744,7 +734,7 @@
       ]
     },
     {
-      "sentence_index": 9,
+      "sentence_index": 8,
       "line_index": 11,
       "section_id": "s3:Projects",
       "block_id": "b3",
@@ -756,7 +746,7 @@
       ]
     },
     {
-      "sentence_index": 10,
+      "sentence_index": 9,
       "line_index": 12,
       "section_id": "s3:Projects",
       "block_id": "b4",
@@ -768,7 +758,7 @@
       ]
     },
     {
-      "sentence_index": 11,
+      "sentence_index": 10,
       "line_index": 14,
       "section_id": "s4:Education",
       "block_id": "b5",
@@ -778,7 +768,7 @@
       ]
     },
     {
-      "sentence_index": 12,
+      "sentence_index": 11,
       "line_index": 16,
       "section_id": "s5:Certifications",
       "block_id": "b6",
@@ -787,7 +777,7 @@
       ]
     },
     {
-      "sentence_index": 13,
+      "sentence_index": 12,
       "line_index": 18,
       "section_id": "s6:Skills",
       "block_id": "b7",
@@ -806,7 +796,7 @@
       ]
     },
     {
-      "sentence_index": 14,
+      "sentence_index": 13,
       "line_index": 19,
       "section_id": "s6:Skills",
       "block_id": "b7",
@@ -835,8 +825,8 @@
     "19": "b7"
   },
   "coverage": {
-    "sentence_count": 15,
-    "assigned_sentence_count": 15,
+    "sentence_count": 14,
+    "assigned_sentence_count": 14,
     "source_line_count": 14,
     "assigned_source_line_count": 14,
     "complete": true,
@@ -850,24 +840,12 @@
   "merge_decisions": [
     {
       "line_pair": [
-        1,
-        1
-      ],
-      "sentence_pair": [
-        1,
-        2
-      ],
-      "merged": true,
-      "reason": "sentences from the same physical source line"
-    },
-    {
-      "line_pair": [
         18,
         19
       ],
       "sentence_pair": [
-        13,
-        14
+        12,
+        13
       ],
       "merged": true,
       "reason": "wrapped continuation of the same skill/tool list"
@@ -890,8 +868,8 @@
         6
       ],
       "sentence_pair": [
-        4,
-        5
+        3,
+        4
       ],
       "merged": true,
       "reason": "responsibility line under the same experience role entry"
@@ -902,8 +880,8 @@
         7
       ],
       "sentence_pair": [
-        4,
-        6
+        3,
+        5
       ],
       "merged": true,
       "reason": "responsibility line under the same experience role entry"
@@ -914,8 +892,8 @@
         8
       ],
       "sentence_pair": [
-        4,
-        7
+        3,
+        6
       ],
       "merged": true,
       "reason": "responsibility line under the same experience role entry"
@@ -926,8 +904,8 @@
         9
       ],
       "sentence_pair": [
-        4,
-        8
+        3,
+        7
       ],
       "merged": true,
       "reason": "responsibility line under the same experience role entry"
@@ -939,7 +917,7 @@
       ],
       "sentence_pair": [
         1,
-        3
+        2
       ],
       "merged": false,
       "reason": "different resume sections"
@@ -950,8 +928,8 @@
         5
       ],
       "sentence_pair": [
-        3,
-        4
+        2,
+        3
       ],
       "merged": false,
       "reason": "different resume sections"
@@ -962,8 +940,8 @@
         11
       ],
       "sentence_pair": [
-        8,
-        9
+        7,
+        8
       ],
       "merged": false,
       "reason": "different resume sections"
@@ -974,8 +952,8 @@
         12
       ],
       "sentence_pair": [
-        9,
-        10
+        8,
+        9
       ],
       "merged": false,
       "reason": "separate source lines without a list or structural entry link"
@@ -986,8 +964,8 @@
         14
       ],
       "sentence_pair": [
-        10,
-        11
+        9,
+        10
       ],
       "merged": false,
       "reason": "different resume sections"
@@ -998,8 +976,8 @@
         16
       ],
       "sentence_pair": [
-        11,
-        12
+        10,
+        11
       ],
       "merged": false,
       "reason": "different resume sections"
@@ -1010,8 +988,8 @@
         18
       ],
       "sentence_pair": [
-        12,
-        13
+        11,
+        12
       ],
       "merged": false,
       "reason": "different resume sections"
@@ -1027,7 +1005,7 @@
         "b6"
       ],
       "source_sentence_indices": [
-        12
+        11
       ]
     },
     {
@@ -1039,7 +1017,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1051,7 +1029,7 @@
         "b6"
       ],
       "source_sentence_indices": [
-        12
+        11
       ]
     },
     {
@@ -1063,7 +1041,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1075,7 +1053,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        7
+        6
       ]
     },
     {
@@ -1087,7 +1065,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1099,7 +1077,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1111,7 +1089,7 @@
         "b3"
       ],
       "source_sentence_indices": [
-        9
+        8
       ]
     },
     {
@@ -1123,7 +1101,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1135,7 +1113,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        7
+        6
       ]
     },
     {
@@ -1147,7 +1125,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1159,7 +1137,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        7
+        6
       ]
     },
     {
@@ -1171,7 +1149,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1183,7 +1161,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        4
+        3
       ]
     },
     {
@@ -1195,7 +1173,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1207,7 +1185,7 @@
         "b3"
       ],
       "source_sentence_indices": [
-        9
+        8
       ]
     },
     {
@@ -1219,7 +1197,7 @@
         "b4"
       ],
       "source_sentence_indices": [
-        10
+        9
       ]
     },
     {
@@ -1231,7 +1209,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1243,7 +1221,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        8
+        7
       ]
     },
     {
@@ -1255,7 +1233,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1267,7 +1245,7 @@
         "b5"
       ],
       "source_sentence_indices": [
-        11
+        10
       ]
     },
     {
@@ -1279,7 +1257,7 @@
         "b3"
       ],
       "source_sentence_indices": [
-        9
+        8
       ]
     },
     {
@@ -1291,7 +1269,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1303,7 +1281,7 @@
         "b3"
       ],
       "source_sentence_indices": [
-        9
+        8
       ]
     },
     {
@@ -1315,7 +1293,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1327,7 +1305,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1339,7 +1317,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1351,7 +1329,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1363,7 +1341,7 @@
         "b4"
       ],
       "source_sentence_indices": [
-        10
+        9
       ]
     },
     {
@@ -1387,7 +1365,7 @@
         "b1"
       ],
       "source_sentence_indices": [
-        3
+        2
       ]
     },
     {
@@ -1399,7 +1377,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        4
+        3
       ]
     },
     {
@@ -1423,7 +1401,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1435,7 +1413,7 @@
         "b4"
       ],
       "source_sentence_indices": [
-        10
+        9
       ]
     },
     {
@@ -1447,7 +1425,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1456,7 +1434,7 @@
         "s3:Projects"
       ],
       "block_ids": [
-        "b3"
+        "b4"
       ],
       "source_sentence_indices": [
         9
@@ -1468,10 +1446,10 @@
         "s3:Projects"
       ],
       "block_ids": [
-        "b4"
+        "b3"
       ],
       "source_sentence_indices": [
-        10
+        8
       ]
     },
     {
@@ -1483,7 +1461,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1495,7 +1473,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1507,7 +1485,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1519,7 +1497,7 @@
         "b1"
       ],
       "source_sentence_indices": [
-        3
+        2
       ]
     },
     {
@@ -1531,7 +1509,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1543,7 +1521,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1555,7 +1533,7 @@
         "b2"
       ],
       "source_sentence_indices": [
-        8
+        7
       ]
     },
     {
@@ -1567,7 +1545,7 @@
         "b7"
       ],
       "source_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1579,7 +1557,7 @@
         "b5"
       ],
       "source_sentence_indices": [
-        11
+        10
       ]
     }
   ],
@@ -1591,7 +1569,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4
+        3
       ]
     },
     {
@@ -1601,7 +1579,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4
+        3
       ]
     },
     {
@@ -1611,7 +1589,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4
+        3
       ]
     },
     {
@@ -1621,7 +1599,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1631,7 +1609,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1641,7 +1619,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1651,7 +1629,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        5
+        4
       ]
     },
     {
@@ -1661,7 +1639,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1671,7 +1649,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1681,7 +1659,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1691,7 +1669,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        6
+        5
       ]
     },
     {
@@ -1701,7 +1679,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        7
+        6
       ]
     },
     {
@@ -1711,7 +1689,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        7
+        6
       ]
     },
     {
@@ -1721,7 +1699,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        7
+        6
       ]
     },
     {
@@ -1731,7 +1709,7 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        8
+        7
       ]
     },
     {
@@ -1741,87 +1719,87 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        8
+        7
       ]
     },
     {
       "relationship_id": "r16",
-      "source_entity_id": "e36",
+      "source_entity_id": "e37",
       "target_entity_id": "e7",
       "section_id": "s3:Projects",
       "block_id": "b3",
       "evidence_sentence_indices": [
-        9
+        8
       ]
     },
     {
       "relationship_id": "r17",
-      "source_entity_id": "e36",
+      "source_entity_id": "e37",
       "target_entity_id": "e15",
       "section_id": "s3:Projects",
       "block_id": "b3",
       "evidence_sentence_indices": [
-        9
+        8
       ]
     },
     {
       "relationship_id": "r18",
-      "source_entity_id": "e36",
+      "source_entity_id": "e37",
       "target_entity_id": "e23",
       "section_id": "s3:Projects",
       "block_id": "b3",
       "evidence_sentence_indices": [
-        9
+        8
       ]
     },
     {
       "relationship_id": "r19",
       "source_entity_id": "e32",
-      "target_entity_id": "e36",
+      "target_entity_id": "e37",
       "section_id": "s3:Projects",
       "block_id": "b3",
+      "evidence_sentence_indices": [
+        8
+      ]
+    },
+    {
+      "relationship_id": "r20",
+      "source_entity_id": "e36",
+      "target_entity_id": "e16",
+      "section_id": "s3:Projects",
+      "block_id": "b4",
       "evidence_sentence_indices": [
         9
       ]
     },
     {
-      "relationship_id": "r20",
-      "source_entity_id": "e37",
-      "target_entity_id": "e16",
-      "section_id": "s3:Projects",
-      "block_id": "b4",
-      "evidence_sentence_indices": [
-        10
-      ]
-    },
-    {
       "relationship_id": "r21",
-      "source_entity_id": "e37",
+      "source_entity_id": "e36",
       "target_entity_id": "e28",
       "section_id": "s3:Projects",
       "block_id": "b4",
       "evidence_sentence_indices": [
-        10
+        9
       ]
     },
     {
       "relationship_id": "r22",
-      "source_entity_id": "e37",
+      "source_entity_id": "e36",
       "target_entity_id": "e34",
       "section_id": "s3:Projects",
       "block_id": "b4",
       "evidence_sentence_indices": [
-        10
+        9
       ]
     },
     {
       "relationship_id": "r23",
       "source_entity_id": "e32",
-      "target_entity_id": "e37",
+      "target_entity_id": "e36",
       "section_id": "s3:Projects",
       "block_id": "b4",
       "evidence_sentence_indices": [
-        10
+        9
       ]
     },
     {
@@ -1831,7 +1809,7 @@
       "section_id": "s4:Education",
       "block_id": "b5",
       "evidence_sentence_indices": [
-        11
+        10
       ]
     },
     {
@@ -1841,7 +1819,7 @@
       "section_id": "s5:Certifications",
       "block_id": "b6",
       "evidence_sentence_indices": [
-        12
+        11
       ]
     },
     {
@@ -1851,7 +1829,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1861,7 +1839,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1871,7 +1849,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1881,7 +1859,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1891,7 +1869,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1901,7 +1879,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1911,7 +1889,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1921,7 +1899,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1931,7 +1909,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1941,7 +1919,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1951,7 +1929,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        13
+        12
       ]
     },
     {
@@ -1961,7 +1939,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1971,7 +1949,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1981,7 +1959,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -1991,7 +1969,7 @@
       "section_id": "s6:Skills",
       "block_id": "b7",
       "evidence_sentence_indices": [
-        14
+        13
       ]
     },
     {
@@ -2001,8 +1979,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ]
     },
     {
@@ -2012,8 +1990,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        7
+        3,
+        6
       ]
     },
     {
@@ -2023,8 +2001,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ]
     },
     {
@@ -2034,8 +2012,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        7
+        3,
+        6
       ]
     },
     {
@@ -2045,8 +2023,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        7
+        3,
+        6
       ]
     },
     {
@@ -2056,8 +2034,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ]
     },
     {
@@ -2067,8 +2045,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        8
+        3,
+        7
       ]
     },
     {
@@ -2078,8 +2056,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ]
     },
     {
@@ -2089,8 +2067,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ]
     },
     {
@@ -2100,8 +2078,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ]
     },
     {
@@ -2111,8 +2089,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ]
     },
     {
@@ -2122,8 +2100,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ]
     },
     {
@@ -2133,8 +2111,8 @@
       "section_id": "s2:Experience",
       "block_id": "b2",
       "evidence_sentence_indices": [
-        4,
-        8
+        3,
+        7
       ]
     },
     {
@@ -2144,7 +2122,7 @@
       "section_id": "s4:Education",
       "block_id": "b5",
       "evidence_sentence_indices": [
-        11
+        10
       ]
     }
   ]

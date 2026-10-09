@@ -14,7 +14,7 @@
         "b6"
       ],
       "sentence_indices": [
-        12
+        11
       ],
       "id": "e0",
       "sections": [
@@ -37,7 +37,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e1",
       "sections": [
@@ -60,7 +60,7 @@
         "b6"
       ],
       "sentence_indices": [
-        12
+        11
       ],
       "id": "e2",
       "sections": [
@@ -83,7 +83,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e3",
       "sections": [
@@ -106,7 +106,7 @@
         "b2"
       ],
       "sentence_indices": [
-        7
+        6
       ],
       "id": "e4",
       "sections": [
@@ -129,7 +129,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e5",
       "sections": [
@@ -152,7 +152,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e6",
       "sections": [
@@ -175,7 +175,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e7",
       "sections": [
@@ -198,7 +198,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e8",
       "sections": [
@@ -221,7 +221,7 @@
         "b2"
       ],
       "sentence_indices": [
-        7
+        6
       ],
       "id": "e9",
       "sections": [
@@ -244,7 +244,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e10",
       "sections": [
@@ -267,7 +267,7 @@
         "b2"
       ],
       "sentence_indices": [
-        7
+        6
       ],
       "id": "e11",
       "sections": [
@@ -290,7 +290,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e12",
       "sections": [
@@ -313,7 +313,7 @@
         "b2"
       ],
       "sentence_indices": [
-        4
+        3
       ],
       "id": "e13",
       "sections": [
@@ -336,7 +336,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e14",
       "sections": [
@@ -359,7 +359,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e15",
       "sections": [
@@ -382,7 +382,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e16",
       "sections": [
@@ -405,7 +405,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e17",
       "sections": [
@@ -428,7 +428,7 @@
         "b2"
       ],
       "sentence_indices": [
-        8
+        7
       ],
       "id": "e18",
       "sections": [
@@ -451,7 +451,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e19",
       "sections": [
@@ -474,7 +474,7 @@
         "b5"
       ],
       "sentence_indices": [
-        11
+        10
       ],
       "id": "e20",
       "sections": [
@@ -497,7 +497,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e21",
       "sections": [
@@ -520,7 +520,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e22",
       "sections": [
@@ -543,7 +543,7 @@
         "b3"
       ],
       "sentence_indices": [
-        9
+        8
       ],
       "id": "e23",
       "sections": [
@@ -566,7 +566,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e24",
       "sections": [
@@ -589,7 +589,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e25",
       "sections": [
@@ -612,7 +612,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e26",
       "sections": [
@@ -635,7 +635,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e27",
       "sections": [
@@ -658,7 +658,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e28",
       "sections": [
@@ -674,7 +674,7 @@
       "confidence": 0.9,
       "method": "gazetteer + NLP parsing",
       "source_sentences": [
-        "Backend Developer | aarav.sharma@example.com"
+        "Backend Developer | aarav.sharma@example.com | +91-98765-43210"
       ],
       "frequency": 1,
       "block_ids": [
@@ -704,7 +704,7 @@
         "b1"
       ],
       "sentence_indices": [
-        3
+        2
       ],
       "id": "e30",
       "sections": [
@@ -727,7 +727,7 @@
         "b2"
       ],
       "sentence_indices": [
-        4
+        3
       ],
       "id": "e31",
       "sections": [
@@ -738,7 +738,7 @@
       ]
     },
     {
-      "text": "Candidate",
+      "text": "Aarav Sharma",
       "type": "PERSON",
       "confidence": 0.95,
       "method": "spaCy NER / resume subject",
@@ -773,7 +773,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e33",
       "sections": [
@@ -796,7 +796,7 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
       ],
       "id": "e34",
       "sections": [
@@ -819,7 +819,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e35",
       "sections": [
@@ -827,29 +827,6 @@
       ],
       "section_ids": [
         "s6:Skills"
-      ]
-    },
-    {
-      "text": "ShopKart API",
-      "type": "PROJECT",
-      "confidence": 0.7,
-      "method": "spaCy NER",
-      "source_sentences": [
-        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
-      ],
-      "frequency": 2,
-      "block_ids": [
-        "b3"
-      ],
-      "sentence_indices": [
-        9
-      ],
-      "id": "e36",
-      "sections": [
-        "Projects"
-      ],
-      "section_ids": [
-        "s3:Projects"
       ]
     },
     {
@@ -865,7 +842,30 @@
         "b4"
       ],
       "sentence_indices": [
-        10
+        9
+      ],
+      "id": "e36",
+      "sections": [
+        "Projects"
+      ],
+      "section_ids": [
+        "s3:Projects"
+      ]
+    },
+    {
+      "text": "ShopKart API",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "block_ids": [
+        "b3"
+      ],
+      "sentence_indices": [
+        8
       ],
       "id": "e37",
       "sections": [
@@ -888,7 +888,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e38",
       "sections": [
@@ -911,7 +911,7 @@
         "b7"
       ],
       "sentence_indices": [
-        13
+        12
       ],
       "id": "e39",
       "sections": [
@@ -934,7 +934,7 @@
         "b2"
       ],
       "sentence_indices": [
-        5
+        4
       ],
       "id": "e40",
       "sections": [
@@ -957,7 +957,7 @@
         "b1"
       ],
       "sentence_indices": [
-        3
+        2
       ],
       "id": "e41",
       "sections": [
@@ -980,7 +980,7 @@
         "b2"
       ],
       "sentence_indices": [
-        6
+        5
       ],
       "id": "e42",
       "sections": [
@@ -1003,7 +1003,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e43",
       "sections": [
@@ -1026,7 +1026,7 @@
         "b2"
       ],
       "sentence_indices": [
-        8
+        7
       ],
       "id": "e44",
       "sections": [
@@ -1049,7 +1049,7 @@
         "b7"
       ],
       "sentence_indices": [
-        14
+        13
       ],
       "id": "e45",
       "sections": [
@@ -1072,7 +1072,7 @@
         "b5"
       ],
       "sentence_indices": [
-        11
+        10
       ],
       "id": "e46",
       "sections": [
@@ -1086,12 +1086,12 @@
   "preprocessing": {
     "method": "structure-preserving text normalization (unicode NFKC, whitespace/line-break cleanup, de-hyphenation) + section detection + per-section sentence segmentation; casing, punctuation and section context preserved",
     "normalized_preview": "Aarav Sharma\nBackend Developer | aarav.sharma@example.com | +91-98765-43210\nSummary\nBackend Developer with 3 years of experience building scalable APIs and microservices.\nExperience\nSoftware Engineer at TechNova Solutions, Bengaluru (2022 - Present)\nDeveloped REST APIs using Python and Django and deployed them on AWS.\nBuilt microservices with FastAPI and PostgreSQL, containerized with Docker.\nWorked with Kubernetes for orchestration and Jenkins for CI/CD pipelines.\nIntegrated Redis for caching a",
-    "sentence_count": 15,
+    "sentence_count": 14,
     "sections": [
       {
         "id": "s0:Header",
         "name": "Header",
-        "sentence_count": 3
+        "sentence_count": 2
       },
       {
         "id": "s1:Summary",

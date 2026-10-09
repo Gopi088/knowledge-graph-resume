@@ -7,14 +7,14 @@
     "unassigned_source_line_indices": [],
     "section_count": 7,
     "block_count": 8,
-    "sentence_count": 15,
+    "sentence_count": 14,
     "entity_count": 49,
     "relationship_count": 49,
     "complete": true
   },
   "coverage": {
-    "sentence_count": 15,
-    "assigned_sentence_count": 15,
+    "sentence_count": 14,
+    "assigned_sentence_count": 14,
     "source_line_count": 14,
     "assigned_source_line_count": 14,
     "complete": true,
@@ -52,8 +52,7 @@
           "source_paths": [],
           "sentences": [
             "Priya Nair",
-            "Data Scientist | priya.nair@example.com",
-            "| +91-99887-76655"
+            "Data Scientist | priya.nair@example.com | +91-99887-76655"
           ],
           "entity_ids": [
             "e24",
@@ -411,6 +410,9 @@
       "section": "Header",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b0",
       "assignment": "context_block",
       "assigned": true
@@ -422,6 +424,9 @@
       "section": "Header",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b0",
       "assignment": "context_block",
       "assigned": true
@@ -433,6 +438,9 @@
       "section": "Summary",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -444,6 +452,9 @@
       "section": "Summary",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b1",
       "assignment": "context_block",
       "assigned": true
@@ -455,6 +466,9 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -466,6 +480,9 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -477,6 +494,9 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -488,6 +508,9 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -499,6 +522,9 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -510,6 +536,9 @@
       "section": "Experience",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b2",
       "assignment": "context_block",
       "assigned": true
@@ -521,6 +550,9 @@
       "section": "Projects",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -532,6 +564,9 @@
       "section": "Projects",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b3",
       "assignment": "context_block",
       "assigned": true
@@ -543,6 +578,9 @@
       "section": "Projects",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b4",
       "assignment": "context_block",
       "assigned": true
@@ -554,6 +592,9 @@
       "section": "Education",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -565,6 +606,9 @@
       "section": "Education",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b5",
       "assignment": "context_block",
       "assigned": true
@@ -576,6 +620,9 @@
       "section": "Certifications",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -587,6 +634,9 @@
       "section": "Certifications",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b6",
       "assignment": "context_block",
       "assigned": true
@@ -598,6 +648,9 @@
       "section": "Skills",
       "source_path": null,
       "is_section_heading": true,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": null,
       "assignment": "section_heading",
       "assigned": true
@@ -609,6 +662,9 @@
       "section": "Skills",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b7",
       "assignment": "context_block",
       "assigned": true
@@ -620,6 +676,9 @@
       "section": "Skills",
       "source_path": null,
       "is_section_heading": false,
+      "is_bullet": false,
+      "list_marker": "",
+      "inline_body": "",
       "block_id": "b7",
       "assignment": "context_block",
       "assigned": true

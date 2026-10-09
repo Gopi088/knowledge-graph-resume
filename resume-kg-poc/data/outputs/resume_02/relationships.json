@@ -13,7 +13,7 @@
         "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
       ],
       "evidence_sentence_indices": [
-        4
+        3
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -22,7 +22,7 @@
       "id": "r0"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Data Scientist",
       "source_id": "e27",
       "target_id": "e26",
@@ -33,7 +33,7 @@
         "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
       ],
       "evidence_sentence_indices": [
-        4
+        3
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -42,7 +42,7 @@
       "id": "r1"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "FinEdge Analytics",
       "source_id": "e27",
       "target_id": "e6",
@@ -53,7 +53,7 @@
         "Data Scientist at FinEdge Analytics, Hyderabad (2023 - Present)"
       ],
       "evidence_sentence_indices": [
-        4
+        3
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -62,7 +62,7 @@
       "id": "r2"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Scikit-learn",
       "source_id": "e27",
       "target_id": "e18",
@@ -73,7 +73,7 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        5
+        4
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -82,7 +82,7 @@
       "id": "r3"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "TensorFlow",
       "source_id": "e27",
       "target_id": "e21",
@@ -93,7 +93,7 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        5
+        4
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -102,7 +102,7 @@
       "id": "r4"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Python",
       "source_id": "e27",
       "target_id": "e28",
@@ -113,7 +113,7 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        5
+        4
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -122,7 +122,7 @@
       "id": "r5"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "machine learning",
       "source_id": "e27",
       "target_id": "e42",
@@ -133,7 +133,7 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        5
+        4
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -142,7 +142,7 @@
       "id": "r6"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "SQL",
       "source_id": "e27",
       "target_id": "e31",
@@ -153,7 +153,7 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        6
+        5
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -162,7 +162,7 @@
       "id": "r7"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "ETL",
       "source_id": "e27",
       "target_id": "e35",
@@ -173,7 +173,7 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        6
+        5
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -182,7 +182,7 @@
       "id": "r8"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Airflow",
       "source_id": "e27",
       "target_id": "e43",
@@ -193,7 +193,7 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        6
+        5
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -202,7 +202,7 @@
       "id": "r9"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Tableau",
       "source_id": "e27",
       "target_id": "e46",
@@ -213,7 +213,7 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        6
+        5
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -222,7 +222,7 @@
       "id": "r10"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "AWS",
       "source_id": "e27",
       "target_id": "e1",
@@ -233,7 +233,7 @@
         "Used AWS and Docker to deploy ML models in the fintech domain."
       ],
       "evidence_sentence_indices": [
-        7
+        6
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -242,7 +242,7 @@
       "id": "r11"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Docker",
       "source_id": "e27",
       "target_id": "e3",
@@ -253,7 +253,7 @@
         "Used AWS and Docker to deploy ML models in the fintech domain."
       ],
       "evidence_sentence_indices": [
-        7
+        6
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -273,7 +273,7 @@
         "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
       ],
       "evidence_sentence_indices": [
-        9
+        8
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -293,7 +293,7 @@
         "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
       ],
       "evidence_sentence_indices": [
-        9
+        8
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -313,7 +313,7 @@
         "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
       ],
       "evidence_sentence_indices": [
-        9
+        8
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -322,7 +322,7 @@
       "id": "r15"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Credit risk scoring",
       "source_id": "e27",
       "target_id": "e33",
@@ -333,7 +333,7 @@
         "Credit risk scoring project using Python, Scikit-learn and PostgreSQL."
       ],
       "evidence_sentence_indices": [
-        9
+        8
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -353,7 +353,7 @@
         "NLP sentiment analysis app built with PyTorch and FastAPI."
       ],
       "evidence_sentence_indices": [
-        10
+        9
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -373,7 +373,7 @@
         "NLP sentiment analysis app built with PyTorch and FastAPI."
       ],
       "evidence_sentence_indices": [
-        10
+        9
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -393,7 +393,7 @@
         "NLP sentiment analysis app built with PyTorch and FastAPI."
       ],
       "evidence_sentence_indices": [
-        10
+        9
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -402,7 +402,7 @@
       "id": "r19"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "NLP sentiment analysis",
       "source_id": "e27",
       "target_id": "e34",
@@ -413,7 +413,7 @@
         "NLP sentiment analysis app built with PyTorch and FastAPI."
       ],
       "evidence_sentence_indices": [
-        10
+        9
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -422,7 +422,7 @@
       "id": "r20"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "M.Tech in Data Science from IIT Madras (2021 - 2023)",
       "source_id": "e27",
       "target_id": "e9",
@@ -433,7 +433,7 @@
         "M.Tech in Data Science from IIT Madras (2021 - 2023)."
       ],
       "evidence_sentence_indices": [
-        11
+        10
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -442,7 +442,7 @@
       "id": "r21"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Google Cloud Professional",
       "source_id": "e27",
       "target_id": "e0",
@@ -453,7 +453,7 @@
         "Google Cloud Professional Data Engineer."
       ],
       "evidence_sentence_indices": [
-        12
+        11
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -462,7 +462,7 @@
       "id": "r22"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "PostgreSQL",
       "source_id": "e27",
       "target_id": "e8",
@@ -473,7 +473,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -482,7 +482,7 @@
       "id": "r23"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "NumPy",
       "source_id": "e27",
       "target_id": "e13",
@@ -493,7 +493,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -502,7 +502,7 @@
       "id": "r24"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Pandas",
       "source_id": "e27",
       "target_id": "e15",
@@ -513,7 +513,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -522,7 +522,7 @@
       "id": "r25"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "PyTorch",
       "source_id": "e27",
       "target_id": "e17",
@@ -533,7 +533,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -542,7 +542,7 @@
       "id": "r26"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Scikit-learn",
       "source_id": "e27",
       "target_id": "e20",
@@ -553,7 +553,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -562,7 +562,7 @@
       "id": "r27"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "TensorFlow",
       "source_id": "e27",
       "target_id": "e22",
@@ -573,7 +573,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -582,7 +582,7 @@
       "id": "r28"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Python",
       "source_id": "e27",
       "target_id": "e30",
@@ -593,7 +593,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -602,7 +602,7 @@
       "id": "r29"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "SQL",
       "source_id": "e27",
       "target_id": "e32",
@@ -613,7 +613,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -622,7 +622,7 @@
       "id": "r30"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Airflow",
       "source_id": "e27",
       "target_id": "e44",
@@ -633,7 +633,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -642,7 +642,7 @@
       "id": "r31"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Tableau",
       "source_id": "e27",
       "target_id": "e47",
@@ -653,7 +653,7 @@
         "Python, SQL, Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Airflow, Tableau, PostgreSQL,"
       ],
       "evidence_sentence_indices": [
-        13
+        12
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -662,7 +662,7 @@
       "id": "r32"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "AWS",
       "source_id": "e27",
       "target_id": "e2",
@@ -673,7 +673,7 @@
         "Docker, AWS, Machine Learning, NLP, Git."
       ],
       "evidence_sentence_indices": [
-        14
+        13
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -682,7 +682,7 @@
       "id": "r33"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Docker",
       "source_id": "e27",
       "target_id": "e4",
@@ -693,7 +693,7 @@
         "Docker, AWS, Machine Learning, NLP, Git."
       ],
       "evidence_sentence_indices": [
-        14
+        13
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -702,7 +702,7 @@
       "id": "r34"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Machine Learning",
       "source_id": "e27",
       "target_id": "e36",
@@ -713,7 +713,7 @@
         "Docker, AWS, Machine Learning, NLP, Git."
       ],
       "evidence_sentence_indices": [
-        14
+        13
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -722,7 +722,7 @@
       "id": "r35"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "NLP",
       "source_id": "e27",
       "target_id": "e38",
@@ -733,7 +733,7 @@
         "Docker, AWS, Machine Learning, NLP, Git."
       ],
       "evidence_sentence_indices": [
-        14
+        13
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -742,7 +742,7 @@
       "id": "r36"
     },
     {
-      "source": "Candidate",
+      "source": "Priya Nair",
       "target": "Git",
       "source_id": "e27",
       "target_id": "e45",
@@ -753,7 +753,7 @@
         "Docker, AWS, Machine Learning, NLP, Git."
       ],
       "evidence_sentence_indices": [
-        14
+        13
       ],
       "evidence_kind": "same_sentence",
       "method": "source-context rules",
@@ -774,8 +774,8 @@
         "Used AWS and Docker to deploy ML models in the fintech domain."
       ],
       "evidence_sentence_indices": [
-        4,
-        7
+        3,
+        6
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -796,8 +796,8 @@
         "Used AWS and Docker to deploy ML models in the fintech domain."
       ],
       "evidence_sentence_indices": [
-        4,
-        7
+        3,
+        6
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -818,8 +818,8 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -840,8 +840,8 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -862,8 +862,8 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -884,8 +884,8 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -906,8 +906,8 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -928,8 +928,8 @@
         "Developed machine learning models using Python, Scikit-learn and TensorFlow."
       ],
       "evidence_sentence_indices": [
-        4,
-        5
+        3,
+        4
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -950,8 +950,8 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -972,8 +972,8 @@
         "Built ETL pipelines with Airflow and SQL, deployed dashboards with Tableau."
       ],
       "evidence_sentence_indices": [
-        4,
-        6
+        3,
+        5
       ],
       "evidence_kind": "structured_experience_entry",
       "method": "source-context rules",
@@ -993,7 +993,7 @@
         "M.Tech in Data Science from IIT Madras (2021 - 2023)."
       ],
       "evidence_sentence_indices": [
-        11
+        10
       ],
       "evidence_kind": "structured_education_entry",
       "method": "source-context rules",

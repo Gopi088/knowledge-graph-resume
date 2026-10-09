@@ -12,46 +12,46 @@
       -1,
       1,
       1,
-      -1,
-      -1,
-      -1,
       2,
-      2,
+      -1,
+      -1,
+      3,
+      3,
+      3,
+      3,
       3,
       3,
       4,
       4,
+      4,
+      3,
+      3,
       5,
       5,
       5,
+      5,
+      -1,
       6,
       6,
-      7,
-      7,
+      6,
+      6,
+      6,
+      -1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
       7,
       7,
       -1,
       8,
       8,
-      8,
-      9,
-      9,
-      -1,
-      -1,
-      -1,
-      10,
-      11,
-      11,
-      12,
-      12,
-      10,
-      10,
-      13,
-      13,
-      -1,
-      14,
-      14,
-      -1
+      2
     ],
     "clusters": {
       "0": [
@@ -67,76 +67,64 @@
         "PostgreSQL (DATABASE)"
       ],
       "2": [
-        "NumPy (FRAMEWORK)",
-        "NumPy (FRAMEWORK)"
+        "M.Tech in Data Science from IIT Madras (2021 - 2023) (DEGREE)",
+        "IIT Madras (UNIVERSITY)"
       ],
       "3": [
+        "NumPy (FRAMEWORK)",
+        "NumPy (FRAMEWORK)",
         "Pandas (FRAMEWORK)",
-        "Pandas (FRAMEWORK)"
+        "Pandas (FRAMEWORK)",
+        "PyTorch (FRAMEWORK)",
+        "PyTorch (FRAMEWORK)",
+        "TensorFlow (FRAMEWORK)",
+        "TensorFlow (FRAMEWORK)"
       ],
       "4": [
-        "PyTorch (FRAMEWORK)",
-        "PyTorch (FRAMEWORK)"
-      ],
-      "5": [
         "Scikit-learn (FRAMEWORK)",
         "Scikit-learn (FRAMEWORK)",
         "Scikit-learn (FRAMEWORK)"
       ],
-      "6": [
-        "TensorFlow (FRAMEWORK)",
-        "TensorFlow (FRAMEWORK)"
-      ],
-      "7": [
+      "5": [
         "Data Engineer (JOB_ROLE)",
         "Data Scientist (JOB_ROLE)",
         "Data Scientist (JOB_ROLE)",
-        "Data Scientist (JOB_ROLE)"
-      ],
-      "8": [
-        "Python (PROGRAMMING_LANGUAGE)",
-        "Python (PROGRAMMING_LANGUAGE)",
-        "Python (PROGRAMMING_LANGUAGE)"
-      ],
-      "9": [
-        "SQL (PROGRAMMING_LANGUAGE)",
-        "SQL (PROGRAMMING_LANGUAGE)"
-      ],
-      "10": [
+        "Data Scientist (JOB_ROLE)",
+        "NLP sentiment analysis (PROJECT)",
+        "ETL (SKILL)",
         "Machine Learning (SKILL)",
+        "NLP (SKILL)",
+        "NLP (SKILL)",
+        "data analysis (SKILL)",
+        "data analysis (SKILL)",
         "machine learning (SKILL)",
         "machine learning (SKILL)"
       ],
-      "11": [
-        "NLP (SKILL)",
-        "NLP (SKILL)"
+      "6": [
+        "Python (PROGRAMMING_LANGUAGE)",
+        "Python (PROGRAMMING_LANGUAGE)",
+        "Python (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)"
       ],
-      "12": [
-        "data analysis (SKILL)",
-        "data analysis (SKILL)"
-      ],
-      "13": [
+      "7": [
         "Airflow (TOOL)",
         "Airflow (TOOL)"
       ],
-      "14": [
+      "8": [
         "Tableau (TOOL)",
         "Tableau (TOOL)"
       ]
     },
     "noise_outliers": [
       "FinEdge Analytics (COMPANY)",
-      "M.Tech in Data Science from IIT Madras (2021 - 2023) (DEGREE)",
       "fintech (DOMAIN)",
       "FastAPI (FRAMEWORK)",
-      "Candidate (PERSON)",
+      "Priya Nair (PERSON)",
       "Credit risk scoring (PROJECT)",
-      "NLP sentiment analysis (PROJECT)",
-      "ETL (SKILL)",
-      "Git (TOOL)",
-      "IIT Madras (UNIVERSITY)"
+      "Git (TOOL)"
     ],
-    "n_clusters": 15
+    "n_clusters": 9
   },
   "kmeans": {
     "algorithm": "KMeans(k=4)",
@@ -149,49 +137,49 @@
       2,
       2,
       2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      2,
-      2,
-      2,
-      2,
       3,
       3,
       3,
       3,
       3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
       2,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2
+      3,
+      3,
+      3
     ],
     "clusters": {
       "2": [
@@ -201,6 +189,9 @@
         "Docker (CLOUD)",
         "Docker (CLOUD)",
         "Google Cloud (CLOUD)",
+        "Git (TOOL)"
+      ],
+      "3": [
         "FinEdge Analytics (COMPANY)",
         "PostgreSQL (DATABASE)",
         "PostgreSQL (DATABASE)",
@@ -210,11 +201,11 @@
         "Data Scientist (JOB_ROLE)",
         "Data Scientist (JOB_ROLE)",
         "Data Scientist (JOB_ROLE)",
-        "Candidate (PERSON)",
+        "Priya Nair (PERSON)",
+        "SQL (PROGRAMMING_LANGUAGE)",
+        "SQL (PROGRAMMING_LANGUAGE)",
         "Credit risk scoring (PROJECT)",
-        "Airflow (TOOL)",
-        "Airflow (TOOL)",
-        "Git (TOOL)",
+        "NLP sentiment analysis (PROJECT)",
         "Tableau (TOOL)",
         "Tableau (TOOL)",
         "IIT Madras (UNIVERSITY)"
@@ -231,17 +222,14 @@
         "Scikit-learn (FRAMEWORK)",
         "Scikit-learn (FRAMEWORK)",
         "TensorFlow (FRAMEWORK)",
-        "TensorFlow (FRAMEWORK)"
-      ],
-      "3": [
+        "TensorFlow (FRAMEWORK)",
         "Python (PROGRAMMING_LANGUAGE)",
         "Python (PROGRAMMING_LANGUAGE)",
         "Python (PROGRAMMING_LANGUAGE)",
-        "SQL (PROGRAMMING_LANGUAGE)",
-        "SQL (PROGRAMMING_LANGUAGE)"
+        "Airflow (TOOL)",
+        "Airflow (TOOL)"
       ],
       "1": [
-        "NLP sentiment analysis (PROJECT)",
         "ETL (SKILL)",
         "Machine Learning (SKILL)",
         "NLP (SKILL)",
@@ -252,6 +240,6 @@
         "machine learning (SKILL)"
       ]
     },
-    "silhouette_score": 0.1799
+    "silhouette_score": 0.1846
   }
 }

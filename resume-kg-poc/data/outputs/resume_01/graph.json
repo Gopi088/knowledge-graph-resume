@@ -500,7 +500,7 @@
       "confidence": 0.9,
       "method": "gazetteer + NLP parsing",
       "source_sentences": [
-        "Backend Developer | aarav.sharma@example.com"
+        "Backend Developer | aarav.sharma@example.com | +91-98765-43210"
       ],
       "frequency": 1,
       "sections": [
@@ -546,7 +546,7 @@
     },
     {
       "id": "e32",
-      "label": "Candidate",
+      "label": "Aarav Sharma",
       "type": "PERSON",
       "confidence": 0.95,
       "method": "spaCy NER / resume subject",
@@ -614,23 +614,6 @@
     },
     {
       "id": "e36",
-      "label": "ShopKart API",
-      "type": "PROJECT",
-      "confidence": 0.7,
-      "method": "spaCy NER",
-      "source_sentences": [
-        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
-      ],
-      "frequency": 2,
-      "sections": [
-        "Projects"
-      ],
-      "block_ids": [
-        "b3"
-      ]
-    },
-    {
-      "id": "e37",
       "label": "Real-time analytics",
       "type": "PROJECT",
       "confidence": 0.65,
@@ -644,6 +627,23 @@
       ],
       "block_ids": [
         "b4"
+      ]
+    },
+    {
+      "id": "e37",
+      "label": "ShopKart API",
+      "type": "PROJECT",
+      "confidence": 0.65,
+      "method": "heuristic + NLP parsing",
+      "source_sentences": [
+        "ShopKart API project: built an e-commerce backend using Django, PostgreSQL and Docker."
+      ],
+      "frequency": 1,
+      "sections": [
+        "Projects"
+      ],
+      "block_ids": [
+        "b3"
       ]
     },
     {
@@ -821,7 +821,7 @@
     {
       "source": "e32",
       "target": "e31",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Software Engineer",
       "relationship": "HAS_ROLE",
       "confidence": 0.88,
@@ -838,7 +838,7 @@
     {
       "source": "e32",
       "target": "e13",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "TechNova Solutions",
       "relationship": "WORKED_AT",
       "confidence": 0.88,
@@ -855,7 +855,7 @@
     {
       "source": "e32",
       "target": "e1",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "AWS",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -872,7 +872,7 @@
     {
       "source": "e32",
       "target": "e22",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Django",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -889,7 +889,7 @@
     {
       "source": "e32",
       "target": "e33",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Python",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -906,7 +906,7 @@
     {
       "source": "e32",
       "target": "e40",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "REST APIs",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -923,7 +923,7 @@
     {
       "source": "e32",
       "target": "e6",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Docker",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -940,7 +940,7 @@
     {
       "source": "e32",
       "target": "e14",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "PostgreSQL",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -957,7 +957,7 @@
     {
       "source": "e32",
       "target": "e25",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "FastAPI",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -974,7 +974,7 @@
     {
       "source": "e32",
       "target": "e42",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "microservices",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -991,7 +991,7 @@
     {
       "source": "e32",
       "target": "e4",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "CI/CD",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -1008,7 +1008,7 @@
     {
       "source": "e32",
       "target": "e9",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Jenkins",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -1025,7 +1025,7 @@
     {
       "source": "e32",
       "target": "e11",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Kubernetes",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -1042,7 +1042,7 @@
     {
       "source": "e32",
       "target": "e18",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Redis",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -1059,7 +1059,7 @@
     {
       "source": "e32",
       "target": "e44",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Kafka",
       "relationship": "USED_OR_APPLIED",
       "confidence": 0.78,
@@ -1074,7 +1074,7 @@
       "block_id": "b2"
     },
     {
-      "source": "e36",
+      "source": "e37",
       "target": "e7",
       "source_label": "ShopKart API",
       "target_label": "Docker",
@@ -1091,7 +1091,7 @@
       "block_id": "b3"
     },
     {
-      "source": "e36",
+      "source": "e37",
       "target": "e15",
       "source_label": "ShopKart API",
       "target_label": "PostgreSQL",
@@ -1108,7 +1108,7 @@
       "block_id": "b3"
     },
     {
-      "source": "e36",
+      "source": "e37",
       "target": "e23",
       "source_label": "ShopKart API",
       "target_label": "Django",
@@ -1126,8 +1126,8 @@
     },
     {
       "source": "e32",
-      "target": "e36",
-      "source_label": "Candidate",
+      "target": "e37",
+      "source_label": "Aarav Sharma",
       "target_label": "ShopKart API",
       "relationship": "WORKED_ON",
       "confidence": 0.86,
@@ -1142,7 +1142,7 @@
       "block_id": "b3"
     },
     {
-      "source": "e37",
+      "source": "e36",
       "target": "e16",
       "source_label": "Real-time analytics",
       "target_label": "PostgreSQL",
@@ -1159,7 +1159,7 @@
       "block_id": "b4"
     },
     {
-      "source": "e37",
+      "source": "e36",
       "target": "e28",
       "source_label": "Real-time analytics",
       "target_label": "Pandas",
@@ -1176,7 +1176,7 @@
       "block_id": "b4"
     },
     {
-      "source": "e37",
+      "source": "e36",
       "target": "e34",
       "source_label": "Real-time analytics",
       "target_label": "Python",
@@ -1194,8 +1194,8 @@
     },
     {
       "source": "e32",
-      "target": "e37",
-      "source_label": "Candidate",
+      "target": "e36",
+      "source_label": "Aarav Sharma",
       "target_label": "Real-time analytics",
       "relationship": "WORKED_ON",
       "confidence": 0.86,
@@ -1212,7 +1212,7 @@
     {
       "source": "e32",
       "target": "e20",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "B.Tech in Computer Science from Mumbai University (2018 - 2022)",
       "relationship": "HOLDS_DEGREE",
       "confidence": 0.9,
@@ -1229,7 +1229,7 @@
     {
       "source": "e32",
       "target": "e0",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "AWS Certified",
       "relationship": "EARNED",
       "confidence": 0.9,
@@ -1246,7 +1246,7 @@
     {
       "source": "e32",
       "target": "e3",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "AWS",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1263,7 +1263,7 @@
     {
       "source": "e32",
       "target": "e8",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Docker",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1280,7 +1280,7 @@
     {
       "source": "e32",
       "target": "e10",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Jenkins",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1297,7 +1297,7 @@
     {
       "source": "e32",
       "target": "e12",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Kubernetes",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1314,7 +1314,7 @@
     {
       "source": "e32",
       "target": "e17",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "PostgreSQL",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1331,7 +1331,7 @@
     {
       "source": "e32",
       "target": "e19",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Redis",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1348,7 +1348,7 @@
     {
       "source": "e32",
       "target": "e24",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Django",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1365,7 +1365,7 @@
     {
       "source": "e32",
       "target": "e26",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "FastAPI",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1382,7 +1382,7 @@
     {
       "source": "e32",
       "target": "e27",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Flask",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1399,7 +1399,7 @@
     {
       "source": "e32",
       "target": "e35",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Python",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1416,7 +1416,7 @@
     {
       "source": "e32",
       "target": "e39",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "REST API",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1433,7 +1433,7 @@
     {
       "source": "e32",
       "target": "e5",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "CI/CD",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1450,7 +1450,7 @@
     {
       "source": "e32",
       "target": "e38",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Agile",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1467,7 +1467,7 @@
     {
       "source": "e32",
       "target": "e43",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Git",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1484,7 +1484,7 @@
     {
       "source": "e32",
       "target": "e45",
-      "source_label": "Candidate",
+      "source_label": "Aarav Sharma",
       "target_label": "Kafka",
       "relationship": "HAS_SKILL",
       "confidence": 0.86,
@@ -1762,190 +1762,56 @@
       "algorithm": "DBSCAN(eps=0.5, min_samples=2, metric=cosine)",
       "purpose": "discover natural semantic groups + noise/outliers",
       "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         -1,
-        0,
-        0,
-        0,
+        1,
+        1,
         1,
         1,
         2,
         2,
-        2,
         3,
-        3,
+        -1,
         4,
         4,
+        4,
+        5,
+        5,
+        4,
         -1,
-        5,
-        5,
-        5,
-        5,
         6,
         6,
+        6,
+        -1,
+        7,
+        7,
+        7,
         -1,
         -1,
-        7,
-        7,
-        7,
+        -1,
         8,
         8,
-        -1,
-        -1,
         9,
         9,
         -1,
-        -1,
         10,
         10,
-        10,
-        -1,
-        -1,
-        -1,
-        11,
-        11,
-        12,
-        12,
-        -1,
-        13,
-        13,
-        -1
+        3
       ],
       "clusters": {
         "0": [
-          "AWS (CLOUD)",
-          "AWS (CLOUD)",
-          "AWS (CLOUD)"
-        ],
-        "1": [
-          "CI/CD (CLOUD)",
-          "CI/CD (CLOUD)"
-        ],
-        "2": [
-          "Docker (CLOUD)",
-          "Docker (CLOUD)",
-          "Docker (CLOUD)"
-        ],
-        "3": [
-          "Jenkins (CLOUD)",
-          "Jenkins (CLOUD)"
-        ],
-        "4": [
-          "Kubernetes (CLOUD)",
-          "Kubernetes (CLOUD)"
-        ],
-        "5": [
-          "PostgreSQL (DATABASE)",
-          "PostgreSQL (DATABASE)",
-          "PostgreSQL (DATABASE)",
-          "PostgreSQL (DATABASE)"
-        ],
-        "6": [
-          "Redis (DATABASE)",
-          "Redis (DATABASE)"
-        ],
-        "7": [
-          "Django (FRAMEWORK)",
-          "Django (FRAMEWORK)",
-          "Django (FRAMEWORK)"
-        ],
-        "8": [
-          "FastAPI (FRAMEWORK)",
-          "FastAPI (FRAMEWORK)"
-        ],
-        "9": [
-          "Backend Developer (JOB_ROLE)",
-          "Backend Developer (JOB_ROLE)"
-        ],
-        "10": [
-          "Python (PROGRAMMING_LANGUAGE)",
-          "Python (PROGRAMMING_LANGUAGE)",
-          "Python (PROGRAMMING_LANGUAGE)"
-        ],
-        "11": [
-          "REST API (SKILL)",
-          "REST APIs (SKILL)"
-        ],
-        "12": [
-          "microservices (SKILL)",
-          "microservices (SKILL)"
-        ],
-        "13": [
-          "Kafka (TOOL)",
-          "Kafka (TOOL)"
-        ]
-      },
-      "noise_outliers": [
-        "AWS Certified (CERTIFICATION)",
-        "TechNova Solutions (COMPANY)",
-        "B.Tech in Computer Science from Mumbai University (2018 - 2022) (DEGREE)",
-        "e-commerce (DOMAIN)",
-        "Flask (FRAMEWORK)",
-        "Pandas (FRAMEWORK)",
-        "Software Engineer (JOB_ROLE)",
-        "Candidate (PERSON)",
-        "ShopKart API (PROJECT)",
-        "Real-time analytics (PROJECT)",
-        "Agile (SKILL)",
-        "Git (TOOL)",
-        "Mumbai University (UNIVERSITY)"
-      ],
-      "n_clusters": 14
-    },
-    "kmeans": {
-      "algorithm": "KMeans(k=4)",
-      "purpose": "group entities into k semantic clusters",
-      "k": 4,
-      "labels": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        0,
-        0,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        0,
-        0,
-        0,
-        0,
-        3,
-        3,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "clusters": {
-        "1": [
           "AWS Certified (CERTIFICATION)",
           "AWS (CLOUD)",
           "AWS (CLOUD)",
@@ -1960,16 +1826,143 @@
           "Kubernetes (CLOUD)",
           "Kubernetes (CLOUD)"
         ],
+        "1": [
+          "PostgreSQL (DATABASE)",
+          "PostgreSQL (DATABASE)",
+          "PostgreSQL (DATABASE)",
+          "PostgreSQL (DATABASE)"
+        ],
+        "2": [
+          "Redis (DATABASE)",
+          "Redis (DATABASE)"
+        ],
+        "3": [
+          "B.Tech in Computer Science from Mumbai University (2018 - 2022) (DEGREE)",
+          "Mumbai University (UNIVERSITY)"
+        ],
+        "4": [
+          "Django (FRAMEWORK)",
+          "Django (FRAMEWORK)",
+          "Django (FRAMEWORK)",
+          "Flask (FRAMEWORK)"
+        ],
+        "5": [
+          "FastAPI (FRAMEWORK)",
+          "FastAPI (FRAMEWORK)"
+        ],
+        "6": [
+          "Backend Developer (JOB_ROLE)",
+          "Backend Developer (JOB_ROLE)",
+          "Software Engineer (JOB_ROLE)"
+        ],
+        "7": [
+          "Python (PROGRAMMING_LANGUAGE)",
+          "Python (PROGRAMMING_LANGUAGE)",
+          "Python (PROGRAMMING_LANGUAGE)"
+        ],
+        "8": [
+          "REST API (SKILL)",
+          "REST APIs (SKILL)"
+        ],
+        "9": [
+          "microservices (SKILL)",
+          "microservices (SKILL)"
+        ],
+        "10": [
+          "Kafka (TOOL)",
+          "Kafka (TOOL)"
+        ]
+      },
+      "noise_outliers": [
+        "TechNova Solutions (COMPANY)",
+        "e-commerce (DOMAIN)",
+        "Pandas (FRAMEWORK)",
+        "Aarav Sharma (PERSON)",
+        "Real-time analytics (PROJECT)",
+        "ShopKart API (PROJECT)",
+        "Agile (SKILL)",
+        "Git (TOOL)"
+      ],
+      "n_clusters": 11
+    },
+    "kmeans": {
+      "algorithm": "KMeans(k=4)",
+      "purpose": "group entities into k semantic clusters",
+      "k": 4,
+      "labels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "clusters": {
         "0": [
+          "AWS Certified (CERTIFICATION)",
+          "AWS (CLOUD)",
+          "AWS (CLOUD)",
+          "AWS (CLOUD)",
+          "CI/CD (CLOUD)",
+          "CI/CD (CLOUD)",
+          "Docker (CLOUD)",
+          "Docker (CLOUD)",
+          "Docker (CLOUD)",
+          "Jenkins (CLOUD)",
+          "Jenkins (CLOUD)",
+          "Kubernetes (CLOUD)",
+          "Kubernetes (CLOUD)"
+        ],
+        "1": [
           "TechNova Solutions (COMPANY)",
           "B.Tech in Computer Science from Mumbai University (2018 - 2022) (DEGREE)",
           "e-commerce (DOMAIN)",
-          "Backend Developer (JOB_ROLE)",
-          "Backend Developer (JOB_ROLE)",
-          "Software Engineer (JOB_ROLE)",
-          "Candidate (PERSON)",
-          "ShopKart API (PROJECT)",
+          "FastAPI (FRAMEWORK)",
+          "FastAPI (FRAMEWORK)",
+          "Aarav Sharma (PERSON)",
           "Real-time analytics (PROJECT)",
+          "ShopKart API (PROJECT)",
           "Agile (SKILL)",
           "REST API (SKILL)",
           "REST APIs (SKILL)",
@@ -1992,16 +1985,17 @@
           "Django (FRAMEWORK)",
           "Django (FRAMEWORK)",
           "Django (FRAMEWORK)",
-          "FastAPI (FRAMEWORK)",
-          "FastAPI (FRAMEWORK)",
           "Flask (FRAMEWORK)",
           "Pandas (FRAMEWORK)",
+          "Backend Developer (JOB_ROLE)",
+          "Backend Developer (JOB_ROLE)",
+          "Software Engineer (JOB_ROLE)",
           "Python (PROGRAMMING_LANGUAGE)",
           "Python (PROGRAMMING_LANGUAGE)",
           "Python (PROGRAMMING_LANGUAGE)"
         ]
       },
-      "silhouette_score": 0.203
+      "silhouette_score": 0.2265
     }
   },
   "block_count": 8
