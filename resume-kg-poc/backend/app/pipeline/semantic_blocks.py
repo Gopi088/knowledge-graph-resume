@@ -859,13 +859,30 @@ def group_sections(rows):
     semantic_sections = {'experience': 'work_history', 'professional experience': 'work_history',
                          'work experience': 'work_history', 'work history': 'work_history',
                          'employment history': 'work_history', 'career history': 'work_history',
-                         'relevant experience': 'work_history', 'employment': 'work_history',
+                         'relevant experience': 'work_history', 'industry experience': 'work_history',
+                         'internship experience': 'work_history',
+                         'internships': 'work_history', 'career experience': 'work_history',
+                         'professional background': 'work_history', 'professional employment': 'work_history',
+                         'employment experience': 'work_history', 'work background': 'work_history',
+                         'employment': 'work_history',
                          'education': 'education', 'projects': 'projects',
+                         'project highlights': 'projects', 'project experience': 'projects',
+                         'personal projects': 'projects', 'academic projects': 'projects',
+                         'key projects': 'projects', 'research projects': 'projects',
                          'domain experience': 'domain_experience', 'technical skills': 'technical_skills',
-                         'skills': 'skills', 'summary': 'profile_snapshot', 'personal information': 'personal_information',
+                         'skills': 'skills', 'key skills': 'skills', 'core skills': 'skills',
+                         'technical expertise': 'skills', 'soft skills': 'skills',
+                         'professional skills': 'skills', 'technical competencies': 'skills',
+                         'skills and competencies': 'skills', 'summary': 'profile_snapshot',
+                         'professional summary': 'profile_snapshot', 'profile summary': 'profile_snapshot',
+                         'career summary': 'profile_snapshot', 'executive summary': 'profile_snapshot',
+                         'career objective': 'profile_snapshot', 'personal information': 'personal_information',
                          'header': 'personal_information', 'certifications': 'certifications',
                          'core competencies': 'skills', 'languages': 'personal_information',
-                         'personal details': 'personal_information'}
+                         'personal details': 'personal_information', 'educational qualification': 'education',
+                         'educational qualifications': 'education', 'academic qualification': 'education',
+                         'academic qualifications': 'education', 'academic background': 'education',
+                         'educational background': 'education'}
     section_names = list(dict.fromkeys(row['section'] for row in rows))
     for section in section_names:
         body = [r for r in rows if r['section'].casefold() == section.casefold()

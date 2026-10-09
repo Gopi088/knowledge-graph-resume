@@ -8,7 +8,9 @@ import unittest
 from PIL import Image, ImageDraw, ImageFont
 from app.pipeline.canonical_resume import canonicalize_resume
 from app.pipeline.graph_builder import build_resume_graph, validate_resume_graph
-from app.pipeline.pipeline import extract_docx_text, extract_image_text, extract_pdf_text, run_pipeline
+from app.pipeline.pipeline import (
+    _build_section_keyed_output, extract_docx_text, extract_image_text, extract_pdf_text, run_pipeline,
+)
 from app.pipeline.preprocessing import preprocess
 from app.main import TextRequest, process_text
 
@@ -29,6 +31,28 @@ def run_sample(name):
 
 
 class CanonicalPipelineTests(unittest.TestCase):
+    def test_personal_information_sections_merge_dict_and_list_in_either_order(self):
+        for sections in (
+            [
+                {"id": "header", "name": "Header"},
+                {"id": "contact", "name": "Contact Details"},
+            ],
+            [
+                {"id": "contact", "name": "Contact Details"},
+                {"id": "header", "name": "Header"},
+            ],
+        ):
+            with self.subTest(sections=sections):
+                audit = {"sections": sections, "source_line_assignments": [], "summary": {}}
+                semantic = {"groups": {
+                    "header": {"key": "personal_information", "value": {"name": "Jordan Lee", "email": "jordan@example.com"}},
+                    "contact": {"key": "personal_information", "value": ["Phone: +1 415 555 0123"]},
+                }, "blocks": []}
+                result = _build_section_keyed_output(audit, semantic=semantic)
+                self.assertEqual(result["personal_information"]["name"], "Jordan Lee")
+                self.assertEqual(result["personal_information"]["email"], "jordan@example.com")
+                self.assertEqual(result["personal_information"]["phone"], "+1 415 555 0123")
+
     def test_existing_samples_keep_source_coverage_and_core_records(self):
         for name in ("resume_01", "resume_02"):
             with self.subTest(name=name):

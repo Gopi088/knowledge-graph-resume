@@ -359,6 +359,68 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
             else:
                 target[field] = deepcopy(value)
 
+    object_section_keys = {"personal_information", "technical_skills", "tools_and_technology"}
+
+    def merge_section_value(key: str, incoming):
+        """Merge sections according to their canonical shape, independent of order.
+
+        Multiple source headings can resolve to the same canonical key. Those
+        headings may contribute a record, a list of source lines, or a mapping;
+        normalize that shape before touching the accumulated output so one
+        section cannot turn a later ``extend`` into a dict/list crash.
+        """
+        if key == "personal_information":
+            current = output.get(key)
+            if isinstance(current, dict):
+                target = current
+            else:
+                previous = current if current not in (None, "") else []
+                target = {"additional_details": deepcopy(previous if isinstance(previous, list) else [previous])} if previous else {}
+                output[key] = target
+            if isinstance(incoming, dict):
+                merge_nested(target, incoming)
+            else:
+                lines = [str(item).strip() for item in (incoming if isinstance(incoming, list) else [incoming])
+                         if item is not None and str(item).strip()]
+                fields = labeled_fields(lines)
+                infer_header_identity(lines, fields)
+                if fields:
+                    merge_nested(target, fields)
+                unparsed = [line for line in lines if not any(str(value) in line for value in fields.values())]
+                if unparsed:
+                    details = target.setdefault("additional_details", [])
+                    if not isinstance(details, list):
+                        details = [details]
+                        target["additional_details"] = details
+                    details.extend(line for line in unparsed if line not in details)
+            return 0
+
+        if key in object_section_keys:
+            current = output.get(key)
+            if not isinstance(current, dict):
+                previous = current if current not in (None, "") else []
+                current = {"general": deepcopy(previous if isinstance(previous, list) else [previous])} if previous else {}
+                output[key] = current
+            if isinstance(incoming, dict):
+                merge_nested(current, incoming)
+            else:
+                values = incoming if isinstance(incoming, list) else [incoming]
+                general = current.setdefault("general", [])
+                if not isinstance(general, list):
+                    general = [general]
+                    current["general"] = general
+                general.extend(deepcopy(values))
+            return 0
+
+        current = output.get(key)
+        if not isinstance(current, list):
+            current = [deepcopy(current)] if current not in (None, "") else []
+            output[key] = current
+        start_index = len(current)
+        values = incoming if isinstance(incoming, list) else [incoming]
+        current.extend(deepcopy(values))
+        return start_index
+
     def complete_source_lines(section: dict) -> list[str]:
         """Return every source row in order, retaining bullets and wrapped text."""
         section_id = section["id"]
@@ -739,16 +801,11 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
         if grouped:
             key, value = grouped["key"], grouped["value"]
             handled_semantic_keys.add(key)
-            if isinstance(value, dict):
-                merge_nested(output.setdefault(key, {}), value)
-                base_index = 0
-            elif key == "profile_snapshot":
-                output.setdefault(key, []).extend(item.get("text", "") if isinstance(item, dict) else item
-                                                 for item in value)
-                base_index = len(output[key]) - len(value)
+            if key == "profile_snapshot":
+                profile_values = [item.get("text", "") if isinstance(item, dict) else item for item in value]
+                base_index = merge_section_value(key, profile_values)
             else:
-                base_index = len(output.get(key, []))
-                output.setdefault(key, []).extend(value)
+                base_index = merge_section_value(key, value)
             for source_block in (semantic or {}).get("blocks", []):
                 if source_block.get("section_id") != section["id"] or not source_block.get("destination"):
                     continue
@@ -785,7 +842,7 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
             source_text = build_education_records(source_rows)
         elif key == "tools_and_technology":
             tool_groups = build_tool_groups(source_rows)
-            output.setdefault(key, {}).update(tool_groups)
+            merge_section_value(key, tool_groups)
             for block in section.get("blocks", []):
                 block_map.append({"block_id": block["id"], "section_id": section["id"],
                                   "section_key": key, "item_indices": [],
@@ -802,7 +859,7 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
             source_text = reflow_bullets(source_rows)
         elif key == "technical_skills":
             source_text = build_technical_skills(source_rows)
-            output.setdefault(key, {}).update(source_text)
+            merge_section_value(key, source_text)
             for block in section.get("blocks", []):
                 block_map.append({"block_id": block["id"], "section_id": section["id"],
                                   "section_key": key, "item_indices": [],
@@ -819,8 +876,7 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                     if semantic_group.get("key") == "work_history":
                         work_records.extend(deepcopy(semantic_group.get("value", [])))
                 handled_semantic_keys.add(key)
-            output.setdefault(key, []).extend(work_records)
-            first_index = len(output[key]) - len(work_records)
+            first_index = merge_section_value(key, work_records)
             for block in section.get("blocks", []):
                 block_map.append({"block_id": block["id"], "section_id": section["id"],
                                   "section_key": key, "item_indices": list(range(first_index, len(output[key]))),
@@ -828,8 +884,6 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                                   "source_paths": block.get("source_paths", [])})
             continue
         if key == "personal_information":
-            if isinstance(output.get(key), list):
-                output[key] = {}
             lines = clean([str(row.get("text", "")) for row in source_rows])
             fields = labeled_fields(lines)
             if name.casefold() == "header" and lines:
@@ -847,10 +901,14 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                         language_values.extend(item.strip() for item in re.split(r"[,;]", value) if item.strip())
                 if language_values:
                     fields["languages"] = language_values
-            contact = output.setdefault(key, {})
-            contact.update(fields)
+            merge_section_value(key, fields)
             if not fields and lines:
-                contact.setdefault("additional_details", []).extend(lines)
+                contact = output[key]
+                details = contact.setdefault("additional_details", [])
+                if not isinstance(details, list):
+                    details = [details]
+                    contact["additional_details"] = details
+                details.extend(line for line in lines if line not in details)
             for block in section.get("blocks", []):
                 block_map.append({"block_id": block["id"], "section_id": section["id"],
                                   "section_key": key, "item_indices": [],
@@ -860,11 +918,11 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
         if key in {"profile_snapshot", "skills", "work_history", "education",
                    "domain_experience", "projects", "technical_skills",
                    "certifications", "achievements", "achievements_and_certifications"}:
-            output.setdefault(key, []).extend(source_text)
+            first_index = merge_section_value(key, source_text)
             for block in section.get("blocks", []):
                 block_map.append({
                     "block_id": block["id"], "section_id": section["id"],
-                    "section_key": key, "item_indices": list(range(len(output[key]) - len(source_text), len(output[key]))),
+                    "section_key": key, "item_indices": list(range(first_index, first_index + len(source_text))),
                     "source_line_indices": block.get("source_line_indices", []),
                     "source_paths": block.get("source_paths", []),
                 })
@@ -911,13 +969,9 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                 value = nested or lines
 
             if key == "personal_information" and isinstance(value, dict):
-                output.setdefault(key, {}).update(value)
+                merge_section_value(key, value)
             elif key == "personal_information":
-                current = output.setdefault(key, {})
-                if isinstance(current, list):
-                    current = {"additional_details": current}
-                    output[key] = current
-                current.setdefault("additional_details", []).extend(lines)
+                merge_section_value(key, lines)
             elif key in {"certifications", "tools_and_technology"} and isinstance(value, dict):
                 if key not in output or not isinstance(output[key], dict):
                     output[key] = {}
@@ -927,14 +981,12 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                     else:
                         output[key][category] = category_items
             elif key == "education":
-                output.setdefault(key, []).append(value)
-                item_indices.append(len(output[key]) - 1)
+                item_indices.append(merge_section_value(key, value))
             elif key == "work_history":
-                output.setdefault(key, []).append(value)
-                item_indices.append(len(output[key]) - 1)
+                item_indices.append(merge_section_value(key, value))
             else:
-                output.setdefault(key, []).extend(lines)
-                item_indices.extend(range(len(output[key]) - len(lines), len(output[key])))
+                first_index = merge_section_value(key, lines)
+                item_indices.extend(range(first_index, first_index + len(lines)))
             block_map.append({
                 "block_id": block["id"], "section_id": section["id"],
                 "section_key": key, "item_indices": item_indices,
@@ -1052,7 +1104,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
     sentences: list[str] = pre["sentences"]
     sentence_meta: list[dict] = pre.get("sentence_meta", [])
     # 3. Context blocks from source structure only; no embedding/keyword merge.
-    blocks = detect_blocks(sentences, sentence_meta)
+    blocks = detect_blocks(sentences, sentence_meta, source_line_meta=pre.get("line_meta", []))
     # 4. Entity occurrences stay scoped to their source block. Repeated labels
     #    in separate contexts receive separate stable node IDs.
     entities = extract_entities(

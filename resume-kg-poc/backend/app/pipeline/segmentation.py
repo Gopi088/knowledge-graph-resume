@@ -18,6 +18,39 @@ _PROJECT_TITLE = re.compile(r"\b(project|app|dashboard|system|platform|website)\
 _PROJECT_ACTION = re.compile(r"\b(built|build|developed|created|implemented|designed|using|powered\s+by|based\s+on)\b", re.I)
 
 
+def _section_kind(value: str) -> str:
+    """Resolve common resume heading variants to their structural section."""
+    normalized = re.sub(r"[^a-z0-9]+", " ", str(value or "").casefold()).strip()
+    aliases = {
+        "experience": "experience", "professional experience": "experience",
+        "work experience": "experience", "work history": "experience",
+        "employment history": "experience", "career history": "experience",
+        "relevant experience": "experience", "industry experience": "experience",
+        "internship experience": "experience",
+        "internships": "experience", "career experience": "experience",
+        "professional background": "experience", "professional employment": "experience",
+        "employment experience": "experience", "work background": "experience",
+        "summary": "summary", "professional summary": "summary",
+        "profile summary": "summary", "career summary": "summary",
+        "executive summary": "summary", "career objective": "summary",
+        "skills": "skills", "technical skills": "skills", "core competencies": "skills",
+        "technical expertise": "skills", "tools and technologies": "skills",
+        "tools and technology": "skills", "professional skills": "skills",
+        "key skills": "skills", "core skills": "skills", "soft skills": "skills",
+        "skills and competencies": "skills", "technical competencies": "skills",
+        "projects": "projects", "project experience": "projects", "personal projects": "projects",
+        "academic projects": "projects", "research projects": "projects",
+        "project highlights": "projects", "key projects": "projects",
+        "education": "education", "education qualification": "education",
+        "educational qualification": "education", "educational qualifications": "education",
+        "academic qualification": "education", "academic qualifications": "education",
+        "educational background": "education", "academic background": "education",
+        "header": "personal information", "contact": "personal information",
+        "personal information": "personal information", "personal details": "personal information",
+    }
+    return aliases.get(normalized, normalized)
+
+
 def _line_records(sentences: list[str], sentence_meta: list[dict]) -> list[dict]:
     by_line: dict[tuple[str, int], dict] = {}
     for index, sentence in enumerate(sentences):
@@ -44,6 +77,7 @@ def detect_blocks(
     sentences: list[str],
     sentence_meta: "list[dict] | None" = None,
     entities: "list[dict] | None" = None,
+    source_line_meta: "list[dict] | None" = None,
 ) -> dict:
     """Build blocks from explicit line/list/education structure only."""
     n = len(sentences)
@@ -110,7 +144,7 @@ def detect_blocks(
     # that line has an implementation cue or is visibly indented. A new title
     # starts a new project context.
     active_project = None
-    for line in (record for record in lines if record["section"].lower() == "projects"):
+    for line in (record for record in lines if _section_kind(record["section"]) == "projects"):
         if active_project and active_project["section_id"] != line["section_id"]:
             active_project = None
         is_title = bool(_PROJECT_TITLE.search(line["line_text"])) and not _PROJECT_ACTION.search(line["line_text"])
@@ -129,7 +163,7 @@ def detect_blocks(
     for left, right in zip(lines, lines[1:]):
         if left["section_id"] != right["section_id"] or right["is_bullet"]:
             continue
-        if left["section"].casefold() in {"skills", "technical skills", "tools", "technologies"}:
+        if _section_kind(left["section"]) == "skills" or left["section"].casefold() in {"tools", "technologies"}:
             if re.search(r",\s*$", left["line_text"]) or right["indent"] > left["indent"]:
                 join_lines(left, right, "wrapped continuation of the same skill/tool list")
 
@@ -137,7 +171,7 @@ def detect_blocks(
     # as adjacent plain lines; explicit bullets remain separate list items.
     for left, right in zip(lines, lines[1:]):
         if (left["section_id"] == right["section_id"]
-                and left["section"].casefold() in {"summary", "personal information", "header"}
+                and _section_kind(left["section"]) in {"summary", "personal information"}
                 and right["line_index"] == left["line_index"] + 1
                 and not left["is_bullet"] and not right["is_bullet"]):
             join_lines(left, right, "consecutive plain lines in the same summary/contact section")
@@ -146,7 +180,7 @@ def detect_blocks(
     # entry. A new role/company/date header starts a new entry; every other
     # responsibility remains tied to the current entry, within Experience.
     active_job = None
-    for line in (record for record in lines if record["section"].lower() == "experience"):
+    for line in (record for record in lines if _section_kind(record["section"]) == "experience"):
         if active_job and active_job["section_id"] != line["section_id"]:
             active_job = None
         if _JOB_HEADER.search(line["line_text"]):
@@ -157,7 +191,7 @@ def detect_blocks(
     # Education entries often print the institution, degree, and grade/date on
     # separate lines. Join only adjacent education lines with those explicit
     # structural labels; a new bullet or degree begins a separate entry.
-    education_lines = [line for line in lines if line["section"].lower() == "education"]
+    education_lines = [line for line in lines if _section_kind(line["section"]) == "education"]
     active_education: list[dict] = []
     active_has_degree = False
     for line in education_lines:
@@ -236,17 +270,18 @@ def detect_blocks(
                     reasons.append(decision["reason"])
         section = section_names[0] if len(section_names) == 1 else "|".join(section_names)
         joined_text = " ".join(source_line_texts)
-        if section.casefold() == "education":
+        section_kind = _section_kind(section)
+        if section_kind == "education":
             entry_type = "education_entry"
-        elif section.casefold() == "experience":
+        elif section_kind == "experience":
             entry_type = "experience_entry" if _JOB_HEADER.search(joined_text) else "experience_responsibility"
-        elif section.casefold() == "projects":
+        elif section_kind == "projects":
             entry_type = "project_entry"
-        elif section.casefold() == "summary":
+        elif section_kind == "summary":
             entry_type = "summary_context"
-        elif section.casefold() in {"personal information", "header"}:
+        elif section_kind == "personal information":
             entry_type = "personal_information_entry"
-        elif section.casefold() in {"skills", "technical skills", "tools", "technologies"}:
+        elif section_kind == "skills" or section.casefold() in {"tools", "technologies"}:
             entry_type = "skill_list_entry"
         else:
             entry_type = "source_line_context"
@@ -270,6 +305,43 @@ def detect_blocks(
             "related_block_ids": [],
         })
 
+    represented_line_indices = {line["line_index"] for line in lines}
+    expected_source_lines = {}
+    for meta in source_line_meta or []:
+        line_index = meta.get("line_index")
+        text = str(meta.get("line", "")).strip()
+        if (line_index is None or not text or meta.get("is_header")
+                or meta.get("is_page_number") or line_index in represented_line_indices):
+            continue
+        expected_source_lines.setdefault(line_index, meta)
+
+    # Sentence segmentation can omit short labels, OCR fragments, and unusual
+    # punctuation-only text. Preserve each such body line as its own block so
+    # audit coverage never silently drops source content. These fallback rows
+    # do not invent entities or merge across lines.
+    for line_index, meta in expected_source_lines.items():
+        text = str(meta.get("line", "")).strip()
+        section = meta.get("section", "Other")
+        section_id = meta.get("section_id", f"s0:{section}")
+        block_id = f"b{len(blocks)}"
+        blocks.append({
+            "id": block_id,
+            "section_id": section_id,
+            "section": section,
+            "entry_type": "source_line_context",
+            "sentence_indices": [],
+            "source_line_indices": [line_index],
+            "source_lines": [text],
+            "source_paths": [meta["source_path"]] if meta.get("source_path") else [],
+            "sentences": [],
+            "assignment_method": "source_line_fallback",
+            "assignment_reason": "Preserved non-empty source line omitted by sentence segmentation; no semantic merge was inferred.",
+            "entities": [],
+            "entity_ids": [],
+            "relationship_ids": [],
+            "related_block_ids": [],
+        })
+
     line_blocks = {}
     sentence_layers = []
     for block in blocks:
@@ -283,6 +355,9 @@ def detect_blocks(
                 "section_id": block["section_id"],
                 "block_id": block["id"],
             })
+        if not block["sentence_indices"]:
+            for line_index in block["source_line_indices"]:
+                line_blocks[str(line_index)] = block["id"]
 
     section_layers = []
     for section_id in dict.fromkeys(block["section_id"] for block in blocks):
@@ -307,9 +382,9 @@ def detect_blocks(
         "coverage": {
             "sentence_count": n,
             "assigned_sentence_count": sum(bool(block_id) for block_id in sentence_blocks),
-            "source_line_count": len({line["line_index"] for line in lines}),
+            "source_line_count": len(represented_line_indices | set(expected_source_lines)),
             "assigned_source_line_count": len(line_blocks),
-            "complete": all(sentence_blocks) and len(line_blocks) == len({line["line_index"] for line in lines}),
+            "complete": all(sentence_blocks) and len(line_blocks) == len(represented_line_indices | set(expected_source_lines)),
         },
         "merge_decisions": decisions,
     }

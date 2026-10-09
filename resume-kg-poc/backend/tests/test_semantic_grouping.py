@@ -9,11 +9,46 @@ import pytest
 
 from app.pipeline.pipeline import extract_pdf_text, run_pipeline
 from app.pipeline.graph_builder import validate_resume_graph
+from app.pipeline.segmentation import detect_blocks
 
 
 def parse(text):
     with tempfile.TemporaryDirectory() as directory:
         return run_pipeline(text, 'semantic-regression', directory)
+
+
+def test_block_segmentation_preserves_source_lines_without_sentences():
+    result = detect_blocks(
+        ['Led delivery.'],
+        [{'index': 0, 'line_index': 0, 'line_text': 'Led delivery.',
+          'section': 'Professional Experience', 'section_id': 's1:Professional Experience'}],
+        source_line_meta=[
+            {'line_index': 0, 'line': 'Led delivery.', 'section': 'Professional Experience',
+             'section_id': 's1:Professional Experience'},
+            {'line_index': 1, 'line': 'AB', 'section': 'Professional Experience',
+             'section_id': 's1:Professional Experience'},
+            {'line_index': 2, 'line': 'Professional Experience', 'is_header': True,
+             'section': 'Professional Experience', 'section_id': 's1:Professional Experience'},
+        ],
+    )
+    fallback = next(block for block in result['blocks'] if block['assignment_method'] == 'source_line_fallback')
+    assert fallback['source_lines'] == ['AB']
+    assert result['line_blocks']['1'] == fallback['id']
+    assert result['coverage']['source_line_count'] == result['coverage']['assigned_source_line_count'] == 2
+
+
+def test_section_heading_variants_receive_structural_block_types():
+    result = detect_blocks(
+        ['Senior Analyst at Example Bank 2020 - 2023', 'Managed risk reporting.'],
+        [
+            {'index': 0, 'line_index': 0, 'line_text': 'Senior Analyst at Example Bank 2020 - 2023',
+             'section': 'Professional Experience', 'section_id': 's1:Professional Experience'},
+            {'index': 1, 'line_index': 1, 'line_text': 'Managed risk reporting.',
+             'section': 'Professional Experience', 'section_id': 's1:Professional Experience'},
+        ],
+    )
+    assert result['blocks'][0]['entry_type'] == 'experience_entry'
+    assert result['blocks'][0]['source_line_indices'] == [0, 1]
 
 
 def test_generic_company_role_client_date_bullets_and_shared_client():
