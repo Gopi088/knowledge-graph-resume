@@ -25,7 +25,8 @@ from .clustering import cluster
 from .graph_builder import build_resume_graph
 from .canonical_resume import canonicalize_resume
 from .document_blocks import extract_pdf_blocks
-from .semantic_blocks import prepare_blocks, group_sections, coverage_report, validate_semantic_employment
+from .semantic_blocks import (prepare_blocks, group_sections, coverage_report,
+                              validate_semantic_employment, extract_header_identity)
 
 
 def _build_block_audit(line_meta: list[dict], blocks: dict, source_format: str) -> dict:
@@ -33,27 +34,36 @@ def _build_block_audit(line_meta: list[dict], blocks: dict, source_format: str) 
     block_by_id = {block["id"]: block for block in blocks.get("blocks", [])}
     line_to_block = blocks.get("line_blocks", {})
     source_by_index: dict[int, dict] = {}
-    section_order: list[str] = []
     for meta in line_meta:
         line_index = meta.get("line_index")
         text = meta.get("source_line", meta.get("line", "")).strip()
         if line_index is None or not text:
             continue
         section_id = meta.get("section_id", f"s0:{meta.get('section', 'Other')}")
-        if section_id not in section_order:
-            section_order.append(section_id)
-        row = source_by_index.setdefault(line_index, {
-            "line_index": line_index,
-            "text": text,
-            "section_id": section_id,
-            "section": meta.get("section", "Other"),
-            "source_path": meta.get("source_path"),
-            "is_section_heading": False,
-            "is_bullet": bool(meta.get("is_bullet")),
-            "list_marker": meta.get("list_marker", ""),
-            "inline_body": "",
-            "is_page_number": bool(meta.get("is_page_number")),
-        })
+        row = source_by_index.get(line_index)
+        if row is None:
+            row = {
+                "line_index": line_index,
+                "text": text,
+                "section_id": section_id,
+                "section": meta.get("section", "Other"),
+                "source_path": meta.get("source_path"),
+                "is_section_heading": False,
+                "is_bullet": bool(meta.get("is_bullet")),
+                "list_marker": meta.get("list_marker", ""),
+                "inline_body": "",
+                "is_page_number": bool(meta.get("is_page_number")),
+            }
+            source_by_index[line_index] = row
+        else:
+            # Semantic preparation may reclassify an existing physical line
+            # and update its section ID. Keep the final classification while
+            # retaining source flags accumulated from split heading/body rows.
+            row["section_id"] = section_id
+            row["section"] = meta.get("section", "Other")
+            row["source_path"] = meta.get("source_path") or row.get("source_path")
+            row["is_bullet"] = row["is_bullet"] or bool(meta.get("is_bullet"))
+            row["is_page_number"] = row["is_page_number"] or bool(meta.get("is_page_number"))
         row["is_section_heading"] = row["is_section_heading"] or bool(meta.get("is_header"))
         if not meta.get("is_header") and meta.get("line", "").strip() != text:
             row["inline_body"] = meta.get("line", "").strip()
@@ -103,6 +113,11 @@ def _build_block_audit(line_meta: list[dict], blocks: dict, source_format: str) 
             row["reason"] = "No sentence or context block was produced for this non-empty source line."
         assignments.append(row)
 
+    # Derive section order from the final per-line assignments. Reclassified
+    # lines may leave obsolete section IDs in the input metadata.
+    section_order = list(dict.fromkeys(
+        source_by_index[index]["section_id"] for index in sorted(source_by_index)
+    ))
     sections = []
     for section_id in section_order:
         section_lines = [row for row in assignments if row["section_id"] == section_id]
@@ -305,6 +320,15 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
         "header": "personal_information",
         "personal information": "personal_information",
         "personal details": "personal_details",
+        "date of birth": "personal_details",
+        "dob": "personal_details",
+        "language known": "personal_details",
+        "languages known": "personal_details",
+        "nationality": "personal_details",
+        "citizenship": "personal_details",
+        "gender": "personal_details",
+        "marital status": "personal_details",
+        "father's name": "personal_details",
         "contact": "personal_information",
         "summary": "profile_snapshot",
         "professional summary": "profile_snapshot",
@@ -393,6 +417,24 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                         details = [details]
                         target["additional_details"] = details
                     details.extend(line for line in unparsed if line not in details)
+            return 0
+
+        if key == "personal_details":
+            target = output.setdefault(key, {})
+            if not isinstance(target, dict):
+                target = {"additional_details": target if isinstance(target, list) else [target]}
+                output[key] = target
+            details = incoming if isinstance(incoming, dict) else personal_detail_fields(
+                [str(item) for item in (incoming if isinstance(incoming, list) else [incoming])]
+            )
+            for field, value in details.items():
+                if field in {"languages", "additional_details"}:
+                    old_values = target.get(field, [])
+                    old_values = old_values if isinstance(old_values, list) else [old_values]
+                    new_values = value if isinstance(value, list) else [value]
+                    target[field] = list(dict.fromkeys(old_values + new_values))
+                elif value not in (None, ""):
+                    target[field] = deepcopy(value)
             return 0
 
         if key in object_section_keys:
@@ -736,6 +778,49 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
             index += 1
         return fields
 
+    def personal_detail_fields(lines: list[str]) -> dict:
+        """Read labeled personal-detail rows, including labels before values."""
+        aliases = {
+            "dob": "date_of_birth", "date of birth": "date_of_birth",
+            "language": "languages", "language known": "languages",
+            "languages known": "languages", "nationality": "nationality",
+            "citizenship": "nationality", "father's name": "father_name",
+            "fathers name": "father_name", "father name": "father_name",
+            "marital status": "marital_status", "gender": "gender",
+            "sex": "gender", "passport": "passport_number",
+        }
+        pending: list[str] = []
+        fields: dict[str, object] = {}
+        for raw_line in lines:
+            line = re.sub(r"^[\s•▪●*-]+", "", str(raw_line)).strip()
+            if not line:
+                continue
+            match = re.match(r"^([^:]{2,50})\s*:\s*(.*)$", line)
+            if match and match.group(1).strip().casefold() in aliases:
+                key = aliases[match.group(1).strip().casefold()]
+                value = match.group(2).strip(" :–—-")
+                if value:
+                    fields[key] = value
+                else:
+                    pending.append(key)
+                continue
+            label = line.strip(" :–—-").casefold()
+            if label in aliases:
+                pending.append(aliases[label])
+                continue
+            value_match = re.match(r"^\s*[:–—-]+\s*(.+?)\s*$", line)
+            if value_match and pending:
+                fields[pending.pop(0)] = value_match.group(1).strip()
+                continue
+            if pending:
+                fields[pending.pop(0)] = line
+            else:
+                fields.setdefault("additional_details", []).append(line)
+        if "languages" in fields and isinstance(fields["languages"], str):
+            fields["languages"] = [item.strip() for item in re.split(r"[,;|]", fields["languages"])
+                                    if item.strip()]
+        return fields
+
     def infer_header_identity(lines: list[str], fields: dict) -> dict:
         """Recover common unlabeled name/contact/title lines in the header."""
         email_pattern = re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.I)
@@ -785,6 +870,12 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
     for section in block_audit.get("sections", []):
         name = section["name"].strip()
         key = aliases.get(name.casefold(), "_".join(name.casefold().replace("&", "and").split()))
+        if key in {"name", "title", "email", "phone", "location"} and name.casefold() not in {
+                "header", "personal information", "contact", "contact details"}:
+            # A section/table heading such as "TITLE" is not itself the
+            # candidate's job title. Keep colliding headings as source sections
+            # so canonicalization cannot promote their rows into identity data.
+            key = f"source_section_{key}"
         heading_text = " ".join(section.get("heading_lines", [])).casefold()
         if "technical skills" in heading_text or name.casefold() == "technical skills":
             key = "technical_skills"
@@ -800,6 +891,13 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
         grouped = (semantic or {}).get("groups", {}).get(section["id"])
         if grouped:
             key, value = grouped["key"], grouped["value"]
+            if key in {"date_of_birth", "dob", "languages_known", "language_known",
+                       "nationality", "citizenship", "gender", "marital_status", "father_name"}:
+                key = "personal_details"
+                value = personal_detail_fields(clean([str(row.get("text", "")) for row in source_rows]))
+            elif key in {"name", "title", "email", "phone", "location"} and name.casefold() not in {
+                    "header", "personal information", "contact", "contact details"}:
+                key = f"source_section_{key}"
             handled_semantic_keys.add(key)
             if key == "profile_snapshot":
                 profile_values = [item.get("text", "") if isinstance(item, dict) else item for item in value]
@@ -839,7 +937,8 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
             if not has_summary_bullets and source_text:
                 source_text = [" ".join(source_text)]
         elif key == "education":
-            source_text = build_education_records(source_rows)
+            source_text = deepcopy((semantic or {}).get("groups", {}).get(section["id"], {}).get(
+                "value", build_education_records(source_rows)))
         elif key == "tools_and_technology":
             tool_groups = build_tool_groups(source_rows)
             merge_section_value(key, tool_groups)
@@ -853,10 +952,14 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
             source_text = build_skill_items(source_rows)
         elif key == "profile_snapshot":
             source_text = (semantic or {}).get("groups", {}).get(section["id"], {}).get("value", source_text)
-        elif key in {"achievements_and_certifications", "certifications", "domain_experience"}:
+        elif key == "certifications":
+            source_text = deepcopy((semantic or {}).get("groups", {}).get(section["id"], {}).get(
+                "value", reflow_bullets(source_rows)))
+        elif key in {"achievements_and_certifications", "domain_experience"}:
             source_text = reflow_bullets(source_rows)
         elif key == "projects":
-            source_text = reflow_bullets(source_rows)
+            source_text = deepcopy((semantic or {}).get("groups", {}).get(section["id"], {}).get(
+                "value", reflow_bullets(source_rows)))
         elif key == "technical_skills":
             source_text = build_technical_skills(source_rows)
             merge_section_value(key, source_text)
@@ -909,6 +1012,31 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                     details = [details]
                     contact["additional_details"] = details
                 details.extend(line for line in lines if line not in details)
+            for block in section.get("blocks", []):
+                block_map.append({"block_id": block["id"], "section_id": section["id"],
+                                  "section_key": key, "item_indices": [],
+                                  "source_line_indices": block.get("source_line_indices", []),
+                                  "source_paths": block.get("source_paths", [])})
+            continue
+        if key == "personal_details":
+            lines = clean([str(row.get("text", "")) for row in source_rows])
+            fields = personal_detail_fields(lines)
+            target = output.setdefault("personal_details", {})
+            if not isinstance(target, dict):
+                target = {"additional_details": target if isinstance(target, list) else [target]}
+                output["personal_details"] = target
+            for field, value in fields.items():
+                if field == "additional_details":
+                    details = target.setdefault(field, [])
+                    details.extend(item for item in value if item not in details)
+                elif field == "languages" and isinstance(value, list):
+                    existing = target.setdefault(field, [])
+                    target[field] = list(dict.fromkeys((existing if isinstance(existing, list) else [existing]) + value))
+                else:
+                    target[field] = value
+            source_ids = list(dict.fromkeys(block_id for block_id in section.get("block_ids", []) if block_id))
+            if source_ids:
+                target["source_blocks"] = list(dict.fromkeys(target.get("source_blocks", []) + source_ids))
             for block in section.get("blocks", []):
                 block_map.append({"block_id": block["id"], "section_id": section["id"],
                                   "section_key": key, "item_indices": [],
@@ -999,6 +1127,11 @@ def _build_section_keyed_output(block_audit: dict, structured_data=None, semanti
                          for item in group.get("value", [])]
     if inferred_profiles:
         output.setdefault("profile_snapshot", []).extend(inferred_profiles)
+    inferred_strengths = [item for group in (semantic or {}).get("groups", {}).values()
+                          if group.get("key") == "key_strengths" and group.get("inferred")
+                          for item in group.get("value", [])]
+    if inferred_strengths:
+        output.setdefault("key_strengths", []).extend(inferred_strengths)
     output["_audit"] = {
         "format": "section-keyed-resume-blocks/v1",
         "source_format": block_audit.get("source_format"),
@@ -1071,10 +1204,16 @@ def extract_docx_text(docx_path: str) -> str:
     return "\n".join(lines)
 
 
-def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str = "Candidate", debug: bool = False) -> dict:
+def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str = "Candidate",
+                 debug: bool = False, stage_callback=None) -> dict:
+    def report_stage(name: str) -> None:
+        if stage_callback:
+            stage_callback(name)
+
     os.makedirs(out_dir, exist_ok=True)
 
     # 1. Text Repository
+    report_stage("TEXT_REPOSITORY")
     repo = TextRepository()
     doc = repo.add(TextDocument(doc_id=doc_id, raw_text=raw_text))
     raw_json = {"doc_id": doc.doc_id, "source": doc.source,
@@ -1082,6 +1221,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
                 "raw_text": doc.raw_text}
 
     # 2. Data preprocessing: structure-preserving normalization and segmentation
+    report_stage("PREPROCESSING")
     pre = preprocess(raw_text)
     semantic_rows = prepare_blocks(pre, getattr(raw_text, "blocks", None))
     pre_group_blocks = [{
@@ -1096,6 +1236,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
         "page_number": row.get("page_number"),
         "is_page_marker": row.get("block_type") == "PAGE_ARTIFACT",
     } for index, row in enumerate(semantic_rows, 1)]
+    report_stage("SEMANTIC_GROUPING")
     semantic = (group_sections(semantic_rows) if not pre.get("structured_data") else
                 {"groups": {}, "blocks": semantic_rows, "unresolved_blocks": []})
     semantic["pre_group_blocks"] = pre_group_blocks
@@ -1104,9 +1245,11 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
     sentences: list[str] = pre["sentences"]
     sentence_meta: list[dict] = pre.get("sentence_meta", [])
     # 3. Context blocks from source structure only; no embedding/keyword merge.
+    report_stage("BLOCK_SEGMENTATION")
     blocks = detect_blocks(sentences, sentence_meta, source_line_meta=pre.get("line_meta", []))
     # 4. Entity occurrences stay scoped to their source block. Repeated labels
     #    in separate contexts receive separate stable node IDs.
+    report_stage("ENTITY_EXTRACTION")
     entities = extract_entities(
         sentences, candidate_name=candidate_name,
         sentence_blocks=blocks["sentence_blocks"],
@@ -1124,6 +1267,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
         block["entities"] = sorted({entity["text"] for entity in block_entities})
         block["entity_ids"] = [entity["id"] for entity in block_entities]
     # 5. Relationships require source-backed context/structural evidence.
+    report_stage("RELATIONSHIP_EXTRACTION")
     relationships = extract_relationships(sentences, entities, sentence_meta=sentence_meta,
                                           sentence_blocks=blocks["sentence_blocks"])
     block_by_id = {block["id"]: block for block in blocks["blocks"]}
@@ -1197,11 +1341,13 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
         and blocks["coverage"]["assigned_entity_count"] == len(entities)
         and blocks["coverage"]["assigned_relationship_count"] == len(relationships)
     )
+    report_stage("BLOCK_AUDIT")
     block_audit = _build_block_audit(pre.get("line_meta", []), blocks, pre.get("source_format", "resume_text"))
     section_keyed_output = _build_section_keyed_output(
         block_audit, structured_data=pre.get("structured_data"), semantic=semantic
     )
     # 6. Embeddings (Sentence-BERT)
+    report_stage("EMBEDDINGS_AND_ANALYSIS")
     emb = embed_entities(entities, sentences)
     # 7. Cosine similarity (analysis only; does not create graph edges)
     sim = cosine_similarity_matrix(emb["vectors"])
@@ -1219,9 +1365,10 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
     section_keyed_output["_audit"]["semantic_block_map"] = {
         row["id"]: {k: row.get(k) for k in ("text", "raw_text", "normalized_text", "section", "page",
                                               "page_number", "bbox", "block_type", "semantic_classification",
-                                              "semantic_labels", "destination", "reason")}
+                                              "semantic_labels", "destination", "reason", "is_page_number")}
         for row in semantic_rows
     }
+    report_stage("SECTION_CANONICALIZATION")
     canonical_resume = canonicalize_resume(section_keyed_output)
     # Contact labels may share a line (email | phone) or omit labels. Merge
     # the identity fields recovered from source Header rows into the stable
@@ -1233,34 +1380,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
             header_lines = [re.sub(r"^[\s•▪●*-]+", "", str(row.get("text", ""))).strip()
                             for row in block_audit.get("source_line_assignments", [])
                             if row.get("section_id") == section["id"] and str(row.get("text", "")).strip()]
-            identity = {}
-            for line in header_lines:
-                email_match = re.search(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", line, re.I)
-                phone_match = re.search(r"(?<!\w)\+?\d[\d().\s-]{7,}\d(?!\w)", line)
-                if email_match:
-                    identity["email"] = email_match.group(0)
-                if phone_match:
-                    identity["phone"] = phone_match.group(0).strip()
-                for key, pattern in (("linkedin", r"(?:https?://)?(?:www\.)?linkedin\.com/[^\s|,;]+"),
-                                     ("github", r"(?:https?://)?(?:www\.)?github\.com/[^\s|,;]+")):
-                    match = re.search(pattern, line, re.I)
-                    if match:
-                        identity[key] = match.group(0)
-                location = re.match(r"^(?:location|address|based in|city)\s*[:|–—-]\s*(.+)$", line, re.I)
-                if location:
-                    identity["location"] = location.group(1).strip()
-            email_match = re.search(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", " ".join(header_lines), re.I)
-            phone_match = re.search(r"(?<!\w)\+?\d[\d().\s-]{7,}\d(?!\w)", " ".join(header_lines))
-            location_match = next((re.match(r"^(?:location|address|based in|city)\s*[:|–—-]\s*(.+)$", line, re.I)
-                                   for line in header_lines if re.match(r"^(?:location|address|based in|city)\s*[:|–—-]", line, re.I)), None)
-            if email_match:
-                identity["email"] = email_match.group(0)
-            if phone_match:
-                identity["phone"] = phone_match.group(0).strip()
-            if location_match:
-                identity["location"] = location_match.group(1).strip()
-            if header_lines and not identity.get("name"):
-                identity["name"] = header_lines[0]
+            identity, _field_rows = extract_header_identity([{"text": line} for line in header_lines])
             canonical_resume["personal_information"].update(identity)
     canonical_resume["unresolved_blocks"] = semantic["unresolved_blocks"]
     # Resolve remaining rendered section blocks to their canonical destination.
@@ -1276,6 +1396,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
                 row["destination"] = row.get("source_path")
     semantic["coverage"] = coverage_report(semantic)
     block_audit["semantic_coverage"] = semantic["coverage"]
+    report_stage("GRAPH_VALIDATION")
     graph = build_resume_graph(canonical_resume, candidate_name=candidate_name)
 
     canonical_relationships = graph["edges"]
@@ -1347,6 +1468,7 @@ def run_pipeline(raw_text: str, doc_id: str, out_dir: str, candidate_name: str =
               f"unknown={coverage.get('unclassified_blocks', 0)}")
         for unknown in semantic.get("unresolved_blocks", []):
             print(f"UNKNOWN BLOCK {unknown.get('source_block_id')}: {unknown.get('text')}")
+    report_stage("ARTIFACT_WRITING")
     for fname, payload in artifacts.items():
         with open(os.path.join(out_dir, fname), "w") as f:
             json.dump(payload, f, indent=2)

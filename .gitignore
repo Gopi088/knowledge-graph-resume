@@ -1,0 +1,12 @@
+
+# Python generated files
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Resume evaluation outputs
+resume-kg-poc/backend/hybrid_evaluation/
+resume-kg-poc/backend/hybrid_evaluation_run_*/
+resume-kg-poc/backend/single_resume_output/
+resume-kg-poc/batch_test_output/

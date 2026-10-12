@@ -52,7 +52,7 @@ SECTION_ALIASES: dict[str, tuple[str, ...]] = {
         "key projects", "research projects", "selected projects", "project experience",
         "project highlights", "key achievements and projects",
         "project portfolio", "selected work", "portfolio",
-        "projects and achievements", "projects and highlights",
+        "projects and achievements", "projects and highlights", "projects handled",
     ),
     "Education": (
         "education", "education qualification", "educational qualification", "educational background", "academic background",
@@ -68,12 +68,12 @@ SECTION_ALIASES: dict[str, tuple[str, ...]] = {
     "Technical Program Management": ("technical program management",),
     "Skills": (
         "skills", "key skills", "core skills",
-        "areas of expertise", "technical expertise",
+        "areas of expertise",
         "skills and competencies", "skills and qualifications", "technical competencies",
         "technical proficiencies",
         "key competencies", "competencies", "areas of strength", "areas of competence",
         "technologies", "technical tools", "computer skills", "professional skills",
-        "functional skills", "interpersonal skills", "soft skills", "key strengths",
+        "functional skills", "interpersonal skills", "soft skills",
         "tech stack", "tools and technologies",
     ),
     "Certifications": (
@@ -87,7 +87,9 @@ SECTION_ALIASES: dict[str, tuple[str, ...]] = {
         "certifications and awards", "certificates and awards", "certification and licenses",
         "certifications and licenses",
     ),
-    "Technical Skills": ("technical skills", "technical skill set"),
+    "Technical Skills": ("technical skills", "technical skill set", "technical expertise", "technical profile",
+                         "technical exposure"),
+    "Key Strengths": ("key strengths", "key strengths and competencies"),
     "Core Competencies": ("core competencies", "core competency", "core competences"),
     "Training": ("training", "professional training", "professional development", "courses", "coursework"),
     "Tools and Technology": ("tools and technology", "tools and technologies", "technology stack"),
@@ -115,6 +117,10 @@ _LIST_PREFIX = re.compile(r"^\s*(?:(?P<bullet>[\u2022\u25aa\u25cf\u25cb\u25e6\u0
 def _is_header_line(line: str) -> "str | None":
     """Return canonical section name if the line looks like a section header."""
     s = line.strip()
+    # Some PDF templates letter-space all-caps sidebar headings (for example
+    # ``C O N T A C T``). Collapse that visual styling before alias lookup.
+    if re.fullmatch(r"(?:[A-Za-z]\s+){2,}[A-Za-z]", s):
+        s = re.sub(r"\s+", "", s)
     # PDF/text extraction often leaves bullets, numbering, or decorative
     # punctuation around a heading. Strip only those boundary characters.
     s = re.sub(r"^\s*(?:\d+[.)]|[•▪●*#])\s*", "", s)
@@ -149,14 +155,31 @@ def _is_header_line(line: str) -> "str | None":
     # Preserve short custom headings when they are clearly formatted as
     # headings. This lets a resume use labels such as "CERTIFICATES & AWARDS"
     # without letting normal sentence text change the active section.
-    custom_heading_terms = re.compile(
-        r"\b(summary|experience|employment|education|skill|certification|certificate|"
-        r"award|achievement|project|publication|training|objective|profile|expertise|"
-        r"language|interest|reference|volunteer|leadership|contact|personal|technology)\b", re.I,
-    )
+    # Only accept custom all-caps headings made from heading vocabulary.
+    # The former substring test promoted body/project titles such as
+    # "THE GENESYS CONTACT CENTER INFRASTRUCTURE" because they contained
+    # words like CONTACT or TECHNICAL, changing the active section for all
+    # following lines. Keep custom headings, but require every word to be a
+    # conventional section-label word.
+    custom_heading_words = {
+        "summary", "objective", "profile", "experience", "employment", "work",
+        "history", "background", "education", "academic", "qualification", "skill",
+        "skills", "competency", "competencies", "competence", "expertise", "certification",
+        "certifications", "certificate", "certificates", "license", "licenses", "licence",
+        "licences", "award", "awards", "achievement", "achievements", "project", "projects",
+        "publication", "publications", "training", "course", "courses", "language", "languages",
+        "interest", "interests", "hobby", "hobbies", "volunteer", "volunteering", "leadership",
+        "contact", "personal", "domain", "technical", "functional", "strength", "strengths",
+        "activity", "activities", "reference", "references", "patent", "patents", "tool", "tools",
+        "technology", "technologies", "and", "of", "the", "key", "core", "professional",
+        "career", "selected", "additional", "soft", "hard", "relevant", "related", "other",
+        "areas", "competency", "competencies", "qualifications", "development", "management",
+    }
+    custom_words = re.findall(r"[a-z]+", s.casefold())
     if (re.fullmatch(r"[A-Z][A-Z\s&/\\-]{2,58}", s)
             and " " in s.strip()
-            and custom_heading_terms.search(s)
+            and custom_words
+            and all(word in custom_heading_words for word in custom_words)
             and not re.search(r"[.!?/#]", s)):
         return s.title()
     return None
@@ -164,6 +187,18 @@ def _is_header_line(line: str) -> "str | None":
 
 def _section_header_and_body(line: str) -> tuple[str | None, str]:
     """Recognize standalone headings and ``Heading: body`` source lines."""
+    # Numbered project records (often exported without a space, e.g.
+    # ``1.Project: Name``) are items inside Projects, never section headings.
+    if re.match(r"^\s*\d+[.)]\s*project\s*:", line, re.I):
+        return None, ""
+    inline_record_labels = {
+        "technologies", "technology", "tools", "tool", "tech stack",
+        "description", "project description", "project title", "project name",
+        "role", "job title", "designation", "client", "duration", "period",
+    }
+    prefix = line.split(":", 1)[0] if ":" in line else ""
+    if prefix and re.sub(r"\s+", " ", prefix.casefold()).strip() in inline_record_labels:
+        return None, ""
     section = _is_header_line(line)
     if section:
         return section, ""
@@ -171,9 +206,23 @@ def _section_header_and_body(line: str) -> tuple[str | None, str]:
     # Only split at a colon when the left side is itself a known heading.
     if ":" in line:
         heading, body = line.split(":", 1)
+        # These labels introduce fields inside a project or employment record;
+        # they must not switch the resume's active section (e.g. a project
+        # technology list is not a new Skills section).
         section = _is_header_line(heading)
         if section and body.strip():
             return section, body.strip()
+    # Some PDF extractors join an all-caps heading to its first values when
+    # the heading and body share a visual line (for example, "SKILLS EC2 S3").
+    # Split only known all-caps headings; ordinary prose mentioning skills is
+    # left intact.
+    folded = re.sub(r"\s+", " ", line.strip().casefold().replace("&", "and"))
+    for alias, section in sorted(_ALIAS_TO_SECTION.items(), key=lambda item: len(item[0]), reverse=True):
+        match = re.match(rf"^{re.escape(alias)}\s+(.+)$", folded)
+        if match and line.strip()[:len(alias)].isupper() and len(match.group(1).split()) >= 2:
+            body = line.strip()[len(alias):].strip(" :–—-|\t")
+            if body:
+                return section, body
     return None, ""
 
 
@@ -348,6 +397,13 @@ def detect_sections(normalized: str) -> tuple[list[dict], list[dict]]:
             })
             continue
         header, inline_body = _section_header_and_body(line)
+        # Technical profiles often use "Languages: Python, JavaScript" as a
+        # category row, not as the resume's spoken-languages section. Keep
+        # programming-language inventories inside the current skills section.
+        if (header == "Languages" and current.casefold() in {"technical skills", "skills", "core competencies"}
+                and re.search(r"\b(?:python|javascript|typescript|java|c\+\+|c#|kotlin|swift|ruby|golang|rust|php|sql)\b",
+                              inline_body, re.I)):
+            header, inline_body = None, ""
         if not header and line.strip() and line_index + 1 < len(source_lines):
             combined = f"{line.strip()} {source_lines[line_index + 1].strip()}"
             combined_key = re.sub(r"\s+", " ", combined.casefold().replace("&", "and")).strip()
@@ -430,7 +486,8 @@ def detect_sections(normalized: str) -> tuple[list[dict], list[dict]]:
             elif date_range.search(value) and role_words.search(value) and len(value) < 260:
                 inferred = "Experience"
             elif (role_words.search(value) and len(value) < 180
-                  and re.search(r"\s(?:at|[@|])\s|\s[–—]\s", value, re.I)
+                  and not (lm.get("line_index", 0) <= 4 and not date_range.search(value))
+                  and re.search(r"\s(?:at|@)\s|\s[–—]\s", value, re.I)
                   and not re.search(r"[.!?]", value)):
                 inferred = "Experience"
             elif re.search(r"\b(certified|certification|certificate)\b", value, re.I):
@@ -442,6 +499,8 @@ def detect_sections(normalized: str) -> tuple[list[dict], list[dict]]:
             elif re.match(r"^(?:project\s*(?:name|title)?\s*[:\-])", value, re.I):
                 inferred = "Projects"
             elif (active == "Header" and saw_content and
+                  not (lm.get("line_index", 0) <= 4 and
+                       ("|" in value or re.search(r"@|https?://|linkedin|github|\+?\d[\d ()-]{6,}", value, re.I))) and
                   len(value) > 45 and
                   (re.search(r"\b(experience|professional|skilled|expertise|speciali[sz]e|career objective)\b", value, re.I)
                    or re.search(r"[.!?]$", value))):
@@ -456,6 +515,25 @@ def detect_sections(normalized: str) -> tuple[list[dict], list[dict]]:
             lm["section_id"] = f"s{inferred_index}:{active}"
             lm["is_inferred_section"] = inferred is not None
             saw_content = True
+
+    # Contact rows can follow a long summary in PDFs whose visual header is
+    # extracted out of order. Recover only rows with explicit contact evidence
+    # before the first major content section; never move summary prose.
+    first_major = next((i for i, lm in enumerate(line_meta)
+                        if lm.get("is_header") and lm.get("section") in
+                        {"Experience", "Projects", "Education", "Skills", "Technical Skills", "Certifications"}),
+                       len(line_meta))
+    contact_evidence = re.compile(
+        r"(?:[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}|"
+        r"(?<!\w)\+?\d[\d().\s-]{6,}\d(?!\w)|"
+        r"(?:linkedin\.com|github\.com|https?://)|"
+        r"^[\ue000-\uf8ff]\s*[^\s]+@|^[\ue000-\uf8ff]\s*\+?\d|"
+        r"^[\ue000-\uf8ff]\s*[A-Za-z][A-Za-z .,'-]{1,60}$)", re.I)
+    for i, lm in enumerate(line_meta[:first_major]):
+        value = lm.get("line", "").strip()
+        if value and contact_evidence.search(value):
+            lm["section"] = HEADER_CONTACT
+            lm["section_id"] = "s0:Header"
 
     sections: list[dict] = []
     for lm in line_meta:

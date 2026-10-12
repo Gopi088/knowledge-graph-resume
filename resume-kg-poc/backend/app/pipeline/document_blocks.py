@@ -22,15 +22,74 @@ def _gap(items, axis):
 
 
 def reading_order(items):
-    """Recursive whitespace cuts: columns first, horizontal bands around spanning headings."""
+    """Read columns top-to-bottom when their contents align as shared rows.
+
+    Timeline resumes commonly put dates/employers in a narrow left column and
+    the matching title/details in a right column. A page-wide x split reads
+    every left-side entry before every right-side entry and disconnects those
+    records. Detect repeated vertical alignment across the two columns and
+    read those pages in row order; retain recursive column reading for layouts
+    whose columns are independent.
+    """
     if len(items) < 2:
         return items
     xgap, xcut = _gap(items, 0)
+    # Text lines in columns often extend far enough to overlap on x (a long
+    # paragraph can span most of its column), so interval-gap detection alone
+    # misses the gutter. The start positions still expose a stable gutter in
+    # conventional sidebar resumes. Use this only for a pronounced gap; small
+    # indents and date/title layouts continue through the ordinary heuristic.
+    page_width = max(b['bbox'][2] for b in items)
+    start_position_split = False
+    if xgap < page_width * 0.22:
+        starts = sorted({b['bbox'][0] for b in items})
+        if len(starts) >= 2:
+            start_gaps = [(right - left, (right + left) / 2)
+                          for left, right in zip(starts, starts[1:])]
+            start_gap, start_cut = max(start_gaps, default=(0, 0))
+            if start_gap >= page_width * 0.22:
+                xgap, xcut = start_gap, start_cut
+                start_position_split = True
     ygap, ycut = _gap(items, 1)
     if xgap >= 18:
-        left = [b for b in items if b['bbox'][2] <= xcut]
-        right = [b for b in items if b['bbox'][0] >= xcut]
+        if start_position_split:
+            left = [b for b in items if b['bbox'][0] < xcut]
+            right = [b for b in items if b['bbox'][0] >= xcut]
+        else:
+            left = [b for b in items if b['bbox'][2] <= xcut]
+            right = [b for b in items if b['bbox'][0] >= xcut]
         if len(left) >= 2 and len(right) >= 2:
+            # For a pronounced start-position gutter, these are independent
+            # sidebar and body flows. Their y-coordinate overlaps do not mean
+            # the lines belong to the same row; reading them together changes
+            # which section owns subsequent content.
+            if start_position_split:
+                return reading_order(left) + reading_order(right)
+            aligned_left, aligned_right = set(), set()
+            for li, first in enumerate(left):
+                y0, y1 = first['bbox'][1], first['bbox'][3]
+                for ri, second in enumerate(right):
+                    # Small vertical offsets are normal for paired labels and
+                    # values; avoid treating broadly overlapping columns as
+                    # rows by limiting the overlap tolerance to line height.
+                    overlap = min(y1, second['bbox'][3]) - max(y0, second['bbox'][1])
+                    if overlap >= -2:
+                        aligned_left.add(li)
+                        aligned_right.add(ri)
+            # A dense two-column resume can have many accidental y overlaps:
+            # the main column has long paragraphs while the sidebar has skills,
+            # education and contact details. Treating two matches as evidence
+            # of paired rows interleaves unrelated sections (and corrupts the
+            # section state downstream). Row-wise ordering is appropriate only
+            # when a meaningful share of *both* columns participates in aligned
+            # pairs, as in date/title timelines and tabular records.
+            left_alignment = len(aligned_left) / max(1, len(left))
+            right_alignment = len(aligned_right) / max(1, len(right))
+            if (len(aligned_left) >= 2 and len(aligned_right) >= 2
+                    and left_alignment >= 0.20 and right_alignment >= 0.20):
+                # Group slightly offset baselines into the same visual row,
+                # then keep the left value before the right-side title/text.
+                return sorted(items, key=lambda b: (round(b['bbox'][1] / 4), b['bbox'][0], b['bbox'][1]))
             return reading_order(left) + reading_order(right)
     if ygap > 3:
         top = [b for b in items if b['bbox'][3] <= ycut]

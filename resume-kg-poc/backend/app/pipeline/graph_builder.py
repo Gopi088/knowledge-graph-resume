@@ -2,6 +2,24 @@
 import re
 
 
+_PROVENANCE_KEYS = {
+    "source_blocks", "source_block_ids", "responsibility_sources", "field_sources",
+    "source_path", "source_paths", "provenance", "audit",
+}
+
+
+def _source_evidence_text(value):
+    """Render source content as text without Python repr or provenance IDs."""
+    if isinstance(value, dict):
+        return " ".join(_source_evidence_text(child) for key, child in value.items()
+                        if str(key).casefold() not in _PROVENANCE_KEYS)
+    if isinstance(value, (list, tuple)):
+        return " ".join(_source_evidence_text(child) for child in value)
+    if isinstance(value, str):
+        return value
+    return str(value) if value is not None else ""
+
+
 
 def build_resume_graph(canonical: dict, candidate_name: str = "Candidate") -> dict:
     """Build graph nodes and edges only from canonical resume hierarchy.
@@ -235,7 +253,7 @@ def build_resume_graph(canonical: dict, candidate_name: str = "Candidate") -> di
             continue
         project_node = add_node(label, "PROJECT", project_path, str(label), "Projects")
         person_edge(project_node, "COMPLETED_PROJECT", project_path, project_path,
-                    " ".join(str(value) for value in project.values() if value), "Projects")
+                    _source_evidence_text(project), "Projects")
         for field in ("technologies", "technology", "tools", "tech_stack"):
             for tech_index, value in enumerate(project.get(field, []) if isinstance(project.get(field), list)
                                                else [project.get(field)] if project.get(field) else []):
@@ -314,6 +332,19 @@ def build_resume_graph(canonical: dict, candidate_name: str = "Candidate") -> di
             node = add_node(label, "DOMAIN", path, str(label), "Domain Experience")
             person_edge(node, "HAS_DOMAIN_EXPERIENCE", "$.domain_experience", path,
                         str(label), "Domain Experience")
+
+    # Canonical fields can be present without enough structure to assert an
+    # edge (for example, a year with no degree row). Keep those values in the
+    # canonical resume, but do not publish isolated graph nodes as relationships.
+    incident = {endpoint for item in edges for endpoint in (item["source"], item["target"])}
+    isolated = [node for node in nodes if node["type"] != "PERSON" and node["id"] not in incident]
+    for node in isolated:
+        omissions.append({
+            "source_path": node.get("source_path"),
+            "label": node.get("label"),
+            "reason": "No source-backed canonical relationship was available; omitted from graph.",
+        })
+    nodes = [node for node in nodes if node["type"] == "PERSON" or node["id"] in incident]
 
     graph = {"nodes": nodes, "edges": edges, "stats": {
         "node_count": len(nodes), "edge_count": len(edges),

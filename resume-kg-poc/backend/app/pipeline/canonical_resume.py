@@ -313,7 +313,8 @@ def validate_canonical_resume(resume: dict) -> None:
     block_map = resume.get("source_audit", {}).get("semantic_block_map", {})
     page_marker_values = {str(block.get("raw_text") or block.get("text") or "").strip().casefold()
                           for block in block_map.values()
-                          if str(block.get("block_type", "")).upper() == "PAGE_ARTIFACT"
+                          if block.get("is_page_number")
+                          and str(block.get("block_type", "")).upper() == "PAGE_ARTIFACT"
                           and (block.get("raw_text") or block.get("text"))}
     def content_values(value, parent_key=""):
         if isinstance(value, dict):
